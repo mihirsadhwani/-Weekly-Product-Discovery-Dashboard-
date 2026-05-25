@@ -1,0 +1,96 @@
+{
+  "run_date": "2025-01-11",
+  "analyzed_at": "2025-01-11T18:10:00Z",
+  "duration_minutes": 4.2,
+  "input_products": 3,
+  "output_products": 3,
+  "products": [
+    {
+      "name": "Samsung Galaxy M15 5G (Blue Topaz, 128 GB)",
+      "price": 12999,
+      "category": "Electronics",
+      "sub_category": "Mobiles",
+      "rating": 4.2,
+      "review_count": 342,
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/sample.jpg",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-m15-5g/p/sample",
+      "scraped_at": "2025-01-11T17:45:00Z",
+      "reviews": ["...20 reviews from Phase 1..."],
+      "analysis": {
+        "pros": [
+          "Exceptional battery life lasting a full 2 days on moderate usage",
+          "Smooth 90Hz display with impressive brightness for the price",
+          "Fast 25W charging included in the box with stable 5G connectivity"
+        ],
+        "cons": [
+          "Camera struggles significantly in low-light and night conditions",
+          "Around 12 pre-installed apps cannot be uninstalled (bloatware)",
+          "No headphone jack — requires adapter or wireless earbuds"
+        ],
+        "top_quote": "Honestly the best phone under 15k. Battery easily lasts 2 days with moderate usage.",
+        "sentiment_score": 78,
+        "recommendation": "Buy",
+        "recommendation_reason": "Strong battery and display performance at this price point clearly outweigh the camera and bloatware drawbacks for most users.",
+        "quality_score": 84.5
+      }
+    },
+    {
+      "name": "boAt Airdopes 141 Bluetooth TWS Earbuds",
+      "price": 999,
+      "category": "Electronics",
+      "sub_category": "Headphones",
+      "rating": 3.9,
+      "review_count": 1204,
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/headphone/sample.jpg",
+      "flipkart_url": "https://www.flipkart.com/boat-airdopes-141/p/sample",
+      "scraped_at": "2025-01-11T17:52:00Z",
+      "reviews": ["...20 reviews from Phase 1..."],
+      "analysis": {
+        "pros": [
+          "Outstanding sound quality and bass response for the sub-₹1000 price",
+          "Rock-solid Bluetooth connectivity that holds even across rooms",
+          "Comfortable fit that stays secure during exercise"
+        ],
+        "cons": [
+          "Call quality is mediocre with noticeable background noise bleed",
+          "Noticeable audio latency makes them unsuitable for mobile gaming",
+          "Case hinge feels flimsy and shows wear after sustained daily use"
+        ],
+        "top_quote": "At under 1000 rupees these are a complete steal. Don't expect flagship quality.",
+        "sentiment_score": 65,
+        "recommendation": "Wait",
+        "recommendation_reason": "Good value for casual music listening but call quality and gaming latency issues affect daily usability — worth waiting for a sale or considering a slightly pricier alternative.",
+        "quality_score": 71.3
+      }
+    },
+    {
+      "name": "Mamaearth Vitamin C Face Wash with Turmeric",
+      "price": 249,
+      "category": "Beauty",
+      "sub_category": "Skincare",
+      "rating": 4.1,
+      "review_count": 876,
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/face-wash/sample.jpg",
+      "flipkart_url": "https://www.flipkart.com/mamaearth-vitamin-c-face-wash/p/sample",
+      "scraped_at": "2025-01-11T18:01:00Z",
+      "reviews": ["...20 reviews from Phase 1..."],
+      "analysis": {
+        "pros": [
+          "Visibly brightens skin tone with consistent use over 4–6 weeks",
+          "Gentle formula that works well for combination and sensitive skin",
+          "Clean ingredient list — free from parabens, sulfates, and artificial dyes"
+        ],
+        "cons": [
+          "Not effective at removing heavy makeup — needs a separate makeup remover",
+          "Results are gradual rather than immediate — requires weeks of consistency",
+          "Not targeted at acne treatment despite the natural ingredient positioning"
+        ],
+        "top_quote": "Been using this for 6 weeks and my skin tone has visibly brightened. Genuinely impressed.",
+        "sentiment_score": 72,
+        "recommendation": "Buy",
+        "recommendation_reason": "Reliable, gentle brightening face wash at a fair price with clean ingredients — delivers consistent results for most skin types.",
+        "quality_score": 79.8
+      }
+    }
+  ]
+}

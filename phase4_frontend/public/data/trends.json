@@ -1,0 +1,75 @@
+{
+  "hot_categories": [
+    {
+      "category": "Electronics",
+      "count": 12
+    },
+    {
+      "category": "Fashion",
+      "count": 10
+    },
+    {
+      "category": "Beauty",
+      "count": 5
+    },
+    {
+      "category": "Home_Kitchen",
+      "count": 3
+    }
+  ],
+  "declining_categories": [
+    {
+      "category": "Beauty",
+      "avg_sentiment": 96.0
+    },
+    {
+      "category": "Electronics",
+      "avg_sentiment": 60.0
+    },
+    {
+      "category": "Fashion",
+      "avg_sentiment": 50.0
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_sentiment": 66.7
+    }
+  ],
+  "emerging_keywords": [
+    {
+      "keyword": "easy",
+      "mentions": 7
+    },
+    {
+      "keyword": "long",
+      "mentions": 7
+    },
+    {
+      "keyword": "battery",
+      "mentions": 7
+    },
+    {
+      "keyword": "life",
+      "mentions": 7
+    },
+    {
+      "keyword": "affordable",
+      "mentions": 4
+    },
+    {
+      "keyword": "design",
+      "mentions": 3
+    },
+    {
+      "keyword": "apply",
+      "mentions": 3
+    },
+    {
+      "keyword": "camera",
+      "mentions": 3
+    }
+  ],
+  "has_history": true,
+  "week_number": 2,
+  "generated_at": "2026-05-25T18:20:28.824184"
+}

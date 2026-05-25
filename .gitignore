@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Secrets — never commit
+phase2_analysis/.env
+
+# Node
+phase4_frontend/node_modules/
+phase4_frontend/.next/
+phase4_frontend/.env.local
+
+# Logs
+*.log
+
+# Raw pipeline output (committed version lives in phase4_frontend/public/data/)
+output/
+phase2_analysis/output/

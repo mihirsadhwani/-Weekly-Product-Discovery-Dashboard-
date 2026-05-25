@@ -1,30 +1,28 @@
 {
   "hot_categories": [
     {
-      "category": "Electronics",
-      "count": 12
-    },
-    {
       "category": "Fashion",
-      "count": 10
+      "count": 14,
+      "growth_pct": 40.0,
+      "last_count": 10
     },
     {
       "category": "Beauty",
-      "count": 5
+      "count": 6
     },
     {
       "category": "Home_Kitchen",
-      "count": 3
+      "count": 4,
+      "growth_pct": 33.3,
+      "last_count": 3
     }
   ],
   "declining_categories": [
     {
       "category": "Beauty",
-      "avg_sentiment": 96.0
-    },
-    {
-      "category": "Electronics",
-      "avg_sentiment": 60.0
+      "avg_sentiment": 60.0,
+      "drop_points": 36.0,
+      "last_sentiment": 96.0
     },
     {
       "category": "Fashion",
@@ -32,44 +30,44 @@
     },
     {
       "category": "Home_Kitchen",
-      "avg_sentiment": 66.7
+      "avg_sentiment": 72.5
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "easy",
-      "mentions": 7
-    },
-    {
-      "keyword": "long",
-      "mentions": 7
-    },
-    {
-      "keyword": "battery",
-      "mentions": 7
-    },
-    {
-      "keyword": "life",
-      "mentions": 7
-    },
-    {
       "keyword": "affordable",
+      "mentions": 9
+    },
+    {
+      "keyword": "bristles",
+      "mentions": 5
+    },
+    {
+      "keyword": "comfortable",
+      "mentions": 5
+    },
+    {
+      "keyword": "soft",
       "mentions": 4
     },
     {
-      "keyword": "design",
-      "mentions": 3
+      "keyword": "slip",
+      "mentions": 4
     },
     {
-      "keyword": "apply",
-      "mentions": 3
+      "keyword": "grip",
+      "mentions": 4
     },
     {
-      "keyword": "camera",
+      "keyword": "fabric",
+      "mentions": 4
+    },
+    {
+      "keyword": "easy",
       "mentions": 3
     }
   ],
   "has_history": true,
   "week_number": 2,
-  "generated_at": "2026-05-25T18:20:28.824184"
+  "generated_at": "2026-05-26T00:19:28.341987"
 }

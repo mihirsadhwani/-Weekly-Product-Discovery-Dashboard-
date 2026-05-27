@@ -33,8 +33,8 @@ REVIEW_SELECTORS = [
 def _scrape_reviews(page, product_url, max_reviews=10):
     """Visit a product page and return up to max_reviews review strings."""
     try:
-        page.goto(product_url, wait_until='networkidle', timeout=30000)
-        time.sleep(2.5)
+        page.goto(product_url, wait_until='domcontentloaded', timeout=30000)
+        time.sleep(2.0)
     except Exception:
         return []
 
@@ -89,7 +89,7 @@ def _scrape_reviews(page, product_url, max_reviews=10):
                 href = rev_link.get_attribute('href')
                 if href:
                     rev_url = f'https://www.flipkart.com{href}' if href.startswith('/') else href
-                    page.goto(rev_url, wait_until='networkidle', timeout=25000)
+                    page.goto(rev_url, wait_until='domcontentloaded', timeout=25000)
                     time.sleep(2)
                     for sel in REVIEW_SELECTORS:
                         try:
@@ -124,7 +124,7 @@ def scrape_light():
         for category, url in CATEGORY_URLS.items():
             print(f'Scraping {category}...')
             try:
-                page.goto(url, wait_until='networkidle', timeout=30000)
+                page.goto(url, wait_until='domcontentloaded', timeout=30000)
                 time.sleep(random.uniform(DELAY_MIN, DELAY_MAX))
 
                 product_cards = []

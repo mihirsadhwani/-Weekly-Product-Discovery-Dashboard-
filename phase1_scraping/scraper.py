@@ -203,6 +203,21 @@ async def scrape_product_page(page: Page, product_url: str) -> dict:
                 review_count = parsed
                 break
 
+    # JS fallback: scan full page text for rating / review count patterns
+    if not rating or not review_count:
+        try:
+            page_text = await page.evaluate("() => document.body.innerText")
+            if not rating:
+                m = re.search(r'\b([1-4]\.\d|5\.0)\b', page_text)
+                if m:
+                    rating = _parse_rating(m.group(1))
+            if not review_count:
+                m = re.search(r'([\d,]+(?:\.\d+)?[Kk]?)\s+(?:Ratings?|Reviews?)', page_text)
+                if m:
+                    review_count = _parse_review_count(m.group(0))
+        except Exception:
+            pass
+
     # ── Navigate to All Reviews page ─────────────────────────────────────
     try:
         rev_link = await page.query_selector(
@@ -374,7 +389,11 @@ async def run_scraper() -> list[dict]:
                     # Merge product page data into stub
                     stub["reviews"] = reviews
                     stub["rating"] = page_data["rating"] or stub.get("rating")
-                    stub["review_count"] = page_data["review_count"] or stub.get("review_count")
+                    stub["review_count"] = (
+                        page_data["review_count"]
+                        or stub.get("review_count")
+                        or (len(reviews) if reviews else None)
+                    )
                     stub["scraped_at"] = datetime.utcnow().isoformat() + "Z"
 
                     all_products.append(stub)

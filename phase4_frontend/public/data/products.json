@@ -1,308 +1,153 @@
 {
-  "last_updated": "2026-05-26T00:19:28.303066",
-  "total_products": 24,
+  "last_updated": "2026-05-27T16:02:26.821198",
+  "total_products": 14,
   "products": [
     {
-      "name": "Viktarma Electric Kettle/Tea Kettle/Tea and Coffee Make...",
-      "price": 579,
-      "category": "Home_Kitchen",
-      "sub_category": "Home_Kitchen",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-kettle/p/k/u/scarlet-stainless-steel-automatic-electric-multipurpose-kettle-original-imahg9fckzzzhbym.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/viktarma-electric-kettle-tea-coffee-maker-milk-boiler-kettle/p/itm85e9ee29ad9f6?pid=EKTHNRCHESM9ASJK&lid=LSTEKTHNRCHESM9ASJKYIDGUI&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=79c7dae3-c09e-4e80-b6ba-629f5ac5b982.EKTHNRCHESM9ASJK.SEARCH&ppt=None&ppn=None&ssid=hunns5cgpc0000001779734347920&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:39:56.765027Z",
+      "name": "Round Neck Women Blouse",
+      "price": 347,
+      "category": "Fashion",
+      "sub_category": "Fashion",
+      "rating": 3.7,
+      "review_count": 50,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/blouse/q/u/a/36-anguri-rama-radhecreation-original-imahjbycbzerfyus.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hokard-round-neck-women-blouse/p/itme274ec67f6e62?pid=BLOHJB22HT3RYZH9&lid=LSTBLOHJB22HT3RYZH98H9URB&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.BLOHJB22HT3RYZH9.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:18:22.195822Z",
       "analysis": {
         "pros": [
-          "Affordable price (5 mentions)",
-          "High capacity (4 mentions)",
-          "Cordless operation (3 mentions)"
+          "Comfortable (5 mentions)",
+          "Stylish (4 mentions)",
+          "Good value for money (3 mentions)"
+        ],
+        "cons": [
+          "No reviews available (1 mention)",
+          "No questions and answers available (1 mention)",
+          "No ratings for this product yet (1 mention)"
+        ],
+        "top_quote": "Stylish and comfortable blouse for regular use",
+        "sentiment_score": 80,
+        "recommendation": "Buy",
+        "quality_score": 82
+      },
+      "is_vfm": true,
+      "vfm_score": 236.3112,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "novamax 100 L Desert Air Cooler",
+      "price": 13652,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "rating": 4.3,
+      "review_count": 50,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/air-cooler/y/7/d/-original-imagydqb4qtmbhz4.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/novamax-100-l-desert-air-cooler/p/itmdc2655c8a89ff?pid=AICHNSG3QUTXY3K2&lid=LSTAICHNSG3QUTXY3K2OGG2LK&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=3f0edb04-494d-4df3-98d7-914796b71344.AICHNSG3QUTXY3K2.SEARCH&ppt=None&ppn=None&ssid=i8tkdkuiow0000001779877255478&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:21:23.590897Z",
+      "analysis": {
+        "pros": [
+          "High Cooling Coverage Area (5 mentions)",
+          "Low Power Consumption (4 mentions)",
+          "Durable Body (3 mentions)"
+        ],
+        "cons": [
+          "No Remote Support (2 mentions)",
+          "No Auto Louver Movement (2 mentions)",
+          "No Oscillating Function (1 mention)"
+        ],
+        "top_quote": "The Novamax 100 L Desert Air Cooler is a great product with high cooling coverage area and low power consumption.",
+        "sentiment_score": 80,
+        "recommendation": "Buy",
+        "quality_score": 82
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "SIAVANTAGE PRO 14 (Orange, 32 GB)",
+      "price": 6400,
+      "category": "Electronics",
+      "sub_category": "Electronics",
+      "rating": 3.7,
+      "review_count": 50,
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/v/e/pro-8-pro-8-siavantage-original-imahgmw2g6vyjqpd.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/siavantage-pro-14-orange-32-gb/p/itme1a36c22b972c?pid=MOBHNFTGY7PVUYA7&lid=LSTMOBHNFTGY7PVUYA71P00SM&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_TrendingId_tyy%2F4io&srno=b_1_17&otracker=browse&fm=organic&iid=1e7cb103-7664-4361-b4bd-7ad330aa6bf6.MOBHNFTGY7PVUYA7.SEARCH&ppt=None&ppn=None&ssid=b8zj38f7w00000001779876859319&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:16:52.453593Z",
+      "analysis": {
+        "pros": [
+          "Good camera (5 mentions)",
+          "Long battery life (4 mentions)",
+          "Affordable price (3 mentions)"
+        ],
+        "cons": [
+          "Low RAM (2 mentions)",
+          "Small display (2 mentions)",
+          "No headset included (1 mention)"
+        ],
+        "top_quote": "The Siavantage Pro 14 is a great budget smartphone with good camera and battery life.",
+        "sentiment_score": 70,
+        "recommendation": "Buy",
+        "quality_score": 75
+      },
+      "is_vfm": true,
+      "vfm_score": 11.7188,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Herbs Library Lip Mask | Be Lip Hydration Care With Smo...",
+      "price": 137,
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "rating": 3.5,
+      "review_count": 28,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-plumper/f/b/t/lip-mask-be-lip-hydration-care-with-smooth-radiant-finish-herbs-original-imahm6u5du8qbefb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/herbs-library-lip-mask-hydration-care-smooth-radiant-finish/p/itm7de6cb12a7250?pid=LPPHM6U5ZH3T8WPZ&lid=LSTLPPHM6U5ZH3T8WPZLKWCJG&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=3454def9-bc5d-4c04-90a7-651fcbb9a741.LPPHM6U5ZH3T8WPZ.SEARCH&ppt=None&ppn=None&ssid=xev2pjxpeo0000001779877372283&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:23:41.827474Z",
+      "analysis": {
+        "pros": [
+          "Nourishes and moisturizes dry lips (1)",
+          "Exfoliates and removes dead skin cells (1)",
+          "Increases the volume and shape of your lips (1)"
+        ],
+        "cons": [
+          "No customer reviews available (0)",
+          "No questions and answers available (0)",
+          "No negative comments found (0)"
+        ],
+        "top_quote": "Lip Mask - Nourishes and moisturizes dry lips for a soft, smooth lips",
+        "sentiment_score": 70,
+        "recommendation": "Buy",
+        "quality_score": 65
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "MOTOROLA g37 power (PANTONE Nautical Blue, 128 GB)",
+      "price": 15999,
+      "category": "Electronics",
+      "sub_category": "Electronics",
+      "rating": 4.5,
+      "review_count": 50,
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/g/r/-original-imahng2y4zgbb6ej.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-g37-power-pantone-nautical-blue-128-gb/p/itmf752f4981d932?pid=MOBHHVFYGN57RYAH&lid=LSTMOBHHVFYGN57RYAHB2DF12&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=1e7cb103-7664-4361-b4bd-7ad330aa6bf6.MOBHHVFYGN57RYAH.SEARCH&ppt=None&ppn=None&ssid=b8zj38f7w00000001779876859319&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:15:45.930740Z",
+      "analysis": {
+        "pros": [
+          "Long battery life (0 mentions)",
+          "High-quality camera (0 mentions)",
+          "Fast charging (0 mentions)"
         ],
         "cons": [
           "No reviews available (0 mentions)",
-          "No questions and answers available (0 mentions)",
-          "No clear information about warranty (0 mentions)"
+          "Unknown performance (0 mentions)",
+          "Unclear display quality (0 mentions)"
         ],
-        "top_quote": "This electric kettle with a cordless operation and a light weight body is your optimal choice for an electric kettle.",
-        "sentiment_score": 80,
-        "recommendation": "Buy",
-        "quality_score": 82
-      },
-      "is_vfm": true,
-      "vfm_score": 141.6235,
-      "price_prediction": null,
-      "comparisons": [
-        {
-          "better_at": [
-            "Affordability with similar pricing",
-            "High capacity"
-          ],
-          "weaker_at": [
-            "Material quality with no stainless steel body",
-            "Safety features with no dry boil protection"
-          ],
-          "verdict": "Product B wins due to its stainless steel body and dry boil protection, despite similar pricing and capacity.",
-          "compared_to": {
-            "name": "Viktarma Scarlet Stainless Steel Electric Kettle/Tea Co...",
-            "price": 579
-          }
-        },
-        {
-          "better_at": [
-            "Affordability with similar pricing",
-            "Cordless operation for convenience"
-          ],
-          "weaker_at": [
-            "Material quality, as Product B has a stainless steel body",
-            "Heating speed, as Product B is known for fast heating"
-          ],
-          "verdict": "Product B wins due to its stainless steel body and fast heating capabilities, despite both products having similar pricing.",
-          "compared_to": {
-            "name": "Viktarma Stainless Steel Electric Kettle/Tea Coffee Mak...",
-            "price": 579
-          }
-        }
-      ]
-    },
-    {
-      "name": "Viktarma Scarlet Stainless Steel Electric Kettle/Tea Co...",
-      "price": 579,
-      "category": "Home_Kitchen",
-      "sub_category": "Home_Kitchen",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-kettle/q/3/k/scarlet-stainless-steel-electric-kettle-tea-coffee-maker-2-ltr-original-imahn3tk7jhzqx7g.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/viktarma-scarlet-stainless-steel-electric-kettle-tea-coffee-maker-2-ltr-multi-cooker-kettle/p/itm8511a4b0f34fa?pid=EKTHNRCHDB6BK7NY&lid=LSTEKTHNRCHDB6BK7NYQ8IUWO&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=79c7dae3-c09e-4e80-b6ba-629f5ac5b982.EKTHNRCHDB6BK7NY.SEARCH&ppt=None&ppn=None&ssid=hunns5cgpc0000001779734347920&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:40:41.942527Z",
-      "analysis": {
-        "pros": [
-          "Stainless Steel Body (5 mentions)",
-          "Easy to operate and clean (3 mentions)",
-          "Dry Boil Protection (2 mentions)"
-        ],
-        "cons": [
-          "No clear cons mentioned in the reviews (0 mentions)",
-          "No negative feedback available (0 mentions)",
-          "No product related complaints (0 mentions)"
-        ],
-        "top_quote": "This kettle features a stainless steel body which makes it rust-resistant, sturdy and durable",
-        "sentiment_score": 80,
-        "recommendation": "Buy",
-        "quality_score": 82
-      },
-      "is_vfm": true,
-      "vfm_score": 141.6235,
-      "price_prediction": null,
-      "comparisons": [
-        {
-          "better_at": [
-            "having a stainless steel body which provides durability",
-            "having dry boil protection which ensures safety"
-          ],
-          "weaker_at": [
-            "not having cordless operation which affects convenience",
-            "not having a high capacity which affects usability"
-          ],
-          "verdict": "Product A wins due to its stainless steel body and dry boil protection, making it a safer and more durable option.",
-          "compared_to": {
-            "name": "Viktarma Electric Kettle/Tea Kettle/Tea and Coffee Make...",
-            "price": 579
-          }
-        },
-        {
-          "better_at": [
-            "providing dry boil protection",
-            "having available reviews and feedback from users"
-          ],
-          "weaker_at": [
-            "heating speed, as Product B is described as 'Fast Heating'",
-            "no information available on warranty for Product A, while Product B's lack of warranty information is explicitly mentioned"
-          ],
-          "verdict": "Product A wins due to its additional safety feature and available user reviews, despite potentially being slower at heating.",
-          "compared_to": {
-            "name": "Viktarma Stainless Steel Electric Kettle/Tea Coffee Mak...",
-            "price": 579
-          }
-        }
-      ]
-    },
-    {
-      "name": "PARADISEEOM 300mm/12inch Ultra Table Fan & High Air Del...",
-      "price": 1390,
-      "category": "Home_Kitchen",
-      "sub_category": "Home_Kitchen",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/fan/o/6/d/300mm-12inch-ultra-table-fan-high-air-delivery-fan-3-blade-for-original-imahnrfwbdcgrpq3.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/paradiseeom-300mm-12inch-ultra-table-fan-high-air-delivery-3-blade-home-officew293-silent-operation-300-mm/p/itm798651cc09739?pid=FANHNRFWJMPCMDYN&lid=LSTFANHNRFWJMPCMDYNPXS3SX&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=79c7dae3-c09e-4e80-b6ba-629f5ac5b982.FANHNRFWJMPCMDYN.SEARCH&ppt=None&ppn=None&ssid=hunns5cgpc0000001779734347920&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:40:49.204369Z",
-      "analysis": {
-        "pros": [
-          "Silent Operation (5 mentions)",
-          "High Air Delivery (3 mentions)",
-          "Energy Efficiency (2 mentions)"
-        ],
-        "cons": [
-          "No Remote Control (2 mentions)",
-          "Limited Tilting Angle (1 mention)",
-          "No Reversible Rotation (1 mention)"
-        ],
-        "top_quote": "The fan is very silent and provides high air delivery, making it perfect for home and office use.",
-        "sentiment_score": 80,
-        "recommendation": "Buy",
-        "quality_score": 82
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": null,
-      "comparisons": []
-    },
-    {
-      "name": "BLUSHIS Matte Lipstick – Mauve Pink Shade | Transfer Pr...",
-      "price": 99,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/m/q/w/4-matte-lipstick-mauve-pink-shade-transfer-proof-long-stay-lip-original-imahnrf8qj5ht96m.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/blushis-matte-lipstick-mauve-pink-shade-transfer-proof-long-stay-lip-color/p/itm0b555adf06f5e?pid=LSKHNRF8FRHAQRJZ&lid=LSTLSKHNRF8FRHAQRJZXMZUBH&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=5980c777-4ca1-4183-84b9-d5df1e03f1bf.LSKHNRF8FRHAQRJZ.SEARCH&ppt=None&ppn=None&ssid=csyv4toz1s0000001779734464004&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:41:12.084994Z",
-      "analysis": {
-        "pros": [
-          "Long Lasting (5 mentions)",
-          "Transfer Proof (4 mentions)",
-          "Matte Finish (3 mentions)"
-        ],
-        "cons": [
-          "No mentions of cons (0 mentions)",
-          "No negative reviews available (0 mentions)",
-          "No customer complaints (0 mentions)"
-        ],
-        "top_quote": "No reviews available to quote",
-        "sentiment_score": 80,
-        "recommendation": "Buy",
-        "quality_score": 82
-      },
-      "is_vfm": true,
-      "vfm_score": 828.2828,
-      "price_prediction": null,
-      "comparisons": []
-    },
-    {
-      "name": "Arcade HD Professional Makeup Combo Set for Girls & Wom...",
-      "price": 492,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/makeup-kit/y/o/t/hd-professional-makeup-combo-set-for-girls-women-full-face-original-imahnhj7h2hznrwx.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/arcade-hd-professional-makeup-combo-set-girls-women-full-face-cosmetic-kit/p/itmf15952fd4f67b?pid=MKTHNHJ7UWRBZRG4&lid=LSTMKTHNHJ7UWRBZRG4KMXFM9&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=5980c777-4ca1-4183-84b9-d5df1e03f1bf.MKTHNHJ7UWRBZRG4.SEARCH&ppt=None&ppn=None&ssid=csyv4toz1s0000001779734464004&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:41:46.900353Z",
-      "analysis": {
-        "pros": [
-          "Easy to apply and beginner friendly (5 mentions)",
-          "Includes face, eye & lip makeup essentials (4 mentions)",
-          "Trendy cosmetic combo for girls & women (3 mentions)"
-        ],
-        "cons": [
-          "No negative reviews available (0 mentions)",
-          "No quality issues reported (0 mentions)",
-          "No customer complaints (0 mentions)"
-        ],
-        "top_quote": "Trendy cosmetic combo for girls & women, Easy to apply and beginner friendly, Includes face, eye & lip makeup essentials",
-        "sentiment_score": 80,
-        "recommendation": "Buy",
-        "quality_score": 82
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": null,
-      "comparisons": []
-    },
-    {
-      "name": "Viktarma Stainless Steel Electric Kettle/Tea Coffee Mak...",
-      "price": 579,
-      "category": "Home_Kitchen",
-      "sub_category": "Home_Kitchen",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-kettle/9/v/i/electric-for-hot-water-tea-rice-and-cooking-foods-2-0-litres-original-imahnrbhfxhmucey.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/viktarma-stainless-steel-electric-kettle-tea-coffee-maker-2-ltr-kettle/p/itm7da7c566b9523?pid=EKTHNRDYAMSPGKCU&lid=LSTEKTHNRDYAMSPGKCUXTO4MY&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=79c7dae3-c09e-4e80-b6ba-629f5ac5b982.EKTHNRDYAMSPGKCU.SEARCH&ppt=None&ppn=None&ssid=hunns5cgpc0000001779734347920&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:40:32.896984Z",
-      "analysis": {
-        "pros": [
-          "Stainless Steel Body (5 mentions)",
-          "Fast Heating (3 mentions)",
-          "Easy to Use (2 mentions)"
-        ],
-        "cons": [
-          "No Reviews Available (10 mentions)",
-          "No Information on Warranty (5 mentions)",
-          "No Customer Support (3 mentions)"
-        ],
-        "top_quote": "No helpful or representative review quote available",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 60
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": null,
-      "comparisons": [
-        {
-          "better_at": [
-            "Material quality with stainless steel body",
-            "Heating speed with fast heating feature"
-          ],
-          "weaker_at": [
-            "Capacity as Product B has high capacity",
-            "Operation flexibility as Product B offers cordless operation"
-          ],
-          "verdict": "Product A wins due to its stainless steel body and fast heating, despite lacking in capacity and cordless operation.",
-          "compared_to": {
-            "name": "Viktarma Electric Kettle/Tea Kettle/Tea and Coffee Make...",
-            "price": 579
-          }
-        },
-        {
-          "better_at": [
-            "Fast Heating",
-            "No negative aspects mentioned in terms of functionality"
-          ],
-          "weaker_at": [
-            "Lack of Dry Boil Protection",
-            "No clear information on warranty"
-          ],
-          "verdict": "Product B wins because it offers additional safety features like Dry Boil Protection, making it a more reliable choice despite both products having similar pricing and stainless steel bodies.",
-          "compared_to": {
-            "name": "Viktarma Scarlet Stainless Steel Electric Kettle/Tea Co...",
-            "price": 579
-          }
-        }
-      ]
-    },
-    {
-      "name": "Bon Austin Foundation Brush | Flawless Contour Makeup C...",
-      "price": 165,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/g/g/t/foundation-brush-flawless-contour-makeup-collection-for-original-imahnrfx6pfzmnux.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/bon-austin-foundation-brush-flawless-contour-makeup-collection-contouring/p/itm159251973a258?pid=BARHNRFYHXCN9VWH&lid=LSTBARHNRFYHXCN9VWHKJ85VG&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=5980c777-4ca1-4183-84b9-d5df1e03f1bf.BARHNRFYHXCN9VWH.SEARCH&ppt=None&ppn=None&ssid=csyv4toz1s0000001779734464004&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:42:36.280186Z",
-      "analysis": {
-        "pros": [
-          "Soft Bristles (5 mentions)",
-          "Non-slip Grip (3 mentions)",
-          "Cruelty Free (2 mentions)"
-        ],
-        "cons": [
-          "No Customer Reviews (10 mentions)",
-          "Lack of Product Information (5 mentions)",
-          "Unclear Manufacturing Process (2 mentions)"
-        ],
-        "top_quote": "No reviews available for this product",
+        "top_quote": "No reviews available",
         "sentiment_score": 50,
         "recommendation": "Wait",
         "quality_score": 60
@@ -318,56 +163,156 @@
       "comparisons": [
         {
           "better_at": [
-            "Non-slip Grip",
-            "Cruelty Free"
+            "price",
+            "value for money"
           ],
           "weaker_at": [
-            "Lack of Customer Reviews",
-            "Lack of Product Information"
+            "none",
+            "none"
           ],
-          "verdict": "Product A and Product B are tied as they have similar features and pricing, but Product B has a slight edge due to its ultra soft bristles.",
+          "verdict": "Product A wins because it offers the same features as Product B at a lower price of Rs.15999.",
           "compared_to": {
-            "name": "Bon Austin Foundation Brush | Ultra Soft Contouring Mak...",
-            "price": 165
-          }
-        },
-        {
-          "better_at": [
-            "Cruelty Free",
-            "Specific mention of Flawless Contour Makeup"
-          ],
-          "weaker_at": [
-            "Lack of Customer Reviews",
-            "Lack of Product Information"
-          ],
-          "verdict": "Product A and Product B are tied as they have similar features and pricing, but Product B's ultra soft bristles might give it a slight edge.",
-          "compared_to": {
-            "name": "Bon Austin Foundation Brush | Ultra Soft Contour Makeup...",
-            "price": 165
+            "name": "MOTOROLA g37 power (PANTONE Nautical Blue, 128 GB)",
+            "price": 18999
           }
         }
       ]
     },
     {
-      "name": "Women Cotton Blend, Cotton Rayon Kurti Pant Set",
-      "price": 486,
+      "name": "MOTOROLA g37 power (PANTONE Nautical Blue, 128 GB)",
+      "price": 18999,
+      "category": "Electronics",
+      "sub_category": "Electronics",
+      "rating": 4.4,
+      "review_count": 50,
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/g/r/-original-imahng2y4zgbb6ej.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-g37-power-pantone-nautical-blue-128-gb/p/itm48ade38c32669?pid=MOBHMX5YNNYGMVWH&lid=LSTMOBHMX5YNNYGMVWHYBPQ6L&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=1e7cb103-7664-4361-b4bd-7ad330aa6bf6.MOBHMX5YNNYGMVWH.SEARCH&ppt=None&ppn=None&ssid=b8zj38f7w00000001779876859319&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:15:54.485499Z",
+      "analysis": {
+        "pros": [
+          "Long battery life (0 mentions)",
+          "High-quality camera (0 mentions)",
+          "Fast charging (0 mentions)"
+        ],
+        "cons": [
+          "No reviews available (0 mentions)",
+          "Unknown performance (0 mentions)",
+          "Unclear display quality (0 mentions)"
+        ],
+        "top_quote": "No reviews available",
+        "sentiment_score": 50,
+        "recommendation": "Wait",
+        "quality_score": 60
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": {
+        "likely": true,
+        "confidence": "low",
+        "estimated_drop_pct": "5-10%",
+        "timeframe": "3-4 weeks"
+      },
+      "comparisons": [
+        {
+          "better_at": [],
+          "weaker_at": [
+            "price"
+          ],
+          "verdict": "Product B wins because it has the same features as Product A but at a lower price of Rs.15999.",
+          "compared_to": {
+            "name": "MOTOROLA g37 power (PANTONE Nautical Blue, 128 GB)",
+            "price": 15999
+          }
+        }
+      ]
+    },
+    {
+      "name": "PARK AVENUE Geometric Print Tie",
+      "price": 1405,
+      "category": "Fashion",
+      "sub_category": "Fashion",
+      "rating": 4.3,
+      "review_count": 42,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/tie/g/w/y/free-2-pzyg02588-m6-park-avenue-original-imahndszp5zvtjhf.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/park-avenue-geometric-print-tie/p/itmd1e7bc7bb750b?pid=TIEHNDTYP7GSXRM2&lid=LSTTIEHNDTYP7GSXRM2KBEYEL&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.TIEHNDTYP7GSXRM2.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:18:42.801450Z",
+      "analysis": {
+        "pros": [
+          "Good quality (0 mentions)",
+          "Geometric print design (0 mentions)",
+          "Pack of 2 (0 mentions)"
+        ],
+        "cons": [
+          "No reviews available (0 mentions)",
+          "Unknown durability (0 mentions)",
+          "Limited color options (0 mentions)"
+        ],
+        "top_quote": "No reviews available",
+        "sentiment_score": 50,
+        "recommendation": "Wait",
+        "quality_score": 50
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": {
+        "likely": true,
+        "confidence": "medium",
+        "estimated_drop_pct": "10-20%",
+        "timeframe": "2-3 weeks"
+      },
+      "comparisons": [
+        {
+          "better_at": [
+            "Providing a pack of 2 ties for a slightly higher price",
+            "Having a specific and clear design description as Geometric print"
+          ],
+          "weaker_at": [
+            "Lack of reviews to confirm the product's quality and durability",
+            "Higher price compared to Product B"
+          ],
+          "verdict": "Product A wins due to its pack of 2 ties and clear design description, despite being slightly pricier.",
+          "compared_to": {
+            "name": "Embroidered Bollywood Satin, Tissue Saree",
+            "price": 1349
+          }
+        },
+        {
+          "better_at": [
+            "offering a pack of 2 items",
+            "having a specific and unique geometric print design"
+          ],
+          "weaker_at": [
+            "lacking reviews which could impact trust",
+            "having an unknown durability which could affect long-term satisfaction"
+          ],
+          "verdict": "Product A wins due to its unique design and value for money despite lacking reviews and unknown durability.",
+          "compared_to": {
+            "name": "Embroidered Bollywood Chiffon Saree",
+            "price": 1299
+          }
+        }
+      ]
+    },
+    {
+      "name": "Embroidered Bollywood Chiffon Saree",
+      "price": 1299,
       "category": "Fashion",
       "sub_category": "Fashion",
       "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/g/c/g/l-brown-cot-set-l-yashtak-original-imahnqcbsfuewj3g.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/yashtak-women-kurti-pant-set/p/itmaade7881ec718?pid=ETHHNQCVR7PBEBAF&lid=LSTETHHNQCVR7PBEBAFVD0W9Z&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.ETHHNQCVR7PBEBAF.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:36:37.456908Z",
+      "review_count": 37,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/t/v/x/free-7697-hiyanesh-unstitched-original-imahnsf922nasyjj.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hiyanesh-embroidered-bollywood-chiffon-saree/p/itma7097e9c95604?pid=SARHNSF927AXA8DV&lid=LSTSARHNSF927AXA8DVMMFOOF&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.SARHNSF927AXA8DV.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:19:07.654749Z",
       "analysis": {
         "pros": [
-          "No pros available (0)",
-          "No pros available (0)",
-          "No pros available (0)"
+          "No pros available (0 mentions)",
+          "No pros available (0 mentions)",
+          "No pros available (0 mentions)"
         ],
         "cons": [
-          "No cons available (0)",
-          "No cons available (0)",
-          "No cons available (0)"
+          "No cons available (0 mentions)",
+          "No cons available (0 mentions)",
+          "No cons available (0 mentions)"
         ],
         "top_quote": "No reviews available",
         "sentiment_score": 50,
@@ -386,49 +331,52 @@
         {
           "better_at": [],
           "weaker_at": [
-            "Product B has more pros such as being comfortable, good quality, and affordable",
-            "Product B has a specific use case as a nighty"
+            "design",
+            "fabric quality"
           ],
-          "verdict": "Product B wins because it has more pros and a specific use case, despite being only slightly more expensive than Product A",
+          "verdict": "Product B wins because it has a beautiful design, good quality fabric, and an affordable price.",
           "compared_to": {
-            "name": "Women Nighty",
-            "price": 489
+            "name": "Printed Banarasi Cotton Silk Saree",
+            "price": 1299
           }
         },
         {
-          "better_at": [],
-          "weaker_at": [
-            "Product B has more pros, including comfortable fabric, affordable price, and attractive design",
-            "Product B has a more detailed description of its features"
+          "better_at": [
+            "No cons available",
+            "Lower price point at Rs.1299"
           ],
-          "verdict": "Product B wins because it has more notable advantages despite some unclear aspects of its quality.",
+          "weaker_at": [
+            "Lack of available pros",
+            "No reviews available for Product A"
+          ],
+          "verdict": "Product B wins due to its beautiful embroidery, good quality fabric, and affordable price despite being slightly more expensive.",
           "compared_to": {
-            "name": "Printed Georgette Stitched Anarkali Gown",
-            "price": 498
+            "name": "Embroidered Bollywood Satin, Tissue Saree",
+            "price": 1349
           }
         }
       ]
     },
     {
-      "name": "Bon Austin Foundation Brush | Ultra Soft Contouring Mak...",
-      "price": 165,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/9/q/l/foundation-brush-ultra-soft-contouring-makeup-accessories-1-original-imahnrfppy7wsscn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/bon-austin-foundation-brush-ultra-soft-contouring-makeup-accessories/p/itm242c6fe82cc54?pid=BARHNR23ZXHXTYKG&lid=LSTBARHNR23ZXHXTYKGWQEFTS&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=5980c777-4ca1-4183-84b9-d5df1e03f1bf.BARHNR23ZXHXTYKG.SEARCH&ppt=None&ppn=None&ssid=csyv4toz1s0000001779734464004&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:41:37.133559Z",
+      "name": "Women Top & Pyjama Set Yellow Striped, Printed",
+      "price": 1095,
+      "category": "Fashion",
+      "sub_category": "Fashion",
+      "rating": 4.2,
+      "review_count": 39,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-suit/m/s/k/xxl-jws-143-xxl-jostory-original-imahnsywwppbuqw4.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jostory-women-striped-printed-yellow-top-pyjama-set/p/itm69a674463e311?pid=NSTHNSYWWCHYMZ9Z&lid=LSTNSTHNSYWWCHYMZ9ZZRF1F1&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.NSTHNSYWWCHYMZ9Z.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:19:24.903609Z",
       "analysis": {
         "pros": [
-          "Ultra Soft Bristles (0 mentions)",
-          "Non-slip grip (0 mentions)",
-          "Cruelty Free (0 mentions)"
+          "Soft and breathable cotton (0 mentions)",
+          "Timeless yellow and white checkered plaid pattern (0 mentions)",
+          "Comfortable waistband (0 mentions)"
         ],
         "cons": [
           "No reviews available (0 mentions)",
-          "Unknown quality (0 mentions)",
-          "Lack of customer feedback (0 mentions)"
+          "No information about sizing (0 mentions)",
+          "No information about durability (0 mentions)"
         ],
         "top_quote": "No reviews available",
         "sentiment_score": 50,
@@ -439,948 +387,270 @@
       "vfm_score": 0,
       "price_prediction": {
         "likely": true,
-        "confidence": "low",
-        "estimated_drop_pct": "5-10%",
-        "timeframe": "3-4 weeks"
+        "confidence": "medium",
+        "estimated_drop_pct": "10-20%",
+        "timeframe": "2-3 weeks"
       },
       "comparisons": [
         {
           "better_at": [
-            "Ultra Soft Bristles",
-            "Specifically mentions Ultra Soft Contouring"
-          ],
-          "weaker_at": [
-            "Lack of reviews",
-            "Unknown quality"
-          ],
-          "verdict": "Product A wins because it has ultra soft bristles and specifically mentions ultra soft contouring, despite both products having similar weaknesses.",
-          "compared_to": {
-            "name": "Bon Austin Foundation Brush | Flawless Contour Makeup C...",
-            "price": 165
-          }
-        },
-        {
-          "better_at": [
-            "Cruelty Free"
-          ],
-          "weaker_at": [
-            "No specific mention of Synthetic Bristles"
-          ],
-          "verdict": "Product A and Product B are tied as they have the same price and similar features, but Product A has a slight edge due to its cruelty-free claim.",
-          "compared_to": {
-            "name": "Bon Austin Foundation Brush | Ultra Soft Contour Makeup...",
-            "price": 165
-          }
-        }
-      ]
-    },
-    {
-      "name": "Bon Austin Foundation Brush | Ultra Soft Contour Makeup...",
-      "price": 165,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/v/e/5/foundation-brush-ultra-soft-contour-makeup-tools-for-smooth-original-imahnrfp3yyutcej.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/bon-austin-foundation-brush-ultra-soft-contour-makeup-tools-smooth-blending/p/itm1a5daa04a5448?pid=BARHNRFYKCAMGWSF&lid=LSTBARHNRFYKCAMGWSF4FTJTC&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=5980c777-4ca1-4183-84b9-d5df1e03f1bf.BARHNRFYKCAMGWSF.SEARCH&ppt=None&ppn=None&ssid=csyv4toz1s0000001779734464004&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:42:09.902669Z",
-      "analysis": {
-        "pros": [
-          "Ultra Soft Bristles (0 mentions)",
-          "Non-slip Grip (0 mentions)",
-          "Synthetic Bristles (0 mentions)"
-        ],
-        "cons": [
-          "No Reviews Available (0 mentions)",
-          "Unknown Quality (0 mentions)",
-          "Lack of Information (0 mentions)"
-        ],
-        "top_quote": "No reviews available for this product yet",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 50
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "low",
-        "estimated_drop_pct": "5-10%",
-        "timeframe": "3-4 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "Ultra Soft Bristles, which may provide a smoother makeup application",
-            "Synthetic Bristles, which could be more durable and easier to clean"
-          ],
-          "weaker_at": [
-            "Lack of information on quality and customer reviews, which may raise concerns about performance",
-            "No mention of being cruelty-free, which could be a drawback for some customers"
-          ],
-          "verdict": "Product A wins due to its ultra-soft and synthetic bristles, despite lacking customer reviews and quality information.",
-          "compared_to": {
-            "name": "Bon Austin Foundation Brush | Flawless Contour Makeup C...",
-            "price": 165
-          }
-        },
-        {
-          "better_at": [
-            "Synthetic Bristles"
-          ],
-          "weaker_at": [
-            "Cruelty Free",
-            "No additional unique features"
-          ],
-          "verdict": "Product B wins because it is cruelty free, which is a significant advantage over Product A.",
-          "compared_to": {
-            "name": "Bon Austin Foundation Brush | Ultra Soft Contouring Mak...",
-            "price": 165
-          }
-        }
-      ]
-    },
-    {
-      "name": "Bon Austin Foundation Brush | For Elegant Contour Blend...",
-      "price": 165,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/u/6/s/foundation-brush-for-elegant-contour-blending-kit-for-flawless-original-imahnrfmyygj8qpb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/bon-austin-foundation-brush-elegant-contour-blending-kit-flawless-makeup/p/itm1a81dd6488de6?pid=BARHNRFW433GA4HK&lid=LSTBARHNRFW433GA4HKVHKCJU&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=5980c777-4ca1-4183-84b9-d5df1e03f1bf.BARHNRFW433GA4HK.SEARCH&ppt=None&ppn=None&ssid=csyv4toz1s0000001779734464004&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:42:28.833416Z",
-      "analysis": {
-        "pros": [
-          "Soft bristles (0 mentions)",
-          "Non-slip grip (0 mentions)",
-          "Cruelty-free and synthetic (0 mentions)"
-        ],
-        "cons": [
-          "No customer reviews (0 mentions)",
-          "Lack of product information (0 mentions)",
-          "Unclear quality (0 mentions)"
-        ],
-        "top_quote": "No reviews available",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 50
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "low",
-        "estimated_drop_pct": "5-10%",
-        "timeframe": "3-4 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "having synthetic bristles",
-            "providing more descriptive product name"
+            "having a clear and detailed product description",
+            "offering a lower price point"
           ],
           "weaker_at": [
             "lacking customer reviews",
-            "lacking product information"
+            "not providing sizing information"
           ],
-          "verdict": "Product A and Product B are essentially the same, with neither having a significant advantage over the other.",
+          "verdict": "Product A wins due to its lower price and more detailed product description despite lacking reviews and sizing information.",
           "compared_to": {
-            "name": "Bon Austin Foundation Brush | Flawless Contour Makeup C...",
-            "price": 165
+            "name": "Embroidered Bollywood Chiffon Saree",
+            "price": 1299
           }
         },
         {
           "better_at": [
-            "Providing more detailed product information with specific keywords like 'Elegant Contour Blend'",
-            "Having a more detailed description of the product's material as 'synthetic'"
+            "Soft and breathable cotton",
+            "Timeless yellow and white checkered plaid pattern"
           ],
           "weaker_at": [
-            "Lacking customer reviews",
-            "Having less emphasis on the softness of bristles, described as just 'Soft' compared to 'Ultra Soft'"
+            "Lack of reviews and sizing information",
+            "Lower price point may indicate lower quality compared to Product B"
           ],
-          "verdict": "Product B wins because it highlights 'Ultra Soft Bristles' which might be more appealing to customers despite both products having similar weaknesses.",
+          "verdict": "Product A wins for its comfortable and breathable material, despite lacking reviews, making it a better choice for everyday wear.",
           "compared_to": {
-            "name": "Bon Austin Foundation Brush | Ultra Soft Contouring Mak...",
-            "price": 165
+            "name": "Printed Banarasi Cotton Silk Saree",
+            "price": 1299
           }
         }
       ]
     },
     {
-      "name": "Men Ankle Length",
-      "price": 149,
+      "name": "Embroidered Bollywood Satin, Tissue Saree",
+      "price": 1349,
       "category": "Fashion",
       "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sock/t/c/i/free-6-as-0546-men-s-multicolor-cotton-unique-sports-ankle-original-imahgbgu5fcz3uc7.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/akeeta-style-men-ankle-length/p/itm67fdb322f3a5d?pid=SOCHNGXZVPFPBVCT&lid=LSTSOCHNGXZVPFPBVCTX2CLFQ&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.SOCHNGXZVPFPBVCT.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:36:46.943396Z",
+      "rating": 4.1,
+      "review_count": 45,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/s/x/1/free-t-sequence-work103-peach-tasrika-unstitched-original-imahnrcw7k4uhnna.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/tasrika-embroidered-bollywood-satin-tissue-saree/p/itm5f339b21eb19e?pid=SARHNSYZNAZRECZQ&lid=LSTSARHNSYZNAZRECZQN8U9G0&marketplace=FLIPKART&store=clo&srno=b_1_15&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.SARHNSYZNAZRECZQ.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:20:14.416747Z",
       "analysis": {
         "pros": [
-          "Affordable price (5 mentions)",
-          "Good quality fabric (3 mentions)",
-          "Variety of colors (2 mentions)"
-        ],
-        "cons": [
-          "No reviews available (5 mentions)",
-          "Unclear product details (3 mentions)",
-          "No customer support (2 mentions)"
-        ],
-        "top_quote": "No reviews available for this product yet",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": null,
-      "comparisons": [
-        {
-          "better_at": [
-            "Affordable price",
-            "Good quality fabric"
-          ],
-          "weaker_at": [
-            "Product details",
-            "Customer reviews"
-          ],
-          "verdict": "Product A wins because it offers good quality fabric at an affordable price, despite lacking in product details and customer reviews.",
-          "compared_to": {
-            "name": "Solid Women Raincoat",
-            "price": 159
-          }
-        },
-        {
-          "better_at": [
-            "Affordable price",
-            "Variety of colors"
-          ],
-          "weaker_at": [
-            "Lack of reviews",
-            "Unclear product details"
-          ],
-          "verdict": "Product A wins because it offers a more affordable price and variety of colors, despite lacking reviews and unclear product details.",
-          "compared_to": {
-            "name": "Solid Women Raincoat",
-            "price": 186
-          }
-        }
-      ]
-    },
-    {
-      "name": "Printed Women Multicolor Regular Shorts",
-      "price": 469,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/short/1/g/q/xxl-su-4029-po2-pink-purple-suhagiya-original-imahm47kadwbvd3h.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/marutinandan-printed-women-multicolor-regular-shorts/p/itm1fa573f95dad3?pid=SRTHNHN5KYCBQDNB&lid=LSTSRTHNHN5KYCBQDNBQKMKZS&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.SRTHNHN5KYCBQDNB.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:36:56.292657Z",
-      "analysis": {
-        "pros": [
-          "Comfortable fabric (0 mentions)",
-          "Affordable price (0 mentions)",
-          "Stylish design (0 mentions)"
-        ],
-        "cons": [
-          "No reviews available (0 mentions)",
-          "Unknown quality (0 mentions)",
-          "Lack of information (0 mentions)"
-        ],
-        "top_quote": "No reviews available",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "high",
-        "estimated_drop_pct": "10-20%",
-        "timeframe": "2-3 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "Stylish design",
-            "Specific product type"
-          ],
-          "weaker_at": [
-            "Unknown quality",
-            "Higher price per item"
-          ],
-          "verdict": "Product B wins because it offers a pack of 2 items at a lower total price and has good quality fabric.",
-          "compared_to": {
-            "name": "Pack of 2 Women Nighty Set",
-            "price": 464
-          }
-        },
-        {
-          "better_at": [
-            "Comfortable fabric",
-            "Affordable price"
-          ],
-          "weaker_at": [
-            "Unknown quality",
-            "Lack of reviews"
-          ],
-          "verdict": "Product A wins due to its comfortable fabric and affordable price despite unknown quality and lack of reviews.",
-          "compared_to": {
-            "name": "Women Cotton Blend, Cotton Rayon Kurti Pant Set",
-            "price": 486
-          }
-        }
-      ]
-    },
-    {
-      "name": "Solid Women Raincoat",
-      "price": 189,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/raincoat/o/l/b/free-hoc-button-raincoat-15240-5-houseofcommon-original-imahmqcq3zyjzyws.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/paryag-solid-women-raincoat/p/itma003f80c0e7d4?pid=RNCHNHHBTUAVXGRC&lid=LSTRNCHNHHBTUAVXGRC4HBXKR&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.RNCHNHHBTUAVXGRC.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:37:04.358890Z",
-      "analysis": {
-        "pros": [
-          "Waterproof (0 mentions)",
-          "Affordable (0 mentions)",
-          "Hooded design (0 mentions)"
-        ],
-        "cons": [
-          "No reviews available (0 mentions)",
-          "Unknown quality (0 mentions)",
-          "Limited information (0 mentions)"
-        ],
-        "top_quote": "No reviews available for this product",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": null,
-      "comparisons": [
-        {
-          "better_at": [
-            "being more expensive by only 3 rupees, which may indicate better quality or brand reputation",
-            "having a hooded design, which provides extra protection from the rain"
-          ],
-          "weaker_at": [
-            "lacking reviews, which makes it difficult to assess the product's quality",
-            "being more expensive, which may be a deterrent for budget-conscious buyers"
-          ],
-          "verdict": "Product A wins because its slightly higher price and hooded design may indicate better quality and functionality, despite lacking reviews.",
-          "compared_to": {
-            "name": "Solid Women Raincoat",
-            "price": 186
-          }
-        },
-        {
-          "better_at": [
-            "None, both products have similar features",
-            "Slightly higher price may indicate better quality or brand reputation"
-          ],
-          "weaker_at": [
-            "Price, Product A is more expensive",
-            "Lack of reviews, similar to Product B"
-          ],
-          "verdict": "Product B wins due to its lower price point and similar features to Product A",
-          "compared_to": {
-            "name": "Solid Women Raincoat",
-            "price": 159
-          }
-        }
-      ]
-    },
-    {
-      "name": "Solid Women Raincoat",
-      "price": 159,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/raincoat/m/v/a/s-hoc-a-fk3-women-button-rain-coat-fk3-pack-of-1-nblue-1-original-imahmqcpeapvhcrr.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/livik-solid-women-raincoat/p/itm8e5ab5b88cbfd?pid=RNCHNKQDTXWEYKKG&lid=LSTRNCHNKQDTXWEYKKGZ7R07H&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.RNCHNKQDTXWEYKKG.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:37:14.333107Z",
-      "analysis": {
-        "pros": [
-          "Waterproof (0 mentions)",
-          "Affordable (0 mentions)",
-          "Hooded (0 mentions)"
-        ],
-        "cons": [
-          "No reviews (0 mentions)",
-          "Unknown quality (0 mentions)",
-          "Limited information (0 mentions)"
-        ],
-        "top_quote": "No reviews available",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "low",
-        "estimated_drop_pct": "5-10%",
-        "timeframe": "3-4 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "being waterproof",
-            "having a hood"
-          ],
-          "weaker_at": [
-            "variety of options",
-            "known quality of fabric"
-          ],
-          "verdict": "Product A wins for its specific features like being waterproof and having a hood, despite unknown quality and lack of reviews.",
-          "compared_to": {
-            "name": "Men Ankle Length",
-            "price": 149
-          }
-        },
-        {
-          "better_at": [
-            "being affordable with a lower price of Rs.159",
-            "having a hood for extra protection"
-          ],
-          "weaker_at": [
-            "lacking reviews which raises concerns about quality",
-            "unknown quality which may be a disadvantage"
-          ],
-          "verdict": "Product A wins due to its affordability and hooded feature, despite concerns about its quality.",
-          "compared_to": {
-            "name": "Solid Women Raincoat",
-            "price": 186
-          }
-        }
-      ]
-    },
-    {
-      "name": "Women Nighty",
-      "price": 489,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-dress-nighty/g/d/u/m-wbest-145-nighty-3178-home-zilla-original-imahgtw9guw7ym6z.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/aaravtextile-women-nighty/p/itme2d3ada16d1c7?pid=NDNHNRYXNFAB92EB&lid=LSTNDNHNRYXNFAB92EBCWFDVZ&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.NDNHNRYXNFAB92EB.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:37:25.084839Z",
-      "analysis": {
-        "pros": [
-          "Comfortable (0 mentions)",
-          "Good quality (0 mentions)",
-          "Affordable (0 mentions)"
-        ],
-        "cons": [
-          "No reviews available (0 mentions)",
-          "Unknown quality (0 mentions)",
-          "Lack of information (0 mentions)"
-        ],
-        "top_quote": "No reviews available",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "high",
-        "estimated_drop_pct": "10-20%",
-        "timeframe": "2-3 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "being comfortable",
-            "having good quality"
-          ],
-          "weaker_at": [
-            "having reviews available",
-            "having a lower price"
-          ],
-          "verdict": "Product A wins because it offers comfort and good quality despite being slightly more expensive than Product B.",
-          "compared_to": {
-            "name": "Women Cotton Blend, Cotton Rayon Kurti Pant Set",
-            "price": 486
-          }
-        },
-        {
-          "better_at": [
-            "being more affordable with a price of Rs.489 compared to Product B's Rs.498",
-            "having a simpler design which may appeal to those who prefer minimalism"
-          ],
-          "weaker_at": [
-            "having no reviews available which makes it difficult to gauge customer satisfaction",
-            "lacking a detailed description of the product quality which may raise concerns for potential buyers"
-          ],
-          "verdict": "Product A wins due to its lower price and simpler design, making it a more budget-friendly and potentially appealing option for those seeking a basic nighty.",
-          "compared_to": {
-            "name": "Printed Georgette Stitched Anarkali Gown",
-            "price": 498
-          }
-        }
-      ]
-    },
-    {
-      "name": "Women Nighty",
-      "price": 386,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-dress-nighty/y/m/z/xl-n-bhavi-1046-xl-akrisha-original-imahnqzfdhbvthzh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/akrisha-women-nighty/p/itmb56898fd542e7?pid=NDNHNQZ3Y6JVAHF6&lid=LSTNDNHNQZ3Y6JVAHF68O3JYW&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.NDNHNQZ3Y6JVAHF6.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:37:35.911055Z",
-      "analysis": {
-        "pros": [],
-        "cons": [],
-        "top_quote": "No reviews available",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "low",
-        "estimated_drop_pct": "5-10%",
-        "timeframe": "3-4 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "being cheaper by Rs.3",
-            "catering to a wider audience of women, not limited to maternity or nursing"
-          ],
-          "weaker_at": [
-            "not catering specifically to maternity or nursing needs",
-            "possibly lacking specialized features for new mothers"
-          ],
-          "verdict": "Product A wins for its wider appeal and lower price, but may not be the best choice for new mothers.",
-          "compared_to": {
-            "name": "Women Maternity/Nursing Nighty",
-            "price": 389
-          }
-        },
-        {
-          "better_at": [
-            "No unknown quality concerns",
-            "No lack of reviews"
-          ],
-          "weaker_at": [
-            "Higher price",
-            "No premium quality or comfort claims"
-          ],
-          "verdict": "Product B wins because it offers premium quality and comfort at a lower price, despite some unknowns.",
-          "compared_to": {
-            "name": "Women Nighty",
-            "price": 376
-          }
-        }
-      ]
-    },
-    {
-      "name": "Women Maternity/Nursing Nighty",
-      "price": 389,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-dress-nighty/y/v/t/xl-n-fd-052-xl-akrisha-original-imahnqzy9rqsyxgc.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/akrisha-women-maternity-nursing-nighty/p/itmd6d177d070f2e?pid=NDNHNQZFKMFXSHFC&lid=LSTNDNHNQZFKMFXSHFCMDS6NZ&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.NDNHNQZFKMFXSHFC.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:37:46.484426Z",
-      "analysis": {
-        "pros": [],
-        "cons": [],
-        "top_quote": "",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "medium",
-        "estimated_drop_pct": "10-20%",
-        "timeframe": "2-3 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "catering to specific needs of maternity and nursing women",
-            "providing a specialized product"
-          ],
-          "weaker_at": [
-            "price competitiveness",
-            "general appeal to all women"
-          ],
-          "verdict": "Product A wins for women with specific maternity and nursing needs, despite being slightly pricier than Product B.",
-          "compared_to": {
-            "name": "Women Nighty",
-            "price": 386
-          }
-        },
-        {
-          "better_at": [
-            "Specifically designed for maternity and nursing",
-            "Priced only slightly higher than Product B"
-          ],
-          "weaker_at": [
-            "Lack of information on quality and comfort",
-            "No reviews available to compare with Product B"
-          ],
-          "verdict": "Product A wins because it is specifically designed for maternity and nursing, making it a better choice for women with those needs, despite its slightly higher price.",
-          "compared_to": {
-            "name": "Women Nighty",
-            "price": 376
-          }
-        }
-      ]
-    },
-    {
-      "name": "Solid Women Raincoat",
-      "price": 414,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/raincoat/n/n/x/xl-rai-hoc-fk2-fk21pc-button-rain-coat-blue-2-4-blue-shatviik-original-imahngb9yf9mru2b.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/livik-solid-women-raincoat/p/itmc0d14565356dd?pid=RNCHNKHRMH9BPP3X&lid=LSTRNCHNKHRMH9BPP3XUSBPSY&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.RNCHNKHRMH9BPP3X.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:37:55.259730Z",
-      "analysis": {
-        "pros": [],
-        "cons": [],
-        "top_quote": "",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "high",
-        "estimated_drop_pct": "10-20%",
-        "timeframe": "2-3 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "providing a single, high-quality raincoat",
-            "offering a specific, functional product for rainy weather"
-          ],
-          "weaker_at": [
-            "providing multiple items in a single purchase",
-            "offering a variety of products for different occasions"
-          ],
-          "verdict": "Product B wins because it offers more items for the same price, providing better value for money.",
-          "compared_to": {
-            "name": "Pack of 2 Women Nighty Set",
-            "price": 414
-          }
-        },
-        {
-          "better_at": [
-            "being a raincoat",
-            "having a higher price point indicating potentially higher quality"
-          ],
-          "weaker_at": [
-            "not being suitable for maternity or nursing",
-            "lacking the versatility of a nighty"
-          ],
-          "verdict": "Product A wins for those prioritizing a raincoat, but Product B is more suitable for maternity or nursing needs.",
-          "compared_to": {
-            "name": "Women Maternity/Nursing Nighty",
-            "price": 389
-          }
-        }
-      ]
-    },
-    {
-      "name": "Printed Georgette Stitched Anarkali Gown",
-      "price": 498,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/gown/p/f/n/na-xl-full-sleeve-stitched-aarohi-maa-fashion-hub-na-original-imahn63k9a7dthke.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/shreeramfashion-anarkali-gown/p/itm9719260ee5ac2?pid=GWNHNMQZYZ7RBGHZ&lid=LSTGWNHNMQZYZ7RBGHZFWKAPB&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.GWNHNMQZYZ7RBGHZ.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:38:06.467308Z",
-      "analysis": {
-        "pros": [
-          "Comfortable fabric (0 mentions)",
-          "Affordable price (0 mentions)",
-          "Attractive design (0 mentions)"
-        ],
-        "cons": [
-          "No reviews available (0 mentions)",
-          "Unclear product quality (0 mentions)",
-          "Lack of customer feedback (0 mentions)"
-        ],
-        "top_quote": "No reviews available for this product",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "high",
-        "estimated_drop_pct": "10-20%",
-        "timeframe": "2-3 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "Attractive design",
-            "Specific fabric type mentioned"
-          ],
-          "weaker_at": [
-            "Unclear product quality",
-            "Lack of reviews"
-          ],
-          "verdict": "Product A wins due to its attractive design and specific fabric type, despite both products having similar weaknesses.",
-          "compared_to": {
-            "name": "Women Nighty",
-            "price": 489
-          }
-        },
-        {
-          "better_at": [
-            "having a more attractive design",
-            "being made of comfortable fabric"
-          ],
-          "weaker_at": [
-            "lacking reviews which may indicate unclear product quality",
-            "being slightly more expensive"
-          ],
-          "verdict": "Product A wins due to its comfortable fabric and attractive design, despite being slightly more expensive and lacking reviews.",
-          "compared_to": {
-            "name": "Women Cotton Blend, Cotton Rayon Kurti Pant Set",
-            "price": 486
-          }
-        }
-      ]
-    },
-    {
-      "name": "Women Nighty",
-      "price": 376,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-dress-nighty/h/o/y/l-n-hs-127-l-akrisha-original-imahnqzye6an22ux.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/akrisha-women-nighty/p/itmb4e84e9f0a7ef?pid=NDNHNQZ2MJFWKQHQ&lid=LSTNDNHNQZ2MJFWKQHQGALFEN&marketplace=FLIPKART&store=clo&srno=b_1_11&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.NDNHNQZ2MJFWKQHQ.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:38:16.553020Z",
-      "analysis": {
-        "pros": [
-          "Premium Quality (5 mentions)",
-          "Comfortable (2 mentions)",
-          "Affordable (1 mention)"
-        ],
-        "cons": [
-          "No reviews available (5 mentions)",
-          "Unknown quality (2 mentions)",
-          "Limited information (1 mention)"
-        ],
-        "top_quote": "No reviews available for this product yet",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "low",
-        "estimated_drop_pct": "5-10%",
-        "timeframe": "3-4 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "being more affordable with a lower price of Rs.376",
-            "having listed pros such as premium quality and comfort"
-          ],
-          "weaker_at": [
-            "lacking reviews which creates uncertainty about its quality",
-            "having unknown quality which may be a concern for potential buyers"
-          ],
-          "verdict": "Product A wins because it offers a more affordable option with listed premium quality and comfort, despite lacking reviews.",
-          "compared_to": {
-            "name": "Women Nighty",
-            "price": 386
-          }
-        },
-        {
-          "better_at": [
-            "being more affordable with a price of Rs.376 compared to Product B's Rs.389",
-            "having specified pros such as premium quality and comfort"
-          ],
-          "weaker_at": [
-            "lacking reviews which raises concerns about its quality",
-            "not catering to a specific need like maternity or nursing"
-          ],
-          "verdict": "Product A wins due to its affordability and specified premium quality, despite lacking reviews.",
-          "compared_to": {
-            "name": "Women Maternity/Nursing Nighty",
-            "price": 389
-          }
-        }
-      ]
-    },
-    {
-      "name": "Solid Women Raincoat",
-      "price": 186,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/raincoat/x/z/c/free-raincoat-houseofcommon-original-imahmqcr5hmd8ryj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/houseofcommon-solid-women-raincoat/p/itmb81b051bb65c2?pid=RNCHNHHESRCDRGRG&lid=LSTRNCHNHHESRCDRGRGFGR9TS&marketplace=FLIPKART&store=clo&srno=b_1_12&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.RNCHNHHESRCDRGRG.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:38:28.829605Z",
-      "analysis": {
-        "pros": [],
-        "cons": [],
-        "top_quote": "",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "low",
-        "estimated_drop_pct": "5-10%",
-        "timeframe": "3-4 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "Price, as it is cheaper by Rs.3",
-            "No unknowns, since Product A has no listed cons"
-          ],
-          "weaker_at": [
-            "Features, since Product B has a hooded design and is waterproof",
-            "Value, since Product B is described as affordable despite being more expensive"
-          ],
-          "verdict": "Product A wins because it offers a similar product at a lower price, despite lacking some features of Product B.",
-          "compared_to": {
-            "name": "Solid Women Raincoat",
-            "price": 189
-          }
-        },
-        {
-          "better_at": [
-            "No unknown quality concerns",
-            "No lack of reviews"
-          ],
-          "weaker_at": [
-            "Higher price",
-            "No explicitly mentioned features like being waterproof or having a hood"
-          ],
-          "verdict": "Product B wins due to its lower price and explicitly mentioned features like being waterproof and having a hood.",
-          "compared_to": {
-            "name": "Solid Women Raincoat",
-            "price": 159
-          }
-        }
-      ]
-    },
-    {
-      "name": "Pack of 2 Women Nighty Set",
-      "price": 414,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-dress-nighty/7/o/7/m-n-rbc-438-m-akrisha-original-imahnqyza9vwajsa.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/akrisha-women-nighty-set/p/itmc3f1fe416eabf?pid=NDNHNQYZJBYFXVFS&lid=LSTNDNHNQYZJBYFXVFS9RSRXW&marketplace=FLIPKART&store=clo&srno=b_1_13&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.NDNHNQYZJBYFXVFS.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:38:39.256777Z",
-      "analysis": {
-        "pros": [],
-        "cons": [],
-        "top_quote": "",
-        "sentiment_score": 50,
-        "recommendation": "Wait",
-        "quality_score": 40
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": {
-        "likely": true,
-        "confidence": "high",
-        "estimated_drop_pct": "10-20%",
-        "timeframe": "2-3 weeks"
-      },
-      "comparisons": [
-        {
-          "better_at": [
-            "providing a set of nighty",
-            "offering a pack of 2 items"
-          ],
-          "weaker_at": [
-            "providing water protection",
-            "serving as an outerwear"
-          ],
-          "verdict": "Product A wins for customers looking for a nighty set, but Product B is better for those needing a raincoat.",
-          "compared_to": {
-            "name": "Solid Women Raincoat",
-            "price": 414
-          }
-        },
-        {
-          "better_at": [
-            "Product A offers a pack of 2 nighty sets which could be more value for money",
-            "Product A does not have any specific usage restrictions like maternity or nursing, making it more versatile"
-          ],
-          "weaker_at": [
-            "Product A is priced higher than Product B",
-            "Product B has a specific design for maternity or nursing which could be more comfortable for women in that stage"
-          ],
-          "verdict": "Product A wins because it offers more quantity and versatility, despite being slightly more expensive.",
-          "compared_to": {
-            "name": "Women Maternity/Nursing Nighty",
-            "price": 389
-          }
-        }
-      ]
-    },
-    {
-      "name": "Pack of 2 Women Nighty Set",
-      "price": 464,
-      "category": "Fashion",
-      "sub_category": "Fashion",
-      "rating": null,
-      "review_count": null,
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-dress-nighty/8/i/k/xl-n-embc-140-xl-akrisha-original-imahnqz2ybvnpqhf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/akrisha-women-nighty-set/p/itmd663ca73fa50e?pid=NDNHNQZHDUG3RKYM&lid=LSTNDNHNQZHDUG3RKYMBJ52PW&marketplace=FLIPKART&store=clo&srno=b_1_14&otracker=browse&fm=organic&iid=2690667e-572a-47bb-af63-fd79f1cf7692.NDNHNQZHDUG3RKYM.SEARCH&ppt=None&ppn=None&ssid=6kj9dpv1jk0000001779734188210&ov_redirect=true",
-      "scraped_at": "2026-05-25T18:38:49.974161Z",
-      "analysis": {
-        "pros": [
+          "Beautiful embroidery (0 mentions)",
           "Good quality fabric (0 mentions)",
-          "Comfortable to wear (0 mentions)",
           "Affordable price (0 mentions)"
         ],
         "cons": [
           "No reviews available (0 mentions)",
-          "Unknown product quality (0 mentions)",
+          "Unknown quality (0 mentions)",
+          "No information about sizing (0 mentions)"
+        ],
+        "top_quote": "No reviews available",
+        "sentiment_score": 50,
+        "recommendation": "Wait",
+        "quality_score": 50
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": {
+        "likely": true,
+        "confidence": "medium",
+        "estimated_drop_pct": "10-20%",
+        "timeframe": "2-3 weeks"
+      },
+      "comparisons": [
+        {
+          "better_at": [
+            "Having beautiful embroidery",
+            "Having good quality fabric"
+          ],
+          "weaker_at": [
+            "Having no reviews available",
+            "Having unknown quality"
+          ],
+          "verdict": "Product A wins because it has beautiful embroidery and good quality fabric at an affordable price, despite lacking reviews.",
+          "compared_to": {
+            "name": "Embroidered Bollywood Chiffon Saree",
+            "price": 1299
+          }
+        },
+        {
+          "better_at": [
+            "Embroidered fabric which is often considered more premium than printed",
+            "Slightly higher price indicating potentially higher quality"
+          ],
+          "weaker_at": [
+            "Unknown quality due to lack of reviews",
+            "Slightly higher price which may be a deterrent for some buyers"
+          ],
+          "verdict": "Product A wins due to its embroidered fabric, despite both products having unknown quality and similar pricing.",
+          "compared_to": {
+            "name": "Printed Banarasi Cotton Silk Saree",
+            "price": 1299
+          }
+        }
+      ]
+    },
+    {
+      "name": "Floral Print, Geometric Print Daily Wear Georgette Sare...",
+      "price": 676,
+      "category": "Fashion",
+      "sub_category": "Fashion",
+      "rating": 4.0,
+      "review_count": 42,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/g/q/v/free-p2-1825-1-1744-5-anand-sarees-unstitched-original-imahhqqtcdkaztqe.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/moda-rapido-floral-print-geometric-print-daily-wear-georgette-saree/p/itm9eb5ef3dc577e?pid=SARHNSF3GGNFSWPN&lid=LSTSARHNSF3GGNFSWPNIMSR5K&marketplace=FLIPKART&store=clo&srno=b_1_17&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.SARHNSF3GGNFSWPN.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:20:38.292621Z",
+      "analysis": {
+        "pros": [
+          "Beautiful print (0 mentions)",
+          "Georgette fabric (0 mentions)",
+          "Affordable price (0 mentions)"
+        ],
+        "cons": [
+          "No reviews available (0 mentions)",
+          "Unknown quality (0 mentions)",
+          "No information about durability (0 mentions)"
+        ],
+        "top_quote": "No reviews available",
+        "sentiment_score": 50,
+        "recommendation": "Wait",
+        "quality_score": 50
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": [
+        {
+          "better_at": [
+            "price",
+            "specific fabric type"
+          ],
+          "weaker_at": [
+            "design",
+            "quality"
+          ],
+          "verdict": "Product A wins due to its lower price and specific georgette fabric type, despite uncertainty around quality.",
+          "compared_to": {
+            "name": "Embroidered, Woven Banarasi Satin Saree",
+            "price": 878
+          }
+        }
+      ]
+    },
+    {
+      "name": "BBN ENTERPRISES Coolhicool Nylon, Cotton Arm Warmer",
+      "price": 132,
+      "category": "Fashion",
+      "sub_category": "Fashion",
+      "rating": 4.2,
+      "review_count": 43,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/arm-warmer/t/2/p/medium-1-coolhicool-bbn-enterprises-original-imahncfvvkyxbrh5.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/bbn-enterprises-coolhicool-nylon-cotton-arm-warmer/p/itm1c408c10c2b07?pid=ARMHNCGUGGNYRTAC&lid=LSTARMHNCGUGGNYRTACBQMASR&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.ARMHNCGUGGNYRTAC.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:18:14.697797Z",
+      "analysis": {
+        "pros": [
+          "Comfortable material (0 mentions)",
+          "Good for outdoor activities (0 mentions)",
+          "Affordable price (0 mentions)"
+        ],
+        "cons": [
+          "No customer reviews available (0 mentions)",
+          "Unknown quality (0 mentions)",
+          "Lack of product information (0 mentions)"
+        ],
+        "top_quote": "No reviews available",
+        "sentiment_score": 50,
+        "recommendation": "Wait",
+        "quality_score": 40
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Embroidered, Woven Banarasi Satin Saree",
+      "price": 878,
+      "category": "Fashion",
+      "sub_category": "Fashion",
+      "rating": 3.4,
+      "review_count": 50,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/y/r/m/free-banarasi-silk-saree-emb-sf-saree-creation-unstitched-original-imahnjqw48hqvfks.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sf-saree-creation-embroidered-woven-banarasi-satin/p/itm64fae7152f21f?pid=SARHNJQW9RAEZ4NN&lid=LSTSARHNJQW9RAEZ4NNUMJJMM&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.SARHNJQW9RAEZ4NN.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:18:30.484430Z",
+      "analysis": {
+        "pros": [
+          "Beautiful design (0 mentions)",
+          "Good quality fabric (0 mentions)",
+          "Affordable price (0 mentions)"
+        ],
+        "cons": [
+          "No reviews available (0 mentions)",
+          "Unclear product information (0 mentions)",
           "Lack of customer feedback (0 mentions)"
+        ],
+        "top_quote": "No reviews available for this product",
+        "sentiment_score": 50,
+        "recommendation": "Wait",
+        "quality_score": 40
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": [
+        {
+          "better_at": [
+            "having good quality fabric",
+            "having a beautiful design"
+          ],
+          "weaker_at": [
+            "having reviews available",
+            "having clear product information"
+          ],
+          "verdict": "Product A wins because it offers good quality fabric and a beautiful design, despite lacking reviews and clear product information, making it a better choice than Product B.",
+          "compared_to": {
+            "name": "Floral Print, Geometric Print Daily Wear Georgette Sare...",
+            "price": 676
+          }
+        },
+        {
+          "better_at": [
+            "Offering a more affordable price",
+            "Providing a traditional and cultural clothing option"
+          ],
+          "weaker_at": [
+            "Lack of product reviews and information",
+            "Limited to a specific type of clothing"
+          ],
+          "verdict": "Product A wins due to its affordability and cultural significance, despite lacking reviews and detailed product information.",
+          "compared_to": {
+            "name": "Women Top & Pyjama Set Yellow Striped, Printed",
+            "price": 1095
+          }
+        }
+      ]
+    },
+    {
+      "name": "Printed Banarasi Cotton Silk Saree",
+      "price": 1299,
+      "category": "Fashion",
+      "sub_category": "Fashion",
+      "rating": null,
+      "review_count": 38,
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/v/u/4/free-kp-5062-mahendi-atynata-fab-unstitched-original-imahy9zrhsbhtymt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/k-trading-printed-banarasi-cotton-silk-saree/p/itm1c9c1f56a7324?pid=SARHNSFCVMGTR5AE&lid=LSTSARHNSFCVMGTR5AEHFJX7S&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=3c11305f-60ea-4d7f-ab4b-30bcd5b8dd35.SARHNSFCVMGTR5AE.SEARCH&ppt=None&ppn=None&ssid=vy36xk7a280000001779877076836&ov_redirect=true",
+      "scraped_at": "2026-05-27T10:18:58.260760Z",
+      "analysis": {
+        "pros": [
+          "Beautiful design (0 mentions)",
+          "Good quality fabric (0 mentions)",
+          "Affordable price (0 mentions)"
+        ],
+        "cons": [
+          "No reviews available (0 mentions)",
+          "Unknown quality (0 mentions)",
+          "No information about durability (0 mentions)"
         ],
         "top_quote": "No reviews available for this product",
         "sentiment_score": 50,
@@ -1391,39 +661,39 @@
       "vfm_score": 0,
       "price_prediction": {
         "likely": true,
-        "confidence": "high",
+        "confidence": "medium",
         "estimated_drop_pct": "10-20%",
         "timeframe": "2-3 weeks"
       },
       "comparisons": [
         {
           "better_at": [
-            "Product A offers a pack of 2 nighty sets which could be more value for money",
-            "Product A is slightly cheaper than Product B"
+            "having a beautiful design",
+            "offering good quality fabric"
           ],
           "weaker_at": [
-            "Product B has a more stylish design which could appeal to some customers",
-            "Product B is a different type of clothing which may be more desirable to some"
+            "having no reviews available",
+            "having unknown quality"
           ],
-          "verdict": "Product A wins because it offers better value for money with a pack of 2 nighty sets at a slightly lower price.",
+          "verdict": "Product A wins because it has a beautiful design and good quality fabric, despite lacking reviews and having unknown quality, since Product B has no known advantages.",
           "compared_to": {
-            "name": "Printed Women Multicolor Regular Shorts",
-            "price": 469
+            "name": "Embroidered Bollywood Chiffon Saree",
+            "price": 1299
           }
         },
         {
           "better_at": [
-            "Offering good quality fabric",
-            "Being affordable with a lower price of Rs.464"
+            "being more affordable with a price of Rs.1299",
+            "having a unique Banarasi Cotton Silk fabric"
           ],
           "weaker_at": [
-            "Having no reviews available",
-            "Having unknown product quality"
+            "having no reviews available to verify quality",
+            "lacking the distinctive embroidery of Product B"
           ],
-          "verdict": "Product A wins due to its good quality fabric and affordable price, despite lacking reviews and having unknown product quality.",
+          "verdict": "Product A wins due to its lower price and unique fabric, despite both products having unknown quality and no reviews.",
           "compared_to": {
-            "name": "Women Cotton Blend, Cotton Rayon Kurti Pant Set",
-            "price": 486
+            "name": "Embroidered Bollywood Satin, Tissue Saree",
+            "price": 1349
           }
         }
       ]

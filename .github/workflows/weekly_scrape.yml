@@ -16,7 +16,7 @@ on:
 
 jobs:
   pipeline:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -44,9 +44,19 @@ jobs:
             echo "mode=weekly" >> $GITHUB_OUTPUT
           fi
 
+      - name: Start Tor proxy
+        run: |
+          sudo apt-get install -y tor
+          sudo service tor start
+          sleep 20
+          curl -s --socks5 127.0.0.1:9050 --max-time 15 https://check.torproject.org/api/ip \
+            | python3 -c "import sys,json; d=json.load(sys.stdin); print('Tor IP:', d.get('IP'), '| IsTor:', d.get('IsTor'))" \
+            || echo "Tor check timed out (non-fatal, continuing)"
+
       - name: Run pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          USE_TOR: "1"
         run: python phase5_automation/scheduler.py --mode ${{ steps.mode.outputs.mode }}
 
       - name: Copy data to frontend public/data

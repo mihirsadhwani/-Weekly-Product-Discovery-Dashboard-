@@ -5,6 +5,7 @@ Output: ../output/fresh_finds.json
 """
 
 import json
+import os
 import sys
 import random
 import time
@@ -115,9 +116,31 @@ def scrape_light():
     """Scrape listings, fetch reviews, run quick AI analysis, save fresh_finds.json."""
     products = []
 
+    use_tor = os.environ.get('USE_TOR') == '1'
+    proxy = {"server": "socks5://127.0.0.1:9050"} if use_tor else None
+    if use_tor:
+        print("Using Tor proxy (socks5://127.0.0.1:9050)")
+
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(user_agent=random.choice(USER_AGENTS))
+        browser = p.chromium.launch(
+            headless=True,
+            proxy=proxy,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+            ],
+        )
+        context = browser.new_context(
+            user_agent=random.choice(USER_AGENTS),
+            locale="en-IN",
+            timezone_id="Asia/Kolkata",
+            viewport={"width": 1280, "height": 900},
+            extra_http_headers={
+                "Accept-Language": "en-IN,en;q=0.9",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            },
+        )
         page = context.new_page()
 
         # Phase A: scrape listing pages

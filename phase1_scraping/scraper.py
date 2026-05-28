@@ -10,6 +10,7 @@ Flow:
 
 import asyncio
 import logging
+import os
 import re
 from datetime import datetime
 from typing import Optional
@@ -333,8 +334,14 @@ async def run_scraper() -> list[dict]:
     seen_urls: set[str] = set()
 
     async with async_playwright() as pw:
+        use_tor = os.environ.get('USE_TOR') == '1'
+        proxy = {"server": "socks5://127.0.0.1:9050"} if use_tor else None
+        if use_tor:
+            logger.info("Using Tor proxy (socks5://127.0.0.1:9050)")
+
         browser: Browser = await pw.chromium.launch(
             headless=HEADLESS,
+            proxy=proxy,
             args=[
                 "--disable-blink-features=AutomationControlled",
                 "--no-sandbox",

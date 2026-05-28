@@ -52,7 +52,20 @@ jobs:
       - name: Copy data to frontend public/data
         run: |
           mkdir -p phase4_frontend/public/data
-          cp output/*.json phase4_frontend/public/data/
+          # Only copy fresh_finds.json if it has actual products (Flipkart blocks datacenter IPs → empty output)
+          if python -c "import json,sys; d=json.load(open('output/fresh_finds.json')); sys.exit(0 if d.get('total_products',0)>0 else 1)" 2>/dev/null; then
+            cp output/fresh_finds.json phase4_frontend/public/data/fresh_finds.json
+            echo "Copied fresh_finds.json"
+          else
+            echo "Skipping fresh_finds.json — 0 products (datacenter IP likely blocked by Flipkart)"
+          fi
+          # Always copy products.json and trends.json if they exist and are non-empty
+          for f in products.json trends.json; do
+            if [ -f "output/$f" ] && python -c "import json,sys; d=json.load(open('output/$f')); sys.exit(0 if len(d)>0 else 1)" 2>/dev/null; then
+              cp "output/$f" "phase4_frontend/public/data/$f"
+              echo "Copied $f"
+            fi
+          done
 
       - name: Commit and push updated data
         env:

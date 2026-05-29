@@ -24,6 +24,7 @@ from config import (
     MAX_RETRIES,
     MAX_REVIEWS_PER_PRODUCT,
     MIN_REVIEWS_PER_PRODUCT,
+    MAX_LISTING_PAGES,
     PAGE_TIMEOUT,
     get_random_delay,
     get_random_user_agent,
@@ -371,7 +372,21 @@ async def run_scraper() -> list[dict]:
             category = {"name": cat_name, "sub_category": cat_name, "url": cat_url}
 
             try:
-                stubs = await scrape_listing_page(page, category)
+                # Paginate listing pages until we have 2× target stubs as buffer
+                stubs: list[dict] = []
+                needed = target * 2
+                for listing_page_num in range(1, MAX_LISTING_PAGES + 1):
+                    if len(stubs) >= needed:
+                        break
+                    paged_url = cat_url if listing_page_num == 1 else f"{cat_url}&page={listing_page_num}"
+                    page_stubs = await scrape_listing_page(page, {**category, "url": paged_url})
+                    new_stubs = [s for s in page_stubs if s["flipkart_url"] not in seen_urls]
+                    stubs.extend(new_stubs)
+                    logger.info(f"  Listing page {listing_page_num}: +{len(page_stubs)} cards → {len(stubs)} stubs total")
+                    if len(page_stubs) < 5:
+                        break
+                    if len(stubs) < needed:
+                        await asyncio.sleep(get_random_delay())
 
                 for stub in stubs:
                     if collected_this_category >= target:

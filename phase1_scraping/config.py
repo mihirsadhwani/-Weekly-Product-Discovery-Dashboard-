@@ -25,6 +25,7 @@ MAX_REVIEWS_PER_PRODUCT = 50 # Max reviews to scrape per product
 MIN_REVIEWS_PER_PRODUCT = 10 # Min reviews to collect before moving on
 MAX_DAYS_OLD = 14            # Only include products launched within this many days
 TARGET_PRODUCTS = 60         # Try to get 60 products total
+MAX_LISTING_PAGES = 4        # Max listing pages to paginate per category to collect enough stubs
 
 # ---------------------------------------------------------------------------
 # Primary category URLs (your verified Flipkart recency-sorted URLs)

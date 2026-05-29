@@ -8,7 +8,12 @@ async function DashboardContent() {
   const newToday    = getNewTodayData()
   const trends      = getTrendsData()
   const freshFinds  = getFreshFindsData()
-  return <ProductDashboard data={data} newToday={newToday} trends={trends} freshFinds={freshFinds} />
+
+  // Use the most recent date between weekly products.json and daily fresh_finds.json
+  const candidates = [data.last_updated, freshFinds?.date ?? null].filter(Boolean) as string[]
+  const latestUpdate = candidates.sort().pop() ?? null
+
+  return <ProductDashboard data={{ ...data, last_updated: latestUpdate }} newToday={newToday} trends={trends} freshFinds={freshFinds} />
 }
 
 export default function Home() {

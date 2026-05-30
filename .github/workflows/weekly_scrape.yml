@@ -61,6 +61,45 @@ jobs:
           USE_TOR: "1"
         run: python phase5_automation/scheduler.py --mode ${{ steps.mode.outputs.mode }}
 
+      - name: Merge fresh_finds with today's existing data
+        run: |
+          python3 -c "
+import json, sys
+from datetime import datetime
+
+today = datetime.utcnow().strftime('%Y-%m-%d')
+new_path = 'output/fresh_finds.json'
+existing_path = 'phase4_frontend/public/data/fresh_finds.json'
+
+try:
+    new_data = json.load(open(new_path))
+except Exception:
+    sys.exit(0)
+
+if new_data.get('total_products', 0) == 0:
+    print('0 new products — nothing to merge')
+    sys.exit(0)
+
+try:
+    existing = json.load(open(existing_path))
+    if existing.get('date') == today and existing.get('total_products', 0) > 0:
+        seen = {p['flipkart_url'] for p in new_data['products']}
+        added = 0
+        for p in existing['products']:
+            if p['flipkart_url'] not in seen:
+                new_data['products'].append(p)
+                seen.add(p['flipkart_url'])
+                added += 1
+        new_data['total_products'] = len(new_data['products'])
+        print(f'Merged: {added} existing products added → {new_data[\"total_products\"]} total')
+    else:
+        print(f'Existing data is from a different day — using new data only ({new_data[\"total_products\"]} products)')
+except Exception:
+    print(f'No existing data to merge — using new data only ({new_data[\"total_products\"]} products)')
+
+json.dump(new_data, open(new_path, 'w'), indent=2, ensure_ascii=False)
+"
+
       - name: Copy data to frontend public/data
         run: |
           mkdir -p phase4_frontend/public/data

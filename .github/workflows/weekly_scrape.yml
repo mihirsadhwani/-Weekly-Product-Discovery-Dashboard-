@@ -2,9 +2,7 @@ name: Product Pipeline
 
 on:
   schedule:
-    - cron: '30 3 * * *'    # Daily attempt 1 — 9:00 AM IST (3:30 UTC)
-    - cron: '30 7 * * *'    # Daily attempt 2 — 1:00 PM IST (7:30 UTC)  retry if Tor failed
-    - cron: '30 11 * * *'   # Daily attempt 3 — 5:00 PM IST (11:30 UTC) retry if Tor failed
+    - cron: '30 3 * * *'    # Daily — 9:00 AM IST (3:30 UTC)
     - cron: '30 17 * * 6'   # Weekly — Saturday 11:00 PM IST (17:30 UTC)
   workflow_dispatch:
     inputs:
@@ -46,36 +44,20 @@ jobs:
             echo "mode=daily" >> $GITHUB_OUTPUT
           fi
 
-      - name: Start Tor proxy
-        run: |
-          sudo apt-get install -y tor
-          sudo service tor start
-          sleep 20
-          curl -s --socks5 127.0.0.1:9050 --max-time 15 https://check.torproject.org/api/ip \
-            | python3 -c "import sys,json; d=json.load(sys.stdin); print('Tor IP:', d.get('IP'), '| IsTor:', d.get('IsTor'))" \
-            || echo "Tor check timed out (non-fatal, continuing)"
-
       - name: Run pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
-          USE_TOR: "0"
         run: python phase5_automation/scheduler.py --mode ${{ steps.mode.outputs.mode }}
-
-      - name: Merge fresh_finds with today's existing data
-        run: python3 phase5_automation/merge_fresh_finds.py
 
       - name: Copy data to frontend public/data
         run: |
           mkdir -p phase4_frontend/public/data
-          # Only copy fresh_finds.json if it has actual products (Flipkart blocks datacenter IPs → empty output)
           if python -c "import json,sys; d=json.load(open('output/fresh_finds.json')); sys.exit(0 if d.get('total_products',0)>0 else 1)" 2>/dev/null; then
             cp output/fresh_finds.json phase4_frontend/public/data/fresh_finds.json
             echo "Copied fresh_finds.json"
           else
-            echo "Skipping fresh_finds.json — 0 products (datacenter IP likely blocked by Flipkart)"
+            echo "Skipping fresh_finds.json — 0 products scraped"
           fi
-          # Always copy products.json and trends.json if they exist and are non-empty
           for f in products.json trends.json; do
             if [ -f "output/$f" ] && python -c "import json,sys; d=json.load(open('output/$f')); sys.exit(0 if len(d)>0 else 1)" 2>/dev/null; then
               cp "output/$f" "phase4_frontend/public/data/$f"

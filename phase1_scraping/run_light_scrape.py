@@ -116,18 +116,7 @@ def scrape_light():
     """Scrape listings, fetch reviews, run quick AI analysis, save fresh_finds.json."""
     products = []
 
-    use_tor = os.environ.get('USE_TOR') == '1'
-    scraper_api_key = os.environ.get('SCRAPERAPI_KEY', '')
-    use_scraper_api = os.environ.get('USE_SCRAPER_API') == '1' and scraper_api_key
-
-    if use_scraper_api:
-        proxy = {"server": "http://proxy-server.scraperapi.com:8001", "username": "scraperapi", "password": scraper_api_key}
-        print("Using ScraperAPI proxy (Tor fallback)")
-    elif use_tor:
-        proxy = {"server": "socks5://127.0.0.1:9050"}
-        print("Using Tor proxy (socks5://127.0.0.1:9050)")
-    else:
-        proxy = None
+    proxy = None
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -268,9 +257,4 @@ def scrape_light():
 
 
 if __name__ == '__main__':
-    products = scrape_light()
-    if not products and os.environ.get('SCRAPERAPI_KEY'):
-        print("\nTor got 0 products — retrying with ScraperAPI fallback")
-        os.environ['USE_TOR'] = '0'
-        os.environ['USE_SCRAPER_API'] = '1'
-        scrape_light()
+    scrape_light()

@@ -152,11 +152,12 @@ def recalibrate_zero_scores(products):
 def prepare_final_output():
     """Read Phase 2 output and create final products.json for frontend."""
 
-    phase2_output = "phase2_analysis/output/"
+    project_root = Path(__file__).parent.parent
+    phase2_output = project_root / "phase2_analysis" / "output"
     files = [f for f in os.listdir(phase2_output) if f.startswith("analyzed_")]
     latest_file = sorted(files)[-1]
 
-    with open(f"{phase2_output}{latest_file}", 'r', encoding='utf-8') as f:
+    with open(phase2_output / latest_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     products = data.get('products', [])
@@ -205,11 +206,12 @@ def prepare_final_output():
         "products":       top_products,
     }
 
-    os.makedirs("output", exist_ok=True)
-    with open("output/products.json", 'w', encoding='utf-8') as f:
+    output_dir = project_root / "output"
+    output_dir.mkdir(exist_ok=True)
+    with open(output_dir / "products.json", 'w', encoding='utf-8') as f:
         json.dump(final_output, f, indent=2, ensure_ascii=False)
 
-    print(f"Saved: output/products.json ({len(top_products)} products)")
+    print(f"Saved: {output_dir / 'products.json'} ({len(top_products)} products)")
 
 
 if __name__ == "__main__":

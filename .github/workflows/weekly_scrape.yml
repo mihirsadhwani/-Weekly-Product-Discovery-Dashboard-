@@ -2,7 +2,9 @@ name: Product Pipeline
 
 on:
   schedule:
-    - cron: '30 3 * * *'    # Daily  — 9:00 AM IST (3:30 UTC)
+    - cron: '30 3 * * *'    # Daily attempt 1 — 9:00 AM IST (3:30 UTC)
+    - cron: '30 7 * * *'    # Daily attempt 2 — 1:00 PM IST (7:30 UTC)  retry if Tor failed
+    - cron: '30 11 * * *'   # Daily attempt 3 — 5:00 PM IST (11:30 UTC) retry if Tor failed
     - cron: '30 17 * * 6'   # Weekly — Saturday 11:00 PM IST (17:30 UTC)
   workflow_dispatch:
     inputs:
@@ -38,10 +40,10 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> $GITHUB_OUTPUT
-          elif [ "${{ github.event.schedule }}" == "30 3 * * *" ]; then
-            echo "mode=daily" >> $GITHUB_OUTPUT
-          else
+          elif [ "${{ github.event.schedule }}" == "30 17 * * 6" ]; then
             echo "mode=weekly" >> $GITHUB_OUTPUT
+          else
+            echo "mode=daily" >> $GITHUB_OUTPUT
           fi
 
       - name: Start Tor proxy

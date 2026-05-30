@@ -13,7 +13,7 @@ HEADLESS = True          # Set to False to watch the browser work
 DELAY_MIN = 2.0          # Minimum seconds to wait between page loads
 DELAY_MAX = 5.0          # Maximum seconds to wait between page loads
 MAX_RETRIES = 3          # How many times to retry a failed page load
-PAGE_TIMEOUT = 30_000    # Milliseconds before a page load is considered failed
+PAGE_TIMEOUT = 60_000    # Milliseconds before a page load is considered failed
 
 # ---------------------------------------------------------------------------
 # Product filters
@@ -22,7 +22,7 @@ PAGE_TIMEOUT = 30_000    # Milliseconds before a page load is considered failed
 MIN_REVIEWS = 10             # Skip products with fewer reviews than this
 MAX_PRODUCTS_PER_RUN = 60    # Hard cap on total products collected per run (sum of TARGET_COUNTS)
 MAX_REVIEWS_PER_PRODUCT = 50 # Max reviews to scrape per product
-MIN_REVIEWS_PER_PRODUCT = 10 # Min reviews to collect before moving on
+MIN_REVIEWS_PER_PRODUCT = 3  # Min reviews to collect before moving on
 MAX_DAYS_OLD = 14            # Only include products launched within this many days
 TARGET_PRODUCTS = 60         # Try to get 60 products total
 MAX_LISTING_PAGES = 4        # Max listing pages to paginate per category to collect enough stubs

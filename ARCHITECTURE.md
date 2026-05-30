@@ -1,124 +1,124 @@
-# Weekly Product Discovery Dashboard — Master Architecture
+# Weekly Product Discovery Dashboard — Architecture
 
 ## What This Project Does
 
-An automated pipeline that scrapes Flipkart's newly launched products every week, analyzes customer reviews with Google Gemini AI, and displays the results in a clean, filterable web dashboard — no database required.
+An automated pipeline that scrapes Flipkart's newly launched products, analyzes customer reviews with AI, and displays results in a clean, filterable web dashboard. Runs two pipelines: a **daily light scrape** (quick Groq AI) and a **weekly full scrape** (deep Gemini AI analysis).
 
 ---
 
-## End-to-End System Flow
+## Dual Pipeline Overview
 
 ```
-[Every Saturday 11pm IST]
+DAILY (3× per day — 9 AM, 1 PM, 5 PM IST)
+──────────────────────────────────────────
+[GitHub Actions + Tor proxy]
+         │
+         ▼
+┌─────────────────────────┐
+│  run_light_scrape.py    │  Playwright scrapes listing pages
+│  (phase1_scraping/)     │  + visits product pages for reviews
+│                         │  + quick Groq AI analysis per product
+└────────────┬────────────┘
+             │  output/fresh_finds.json
+             ▼
+    Merge with today's existing
+    fresh_finds (accumulate unique
+    products across 3 daily runs)
+             │
+             ▼
+    phase4_frontend/public/data/
+    fresh_finds.json  →  Vercel redeploys  →  "Fresh Finds" section
+
+
+WEEKLY (Saturday 11 PM IST)
+────────────────────────────
+[GitHub Actions + Tor proxy]
          │
          ▼
 ┌─────────────────────┐
-│  Phase 1: Scraper   │  Playwright visits Flipkart
-│  (Python)           │  Collects 50–60 new products
-│                     │  + 20–50 reviews per product
+│  Phase 1: Scraper   │  Playwright paginates listing pages (up to 4 pages/category)
+│  scraper.py         │  Targets 60 products total with full reviews
 └────────┬────────────┘
          │  scraped_YYYY-MM-DD.json
          ▼
 ┌─────────────────────┐
-│  Phase 2: Analyzer  │  Sends reviews to Gemini API
-│  (Python)           │  Gets: pros, cons, score,
-│                     │  recommendation, quote
+│  Phase 2: Analyzer  │  Sends reviews to Google Gemini API
+│  analyzer.py        │  Gets: pros, cons, score, recommendation, quote
 └────────┬────────────┘
          │  analyzed_YYYY-MM-DD.json
          ▼
 ┌─────────────────────┐
-│  Phase 3: Final     │  Sorts by quality score
-│  Output (Python)    │  Keeps top 30 products
-│                     │  Writes products.json
+│  Phase 3: Output    │  Sorts by quality score, writes products.json
+│  prepare_final.py   │
 └────────┬────────────┘
          │  output/products.json
          ▼
-┌─────────────────────┐
-│  Phase 4: Frontend  │  Next.js reads products.json
-│  (Next.js + Tailwind│  Product grid, filters,
-│   + Vercel)         │  detail pages
-└────────┬────────────┘
-         │
-         ▼
-┌─────────────────────┐
-│  Phase 5: Automation│  GitHub Actions cron job
-│  (GitHub Actions)   │  Triggers Phase 1→2→3
-│                     │  every Saturday 11pm IST
-└─────────────────────┘
+    phase4_frontend/public/data/
+    products.json  →  Vercel redeploys  →  "This Week's Best" section
 ```
 
 ---
 
 ## Phase Details
 
----
-
 ### Phase 1 — Scraping
 **Folder:** `phase1_scraping/`
-**Goal:** Collect raw product + review data from Flipkart and save it as JSON.
 
-**What it builds:**
 | File | Purpose |
 |------|---------|
-| `README.md` | Plain-English explanation of this phase |
-| `config.py` | Category URLs (`CATEGORY_URLS`), target counts (`TARGET_COUNTS`), delay settings, user-agent pool |
-| `scraper.py` | Core Playwright scraper: listing pages → product pages → reviews |
-| `run_scraper.py` | Entry point: `python run_scraper.py` |
-| `requirements.txt` | `playwright` |
-| `output/scraped_YYYY-MM-DD.json` | Generated output — one file per run |
+| `config.py` | `CATEGORY_URLS`, `TARGET_COUNTS`, delays, `MAX_LISTING_PAGES=4`, user-agent pool |
+| `scraper.py` | Weekly async Playwright scraper — paginates up to 4 listing pages per category to collect 2× target stubs, then visits product pages for full reviews |
+| `run_scraper.py` | Entry point for weekly full scrape |
+| `run_light_scrape.py` | Daily light scraper — sync Playwright, quick review fetch, inline Groq AI analysis, saves `fresh_finds.json` |
 
-**Category targets (60 products total per run):**
-| Category | URL | Target |
-|----------|-----|--------|
-| Electronics | flipkart.com/mobiles-accessories | 25 |
-| Fashion | flipkart.com/clothing | 15 |
-| Home_Kitchen | flipkart.com/home-kitchen | 10 |
-| Beauty | flipkart.com/beauty-grooming | 10 |
+**Category targets (weekly, 60 products total):**
+| Category | Target |
+|----------|--------|
+| Electronics | 25 |
+| Fashion | 15 |
+| Home_Kitchen | 10 |
+| Beauty | 10 |
 
-**Business logic:**
-- Visit Flipkart recency-sorted pages for each category
-- Filter: skip products with fewer than 20 reviews
-- Stop each category once its `TARGET_COUNTS` is reached
-- Collect 20–50 review texts per qualifying product
-- Responsible scraping: 2–5s random delays, rotated user-agents, 3 retries on failure
+**Key behaviours:**
+- Listing page pagination: scraper collects stubs across up to 4 pages per category until 2× target stubs are gathered — prevents stopping short of the target
+- `MIN_REVIEWS_PER_PRODUCT = 10` — products with fewer reviews are skipped
+- `MAX_REVIEWS_PER_PRODUCT = 50` — cap per product
+- Tor proxy: `USE_TOR=1` env var routes Playwright through `socks5://127.0.0.1:9050` in CI to bypass Flipkart's datacenter IP block
+- Random delays (2–5s), rotated user-agents, 3 retries per page
 
 ---
 
 ### Phase 2 — AI Analysis
 **Folder:** `phase2_analysis/`
-**Goal:** Send each product's reviews to Google Gemini API (free tier) and extract structured insights.
 
-**What it builds:**
 | File | Purpose |
 |------|---------|
-| `README.md` | Plain-English explanation of this phase |
-| `analyzer.py` | Calls Gemini API (`gemini-1.5-flash`), parses JSON response |
-| `prompts.py` | Prompt templates (reference — prompt is inline in analyzer.py) |
-| `run_analysis.py` | Entry point: reads Phase 1 JSON, writes enriched JSON |
-| `requirements.txt` | `google-generativeai` |
-| `.env.example` | `GEMINI_API_KEY=your_key_here` |
-| `output/analyzed_YYYY-MM-DD.json` | Generated output |
+| `analyzer.py` | Weekly deep analysis — calls Gemini `gemini-1.5-flash`, returns pros/cons/score/recommendation |
+| `quick_analyzer.py` | Daily quick analysis — calls Groq API (`llama3-8b-8192`), returns `quick_score`, `top_pros`, `top_con`, `quick_verdict` |
+| `run_analysis.py` | Entry point for weekly analysis phase |
 
-**Business logic:**
-- For each product, send up to 50 reviews to `gemini-1.5-flash`
-- Gemini returns: top 3 pros (with mention counts), top 3 cons, best quote, sentiment score (0–100), recommendation (Buy/Wait/Skip)
-- Recommendation rules: Buy if ≥70% positive, Skip if <50%, Wait otherwise
-- Compute `quality_score` = blend of sentiment + star rating + review volume
-- Save enriched JSON (all Phase 1 fields + `analysis` block per product)
-
-**Cost:** Free tier — Gemini 1.5 Flash has a generous free quota (60 requests/min)
-
-**Output format (analysis block):**
+**Weekly analysis output per product:**
 ```json
 {
-  "...all Phase 1 fields...",
   "analysis": {
-    "pros": ["Great battery (18 mentions)", "Fast charging (12 mentions)", "Sharp display (9 mentions)"],
-    "cons": ["Weak camera in low light (11 mentions)", "Bloatware (8 mentions)", "No headphone jack (6 mentions)"],
-    "top_quote": "Honestly the best phone under 15k. Battery easily lasts 2 days.",
+    "pros": ["Great battery (18 mentions)", "Fast charging (12 mentions)"],
+    "cons": ["Weak camera in low light (11 mentions)"],
+    "top_quote": "Honestly the best phone under 15k.",
     "sentiment_score": 78,
     "recommendation": "Buy",
     "quality_score": 84.5
+  }
+}
+```
+
+**Daily quick analysis output per product:**
+```json
+{
+  "quick_analysis": {
+    "quick_score": 80,
+    "top_pros": ["Good build quality", "Fast delivery"],
+    "top_con": "Battery could be better",
+    "quick_verdict": "Worth checking"
   }
 }
 ```
@@ -127,179 +127,136 @@ An automated pipeline that scrapes Flipkart's newly launched products every week
 
 ### Phase 3 — Final Output
 **Folder:** `phase3_final_output/`
-**Goal:** Sort Phase 2's results by quality score, keep the top 30 products, and write a single `products.json` that the frontend reads directly. No database needed.
 
-**What it builds:**
-| File | Purpose |
-|------|---------|
-| `README.md` | Plain-English explanation of this phase |
-| `prepare_final.py` | Reads latest analyzed JSON, sorts, trims to top 30, saves `products.json` |
-| `run_prepare.py` | Entry point: `python run_prepare.py` |
-
-**Output:** `output/products.json` — a single flat file consumed directly by Next.js
-
-**Why no database?**
-- Zero setup — no Supabase account or SQL schema needed
-- The JSON file can be committed to the repo or served as a static asset
-- Next.js reads it at build time for instant, zero-latency page loads
-- Re-deploying Vercel after each weekly run picks up the fresh data automatically
+Reads the latest weekly analyzed JSON, sorts by `quality_score`, and writes `output/products.json` for the frontend. No database — static JSON file read at build/request time by Next.js.
 
 ---
 
 ### Phase 4 — Frontend
 **Folder:** `phase4_frontend/`
-**Goal:** Build the user-facing Next.js website that reads `output/products.json` and shows the weekly product digest.
+**Deployed at:** Vercel (auto-deploys on every push to `main`)
 
-**What it builds:**
+**Key files:**
 ```
-phase4_frontend/
-├── README.md
-├── package.json
-├── tailwind.config.js
-├── next.config.js
-└── src/
-    ├── app/
-    │   ├── page.tsx                  ← Homepage (product grid)
-    │   └── product/[id]/page.tsx     ← Product detail page
-    ├── components/
-    │   ├── ProductCard.tsx           ← Card: image, name, price, badge
-    │   ├── CategoryTabs.tsx          ← Electronics / Fashion / Home_Kitchen / Beauty
-    │   ├── SortBar.tsx               ← Top Rated / Most Reviews / Price
-    │   ├── PriceSlider.tsx           ← Min–Max price range filter
-    │   ├── FreshnessBanner.tsx       ← "Last updated: 2 hours ago"
-    │   ├── ProConList.tsx            ← Visual pros/cons with icons
-    │   └── RecommendationBadge.tsx   ← Buy (green) / Wait (yellow) / Skip (red)
-    └── lib/
-        └── products.ts               ← Reads and parses products.json
+src/
+├── app/
+│   ├── page.tsx                  ← Homepage: picks most recent lastUpdated
+│   │                               from products.json vs fresh_finds.json
+│   └── product/[id]/page.tsx     ← Product detail page
+├── components/
+│   ├── ProductCard.tsx           ← Full weekly analysis card
+│   ├── FreshFindCard.tsx         ← Daily quick-analysis card
+│   ├── SimpleProductCard.tsx     ← Fallback card (no analysis)
+│   ├── FreshnessBanner.tsx       ← "Updated X hours ago"
+│   ├── Header.tsx
+│   ├── TrendsSection.tsx
+│   ├── CategoryTabs.tsx
+│   └── FilterBar.tsx
+└── lib/
+    ├── products.ts               ← Reads products.json + fresh_finds.json
+    └── utils.ts                  ← getRelativeTime(), formatPrice(), etc.
 ```
 
-**Pages:**
-- **Homepage `/`** — product grid, category tabs, sort bar, price slider, freshness banner
-- **Detail `/product/[id]`** — full analysis, pros/cons, top quote, recommendation badge, Flipkart link
+**Dashboard sections:**
+| Section | Data source | Card type |
+|---------|------------|-----------|
+| ⚡ Fresh Finds | `fresh_finds.json` (daily) | `FreshFindCard` — quick_score, top_pros |
+| 💰 Best Value for Money | `products.json` (weekly) | `ProductCard` — computed VFM score |
+| This Week's Best | `products.json` (weekly) | `ProductCard` — full analysis |
 
-**Design principles:**
-- Mobile-first, responsive grid (1 col → 2 col → 3–4 col)
-- Product Hunt–inspired card layout
-- Tailwind CSS only — no extra component library
+**"Last updated" banner** reads the most recent date between `products.json.last_updated` and `fresh_finds.json.date` so it always reflects the latest data source.
 
 ---
 
-### Phase 5 — Automation & Deployment
-**Folder:** `phase5_deploy/`
-**Goal:** Wire all phases into a fully automated weekly pipeline deployed to the internet.
+### Phase 5 — Automation
+**Folder:** `phase5_automation/`
+**File:** `.github/workflows/weekly_scrape.yml`
 
-**What it builds:**
-| File | Purpose |
-|------|---------|
-| `README.md` | Plain-English explanation |
-| `scheduler.py` | Runs Phase 1 → 2 → 3 in sequence |
-| `.github/workflows/weekly_scrape.yml` | GitHub Actions cron (Saturday 11pm IST = Sunday 05:30 UTC) |
-| `vercel.json` | Vercel deployment config |
-| `DEPLOYMENT.md` | Step-by-step go-live guide |
+**Cron schedule:**
+| Trigger | Time (IST) | Mode |
+|---------|-----------|------|
+| Daily attempt 1 | 9:00 AM | daily |
+| Daily attempt 2 | 1:00 PM | daily (Tor retry) |
+| Daily attempt 3 | 5:00 PM | daily (Tor retry) |
+| Weekly | Saturday 11:00 PM | weekly |
 
-**Automation flow:**
-```
-GitHub Actions cron (Sat 11pm IST)
-        │
-        └─► python scheduler.py
-                 ├─► phase1: run_scraper.py    → scraped_YYYY-MM-DD.json
-                 ├─► phase2: run_analysis.py   → analyzed_YYYY-MM-DD.json
-                 └─► phase3: run_prepare.py    → output/products.json
+**Workflow steps:**
+1. Checkout repo
+2. Setup Python 3.11
+3. Install dependencies (`playwright`, `groq`, `google-genai`)
+4. Install Chromium + Tor (`sudo apt-get install tor`)
+5. Start Tor and verify circuit
+6. Run pipeline (`scheduler.py --mode daily|weekly`)
+7. **Merge step (daily only):** If new fresh_finds has today's date and > 0 products, merge with existing `phase4_frontend/public/data/fresh_finds.json` — adds unique products from earlier runs, accumulating throughout the day
+8. **Guard:** Only copy `fresh_finds.json` if `total_products > 0` — prevents overwriting good data with empty results when Tor fails
+9. Commit + push updated data files
+10. Vercel auto-deploys on push
 
-products.json committed → Vercel auto-redeploys → live site updated
-```
+**Tor reliability:** ~50% per attempt. With 3 daily attempts, probability of all failing = ~12.5%. Guard ensures the last successful scrape is never overwritten.
 
-**Environment variables needed:**
-```
-GEMINI_API_KEY=AIza...
-```
-That's it — no database credentials required.
+**Environment variables (GitHub Secrets):**
+| Variable | Used by |
+|----------|---------|
+| `GROQ_API_KEY` | Daily quick analyzer (Groq API) |
+| `GITHUB_TOKEN` | Auto-provided — for committing data back to repo |
 
 ---
 
-## Complete Folder Structure (Final State)
+## Current Folder Structure
 
 ```
 Weekly-Product-Discovery-Dashboard/
 ├── ARCHITECTURE.md
+├── setup_oracle_vm.sh           ← Ubuntu ARM VM setup script (unused — Oracle needs credit card)
 │
 ├── phase1_scraping/
-│   ├── README.md
-│   ├── config.py            ← CATEGORY_URLS + TARGET_COUNTS
-│   ├── scraper.py
-│   ├── run_scraper.py
-│   ├── requirements.txt
+│   ├── config.py                ← CATEGORY_URLS, TARGET_COUNTS, MAX_LISTING_PAGES=4
+│   ├── scraper.py               ← Weekly async scraper with listing page pagination
+│   ├── run_scraper.py           ← Weekly entry point
+│   ├── run_light_scrape.py      ← Daily light scraper + quick Groq analysis
 │   └── output/
 │       └── scraped_YYYY-MM-DD.json
 │
 ├── phase2_analysis/
-│   ├── README.md
-│   ├── analyzer.py          ← Gemini API (gemini-1.5-flash)
-│   ├── prompts.py
+│   ├── analyzer.py              ← Gemini deep analysis (weekly)
+│   ├── quick_analyzer.py        ← Groq quick analysis (daily)
 │   ├── run_analysis.py
-│   ├── requirements.txt     ← google-generativeai
-│   ├── .env.example         ← GEMINI_API_KEY
+│   ├── .env                     ← GROQ_API_KEY (gitignored)
 │   └── output/
 │       └── analyzed_YYYY-MM-DD.json
 │
 ├── phase3_final_output/
-│   ├── README.md
-│   ├── prepare_final.py     ← sorts top 30, writes products.json
+│   ├── prepare_final.py
 │   └── run_prepare.py
 │
 ├── output/
-│   └── products.json        ← consumed directly by Next.js frontend
+│   ├── products.json            ← Weekly: consumed by frontend
+│   └── fresh_finds.json         ← Daily: consumed by frontend
 │
 ├── phase4_frontend/
-│   ├── README.md
-│   ├── package.json
-│   ├── tailwind.config.js
-│   ├── next.config.js
+│   ├── public/data/
+│   │   ├── products.json        ← Copied here by GitHub Actions (weekly)
+│   │   └── fresh_finds.json     ← Copied here by GitHub Actions (daily, accumulated)
 │   └── src/
-│       ├── app/
-│       │   ├── page.tsx
-│       │   └── product/[id]/page.tsx
+│       ├── app/page.tsx         ← lastUpdated = max(products.json, fresh_finds.json)
 │       ├── components/
-│       │   ├── ProductCard.tsx
-│       │   ├── CategoryTabs.tsx
-│       │   ├── SortBar.tsx
-│       │   ├── PriceSlider.tsx
-│       │   ├── FreshnessBanner.tsx
-│       │   ├── ProConList.tsx
-│       │   └── RecommendationBadge.tsx
 │       └── lib/
-│           └── products.ts
 │
-└── phase5_deploy/
-    ├── README.md
-    ├── scheduler.py
-    ├── vercel.json
-    ├── DEPLOYMENT.md
-    └── .github/
-        └── workflows/
-            └── weekly_scrape.yml
+├── phase5_automation/
+│   └── scheduler.py             ← Runs daily or weekly pipeline
+│
+└── .github/workflows/
+    └── weekly_scrape.yml        ← 3× daily + 1× weekly cron, Tor proxy, merge + guard logic
 ```
-
----
-
-## Implementation Order
-
-| # | Phase | Depends On | Deliverable |
-|---|-------|-----------|-------------|
-| 1 | Scraping | Nothing | `scraped_YYYY-MM-DD.json` |
-| 2 | AI Analysis | Phase 1 JSON + `GEMINI_API_KEY` | `analyzed_YYYY-MM-DD.json` |
-| 3 | Final Output | Phase 2 JSON | `output/products.json` |
-| 4 | Frontend | `output/products.json` | Working website locally |
-| 5 | Automation | All phases + GitHub + Vercel | Fully deployed, self-updating site |
 
 ---
 
 ## Status
 
-| Phase | Name          | Status   |
-|-------|---------------|----------|
-| 1     | Scraping      | Complete |
-| 2     | AI Analysis   | Complete |
-| 3     | Final Output  | Complete |
-| 4     | Frontend      | Pending  |
-| 5     | Automation    | Pending  |
+| Phase | Name | Status |
+|-------|------|--------|
+| 1 | Scraping (weekly + daily) | ✅ Complete |
+| 2 | AI Analysis (Gemini + Groq) | ✅ Complete |
+| 3 | Final Output | ✅ Complete |
+| 4 | Frontend (Next.js + Vercel) | ✅ Live |
+| 5 | Automation (GitHub Actions) | ✅ Running |

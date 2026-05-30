@@ -59,7 +59,7 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           SCRAPERAPI_KEY: ${{ secrets.SCRAPERAPI_KEY }}
-          USE_TOR: "1"
+          USE_TOR: "0"
         run: python phase5_automation/scheduler.py --mode ${{ steps.mode.outputs.mode }}
 
       - name: Merge fresh_finds with today's existing data

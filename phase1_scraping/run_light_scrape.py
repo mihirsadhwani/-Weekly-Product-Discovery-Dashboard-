@@ -243,7 +243,7 @@ def scrape_light():
             print(f'  [{i}/{len(products)}] no reviews -> skipped | {product["name"][:35]}')
 
     output = {
-        'date': datetime.now().strftime('%Y-%m-%d'),
+        'date': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
         'total_products': len(products),
         'products': products,
     }

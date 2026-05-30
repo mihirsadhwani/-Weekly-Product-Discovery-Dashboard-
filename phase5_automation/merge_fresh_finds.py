@@ -25,7 +25,7 @@ if new_data.get('total_products', 0) == 0:
 
 try:
     existing = json.loads(existing_path.read_text(encoding='utf-8'))
-    if existing.get('date') == today and existing.get('total_products', 0) > 0:
+    if existing.get('date', '')[:10] == today and existing.get('total_products', 0) > 0:
         seen = {p['flipkart_url'] for p in new_data['products']}
         added = 0
         for p in existing['products']:

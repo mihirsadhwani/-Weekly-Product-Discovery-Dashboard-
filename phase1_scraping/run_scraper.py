@@ -30,14 +30,20 @@ def main():
     logger.info("=== Phase 1: Flipkart Scraper starting ===")
     start = datetime.now(timezone.utc)
 
-    # Run the async scraper
+    # Run the async scraper — try Tor first, fall back to ScraperAPI if 0 products
     products = asyncio.run(run_scraper())
+
+    if not products and os.environ.get('SCRAPERAPI_KEY'):
+        logger.warning("Tor got 0 products — retrying with ScraperAPI fallback")
+        os.environ['USE_TOR'] = '0'
+        os.environ['USE_SCRAPER_API'] = '1'
+        products = asyncio.run(run_scraper())
 
     end = datetime.now(timezone.utc)
     duration_mins = round((end - start).total_seconds() / 60, 1)
 
     if not products:
-        logger.error("No products were collected — Tor likely failed. Exiting with error so existing products.json is preserved.")
+        logger.error("No products collected (Tor failed, no ScraperAPI key set). Exiting to preserve existing products.json.")
         sys.exit(1)
 
     # Build output payload

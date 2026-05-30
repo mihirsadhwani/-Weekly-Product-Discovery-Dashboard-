@@ -336,9 +336,17 @@ async def run_scraper() -> list[dict]:
 
     async with async_playwright() as pw:
         use_tor = os.environ.get('USE_TOR') == '1'
-        proxy = {"server": "socks5://127.0.0.1:9050"} if use_tor else None
-        if use_tor:
+        scraper_api_key = os.environ.get('SCRAPERAPI_KEY', '')
+        use_scraper_api = os.environ.get('USE_SCRAPER_API') == '1' and scraper_api_key
+
+        if use_scraper_api:
+            proxy = {"server": "http://proxy-server.scraperapi.com:8001", "username": "scraperapi", "password": scraper_api_key}
+            logger.info("Using ScraperAPI proxy (Tor fallback)")
+        elif use_tor:
+            proxy = {"server": "socks5://127.0.0.1:9050"}
             logger.info("Using Tor proxy (socks5://127.0.0.1:9050)")
+        else:
+            proxy = None
 
         browser: Browser = await pw.chromium.launch(
             headless=HEADLESS,

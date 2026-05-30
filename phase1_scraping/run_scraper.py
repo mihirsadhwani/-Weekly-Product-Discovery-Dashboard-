@@ -12,6 +12,7 @@ import asyncio
 import json
 import logging
 import os
+import sys
 from datetime import datetime, timezone
 
 from scraper import run_scraper
@@ -36,8 +37,8 @@ def main():
     duration_mins = round((end - start).total_seconds() / 60, 1)
 
     if not products:
-        logger.warning("No products were collected. Check network or selectors.")
-        return
+        logger.error("No products were collected — Tor likely failed. Exiting with error so existing products.json is preserved.")
+        sys.exit(1)
 
     # Build output payload
     run_date = start.strftime("%Y-%m-%d")

@@ -30,8 +30,17 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install playwright groq google-genai beautifulsoup4
+          pip install playwright groq google-genai beautifulsoup4 requests[socks]
           playwright install chromium --with-deps
+
+      - name: Start Tor proxy
+        run: |
+          sudo apt-get install -y tor
+          sudo service tor start
+          sleep 20
+          curl -s --socks5 127.0.0.1:9050 --max-time 15 https://check.torproject.org/api/ip \
+            | python3 -c "import sys,json; d=json.load(sys.stdin); print('Tor IP:', d.get('IP'), '| IsTor:', d.get('IsTor'))" \
+            || echo "Tor check timed out (non-fatal)"
 
       - name: Determine run mode
         id: mode

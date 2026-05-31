@@ -436,32 +436,54 @@ def scrape_deals() -> list[dict]:
                 print(f'Recency fallback circuit {circuit + 1} succeeded — {len(circuit_products)} discounted products!')
                 break
 
-    # Fallback 3: Playwright (real browser — bypasses HTTP-level 529 bot detection)
-    # The daily scraper's Playwright review step already works from GitHub Actions IPs,
-    # so a real browser can reach Flipkart even when raw HTTP requests are blocked.
+    # Fallback 3: Playwright + Tor proxy (real Chrome headers through Tor exit IP)
+    # Direct IP is TCP-blocked; Tor-HTTP gets 529 from bot-header detection.
+    # Real browser through Tor bypasses both: Tor exit avoids IP block, Chrome headers avoid 529.
     if not products:
-        print('\nAll HTTP attempts blocked — trying Playwright (real browser) for listings...')
-        try:
-            with sync_playwright() as _pw:
-                _browser = _pw.chromium.launch(
-                    headless=True,
-                    args=['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
-                )
-                _ctx = _browser.new_context(
-                    user_agent=random.choice(USER_AGENTS),
-                    locale='en-IN',
-                    timezone_id='Asia/Kolkata',
-                )
-                for category, url in DEAL_CATEGORY_URLS.items():
-                    print(f'Scraping deals: {category} (Playwright)...')
-                    stubs = _fetch_deals_listing_playwright(url, category, _ctx)
-                    products.extend(stubs)
-                    print(f'  {category}: {len(stubs)} products')
-                    time.sleep(random.uniform(2.0, 4.0))
-                _ctx.close()
-                _browser.close()
-        except Exception as e:
-            print(f'Playwright listing fallback failed: {e}')
+        print('\nAll HTTP attempts blocked — trying Playwright through Tor proxy...')
+        for pw_circuit in range(3):
+            if pw_circuit > 0:
+                print(f'  Rotating Tor circuit ({pw_circuit}/2)...')
+                rotated = _rotate_tor_circuit()
+                if not rotated:
+                    print('  NEWNYM unavailable — waiting 30s...')
+                    time.sleep(30)
+            circuit_products: list[dict] = []
+            try:
+                with sync_playwright() as _pw:
+                    _browser = _pw.chromium.launch(
+                        proxy={'server': 'socks5://127.0.0.1:9050'},
+                        headless=True,
+                        args=['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
+                    )
+                    _ctx = _browser.new_context(
+                        user_agent=random.choice(USER_AGENTS),
+                        locale='en-IN',
+                        timezone_id='Asia/Kolkata',
+                    )
+                    for category, url in DEAL_CATEGORY_URLS.items():
+                        print(f'Scraping deals: {category} (Playwright+Tor circuit {pw_circuit + 1})...')
+                        stubs = _fetch_deals_listing_playwright(url, category, _ctx)
+                        circuit_products.extend(stubs)
+                        print(f'  {category}: {len(stubs)} products')
+                        time.sleep(random.uniform(2.0, 4.0))
+                    # If popularity URLs still blocked, try recency URLs on same Tor circuit
+                    if not circuit_products:
+                        for category, url in RECENCY_URLS.items():
+                            print(f'Scraping deals: {category} (Playwright+Tor recency, circuit {pw_circuit + 1})...')
+                            stubs = _fetch_deals_listing_playwright(url, category, _ctx)
+                            discounted = [p for p in stubs if (p.get('discount_percent') or 0) >= 5]
+                            circuit_products.extend(discounted)
+                            print(f'  {category}: {len(discounted)} with ≥5% discount')
+                            time.sleep(random.uniform(2.0, 4.0))
+                    _ctx.close()
+                    _browser.close()
+            except Exception as e:
+                print(f'Playwright+Tor circuit {pw_circuit + 1} failed: {e}')
+            if circuit_products:
+                products.extend(circuit_products)
+                print(f'Playwright+Tor circuit {pw_circuit + 1} succeeded — {len(circuit_products)} products!')
+                break
 
     # Fallback 4: ScraperAPI
     if not products and scraperapi_key:

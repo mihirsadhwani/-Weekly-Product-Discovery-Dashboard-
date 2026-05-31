@@ -195,10 +195,18 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
     try:
         page = context.new_page()
         page.goto(url, wait_until='domcontentloaded', timeout=60000)
+        # Wait for product cards to actually render (Flipkart is JS-heavy)
+        try:
+            page.wait_for_selector('div[data-id], div.tUxRFH, div._1AtVbE, div.yKfJKb', timeout=20000)
+        except Exception:
+            pass
         time.sleep(3)
+        title = page.title()
         html = page.content()
         page.close()
         products = _parse_listing_html(html, category)
+        if not products:
+            print(f'  (0 products — page title: {title!r})')
         return products
     except Exception as e:
         print(f'  Playwright listing error: {e}')

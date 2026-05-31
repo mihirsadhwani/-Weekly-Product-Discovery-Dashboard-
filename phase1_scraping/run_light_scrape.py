@@ -34,8 +34,8 @@ def _rotate_tor_circuit() -> bool:
         s.connect(('127.0.0.1', 9051))
         s.sendall(b'AUTHENTICATE ""\r\nNEWNYM\r\nQUIT\r\n')
         s.close()
-        print('  Tor: new circuit requested — waiting 10s...')
-        time.sleep(10)
+        print('  Tor: new circuit requested — waiting 30s...')
+        time.sleep(30)
         return True
     except Exception as e:
         print(f'  Tor circuit rotation unavailable: {e}')

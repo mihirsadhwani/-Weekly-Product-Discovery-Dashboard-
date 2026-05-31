@@ -406,7 +406,43 @@ def scrape_deals() -> list[dict]:
                 print(f'Tor circuit {circuit + 1} succeeded!')
                 break
 
-    # Fallback 2: ScraperAPI
+    # Fallback 2: Tor with recency_desc URLs — same format as daily scraper (known to work)
+    # Popularity-sorted pages have stricter anti-bot; recency_desc pages are less guarded.
+    # We still filter for discounted products after fetching.
+    RECENCY_URLS = {
+        "Mobiles":       "https://www.flipkart.com/mobiles-accessories/pr?sid=tyy,4io&p%5B%5D=sort%3Drecency_desc",
+        "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Drecency_desc",
+        "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Drecency_desc",
+        "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=sort%3Drecency_desc",
+        "Women_Fashion": "https://www.flipkart.com/clothing-and-accessories/western-wear/pr?sid=clo,aps&p%5B%5D=sort%3Drecency_desc",
+        "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Drecency_desc",
+        "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Drecency_desc",
+        "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Drecency_desc",
+    }
+    if not products:
+        print('\nAll popularity URLs blocked — retrying via Tor with recency_desc URLs...')
+        for circuit in range(3):
+            if circuit > 0:
+                print(f'\n  Exit node blocked — rotating Tor circuit ({circuit}/2)...')
+                rotated = _rotate_tor_circuit()
+                if not rotated:
+                    print('  NEWNYM unavailable — waiting 30s...')
+                    time.sleep(30)
+            circuit_products = []
+            for category, url in RECENCY_URLS.items():
+                print(f'Scraping deals: {category} (recency fallback, circuit {circuit + 1})...')
+                stubs = _fetch_deals_listing(url, category, via_tor=True)
+                # keep only products with a real discount
+                discounted = [p for p in stubs if (p.get('discount_percent') or 0) >= 5]
+                circuit_products.extend(discounted)
+                print(f'  {category}: {len(stubs)} total, {len(discounted)} with ≥5% discount')
+                time.sleep(random.uniform(1.0, 2.0))
+            if circuit_products:
+                products.extend(circuit_products)
+                print(f'Recency fallback circuit {circuit + 1} succeeded — {len(circuit_products)} discounted products!')
+                break
+
+    # Fallback 3: ScraperAPI
     if not products and scraperapi_key:
         print('\nTor blocked — retrying via ScraperAPI...')
         for category, url in DEAL_CATEGORY_URLS.items():

@@ -368,21 +368,39 @@ def scrape_light() -> list[dict]:
         else:
             product['quick_analysis'] = None
 
-    output = {
-        'date': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'total_products': len(products),
-        'products': products,
-    }
-
     output_dir = Path(__file__).parent.parent / 'output'
     output_dir.mkdir(exist_ok=True)
     output_path = output_dir / 'fresh_finds.json'
+
+    # Accumulate: merge with existing same-day products (dedup by URL)
+    today = datetime.utcnow().strftime('%Y-%m-%d')
+    existing_products = []
+    try:
+        with open(output_path, 'r', encoding='utf-8') as f:
+            existing = json.load(f)
+        if existing.get('date', '')[:10] == today:
+            existing_products = existing.get('products', [])
+            print(f'Merging with {len(existing_products)} existing products from today...')
+    except Exception:
+        pass
+
+    existing_urls = {p['flipkart_url'] for p in existing_products}
+    new_products = [p for p in products if p['flipkart_url'] not in existing_urls]
+    merged = existing_products + new_products
+    print(f'New this run: {len(new_products)} | Total today: {len(merged)}')
+
+    output = {
+        'date': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'total_products': len(merged),
+        'products': merged,
+    }
+
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f'\nDone: {len(products)} products, {analyzed} with AI analysis')
+    print(f'\nDone: {len(new_products)} new products this run, {analyzed} with AI analysis')
     print(f'Saved: {output_path}')
-    return products
+    return new_products
 
 
 if __name__ == '__main__':

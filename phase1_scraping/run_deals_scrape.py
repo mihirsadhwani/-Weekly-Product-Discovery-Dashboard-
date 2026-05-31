@@ -27,6 +27,9 @@ from playwright.sync_api import sync_playwright
 sys.path.insert(0, str(Path(__file__).parent.parent / 'phase2_analysis'))
 from quick_analyzer import quick_analysis
 
+sys.path.insert(0, str(Path(__file__).parent.parent / 'phase3_final_output'))
+from trend_analyzer import analyze_trends
+
 from config import DELAY_MIN, DELAY_MAX, USER_AGENTS
 
 # ---------------------------------------------------------------------------
@@ -506,6 +509,16 @@ def scrape_deals() -> list[dict]:
     }
     with open(output_dir / 'products.json', 'w', encoding='utf-8') as f:
         json.dump(products_out, f, indent=2, ensure_ascii=False)
+
+    # Generate and save trends.json
+    try:
+        trends = analyze_trends(str(output_dir))
+        if trends:
+            with open(output_dir / 'trends.json', 'w', encoding='utf-8') as f:
+                json.dump(trends, f, indent=2, ensure_ascii=False)
+            print('Trends saved to output/trends.json')
+    except Exception as e:
+        print(f'Trend analysis failed (non-fatal): {e}')
 
     print(f'\nDone: {len(products)} deals scraped, {analyzed} with AI analysis')
     print(f'Top 60 saved to output/products.json')

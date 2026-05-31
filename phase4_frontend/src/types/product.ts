@@ -35,10 +35,29 @@ export interface DecliningCategory {
   drop_points?: number
 }
 
+export interface PriceMovement {
+  category: string
+  avg_price: number
+  last_avg_price?: number
+  delta?: number
+}
+
+export interface BestDeal {
+  name: string
+  price: number | null
+  original_price?: number | null
+  discount_percent?: number | null
+  category: string
+  score: number
+  flipkart_url: string
+}
+
 export interface TrendsData {
   hot_categories: TrendCategory[]
   declining_categories: DecliningCategory[]
   emerging_keywords: { keyword: string; mentions: number }[]
+  price_movements?: PriceMovement[]
+  best_deal?: BestDeal | null
   has_history: boolean
   week_number: number
   generated_at: string
@@ -48,6 +67,8 @@ export interface Product {
   id: string
   name: string
   price: number | null
+  original_price?: number | null
+  discount_percent?: number | null
   image_url: string | null
   category: string
   sub_category: string | null
@@ -69,11 +90,17 @@ export interface ProductsData {
 }
 
 export const CATEGORY_CONFIG: Record<string, { label: string; emoji: string }> = {
-  vfm:          { label: 'Value for Money', emoji: '💰' },
-  Electronics:  { label: 'Electronics',    emoji: '📱' },
-  Fashion:      { label: 'Fashion',         emoji: '👕' },
-  Home_Kitchen: { label: 'Home & Kitchen',  emoji: '🏠' },
-  Beauty:       { label: 'Beauty & Care',   emoji: '🧴' },
+  vfm:           { label: 'Value for Money',  emoji: '💰' },
+  Electronics:   { label: 'Electronics',      emoji: '📱' },
+  Mobiles:       { label: 'Mobiles',           emoji: '📱' },
+  Laptops:       { label: 'Laptops',           emoji: '💻' },
+  TVs:           { label: 'TVs',               emoji: '📺' },
+  Fashion:       { label: 'Fashion',           emoji: '👕' },
+  Men_Fashion:   { label: "Men's Fashion",     emoji: '👔' },
+  Women_Fashion: { label: "Women's Fashion",   emoji: '👗' },
+  Home_Kitchen:  { label: 'Home & Kitchen',    emoji: '🏠' },
+  Beauty:        { label: 'Beauty & Care',     emoji: '🧴' },
+  Sports:        { label: 'Sports & Fitness',  emoji: '🏋️' },
 }
 
 export interface NewTodayProduct {

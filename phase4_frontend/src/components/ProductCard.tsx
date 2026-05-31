@@ -76,7 +76,15 @@ function ProductImage({ src, alt, category }: { src: string | null; alt: string;
   )
 }
 
-export default function ProductCard({ product }: { product: Product }) {
+export default function ProductCard({
+  product,
+  isInCompare,
+  onToggleCompare,
+}: {
+  product: Product
+  isInCompare?: boolean
+  onToggleCompare?: (product: Product) => void
+}) {
   const { analysis } = product
   const badge  = BADGE[analysis.recommendation] ?? BADGE.Wait
   const chip   = CAT_CHIP[product.category] ?? { bg: 'bg-gray-100', text: 'text-gray-600' }
@@ -85,7 +93,9 @@ export default function ProductCard({ product }: { product: Product }) {
   return (
     <Link
       href={`/product/${product.id}`}
-      className="group block bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-card hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-300 cursor-pointer"
+      className={`group block bg-white rounded-2xl overflow-hidden border shadow-card hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-300 cursor-pointer ${
+        isInCompare ? 'border-indigo-400 ring-2 ring-indigo-300/50' : 'border-slate-100'
+      }`}
     >
       {/* Image area */}
       <div className="relative h-52 bg-slate-50 overflow-hidden">
@@ -108,6 +118,20 @@ export default function ProductCard({ product }: { product: Product }) {
         <div className="absolute top-2 right-2 bg-white/95 backdrop-blur-sm rounded-full p-1 shadow-md ring-1 ring-white/80">
           <ScoreRing score={analysis.quality_score} />
         </div>
+
+        {/* Compare toggle button */}
+        {onToggleCompare && (
+          <button
+            onClick={e => { e.preventDefault(); e.stopPropagation(); onToggleCompare(product) }}
+            className={`absolute bottom-3 left-3 z-10 flex items-center gap-1 px-2.5 py-1.5 rounded-full text-xs font-bold shadow-md transition-all duration-200 ${
+              isInCompare
+                ? 'bg-indigo-600 text-white ring-2 ring-indigo-300/60'
+                : 'bg-white/90 text-slate-600 hover:bg-indigo-50 hover:text-indigo-700 opacity-0 group-hover:opacity-100'
+            }`}
+          >
+            {isInCompare ? '✓ Added' : '+ Compare'}
+          </button>
+        )}
 
         {/* VFM badge */}
         {product.is_vfm && (

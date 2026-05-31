@@ -99,12 +99,63 @@ def analyze_trends(output_dir='output'):
         if count >= 2
     ][:8]
 
+    # ── Price Movements ────────────────────────────────────────────────────────
+    current_prices: dict = {}
+    for p in current_products:
+        cat = p.get('category', '')
+        price = p.get('price')
+        if cat and price:
+            current_prices.setdefault(cat, []).append(price)
+
+    price_movements = []
+    if has_valid_history:
+        last_prices: dict = {}
+        for p in last_week_products:
+            cat = p.get('category', '')
+            price = p.get('price')
+            if cat and price:
+                last_prices.setdefault(cat, []).append(price)
+        for cat, prices in current_prices.items():
+            avg = sum(prices) / len(prices)
+            entry = {'category': cat, 'avg_price': round(avg)}
+            if cat in last_prices:
+                last_avg = sum(last_prices[cat]) / len(last_prices[cat])
+                entry['last_avg_price'] = round(last_avg)
+                entry['delta'] = round(avg - last_avg)
+            price_movements.append(entry)
+    else:
+        for cat, prices in current_prices.items():
+            price_movements.append({'category': cat, 'avg_price': round(sum(prices) / len(prices))})
+    price_movements.sort(key=lambda x: abs(x.get('delta', 0)), reverse=True)
+
+    # ── Best Deal of the Week ──────────────────────────────────────────────────
+    best_deal = None
+    best_score = -1
+    for p in current_products:
+        discount = p.get('discount_percent') or 0
+        ai_score = (p.get('quick_analysis') or {}).get('quick_score') or \
+                   (p.get('analysis') or {}).get('quality_score') or 0
+        combined = (discount * 0.4) + (ai_score * 0.4)
+        if combined > best_score and p.get('name') and p.get('flipkart_url'):
+            best_score = combined
+            best_deal = {
+                'name': p['name'],
+                'price': p.get('price'),
+                'original_price': p.get('original_price'),
+                'discount_percent': discount,
+                'category': p.get('category', ''),
+                'score': round(ai_score),
+                'flipkart_url': p['flipkart_url'],
+            }
+
     week_number = 2 if has_valid_history else 1
 
     result = {
         'hot_categories':       hot_categories,
         'declining_categories': declining_categories,
         'emerging_keywords':    emerging_keywords,
+        'price_movements':      price_movements,
+        'best_deal':            best_deal,
         'has_history':          has_valid_history,
         'week_number':          week_number,
         'generated_at':         datetime.now().isoformat(),

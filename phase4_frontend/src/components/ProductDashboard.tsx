@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useCallback } from 'react'
 import type { ProductsData, NewTodayData, Product, TrendsData, FreshFindsData } from '@/types/product'
 import Header from './Header'
 import TrendsSection from './TrendsSection'
@@ -9,6 +9,7 @@ import FilterBar from './FilterBar'
 import ProductCard from './ProductCard'
 import SimpleProductCard from './SimpleProductCard'
 import FreshFindCard from './FreshFindCard'
+import CompareModal from './CompareModal'
 import BackToTop from './BackToTop'
 
 interface Props {
@@ -53,9 +54,19 @@ function buildVfmData(products: Product[]) {
 }
 
 export default function ProductDashboard({ data, newToday, trends, freshFinds }: Props) {
-  const [category, setCategory]     = useState('All')
-  const [sort, setSort]             = useState('quality_score')
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, MAX_PRICE])
+  const [category, setCategory]         = useState('All')
+  const [sort, setSort]                 = useState('quality_score')
+  const [priceRange, setPriceRange]     = useState<[number, number]>([0, MAX_PRICE])
+  const [compareItems, setCompareItems] = useState<Product[]>([])
+  const [showCompare, setShowCompare]   = useState(false)
+
+  const toggleCompare = useCallback((product: Product) => {
+    setCompareItems(prev => {
+      if (prev.find(p => p.id === product.id)) return prev.filter(p => p.id !== product.id)
+      if (prev.length >= 2) return [prev[1], product]
+      return [...prev, product]
+    })
+  }, [])
 
   const { vfmProducts, vfmIds } = useMemo(
     () => buildVfmData(data.products),
@@ -143,7 +154,11 @@ export default function ProductDashboard({ data, newToday, trends, freshFinds }:
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {vfmProducts.slice(0, 8).map((product, i) => (
                 <div key={product.id} className="card-enter" style={{ animationDelay: `${i * 40}ms` }}>
-                  <ProductCard product={product} />
+                  <ProductCard
+                    product={product}
+                    isInCompare={compareItems.some(p => p.id === product.id)}
+                    onToggleCompare={toggleCompare}
+                  />
                 </div>
               ))}
             </div>
@@ -187,7 +202,11 @@ export default function ProductDashboard({ data, newToday, trends, freshFinds }:
                 className="card-enter"
                 style={{ animationDelay: `${Math.min(i * 40, 400)}ms` }}
               >
-                <ProductCard product={product} />
+                <ProductCard
+                  product={product}
+                  isInCompare={compareItems.some(p => p.id === product.id)}
+                  onToggleCompare={toggleCompare}
+                />
               </div>
             ))}
           </div>
@@ -195,6 +214,48 @@ export default function ProductDashboard({ data, newToday, trends, freshFinds }:
       </main>
 
       <BackToTop />
+
+      {/* Floating Compare Bar */}
+      {compareItems.length > 0 && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 flex items-center gap-3 bg-slate-900 text-white px-5 py-3 rounded-2xl shadow-2xl border border-slate-700 animate-fade-in">
+          <span className="text-sm font-semibold text-slate-300">
+            {compareItems.length === 1 ? 'Select 1 more to compare' : 'Ready to compare'}
+          </span>
+          <div className="flex gap-2">
+            {compareItems.map(p => (
+              <span key={p.id} className="flex items-center gap-1.5 bg-slate-700 px-2.5 py-1 rounded-full text-xs font-medium max-w-[120px]">
+                <span className="truncate">{p.name.split(' ').slice(0, 3).join(' ')}</span>
+                <button
+                  onClick={() => toggleCompare(p)}
+                  className="shrink-0 text-slate-400 hover:text-white transition-colors"
+                >✕</button>
+              </span>
+            ))}
+          </div>
+          <button
+            disabled={compareItems.length < 2}
+            onClick={() => setShowCompare(true)}
+            className="px-4 py-2 bg-indigo-500 hover:bg-indigo-400 disabled:opacity-40 disabled:cursor-not-allowed text-white text-sm font-bold rounded-xl transition-colors"
+          >
+            Compare →
+          </button>
+          <button
+            onClick={() => setCompareItems([])}
+            className="text-slate-400 hover:text-white text-xs transition-colors"
+          >
+            Clear
+          </button>
+        </div>
+      )}
+
+      {/* Compare Modal */}
+      {showCompare && compareItems.length === 2 && (
+        <CompareModal
+          productA={compareItems[0]}
+          productB={compareItems[1]}
+          onClose={() => setShowCompare(false)}
+        />
+      )}
     </div>
   )
 }

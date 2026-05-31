@@ -76,8 +76,142 @@ def _rotate_tor_circuit() -> bool:
 # Phase A — listing page
 # ---------------------------------------------------------------------------
 
+def _parse_listing_html(html: str, category: str) -> list[dict]:
+    """Parse Flipkart listing HTML and return product stubs with discount info."""
+    soup = BeautifulSoup(html, 'html.parser')
+    products = []
+
+    cards = []
+    for sel, attrs in [
+        ('div', {'data-id': True}),
+        ('div', {'class': 'tUxRFH'}),
+        ('div', {'class': '_1AtVbE'}),
+        ('div', {'class': 'yKfJKb'}),
+    ]:
+        cards = soup.find_all(sel, attrs)
+        if len(cards) > 3:
+            break
+
+    for card in cards[:12]:
+        try:
+            name_el = (
+                card.find('div', class_='RG5Slk') or card.find('a', class_='atJtCj') or
+                card.find('a', class_='pIpigb') or card.find('a', class_='WKTcLC') or
+                card.find('div', class_='KzDlHZ') or card.find(class_='_4rR01T') or
+                card.find(class_='s1Q9rs') or card.find(class_='IRpwTa') or
+                card.find('a', title=True)
+            )
+            if not name_el:
+                continue
+            name = name_el.get_text(strip=True)
+            if not name or len(name) < 5:
+                continue
+
+            link_el = (
+                card.find('a', class_='k7wcnx') or card.find('a', class_='atJtCj') or
+                card.find('a', class_='pIpigb') or card.find('a', class_='CGtC98') or
+                card.find('a', href=True)
+            )
+            href = link_el.get('href') if link_el else None
+            if not href:
+                continue
+            flipkart_url = f'https://www.flipkart.com{href}' if href.startswith('/') else href
+
+            price_el = (
+                card.find('div', class_='hZ3P6w') or card.find('div', class_='Nx9bqj') or
+                card.find('div', class_='_30jeq3') or card.find('div', class_='hl05eU')
+            )
+            price_text = price_el.get_text(strip=True) if price_el else ''
+            price = int(''.join(filter(str.isdigit, price_text))) if price_text else None
+
+            original_el = (
+                card.find('div', class_='yRaY8j') or card.find('div', class_='_3I9_wc') or
+                card.find('div', class_='_2p6los') or card.find('div', class_='_30jeq3 _1_WHN1')
+            )
+            original_text = original_el.get_text(strip=True) if original_el else ''
+            original_price = int(''.join(filter(str.isdigit, original_text))) if original_text else None
+
+            discount_el = (
+                card.find('div', class_='UkUFwK') or card.find('div', class_='_3Ay6Sb') or
+                card.find('div', class_='VGWI6F') or card.find('div', class_='_3xFhiH')
+            )
+            discount_percent = None
+            if discount_el:
+                d_text = discount_el.get_text(strip=True)
+                digits = ''.join(filter(str.isdigit, d_text.split('%')[0]))
+                if digits:
+                    discount_percent = int(digits)
+            if discount_percent is None and price and original_price and original_price > price:
+                discount_percent = round((original_price - price) / original_price * 100)
+
+            if not discount_percent or discount_percent < 5:
+                continue
+
+            rating_el = (
+                card.find('div', class_='XQDdHH') or card.find('span', class_='Y1HWO0') or
+                card.find('div', class_='_3LWZlK') or card.find('span', class_='_1lRcqv')
+            )
+            rating = None
+            if rating_el:
+                try:
+                    rating = float(rating_el.get_text(strip=True))
+                except ValueError:
+                    pass
+
+            review_el = (
+                card.find('span', class_='Wphh3N') or card.find('span', class_='_2_R_DZ') or
+                card.find('span', class_='_13vcmD')
+            )
+            review_count = None
+            if review_el:
+                r_text = review_el.get_text(strip=True).replace(',', '').replace('(', '').replace(')', '')
+                digits = ''.join(filter(str.isdigit, r_text))
+                review_count = int(digits) if digits else None
+
+            img_el = card.find('img')
+            image_url = img_el.get('src') if img_el else None
+            if image_url:
+                image_url = image_url.replace('/128/128/', '/832/832/')
+                image_url = image_url.replace('/224/224/', '/832/832/')
+                image_url = image_url.replace('/416/416/', '/832/832/')
+
+            products.append({
+                'name': name, 'price': price, 'original_price': original_price,
+                'discount_percent': discount_percent, 'rating': rating,
+                'review_count': review_count, 'category': category,
+                'sub_category': category, 'image_url': image_url,
+                'flipkart_url': flipkart_url, 'scraped_at': datetime.now().isoformat(),
+                '_reviews': [],
+            })
+        except Exception:
+            continue
+
+    return products
+
+
+def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[dict]:
+    """Playwright-based listing fetch — real browser bypasses HTTP-level bot detection."""
+    page = None
+    try:
+        page = context.new_page()
+        page.goto(url, wait_until='domcontentloaded', timeout=60000)
+        time.sleep(3)
+        html = page.content()
+        page.close()
+        products = _parse_listing_html(html, category)
+        return products
+    except Exception as e:
+        print(f'  Playwright listing error: {e}')
+        try:
+            if page:
+                page.close()
+        except Exception:
+            pass
+        return []
+
+
 def _fetch_deals_listing(url: str, category: str, via_tor: bool = False, scraperapi_key: str = '') -> list[dict]:
-    """Fetch a Flipkart listing page and return product stubs with discount info."""
+    """Fetch a Flipkart listing page via HTTP and return product stubs with discount info."""
     headers = {
         'User-Agent': random.choice(USER_AGENTS),
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -123,147 +257,7 @@ def _fetch_deals_listing(url: str, category: str, via_tor: bool = False, scraper
     else:
         return []
 
-    soup = BeautifulSoup(resp.text, 'html.parser')
-    products = []
-
-    cards = []
-    for sel, attrs in [
-        ('div', {'data-id': True}),
-        ('div', {'class': 'tUxRFH'}),
-        ('div', {'class': '_1AtVbE'}),
-        ('div', {'class': 'yKfJKb'}),
-    ]:
-        cards = soup.find_all(sel, attrs)
-        if len(cards) > 3:
-            break
-
-    for card in cards[:12]:
-        try:
-            # Name
-            name_el = (
-                card.find('div', class_='RG5Slk') or
-                card.find('a', class_='atJtCj') or
-                card.find('a', class_='pIpigb') or
-                card.find('a', class_='WKTcLC') or
-                card.find('div', class_='KzDlHZ') or
-                card.find(class_='_4rR01T') or
-                card.find(class_='s1Q9rs') or
-                card.find(class_='IRpwTa') or
-                card.find('a', title=True)
-            )
-            if not name_el:
-                continue
-            name = name_el.get_text(strip=True)
-            if not name or len(name) < 5:
-                continue
-
-            # URL
-            link_el = (
-                card.find('a', class_='k7wcnx') or
-                card.find('a', class_='atJtCj') or
-                card.find('a', class_='pIpigb') or
-                card.find('a', class_='CGtC98') or
-                card.find('a', href=True)
-            )
-            href = link_el.get('href') if link_el else None
-            if not href:
-                continue
-            flipkart_url = f'https://www.flipkart.com{href}' if href.startswith('/') else href
-
-            # Selling price
-            price_el = (
-                card.find('div', class_='hZ3P6w') or
-                card.find('div', class_='Nx9bqj') or
-                card.find('div', class_='_30jeq3') or
-                card.find('div', class_='hl05eU')
-            )
-            price_text = price_el.get_text(strip=True) if price_el else ''
-            price = int(''.join(filter(str.isdigit, price_text))) if price_text else None
-
-            # Original price (MRP / strikethrough)
-            original_el = (
-                card.find('div', class_='yRaY8j') or
-                card.find('div', class_='_3I9_wc') or
-                card.find('div', class_='_2p6los') or
-                card.find('div', class_='_30jeq3 _1_WHN1')
-            )
-            original_text = original_el.get_text(strip=True) if original_el else ''
-            original_price = int(''.join(filter(str.isdigit, original_text))) if original_text else None
-
-            # Discount badge (e.g. "44% off")
-            discount_el = (
-                card.find('div', class_='UkUFwK') or
-                card.find('div', class_='_3Ay6Sb') or
-                card.find('div', class_='VGWI6F') or
-                card.find('div', class_='_3xFhiH')
-            )
-            discount_percent = None
-            if discount_el:
-                d_text = discount_el.get_text(strip=True)
-                digits = ''.join(filter(str.isdigit, d_text.split('%')[0]))
-                if digits:
-                    discount_percent = int(digits)
-            # Fallback: calculate from prices
-            if discount_percent is None and price and original_price and original_price > price:
-                discount_percent = round((original_price - price) / original_price * 100)
-
-            # Skip products with no discount
-            if not discount_percent or discount_percent < 5:
-                continue
-
-            # Rating
-            rating_el = (
-                card.find('div', class_='XQDdHH') or
-                card.find('span', class_='Y1HWO0') or
-                card.find('div', class_='_3LWZlK') or
-                card.find('span', class_='_1lRcqv')
-            )
-            rating = None
-            if rating_el:
-                try:
-                    rating = float(rating_el.get_text(strip=True))
-                except ValueError:
-                    pass
-
-            # Review count
-            review_el = (
-                card.find('span', class_='Wphh3N') or
-                card.find('span', class_='_2_R_DZ') or
-                card.find('span', class_='_13vcmD')
-            )
-            review_count = None
-            if review_el:
-                r_text = review_el.get_text(strip=True).replace(',', '').replace('(', '').replace(')', '')
-                digits = ''.join(filter(str.isdigit, r_text))
-                review_count = int(digits) if digits else None
-
-            # Image
-            img_el = card.find('img')
-            image_url = img_el.get('src') if img_el else None
-            if image_url:
-                image_url = image_url.replace('/128/128/', '/832/832/')
-                image_url = image_url.replace('/224/224/', '/832/832/')
-                image_url = image_url.replace('/416/416/', '/832/832/')
-
-            products.append({
-                'name': name,
-                'price': price,
-                'original_price': original_price,
-                'discount_percent': discount_percent,
-                'rating': rating,
-                'review_count': review_count,
-                'category': category,
-                'sub_category': category,
-                'image_url': image_url,
-                'flipkart_url': flipkart_url,
-                'scraped_at': datetime.now().isoformat(),
-                '_reviews': [],
-            })
-
-        except Exception:
-            continue
-
-    return products
+    return _parse_listing_html(resp.text, category)
 
 
 # ---------------------------------------------------------------------------
@@ -442,7 +436,34 @@ def scrape_deals() -> list[dict]:
                 print(f'Recency fallback circuit {circuit + 1} succeeded — {len(circuit_products)} discounted products!')
                 break
 
-    # Fallback 3: ScraperAPI
+    # Fallback 3: Playwright (real browser — bypasses HTTP-level 529 bot detection)
+    # The daily scraper's Playwright review step already works from GitHub Actions IPs,
+    # so a real browser can reach Flipkart even when raw HTTP requests are blocked.
+    if not products:
+        print('\nAll HTTP attempts blocked — trying Playwright (real browser) for listings...')
+        try:
+            with sync_playwright() as _pw:
+                _browser = _pw.chromium.launch(
+                    headless=True,
+                    args=['--disable-blink-features=AutomationControlled', '--no-sandbox', '--disable-dev-shm-usage'],
+                )
+                _ctx = _browser.new_context(
+                    user_agent=random.choice(USER_AGENTS),
+                    locale='en-IN',
+                    timezone_id='Asia/Kolkata',
+                )
+                for category, url in DEAL_CATEGORY_URLS.items():
+                    print(f'Scraping deals: {category} (Playwright)...')
+                    stubs = _fetch_deals_listing_playwright(url, category, _ctx)
+                    products.extend(stubs)
+                    print(f'  {category}: {len(stubs)} products')
+                    time.sleep(random.uniform(2.0, 4.0))
+                _ctx.close()
+                _browser.close()
+        except Exception as e:
+            print(f'Playwright listing fallback failed: {e}')
+
+    # Fallback 4: ScraperAPI
     if not products and scraperapi_key:
         print('\nTor blocked — retrying via ScraperAPI...')
         for category, url in DEAL_CATEGORY_URLS.items():

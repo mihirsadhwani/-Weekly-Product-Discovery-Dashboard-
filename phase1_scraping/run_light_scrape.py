@@ -9,6 +9,7 @@ Output: ../output/fresh_finds.json
 """
 
 import json
+import os
 import sys
 import random
 import time
@@ -39,9 +40,14 @@ REVIEW_SELECTORS = [
 # Phase A — listing page via requests (no Playwright)
 # ---------------------------------------------------------------------------
 
-def _fetch_listing(url: str, category: str) -> list[dict]:
-    """Fetch a Flipkart listing page with requests and parse product stubs."""
-    headers = {
+def _fetch_listing(url: str, category: str, scraperapi_key: str = '') -> list[dict]:
+    """Fetch a Flipkart listing page and parse product stubs.
+
+    Tries a direct requests call first. If scraperapi_key is provided it is
+    used as a fallback: requests are routed through ScraperAPI residential IPs
+    which bypass Flipkart's GitHub-Actions IP block.
+    """
+    direct_headers = {
         'User-Agent': random.choice(USER_AGENTS),
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Accept-Language': 'en-IN,en;q=0.9,hi;q=0.8',
@@ -51,9 +57,20 @@ def _fetch_listing(url: str, category: str) -> list[dict]:
         'Cache-Control': 'max-age=0',
     }
 
+    if scraperapi_key:
+        fetch_url = 'http://api.scraperapi.com'
+        params = {'api_key': scraperapi_key, 'url': url, 'country_code': 'in'}
+        req_headers = {}
+        timeout = 60
+    else:
+        fetch_url = url
+        params = {}
+        req_headers = direct_headers
+        timeout = 15
+
     for attempt in range(1, 4):
         try:
-            resp = requests.get(url, headers=headers, timeout=15)
+            resp = requests.get(fetch_url, params=params, headers=req_headers, timeout=timeout)
             resp.raise_for_status()
             break
         except Exception as e:
@@ -230,6 +247,8 @@ def _scrape_reviews(page, product_url: str, max_reviews: int = 10) -> list[str]:
 def scrape_light() -> list[dict]:
     """Full daily scrape: listings → reviews → AI analysis → fresh_finds.json."""
 
+    scraperapi_key = os.environ.get('SCRAPERAPI_KEY', '')
+
     # Phase A: fetch listing pages with plain HTTP (no browser)
     products: list[dict] = []
     for category, url in CATEGORY_URLS.items():
@@ -238,6 +257,16 @@ def scrape_light() -> list[dict]:
         products.extend(stubs)
         print(f'  {category}: {len(stubs)} products')
         time.sleep(random.uniform(1.0, 2.0))
+
+    # If all direct requests were blocked, retry via ScraperAPI residential IPs
+    if not products and scraperapi_key:
+        print('\nDirect requests blocked by Flipkart — retrying via ScraperAPI...')
+        for category, url in CATEGORY_URLS.items():
+            print(f'Scraping {category} (ScraperAPI)...')
+            stubs = _fetch_listing(url, category, scraperapi_key=scraperapi_key)
+            products.extend(stubs)
+            print(f'  {category}: {len(stubs)} products')
+            time.sleep(random.uniform(1.0, 2.0))
 
     if not products:
         print('No products found from listing pages.')

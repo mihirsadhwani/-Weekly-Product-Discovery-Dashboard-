@@ -89,12 +89,15 @@ def _fetch_listing(url: str, category: str, via_tor: bool = False, scraperapi_ke
         params = {}
         req_headers = headers
         proxies = None
-        timeout = 15
+        timeout = 5  # GitHub IPs always blocked — fail fast, don't waste 45s
 
     for attempt in range(1, 4):
         try:
             resp = requests.get(fetch_url, params=params, headers=req_headers,
                                 proxies=proxies, timeout=timeout)
+            if resp.status_code in (403, 429, 529):
+                print(f'  Listing blocked ({resp.status_code}) — skipping retries')
+                return []
             resp.raise_for_status()
             break
         except Exception as e:
@@ -282,13 +285,16 @@ def scrape_light() -> list[dict]:
         print(f'  {category}: {len(stubs)} products')
         time.sleep(random.uniform(1.0, 2.0))
 
-    # Fallback 1: Tor — try up to 3 different exit nodes (rotate circuit if blocked)
+    # Fallback 1: Tor — try up to 5 different exit nodes
     if not products:
         print('\nDirect requests blocked — retrying via Tor...')
-        for circuit in range(3):
+        for circuit in range(5):
             if circuit > 0:
-                print(f'\n  Exit node blocked — rotating Tor circuit ({circuit}/2)...')
-                _rotate_tor_circuit()
+                print(f'\n  Exit node blocked — rotating Tor circuit ({circuit}/4)...')
+                rotated = _rotate_tor_circuit()
+                if not rotated:
+                    print('  NEWNYM unavailable — waiting 30s for natural circuit rotation...')
+                    time.sleep(30)
             circuit_products: list[dict] = []
             for category, url in CATEGORY_URLS.items():
                 print(f'Scraping {category} (Tor circuit {circuit + 1})...')

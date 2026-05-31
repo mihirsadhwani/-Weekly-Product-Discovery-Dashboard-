@@ -35,10 +35,8 @@ def run_daily_light() -> None:
 
 
 def run_weekly_full() -> None:
-    print(f"\n[RUN] Weekly Full Pipeline - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    run_phase("Phase 1: Full Scrape",  "cd phase1_scraping && python run_scraper.py")
-    run_phase("Phase 2: AI Analysis",  "cd phase2_analysis && python run_analysis.py")
-    run_phase("Phase 3: Final Output", "cd phase3_final_output && python run_prepare.py")
+    print(f"\n[RUN] Weekly Deals Pipeline - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    run_phase("Weekly Deals Scrape", "cd phase1_scraping && python run_deals_scrape.py")
     print("[OK] Output: output/products.json\n")
 
 

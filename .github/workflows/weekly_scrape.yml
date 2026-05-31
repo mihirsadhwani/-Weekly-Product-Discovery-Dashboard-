@@ -109,5 +109,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "data: ${{ steps.mode.outputs.mode }} update $(date +'%Y-%m-%d')"
+            git pull --rebase https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git main
           fi

@@ -34,7 +34,7 @@ REVIEW_SELECTORS = [
 def _scrape_reviews(page, product_url, max_reviews=10):
     """Visit a product page and return up to max_reviews review strings."""
     try:
-        page.goto(product_url, wait_until='domcontentloaded', timeout=30000)
+        page.goto(product_url, wait_until='domcontentloaded', timeout=60000)
         time.sleep(2.0)
     except Exception:
         return []
@@ -144,7 +144,7 @@ def scrape_light():
         for category, url in CATEGORY_URLS.items():
             print(f'Scraping {category}...')
             try:
-                page.goto(url, wait_until='domcontentloaded', timeout=30000)
+                page.goto(url, wait_until='domcontentloaded', timeout=60000)
                 time.sleep(random.uniform(DELAY_MIN, DELAY_MAX))
 
                 product_cards = []
@@ -257,4 +257,7 @@ def scrape_light():
 
 
 if __name__ == '__main__':
-    scrape_light()
+    result = scrape_light()
+    if not result:
+        print('ERROR: 0 products scraped — exiting with code 1')
+        sys.exit(1)

@@ -1,20 +1,24 @@
 """
 Daily Light Scraper with Quick AI Analysis.
-Scrapes product listings, fetches reviews per product, runs quick Groq analysis.
+
+Phase A — listing pages: requests + BeautifulSoup (no browser, reliable).
+Phase B — review pages:  Playwright (JS-rendered, browser required).
+Phase C — AI analysis:   Groq quick_analysis per product.
+
 Output: ../output/fresh_finds.json
 """
 
 import json
-import os
 import sys
 import random
 import time
 from datetime import datetime
 from pathlib import Path
 
+import requests
+from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
-# Import quick_analyzer from phase2_analysis (sibling directory)
 sys.path.insert(0, str(Path(__file__).parent.parent / 'phase2_analysis'))
 from quick_analyzer import quick_analysis
 
@@ -31,8 +35,122 @@ REVIEW_SELECTORS = [
 ]
 
 
-def _scrape_reviews(page, product_url, max_reviews=10):
-    """Visit a product page and return up to max_reviews review strings."""
+# ---------------------------------------------------------------------------
+# Phase A — listing page via requests (no Playwright)
+# ---------------------------------------------------------------------------
+
+def _fetch_listing(url: str, category: str) -> list[dict]:
+    """Fetch a Flipkart listing page with requests and parse product stubs."""
+    headers = {
+        'User-Agent': random.choice(USER_AGENTS),
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-IN,en;q=0.9,hi;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+        'Cache-Control': 'max-age=0',
+    }
+
+    for attempt in range(1, 4):
+        try:
+            resp = requests.get(url, headers=headers, timeout=15)
+            resp.raise_for_status()
+            break
+        except Exception as e:
+            print(f'  Listing attempt {attempt}/3 failed: {e}')
+            if attempt < 3:
+                time.sleep(5 * attempt)
+    else:
+        return []
+
+    soup = BeautifulSoup(resp.text, 'html.parser')
+    products = []
+
+    # Find product cards — try selectors in priority order
+    cards = []
+    for sel, attrs in [
+        ('div', {'data-id': True}),
+        ('div', {'class': 'tUxRFH'}),
+        ('div', {'class': '_1AtVbE'}),
+        ('div', {'class': 'yKfJKb'}),
+    ]:
+        cards = soup.find_all(sel, attrs)
+        if len(cards) > 3:
+            break
+
+    for card in cards[:10]:
+        try:
+            # Name
+            name_el = (
+                card.find('div', class_='RG5Slk') or
+                card.find('a', class_='atJtCj') or
+                card.find('a', class_='pIpigb') or
+                card.find('a', class_='WKTcLC') or
+                card.find('div', class_='KzDlHZ') or
+                card.find(class_='_4rR01T') or
+                card.find(class_='s1Q9rs') or
+                card.find(class_='IRpwTa') or
+                card.find('a', title=True)
+            )
+            if not name_el:
+                continue
+            name = name_el.get_text(strip=True)
+            if not name or len(name) < 5:
+                continue
+
+            # URL
+            link_el = (
+                card.find('a', class_='k7wcnx') or
+                card.find('a', class_='atJtCj') or
+                card.find('a', class_='pIpigb') or
+                card.find('a', class_='CGtC98') or
+                card.find('a', href=True)
+            )
+            href = link_el.get('href') if link_el else None
+            if not href:
+                continue
+            flipkart_url = f'https://www.flipkart.com{href}' if href.startswith('/') else href
+
+            # Price
+            price_el = (
+                card.find('div', class_='hZ3P6w') or
+                card.find('div', class_='Nx9bqj') or
+                card.find('div', class_='_30jeq3') or
+                card.find('div', class_='hl05eU')
+            )
+            price_text = price_el.get_text(strip=True) if price_el else ''
+            price = int(''.join(filter(str.isdigit, price_text))) if price_text else None
+
+            # Image
+            img_el = card.find('img')
+            image_url = img_el.get('src') if img_el else None
+            if image_url:
+                image_url = image_url.replace('/128/128/', '/832/832/')
+                image_url = image_url.replace('/224/224/', '/832/832/')
+                image_url = image_url.replace('/416/416/', '/832/832/')
+
+            products.append({
+                'name': name,
+                'price': price,
+                'category': category,
+                'image_url': image_url,
+                'flipkart_url': flipkart_url,
+                'scraped_at': datetime.now().isoformat(),
+                '_reviews': [],
+            })
+
+        except Exception:
+            continue
+
+    return products
+
+
+# ---------------------------------------------------------------------------
+# Phase B — review pages via Playwright
+# ---------------------------------------------------------------------------
+
+def _scrape_reviews(page, product_url: str, max_reviews: int = 10) -> list[str]:
+    """Visit a product page with Playwright and return review strings."""
     try:
         page.goto(product_url, wait_until='domcontentloaded', timeout=60000)
         time.sleep(2.0)
@@ -41,11 +159,9 @@ def _scrape_reviews(page, product_url, max_reviews=10):
 
     reviews = []
 
-    # Try CSS selectors first
     for sel in REVIEW_SELECTORS:
         try:
-            els = page.query_selector_all(sel)
-            for el in els:
+            for el in page.query_selector_all(sel):
                 try:
                     text = el.inner_text().strip()
                     if len(text) > 40 and 'READ MORE' not in text and text not in reviews:
@@ -57,7 +173,6 @@ def _scrape_reviews(page, product_url, max_reviews=10):
         if len(reviews) >= max_reviews:
             break
 
-    # JS fallback — same approach as the weekly scraper
     if len(reviews) < 3:
         try:
             js_reviews = page.evaluate("""() => {
@@ -80,22 +195,18 @@ def _scrape_reviews(page, product_url, max_reviews=10):
         except Exception:
             pass
 
-    # If still no reviews, try navigating to the reviews sub-page
     if len(reviews) < 3:
         try:
-            rev_link = page.query_selector(
-                "a._1KWZpX, span.b5NQAz, div._3UAT2v a, a[href*='reviews']"
-            )
+            rev_link = page.query_selector("a._1KWZpX, span.b5NQAz, div._3UAT2v a, a[href*='reviews']")
             if rev_link:
                 href = rev_link.get_attribute('href')
                 if href:
                     rev_url = f'https://www.flipkart.com{href}' if href.startswith('/') else href
-                    page.goto(rev_url, wait_until='domcontentloaded', timeout=25000)
+                    page.goto(rev_url, wait_until='domcontentloaded', timeout=60000)
                     time.sleep(2)
                     for sel in REVIEW_SELECTORS:
                         try:
-                            els = page.query_selector_all(sel)
-                            for el in els:
+                            for el in page.query_selector_all(sel):
                                 try:
                                     text = el.inner_text().strip()
                                     if len(text) > 40 and 'READ MORE' not in text and text not in reviews:
@@ -112,101 +223,50 @@ def _scrape_reviews(page, product_url, max_reviews=10):
     return reviews[:max_reviews]
 
 
-def scrape_light():
-    """Scrape listings, fetch reviews, run quick AI analysis, save fresh_finds.json."""
-    products = []
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 
-    proxy = None
+def scrape_light() -> list[dict]:
+    """Full daily scrape: listings → reviews → AI analysis → fresh_finds.json."""
 
+    # Phase A: fetch listing pages with plain HTTP (no browser)
+    products: list[dict] = []
+    for category, url in CATEGORY_URLS.items():
+        print(f'Scraping {category}...')
+        stubs = _fetch_listing(url, category)
+        products.extend(stubs)
+        print(f'  {category}: {len(stubs)} products')
+        time.sleep(random.uniform(1.0, 2.0))
+
+    if not products:
+        print('No products found from listing pages.')
+        return []
+
+    print(f'\nTotal stubs: {len(products)} — fetching reviews...')
+
+    # Phase B: visit each product page for reviews (needs Playwright)
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
-            proxy=proxy,
             args=[
-                "--disable-blink-features=AutomationControlled",
-                "--no-sandbox",
-                "--disable-dev-shm-usage",
+                '--disable-blink-features=AutomationControlled',
+                '--no-sandbox',
+                '--disable-dev-shm-usage',
             ],
         )
         context = browser.new_context(
             user_agent=random.choice(USER_AGENTS),
-            locale="en-IN",
-            timezone_id="Asia/Kolkata",
-            viewport={"width": 1280, "height": 900},
+            locale='en-IN',
+            timezone_id='Asia/Kolkata',
+            viewport={'width': 1280, 'height': 900},
             extra_http_headers={
-                "Accept-Language": "en-IN,en;q=0.9",
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                'Accept-Language': 'en-IN,en;q=0.9',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             },
         )
         page = context.new_page()
 
-        # Phase A: scrape listing pages
-        for category, url in CATEGORY_URLS.items():
-            print(f'Scraping {category}...')
-            try:
-                page.goto(url, wait_until='domcontentloaded', timeout=60000)
-                time.sleep(random.uniform(DELAY_MIN, DELAY_MAX))
-
-                product_cards = []
-                for card_sel in ['div[data-id]', 'div.tUxRFH', 'div._1AtVbE', 'div.yKfJKb']:
-                    product_cards = page.query_selector_all(card_sel)
-                    if len(product_cards) > 3:
-                        break
-                product_cards = product_cards[:10]
-
-                for card in product_cards:
-                    try:
-                        name_el = card.query_selector(
-                            'div.RG5Slk, a.atJtCj, a.pIpigb, a.WKTcLC, div.KzDlHZ, ._4rR01T, .s1Q9rs, .IRpwTa, a[title]'
-                        )
-                        if not name_el:
-                            continue
-                        name = name_el.inner_text().strip()
-
-                        price_el = card.query_selector('div.hZ3P6w, div.Nx9bqj, div._30jeq3, div.hl05eU')
-                        price_text = price_el.inner_text().strip() if price_el else ''
-                        price = int(''.join(filter(str.isdigit, price_text))) if price_text else None
-
-                        image_el = card.query_selector('img')
-                        image_url = image_el.get_attribute('src') if image_el else None
-                        if image_url:
-                            image_url = image_url.replace('/128/128/', '/832/832/')
-                            image_url = image_url.replace('/224/224/', '/832/832/')
-                            image_url = image_url.replace('/416/416/', '/832/832/')
-
-                        link_el = card.query_selector('a.k7wcnx, a.atJtCj, a.pIpigb, a.CGtC98, a')
-                        href = link_el.get_attribute('href') if link_el else None
-                        if not href:
-                            continue
-                        flipkart_url = (
-                            f'https://www.flipkart.com{href}'
-                            if href.startswith('/')
-                            else href
-                        )
-
-                        products.append({
-                            'name': name,
-                            'price': price,
-                            'category': category,
-                            'image_url': image_url,
-                            'flipkart_url': flipkart_url,
-                            'scraped_at': datetime.now().isoformat(),
-                            '_reviews': [],
-                        })
-
-                    except Exception as e:
-                        print(f'  Skipped product: {e}')
-                        continue
-
-                cat_count = len([p for p in products if p['category'] == category])
-                print(f'  {category}: {cat_count} products')
-
-            except Exception as e:
-                print(f'  Error scraping {category}: {e}')
-                continue
-
-        # Phase B: visit product pages to get reviews
-        print(f'\nFetching reviews for {len(products)} products...')
         for i, product in enumerate(products, 1):
             try:
                 reviews = _scrape_reviews(page, product['flipkart_url'])
@@ -227,9 +287,7 @@ def scrape_light():
             try:
                 qa = quick_analysis(product['name'], reviews)
                 product['quick_analysis'] = qa
-                score = qa.get('quick_score', 0)
-                verdict = qa.get('quick_verdict', '')[:20]
-                print(f'  [{i}/{len(products)}] score={score} | {product["name"][:35]}')
+                print(f'  [{i}/{len(products)}] score={qa.get("quick_score", 0)} | {product["name"][:35]}')
                 analyzed += 1
             except Exception as e:
                 print(f'  [{i}/{len(products)}] analysis error: {e}')
@@ -237,7 +295,6 @@ def scrape_light():
             time.sleep(2)
         else:
             product['quick_analysis'] = None
-            print(f'  [{i}/{len(products)}] no reviews -> skipped | {product["name"][:35]}')
 
     output = {
         'date': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
@@ -251,7 +308,7 @@ def scrape_light():
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f'\nDone: {len(products)} products scraped, {analyzed} with quick analysis')
+    print(f'\nDone: {len(products)} products, {analyzed} with AI analysis')
     print(f'Saved: {output_path}')
     return products
 

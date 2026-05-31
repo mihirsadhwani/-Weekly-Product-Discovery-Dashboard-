@@ -30,7 +30,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install playwright groq google-genai
+          pip install playwright groq google-genai beautifulsoup4
           playwright install chromium --with-deps
 
       - name: Determine run mode

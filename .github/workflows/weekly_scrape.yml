@@ -67,6 +67,7 @@ jobs:
         if: steps.freshness.outputs.skip != 'true'
         run: |
           sudo apt-get install -y tor
+          echo "ControlPort 9051" | sudo tee -a /etc/tor/torrc
           sudo service tor start
           sleep 20
           curl -s --socks5 127.0.0.1:9050 --max-time 15 https://check.torproject.org/api/ip \

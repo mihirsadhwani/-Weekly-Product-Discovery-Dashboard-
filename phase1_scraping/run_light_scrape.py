@@ -26,6 +26,22 @@ from quick_analyzer import quick_analysis
 from config import CATEGORY_URLS, DELAY_MIN, DELAY_MAX, USER_AGENTS
 
 
+def _rotate_tor_circuit() -> bool:
+    """Ask Tor for a new exit node via the control port. Returns True if successful."""
+    import socket
+    try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.connect(('127.0.0.1', 9051))
+        s.sendall(b'AUTHENTICATE ""\r\nNEWNYM\r\nQUIT\r\n')
+        s.close()
+        print('  Tor: new circuit requested — waiting 10s...')
+        time.sleep(10)
+        return True
+    except Exception as e:
+        print(f'  Tor circuit rotation unavailable: {e}')
+        return False
+
+
 REVIEW_SELECTORS = [
     'div.ZmyHeo div',
     'div.t-ZTKy',
@@ -266,15 +282,24 @@ def scrape_light() -> list[dict]:
         print(f'  {category}: {len(stubs)} products')
         time.sleep(random.uniform(1.0, 2.0))
 
-    # Fallback 1: Tor — free, routes through residential exit node
+    # Fallback 1: Tor — try up to 3 different exit nodes (rotate circuit if blocked)
     if not products:
         print('\nDirect requests blocked — retrying via Tor...')
-        for category, url in CATEGORY_URLS.items():
-            print(f'Scraping {category} (Tor)...')
-            stubs = _fetch_listing(url, category, via_tor=True)
-            products.extend(stubs)
-            print(f'  {category}: {len(stubs)} products')
-            time.sleep(random.uniform(1.0, 2.0))
+        for circuit in range(3):
+            if circuit > 0:
+                print(f'\n  Exit node blocked — rotating Tor circuit ({circuit}/2)...')
+                _rotate_tor_circuit()
+            circuit_products: list[dict] = []
+            for category, url in CATEGORY_URLS.items():
+                print(f'Scraping {category} (Tor circuit {circuit + 1})...')
+                stubs = _fetch_listing(url, category, via_tor=True)
+                circuit_products.extend(stubs)
+                print(f'  {category}: {len(stubs)} products')
+                time.sleep(random.uniform(1.0, 2.0))
+            if circuit_products:
+                products.extend(circuit_products)
+                print(f'Tor circuit {circuit + 1} succeeded!')
+                break
 
     # Fallback 2: ScraperAPI — if key is configured
     if not products and scraperapi_key:

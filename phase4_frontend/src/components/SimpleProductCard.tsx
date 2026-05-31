@@ -4,10 +4,16 @@ import { useState } from 'react'
 import type { NewTodayProduct } from '@/types/product'
 
 const CAT_FALLBACK: Record<string, { emoji: string; bg: string }> = {
-  Electronics:  { emoji: '📱', bg: 'bg-blue-50'   },
-  Fashion:      { emoji: '👕', bg: 'bg-pink-50'   },
-  Home_Kitchen: { emoji: '🏠', bg: 'bg-orange-50' },
-  Beauty:       { emoji: '🧴', bg: 'bg-purple-50' },
+  Electronics:   { emoji: '📱', bg: 'bg-blue-50'   },
+  Mobiles:       { emoji: '📱', bg: 'bg-blue-50'   },
+  Laptops:       { emoji: '💻', bg: 'bg-slate-50'  },
+  TVs:           { emoji: '📺', bg: 'bg-indigo-50' },
+  Fashion:       { emoji: '👕', bg: 'bg-pink-50'   },
+  Men_Fashion:   { emoji: '👔', bg: 'bg-sky-50'    },
+  Women_Fashion: { emoji: '👗', bg: 'bg-rose-50'   },
+  Home_Kitchen:  { emoji: '🏠', bg: 'bg-orange-50' },
+  Beauty:        { emoji: '🧴', bg: 'bg-purple-50' },
+  Sports:        { emoji: '🏋️', bg: 'bg-green-50'  },
 }
 
 function ProductImage({ src, alt, category }: { src: string | null; alt: string; category: string }) {

@@ -6,10 +6,16 @@ import type { Product } from '@/types/product'
 import { formatPrice } from '@/lib/utils'
 
 const CAT_FALLBACK: Record<string, { emoji: string; bg: string }> = {
-  Electronics:  { emoji: '📱', bg: 'bg-blue-50'   },
-  Fashion:      { emoji: '👕', bg: 'bg-pink-50'   },
-  Home_Kitchen: { emoji: '🏠', bg: 'bg-orange-50' },
-  Beauty:       { emoji: '🧴', bg: 'bg-purple-50' },
+  Electronics:   { emoji: '📱', bg: 'bg-blue-50'   },
+  Mobiles:       { emoji: '📱', bg: 'bg-blue-50'   },
+  Laptops:       { emoji: '💻', bg: 'bg-slate-50'  },
+  TVs:           { emoji: '📺', bg: 'bg-indigo-50' },
+  Fashion:       { emoji: '👕', bg: 'bg-pink-50'   },
+  Men_Fashion:   { emoji: '👔', bg: 'bg-sky-50'    },
+  Women_Fashion: { emoji: '👗', bg: 'bg-rose-50'   },
+  Home_Kitchen:  { emoji: '🏠', bg: 'bg-orange-50' },
+  Beauty:        { emoji: '🧴', bg: 'bg-purple-50' },
+  Sports:        { emoji: '🏋️', bg: 'bg-green-50'  },
 }
 
 const BADGE: Record<string, { bg: string; ring: string; dot: string; label: string }> = {
@@ -19,10 +25,16 @@ const BADGE: Record<string, { bg: string; ring: string; dot: string; label: stri
 }
 
 const CAT_CHIP: Record<string, { bg: string; text: string }> = {
-  Electronics:  { bg: 'bg-blue-100',   text: 'text-blue-700'   },
-  Fashion:      { bg: 'bg-pink-100',   text: 'text-pink-700'   },
-  Home_Kitchen: { bg: 'bg-orange-100', text: 'text-orange-700' },
-  Beauty:       { bg: 'bg-purple-100', text: 'text-purple-700' },
+  Electronics:   { bg: 'bg-blue-100',   text: 'text-blue-700'   },
+  Mobiles:       { bg: 'bg-blue-100',   text: 'text-blue-700'   },
+  Laptops:       { bg: 'bg-slate-100',  text: 'text-slate-700'  },
+  TVs:           { bg: 'bg-indigo-100', text: 'text-indigo-700' },
+  Fashion:       { bg: 'bg-pink-100',   text: 'text-pink-700'   },
+  Men_Fashion:   { bg: 'bg-sky-100',    text: 'text-sky-700'    },
+  Women_Fashion: { bg: 'bg-rose-100',   text: 'text-rose-700'   },
+  Home_Kitchen:  { bg: 'bg-orange-100', text: 'text-orange-700' },
+  Beauty:        { bg: 'bg-purple-100', text: 'text-purple-700' },
+  Sports:        { bg: 'bg-green-100',  text: 'text-green-700'  },
 }
 
 function ScoreRing({ score }: { score: number }) {

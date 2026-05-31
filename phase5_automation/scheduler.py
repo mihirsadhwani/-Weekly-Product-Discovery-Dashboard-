@@ -31,6 +31,17 @@ def run_phase(phase_name: str, command: str) -> None:
 def run_daily_light() -> None:
     print(f"\n[RUN] Daily Light Scrape - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     run_phase("Daily Scrape + Quick Analysis", "cd phase1_scraping && python run_light_scrape.py")
+
+    # Attempt deals scraping on same Tor window — non-fatal if it fails
+    print(f"\n{'='*60}")
+    print(">> Weekly Deals Scrape (alongside daily)")
+    print(f"{'='*60}\n")
+    result = subprocess.run("cd phase1_scraping && python run_deals_scrape.py", shell=True)
+    if result.returncode == 0:
+        print("[OK] Deals data updated\n")
+    else:
+        print("[WARN] Deals scrape failed — keeping existing products.json\n")
+
     print("[OK] Output: output/fresh_finds.json\n")
 
 

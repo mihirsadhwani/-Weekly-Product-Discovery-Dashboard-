@@ -219,7 +219,16 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
             page.wait_for_selector('a[href*="/p/"]', timeout=25000)
         except Exception:
             pass
-        time.sleep(4)
+        time.sleep(3)
+
+        # Scroll to trigger lazy-loading of all product cards
+        try:
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight * 0.5)")
+            time.sleep(1.5)
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            time.sleep(2)
+        except Exception:
+            pass
 
         title = page.title()
         print(f'    title: {title!r}')
@@ -250,11 +259,12 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         if (lt === 'add to compare' || lt === 'add to cart' || lt === 'buy now' ||
             lt === 'wishlist' || lt === 'compare') continue;
 
-        // Walk up DOM to find the product card (smallest container with a ₹ price)
+        // Walk up DOM to find the product card (smallest container with a ₹ price).
+        // Fashion cards can be 3000-5000 chars due to size/colour swatches.
         let card = link.parentElement;
         for (let i = 0; i < 10 && card; i++) {
             const t = card.innerText || '';
-            if (t.includes('\\u20b9') && t.length < 2500) break;
+            if (t.includes('\\u20b9') && t.length < 6000) break;
             card = card.parentElement;
         }
         if (!card || !(card.innerText || '').includes('\\u20b9')) continue;
@@ -288,7 +298,14 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
 
         const pms = Array.from(priceText.matchAll(/\\u20b9\\s*([\\d,]+)/g));
         if (!pms.length) continue;
-        const prices = pms.map(m => parseInt(m[1].replace(/,/g, '')));
+        let prices = pms.map(m => parseInt(m[1].replace(/,/g, ''))).filter(p => p > 0);
+        if (!prices.length) continue;
+        // EMI ratio filter: installment amounts are always << actual price.
+        // e.g. AC at ₹45,990 shows "No Cost EMI / ₹2,090" on a separate line —
+        // the EMI line keyword filter may miss the ₹ line; drop any price < max/5.
+        const maxP = Math.max(...prices);
+        prices = prices.filter(p => p * 5 >= maxP);
+        if (!prices.length) continue;
         const cur = Math.min(...prices);
         if (!cur || cur < 100) continue;
         const orig = prices.length > 1 ? Math.max(...prices) : null;
@@ -314,7 +331,7 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
             rating: rm ? parseFloat(rm[1]) : null, img_src: imgSrc,
         });
     }
-    return results.slice(0, 20);
+    return results.slice(0, 40);
 }
 """)
 
@@ -682,12 +699,27 @@ def scrape_deals() -> list[dict]:
         return (discount * 0.4) + (ai_score * 0.4) + (rating * 5)
 
     products.sort(key=deal_score, reverse=True)
-    top60 = products[:60]
+
+    # Per-category representation: up to 10 per category first, then fill to 80 overall.
+    # Prevents Mobiles/Laptops (large category, many products) from crowding out Fashion/Sports.
+    cat_seen: dict[str, int] = {}
+    balanced: list[dict] = []
+    for p in products:
+        cat = p['category']
+        if cat_seen.get(cat, 0) < 10:
+            balanced.append(p)
+            cat_seen[cat] = cat_seen.get(cat, 0) + 1
+    included = {id(p) for p in balanced}
+    for p in products:
+        if len(balanced) >= 80:
+            break
+        if id(p) not in included:
+            balanced.append(p)
 
     # Add frontend fields
     today = date.today()
     week_start = (today - timedelta(days=today.weekday())).isoformat()
-    for p in top60:
+    for p in balanced:
         p.setdefault('is_vfm', False)
         p.setdefault('vfm_score', 0)
         p.setdefault('price_prediction', None)
@@ -705,12 +737,12 @@ def scrape_deals() -> list[dict]:
     with open(output_dir / 'deals_finds.json', 'w', encoding='utf-8') as f:
         json.dump(deals_out, f, indent=2, ensure_ascii=False)
 
-    # Save frontend-ready products.json (top 60 deals)
+    # Save frontend-ready products.json (balanced top 80)
     products_out = {
         'last_updated': datetime.utcnow().isoformat(),
         'week_start': week_start,
-        'total_products': len(top60),
-        'products': top60,
+        'total_products': len(balanced),
+        'products': balanced,
     }
     with open(output_dir / 'products.json', 'w', encoding='utf-8') as f:
         json.dump(products_out, f, indent=2, ensure_ascii=False)
@@ -726,8 +758,8 @@ def scrape_deals() -> list[dict]:
         print(f'Trend analysis failed (non-fatal): {e}')
 
     print(f'\nDone: {len(products)} deals scraped, {analyzed} with AI analysis')
-    print(f'Top 60 saved to output/products.json')
-    return top60
+    print(f'Top {len(balanced)} (balanced) saved to output/products.json')
+    return balanced
 
 
 if __name__ == '__main__':

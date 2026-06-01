@@ -295,33 +295,36 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         }
         if (!name || name.length < 5 || UI_NAMES.includes(name.toLowerCase())) continue;
 
-        // Filter lines that carry EMI/installment amounts — those would become the min price.
-        // Exchange offer values (e.g. "Exchange up to ₹4,400") are NOT filtered by line because
-        // they may share a line with the actual selling price. Instead the disc>88% check below
-        // catches those cases: [4400, 32990, 55100] → disc=92% → filtered.
+        // Filter EMI lines — installment amounts would be picked up as min price.
         const priceText = text.split('\\n').filter(l => {
             const ll = l.toLowerCase();
             return !ll.includes('/month') && !ll.includes('emi') && !ll.includes('per month');
         }).join(' ');
 
+        // "Up to ₹X" values are exchange/trade-in bonuses, not selling prices.
+        // Remove them before computing min so cur = actual selling price, not trade-in value.
+        // e.g. text has "₹32,990  Exchange up to ₹4,400  ₹55,100":
+        //   uptoValues = {4400}, prices filtered = [32990, 55100] → cur=32990 ✓
+        const uptoValues = new Set(
+            Array.from(text.matchAll(/up\\s*to\\s*\\u20b9\\s*([\\d,]+)/gi))
+            .map(m => parseInt(m[1].replace(/,/g, '')))
+        );
+
         const pms = Array.from(priceText.matchAll(/\\u20b9\\s*([\\d,]+)/g));
         if (!pms.length) continue;
-        const prices = pms.map(m => parseInt(m[1].replace(/,/g, '')));
+        const prices = pms.map(m => parseInt(m[1].replace(/,/g, '')))
+            .filter(p => !uptoValues.has(p));
+        if (!prices.length) continue;
         const cur = Math.min(...prices);
         if (!cur || cur < 100) continue;
         const orig = prices.length > 1 ? Math.max(...prices) : null;
 
-        // Use price-based discount first (accurate), badge text as fallback.
-        // On discount-sort fashion pages, badges say "90% off" for inflated-MRP items
-        // even when the actual price/MRP difference is only 30%. Price calc is reliable.
-        // Exchange offer contamination: [4400, 32990, 55100] → disc_calc=92% → filtered by >88%.
-        let disc = null;
-        if (orig && orig > cur)
+        // Badge text first (what user sees), price-based calc as fallback/correction.
+        // Price-based corrects inflated-MRP fashion: badge "90% off" but actual is 30% → passes.
+        const dm = text.match(/(\\d{1,3})%\\s*off/i);
+        let disc = dm ? parseInt(dm[1]) : null;
+        if (!disc && orig && orig > cur)
             disc = Math.round((orig - cur) / orig * 100);
-        if (!disc) {
-            const dm = text.match(/(\\d{1,3})%\\s*off/i);
-            disc = dm ? parseInt(dm[1]) : null;
-        }
         if (!disc || disc < 5 || disc > 88) continue;
 
         // Rating (look for X.X between 3.0 and 5.0)
@@ -373,12 +376,16 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         return products
 
     except Exception as e:
+        err = str(e)
         print(f'    Playwright error ({category}): {e}')
         try:
             if page:
                 page.close()
         except Exception:
             pass
+        # Timeout means the page didn't load — retry on next Tor circuit (same as redirect).
+        if 'timeout' in err.lower() or 'Timeout' in err:
+            return None
         return []
 
 
@@ -481,7 +488,7 @@ def _scrape_reviews(page, product_url: str, max_reviews: int = 5) -> tuple[list[
         except Exception:
             pass
 
-    return reviews[:max_reviews], detail_price, detail_orig
+    return reviews[:max_reviews], None, None
 
 
 # ---------------------------------------------------------------------------

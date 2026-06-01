@@ -2,80 +2,101 @@
   "hot_categories": [
     {
       "category": "Laptops",
-      "count": 19
-    },
-    {
-      "category": "Home_Kitchen",
-      "count": 9
-    },
-    {
-      "category": "Mobiles",
-      "count": 3
+      "count": 16
     },
     {
       "category": "TVs",
-      "count": 3
+      "count": 9
+    },
+    {
+      "category": "Home_Kitchen",
+      "count": 8
     },
     {
       "category": "Beauty",
-      "count": 2
+      "count": 1
     }
   ],
   "declining_categories": [
     {
-      "category": "Beauty",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 0.0
-    },
-    {
       "category": "Laptops",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 0.0
+      "avg_sentiment": 69.4
     },
     {
       "category": "TVs",
+      "avg_sentiment": 45.6
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_sentiment": 20.6
+    },
+    {
+      "category": "Beauty",
       "avg_sentiment": 0.0
     }
   ],
-  "emerging_keywords": [],
+  "emerging_keywords": [
+    {
+      "keyword": "performance",
+      "mentions": 13
+    },
+    {
+      "keyword": "thin",
+      "mentions": 7
+    },
+    {
+      "keyword": "fast",
+      "mentions": 6
+    },
+    {
+      "keyword": "light",
+      "mentions": 5
+    },
+    {
+      "keyword": "display",
+      "mentions": 4
+    },
+    {
+      "keyword": "battery",
+      "mentions": 4
+    },
+    {
+      "keyword": "qled",
+      "mentions": 2
+    },
+    {
+      "keyword": "picture",
+      "mentions": 2
+    }
+  ],
   "price_movements": [
     {
-      "category": "Beauty",
-      "avg_price": 248
-    },
-    {
       "category": "Home_Kitchen",
-      "avg_price": 4158
-    },
-    {
-      "category": "Laptops",
-      "avg_price": 31320
-    },
-    {
-      "category": "Mobiles",
-      "avg_price": 48650
+      "avg_price": 23543
     },
     {
       "category": "TVs",
-      "avg_price": 44490
+      "avg_price": 22460
+    },
+    {
+      "category": "Laptops",
+      "avg_price": 59317
+    },
+    {
+      "category": "Beauty",
+      "avg_price": 239
     }
   ],
   "best_deal": {
-    "name": "Aqua Fresh Smoke Audi 18 ltr drink pure India 1st BIS (...",
-    "price": 500,
-    "original_price": 1650072,
-    "discount_percent": 72,
-    "category": "Home_Kitchen",
-    "score": 0,
-    "flipkart_url": "https://www.flipkart.com/aqua-fresh-smoke-audi-18-ltr-drink-pure-india-1st-bis-is-16240-2023-cm-l8100159306-l-ro-uv-uf-copper-alkaline-tds-control-water-purifier/p/itmc3da457d7de29?pid=WAPGW5YZQHM7EY3S&lid=LSTWAPGW5YZQHM7EY3SCZ8VWH&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=en_4G3KyfwlgtYgvP9rF4jJPDb3rwpxSjD6K_piRmxM4kh_v2yhVwR5toHT-KeF2vrhKBFTMJEIj_IidqAMxrobyw%3D%3D&ppt=None&ppn=None&ssid=sy3junbsv40000001780322462455&ov_redirect=true&ov_redirect=true"
+    "name": "Uniboom ULTIMA 80 cm (32 inch) HD Ready LED TV with 30W Sonic Boom - True Frameless - Aura Vision+ Dis...",
+    "price": 7090,
+    "original_price": 2399070,
+    "discount_percent": 70,
+    "category": "TVs",
+    "score": 80,
+    "flipkart_url": "https://www.flipkart.com/uniboom-ultima-80-cm-32-inch-hd-ready-led-tv-30w-sonic-boom-true-frameless-aura-vision-display-2-hdmi/p/itmd5c69c3bcf5c7?pid=TVSH9JPVBFN5HDP7&lid=LSTTVSH9JPVBFN5HDP7CQR10O&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_19&otracker=browse&fm=organic&iid=875d387c-aee4-43bc-8306-90ee3b59ee9a.TVSH9JPVBFN5HDP7.SEARCH&ppt=None&ppn=None&ssid=t1c3qntcq80000001780327692675&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T14:13:55.908102"
+  "generated_at": "2026-06-01T15:55:56.464487"
 }

@@ -65,6 +65,10 @@ jobs:
           else
             echo "No existing data — starting fresh"
           fi
+          if [ -f "phase4_frontend/public/data/deals_backup.json" ]; then
+            cp phase4_frontend/public/data/deals_backup.json output/deals_backup.json
+            echo "Loaded deals_backup.json for category top-up"
+          fi
 
       - name: Run pipeline
         env:
@@ -81,7 +85,7 @@ jobs:
           else
             echo "Skipping fresh_finds.json - 0 products scraped"
           fi
-          for f in products.json trends.json deals_finds.json; do
+          for f in products.json trends.json deals_finds.json deals_backup.json; do
             if [ -f "output/$f" ] && python -c "import json,sys; d=json.load(open('output/$f')); sys.exit(0 if len(d)>0 else 1)" 2>/dev/null; then
               cp "output/$f" "phase4_frontend/public/data/$f"
               echo "Copied $f"

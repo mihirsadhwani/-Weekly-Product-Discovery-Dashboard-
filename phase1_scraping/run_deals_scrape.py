@@ -89,6 +89,21 @@ REVIEW_SELECTORS = [
 ]
 
 
+def _load_backup_pool() -> dict[str, list[dict]]:
+    """Load last successful run's products as a per-category pool for guaranteed top-up."""
+    backup = Path(__file__).parent.parent / 'output' / 'deals_backup.json'
+    if not backup.exists():
+        return {}
+    try:
+        data = json.load(open(backup, encoding='utf-8'))
+        pool: dict[str, list[dict]] = {}
+        for p in data.get('products', []):
+            pool.setdefault(p.get('category', ''), []).append(p)
+        return pool
+    except Exception:
+        return {}
+
+
 def _rotate_tor_circuit() -> bool:
     import socket
     try:
@@ -800,6 +815,29 @@ def scrape_deals() -> list[dict]:
     output_dir = Path(__file__).parent.parent / 'output'
     output_dir.mkdir(exist_ok=True)
 
+    # Hard guarantee: any category with < 10 products gets topped up from last run's backup.
+    # This makes 10-per-category unbreakable regardless of Tor reliability.
+    backup_pool = _load_backup_pool()
+    if backup_pool:
+        by_cat: dict[str, list] = {}
+        for p in balanced:
+            by_cat.setdefault(p['category'], []).append(p)
+        for cat in DEAL_CATEGORY_URLS:
+            have = len(by_cat.get(cat, []))
+            if have < 10 and cat in backup_pool:
+                seen_hrefs = {p['flipkart_url'] for p in by_cat.get(cat, [])}
+                added = 0
+                for bp in backup_pool[cat]:
+                    if have + added >= 10:
+                        break
+                    if bp.get('flipkart_url') not in seen_hrefs:
+                        filled = dict(bp, from_backup=True)
+                        balanced.append(filled)
+                        seen_hrefs.add(bp['flipkart_url'])
+                        added += 1
+                if added:
+                    print(f'  Backup top-up {cat}: +{added} (total: {have + added})')
+
     # Save raw deals data
     deals_out = {
         'date': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
@@ -808,6 +846,13 @@ def scrape_deals() -> list[dict]:
     }
     with open(output_dir / 'deals_finds.json', 'w', encoding='utf-8') as f:
         json.dump(deals_out, f, indent=2, ensure_ascii=False)
+
+    # Save this run as backup for next week (only when we got real products).
+    # Backup uses original scraped products (before top-up) so it doesn't compound stale data.
+    if len(products) >= 20:
+        backup_out = {'date': datetime.utcnow().isoformat(), 'products': products}
+        with open(output_dir / 'deals_backup.json', 'w', encoding='utf-8') as f:
+            json.dump(backup_out, f, indent=2, ensure_ascii=False)
 
     # Save frontend-ready products.json (balanced top 80)
     products_out = {

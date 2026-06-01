@@ -1,102 +1,126 @@
 {
   "hot_categories": [
     {
-      "category": "Laptops",
-      "count": 16
-    },
-    {
       "category": "TVs",
-      "count": 9
+      "count": 22
     },
     {
       "category": "Home_Kitchen",
-      "count": 8
+      "count": 10
+    },
+    {
+      "category": "Laptops",
+      "count": 10
+    },
+    {
+      "category": "Sports",
+      "count": 1
     },
     {
       "category": "Beauty",
+      "count": 1
+    },
+    {
+      "category": "Women_Fashion",
       "count": 1
     }
   ],
   "declining_categories": [
     {
-      "category": "Laptops",
-      "avg_sentiment": 69.4
-    },
-    {
       "category": "TVs",
-      "avg_sentiment": 45.6
+      "avg_sentiment": 33.2
     },
     {
       "category": "Home_Kitchen",
-      "avg_sentiment": 20.6
+      "avg_sentiment": 24.0
+    },
+    {
+      "category": "Laptops",
+      "avg_sentiment": 24.0
     },
     {
       "category": "Beauty",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Women_Fashion",
       "avg_sentiment": 0.0
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "performance",
-      "mentions": 13
+      "keyword": "picture",
+      "mentions": 8
     },
     {
-      "keyword": "thin",
+      "keyword": "smart",
+      "mentions": 8
+    },
+    {
+      "keyword": "features",
       "mentions": 7
     },
     {
-      "keyword": "fast",
-      "mentions": 6
+      "keyword": "performance",
+      "mentions": 3
     },
     {
-      "keyword": "light",
-      "mentions": 5
-    },
-    {
-      "keyword": "display",
-      "mentions": 4
-    },
-    {
-      "keyword": "battery",
-      "mentions": 4
-    },
-    {
-      "keyword": "qled",
+      "keyword": "energy",
       "mentions": 2
     },
     {
-      "keyword": "picture",
+      "keyword": "efficient",
+      "mentions": 2
+    },
+    {
+      "keyword": "thin",
+      "mentions": 2
+    },
+    {
+      "keyword": "light",
       "mentions": 2
     }
   ],
   "price_movements": [
     {
-      "category": "Home_Kitchen",
-      "avg_price": 23543
+      "category": "TVs",
+      "avg_price": 22398
     },
     {
-      "category": "TVs",
-      "avg_price": 22460
+      "category": "Home_Kitchen",
+      "avg_price": 18168
+    },
+    {
+      "category": "Sports",
+      "avg_price": 243
     },
     {
       "category": "Laptops",
-      "avg_price": 59317
+      "avg_price": 84713
     },
     {
       "category": "Beauty",
       "avg_price": 239
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 317
     }
   ],
   "best_deal": {
-    "name": "Uniboom ULTIMA 80 cm (32 inch) HD Ready LED TV with 30W Sonic Boom - True Frameless - Aura Vision+ Dis...",
-    "price": 7090,
-    "original_price": 2399070,
-    "discount_percent": 70,
+    "name": "MOTOROLA 80 cm (32 inch) QLED HD Ready Smart Google TV",
+    "price": 11649,
+    "original_price": 26999,
+    "discount_percent": 56,
     "category": "TVs",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/uniboom-ultima-80-cm-32-inch-hd-ready-led-tv-30w-sonic-boom-true-frameless-aura-vision-display-2-hdmi/p/itmd5c69c3bcf5c7?pid=TVSH9JPVBFN5HDP7&lid=LSTTVSH9JPVBFN5HDP7CQR10O&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_19&otracker=browse&fm=organic&iid=875d387c-aee4-43bc-8306-90ee3b59ee9a.TVSH9JPVBFN5HDP7.SEARCH&ppt=None&ppn=None&ssid=t1c3qntcq80000001780327692675&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/motorola-80-cm-32-inch-qled-hd-ready-smart-google-tv/p/itm247d6554b407b?pid=TVSHC5F6TMNNUVXM&lid=LSTTVSHC5F6TMNNUVXMGGSM1Z&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_14&otracker=browse&fm=organic&iid=4d335191-bb7f-4b02-9506-854e85ebfe6b.TVSHC5F6TMNNUVXM.SEARCH&ppt=None&ppn=None&ssid=55p76fqnow0000001780332931006&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T15:55:56.464487"
+  "generated_at": "2026-06-01T17:53:17.388125"
 }

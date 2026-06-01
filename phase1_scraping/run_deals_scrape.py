@@ -41,27 +41,27 @@ DEAL_CATEGORY_URLS = {
     "Mobiles":       "https://www.flipkart.com/mobiles/pr?sid=tyy,4io&p%5B%5D=sort%3Dpopularity",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
-    # Fashion/Sports: sort=discount_dsc (sort, not filter) puts discounted items first so
-    # the JS disc<5% filter finds enough products. sort=popularity gives non-discounted items.
-    # Women's Western Wear (sid=2oq,1ml) is specific — sid=2oq alone is generic Men+Women+Kids.
-    "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=sort%3Ddiscount_dsc",
-    "Women_Fashion": "https://www.flipkart.com/women-western-wear/pr?sid=2oq,1ml&p%5B%5D=sort%3Ddiscount_dsc",
+    # Fashion: search URLs avoid sid-based geo-redirects that hit category pages via Tor.
+    # discount_range filter ensures only genuinely discounted items appear on the page —
+    # prevents 90%+ inflated-MRP badge items from filling the top results.
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+tshirts&p%5B%5D=sort%3Dpopularity&p%5B%5D=facets.discount_range%5B%5D%3D30%25+or+more",
+    "Women_Fashion": "https://www.flipkart.com/search?q=women+tops&p%5B%5D=sort%3Dpopularity&p%5B%5D=facets.discount_range%5B%5D%3D30%25+or+more",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Dpopularity",
-    # Sports: discount_dsc permanently redirects to Palanquins via Tor (all circuits).
-    # popularity sort loads the correct page in circuit 2; price-based disc calc finds deals.
-    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Dpopularity",
+    # Sports: sid=wr1 category page always redirects to Palanquins via all Tor circuits.
+    # Search URL avoids that geo-redirect entirely.
+    "Sports":        "https://www.flipkart.com/search?q=gym+fitness+equipment&p%5B%5D=sort%3Dpopularity&p%5B%5D=facets.discount_range%5B%5D%3D10%25+or+more",
 }
 
 CATEGORY_KEYWORDS = {
     'Mobiles': ['mobile', 'phone', 'smartphone'],
     'Laptops': ['laptop', 'notebook'],
     'TVs': ['tv', 'television'],
-    'Men_Fashion': ['men', 'shirt', 'topwear'],
-    'Women_Fashion': ['women', 'western', 'dress', 'clothing', 'wear'],
+    'Men_Fashion': ['men', 'shirt', 'tshirt', 't-shirt', 'topwear', 'clothing'],
+    'Women_Fashion': ['women', 'western', 'dress', 'clothing', 'wear', 'top', 'fashion'],
     'Home_Kitchen': ['home', 'kitchen'],
     'Beauty': ['beauty', 'grooming'],
-    'Sports': ['sport', 'fitness'],
+    'Sports': ['sport', 'fitness', 'gym', 'exercise', 'yoga', 'cricket', 'badminton'],
 }
 
 REVIEW_SELECTORS = [

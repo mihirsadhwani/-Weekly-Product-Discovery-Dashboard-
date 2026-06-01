@@ -331,7 +331,7 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         let disc = dm ? parseInt(dm[1]) : null;
         if (!disc && orig && orig > cur)
             disc = Math.round((orig - cur) / orig * 100);
-        if (!disc || disc < 5 || disc > 88) continue;
+        if (!disc || disc < 5 || disc > 92) continue;
 
         // Rating (look for X.X between 3.0 and 5.0)
         const rm = text.match(/\\b([3-5]\\.[0-9])\\b/);
@@ -416,8 +416,9 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
                 page.close()
         except Exception:
             pass
-        # Timeout means the page didn't load — retry on next Tor circuit (same as redirect).
-        if 'timeout' in err.lower() or 'Timeout' in err:
+        # Timeout/ERR_TIMED_OUT means page didn't load — retry on next Tor circuit.
+        # Note: ERR_TIMED_OUT contains 'timed_out' not 'timeout', so check both.
+        if 'timeout' in err.lower() or 'timed_out' in err.lower():
             return None
         return []
 

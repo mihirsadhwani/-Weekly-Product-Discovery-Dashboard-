@@ -1,20 +1,20 @@
 {
   "hot_categories": [
     {
-      "category": "TVs",
-      "count": 22
+      "category": "Laptops",
+      "count": 13
     },
     {
       "category": "Home_Kitchen",
-      "count": 10
+      "count": 7
     },
     {
-      "category": "Laptops",
-      "count": 10
+      "category": "TVs",
+      "count": 6
     },
     {
       "category": "Sports",
-      "count": 1
+      "count": 2
     },
     {
       "category": "Beauty",
@@ -28,15 +28,15 @@
   "declining_categories": [
     {
       "category": "TVs",
-      "avg_sentiment": 33.2
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 24.0
+      "avg_sentiment": 27.5
     },
     {
       "category": "Laptops",
-      "avg_sentiment": 24.0
+      "avg_sentiment": 23.8
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_sentiment": 22.9
     },
     {
       "category": "Beauty",
@@ -53,54 +53,34 @@
   ],
   "emerging_keywords": [
     {
-      "keyword": "picture",
-      "mentions": 8
-    },
-    {
-      "keyword": "smart",
-      "mentions": 8
-    },
-    {
-      "keyword": "features",
-      "mentions": 7
+      "keyword": "affordable",
+      "mentions": 3
     },
     {
       "keyword": "performance",
       "mentions": 3
     },
     {
-      "keyword": "energy",
-      "mentions": 2
-    },
-    {
-      "keyword": "efficient",
-      "mentions": 2
-    },
-    {
-      "keyword": "thin",
-      "mentions": 2
-    },
-    {
-      "keyword": "light",
+      "keyword": "picture",
       "mentions": 2
     }
   ],
   "price_movements": [
     {
-      "category": "TVs",
-      "avg_price": 22398
+      "category": "Home_Kitchen",
+      "avg_price": 17329
     },
     {
-      "category": "Home_Kitchen",
-      "avg_price": 18168
+      "category": "TVs",
+      "avg_price": 8363
     },
     {
       "category": "Sports",
-      "avg_price": 243
+      "avg_price": 220
     },
     {
       "category": "Laptops",
-      "avg_price": 84713
+      "avg_price": 60601
     },
     {
       "category": "Beauty",
@@ -112,15 +92,15 @@
     }
   ],
   "best_deal": {
-    "name": "MOTOROLA 80 cm (32 inch) QLED HD Ready Smart Google TV",
-    "price": 11649,
-    "original_price": 26999,
-    "discount_percent": 56,
+    "name": "MarQ by Flipkart 80 cm (32 inch) HD Ready LED TV\n4.212,721 Ratings & 955 Reviews\nHD Ready | LED\nModel ID: 32HDNDQEE1B\nLaunch Year: 2023\nTotal Sound Ou",
+    "price": 7499,
+    "original_price": 1700055,
+    "discount_percent": 55,
     "category": "TVs",
-    "score": 80,
-    "flipkart_url": "https://www.flipkart.com/motorola-80-cm-32-inch-qled-hd-ready-smart-google-tv/p/itm247d6554b407b?pid=TVSHC5F6TMNNUVXM&lid=LSTTVSHC5F6TMNNUVXMGGSM1Z&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_14&otracker=browse&fm=organic&iid=4d335191-bb7f-4b02-9506-854e85ebfe6b.TVSHC5F6TMNNUVXM.SEARCH&ppt=None&ppn=None&ssid=55p76fqnow0000001780332931006&ov_redirect=true"
+    "score": 85,
+    "flipkart_url": "https://www.flipkart.com/marq-flipkart-80-cm-32-inch-hd-ready-led-tv/p/itm9cf4b18ac50a6?pid=TVSGZGGPZ5JKMGYE&lid=LSTTVSGZGGPZ5JKMGYEXKW0X0&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_22&otracker=browse&fm=organic&iid=28336531-55da-4add-a220-0633c9bec00f.TVSGZGGPZ5JKMGYE.SEARCH&ppt=None&ppn=None&ssid=d776symry80000001780337177474&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T17:53:17.388125"
+  "generated_at": "2026-06-01T18:43:04.243532"
 }

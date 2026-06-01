@@ -1,126 +1,33 @@
 {
   "hot_categories": [
     {
-      "category": "Laptops",
-      "count": 14
-    },
-    {
-      "category": "TVs",
-      "count": 12
-    },
-    {
-      "category": "Home_Kitchen",
-      "count": 9
-    },
-    {
       "category": "Beauty",
-      "count": 5
-    },
-    {
-      "category": "Mobiles",
-      "count": 4
-    },
-    {
-      "category": "Men_Fashion",
-      "count": 1
+      "count": 6
     }
   ],
   "declining_categories": [
     {
-      "category": "TVs",
-      "avg_sentiment": 80.8
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 80.6
-    },
-    {
-      "category": "Laptops",
-      "avg_sentiment": 80.4
-    },
-    {
       "category": "Beauty",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 60.0
+      "avg_sentiment": 0.0
     }
   ],
-  "emerging_keywords": [
-    {
-      "keyword": "performance",
-      "mentions": 13
-    },
-    {
-      "keyword": "display",
-      "mentions": 10
-    },
-    {
-      "keyword": "fast",
-      "mentions": 10
-    },
-    {
-      "keyword": "thin",
-      "mentions": 10
-    },
-    {
-      "keyword": "light",
-      "mentions": 8
-    },
-    {
-      "keyword": "qled",
-      "mentions": 7
-    },
-    {
-      "keyword": "dolby",
-      "mentions": 7
-    },
-    {
-      "keyword": "affordable",
-      "mentions": 7
-    }
-  ],
+  "emerging_keywords": [],
   "price_movements": [
     {
-      "category": "TVs",
-      "avg_price": 5108382
-    },
-    {
       "category": "Beauty",
-      "avg_price": 40445
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_price": 4982931
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_price": 135080
-    },
-    {
-      "category": "Laptops",
-      "avg_price": 7450414
-    },
-    {
-      "category": "Mobiles",
-      "avg_price": 42900
+      "avg_price": 43707
     }
   ],
   "best_deal": {
-    "name": "Men Regular Fit Self Design Spread Collar Casual Shirt",
-    "price": 135080,
+    "name": "Eyecirque Lid Wipes for Cleansing Eyelids & Skin around...",
+    "price": 60057,
     "original_price": null,
-    "discount_percent": 80,
-    "category": "Men_Fashion",
-    "score": 80,
-    "flipkart_url": "https://www.flipkart.com/deardean-men-self-design-casual-black-shirt/p/itm572d950334963?pid=SHTHCC3TW8V5BSBH&lid=LSTSHTHCC3TW8V5BSBHFBFR8R&marketplace=FLIPKART&store=clo%2Fash&srno=b_1_38&otracker=browse&fm=organic&iid=en_xbPtKuNsToGQcSi_6Ia829NNPd4iHZKBQFJs7RUkRNRhYaDE5hiim6cxsGeqYcU4zoswSSgptBMFeAoWrNQtEPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=6jc7zxjzjk0000001780302124314&ov_redirect=true"
+    "discount_percent": 57,
+    "category": "Beauty",
+    "score": 0,
+    "flipkart_url": "https://www.flipkart.com/eyecirque-lid-wipes-cleansing-eyelids-skin-around-eyes/p/itm21ee25beca33d?pid=FLTGW7U7WS3B8JJT&lid=LSTFLTGW7U7WS3B8JJTRMGQ13&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_28&otracker=browse&fm=organic&iid=en_QQKZ5WsKRxiTKJQqI9UKSKuY5lX1ObSrRlUtmSlOqNKZNiZpDZB77hcYQQbymIYsTU4qXZmFrfTWQJSA30w42g%3D%3D&ppt=None&ppn=None&ssid=viumk2n2m80000001780305722494&ov_redirect=true&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T08:38:50.456771"
+  "generated_at": "2026-06-01T09:32:45.901624"
 }

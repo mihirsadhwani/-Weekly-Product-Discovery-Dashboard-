@@ -46,8 +46,8 @@ DEAL_CATEGORY_URLS = {
     # Fashion/Sports: search URLs avoid sid-based geo-redirects (Geography, Palanquins) via Tor.
     # discount_dsc sort surfaces genuinely discounted items first; JS extractor still filters
     # fake 90%+ inflated-MRP badge items, leaving real 5-88% deals.
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+tshirts&p%5B%5D=sort%3Ddiscount_dsc",
-    "Women_Fashion": "https://www.flipkart.com/search?q=women+tops&p%5B%5D=sort%3Ddiscount_dsc",
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+kurta&p%5B%5D=sort%3Ddiscount_dsc",
+    "Women_Fashion": "https://www.flipkart.com/search?q=women+kurti&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Ddiscount_dsc",
     # Sports: sid=wr1 category page always redirects to Palanquins via all Tor circuits.
@@ -59,8 +59,8 @@ CATEGORY_KEYWORDS = {
     'Mobiles': ['mobile', 'phone', 'smartphone'],
     'Laptops': ['laptop', 'notebook'],
     'TVs': ['tv', 'television'],
-    'Men_Fashion': ['men', 'shirt', 'tshirt', 't-shirt', 'topwear', 'clothing'],
-    'Women_Fashion': ['women', 'western', 'dress', 'clothing', 'wear', 'top', 'fashion'],
+    'Men_Fashion': ['men', 'kurta', 'shirt', 'tshirt', 'clothing', 'fashion'],
+    'Women_Fashion': ['women', 'kurti', 'western', 'dress', 'clothing', 'wear', 'fashion'],
     'Home_Kitchen': ['home', 'kitchen'],
     'Beauty': ['beauty', 'grooming'],
     'Sports': ['sport', 'fitness', 'gym', 'exercise', 'yoga', 'cricket', 'badminton'],
@@ -226,14 +226,18 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
             page.wait_for_selector('a[href*="/p/"]', timeout=25000)
         except Exception:
             pass
-        time.sleep(3)
+        time.sleep(2)
 
-        # Scroll to trigger lazy-loading of all product cards
+        # Scroll in steps — fashion pages lazy-load prices only when cards enter the viewport.
+        # Without stepping, cards near the bottom render links but prices stay blank,
+        # causing the JS extractor to skip them (no ₹ in innerText).
         try:
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight * 0.5)")
+            for pct in [0.2, 0.4, 0.6, 0.8, 1.0]:
+                page.evaluate(f"window.scrollTo(0, document.body.scrollHeight * {pct})")
+                time.sleep(1.2)
+            # Scroll back to top so viewport-based rendering covers all cards
+            page.evaluate("window.scrollTo(0, 0)")
             time.sleep(1.5)
-            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-            time.sleep(2)
         except Exception:
             pass
 

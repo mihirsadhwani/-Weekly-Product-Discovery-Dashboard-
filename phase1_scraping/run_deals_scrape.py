@@ -41,14 +41,14 @@ DEAL_CATEGORY_URLS = {
     "Mobiles":       "https://www.flipkart.com/mobiles/pr?sid=tyy,4io&p%5B%5D=sort%3Dpopularity",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
-    # No server-side discount filter for fashion/sports — sid=clo,aps and the 30%+ filter
-    # both cause Flipkart to redirect (Bestsellers / Palanquins) via Tor. The JS extractor
-    # already filters disc < 5%, so only discounted items make it through anyway.
-    "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=sort%3Dpopularity",
-    "Women_Fashion": "https://www.flipkart.com/women/clothing/pr?sid=2oq&p%5B%5D=sort%3Dpopularity",
+    # Fashion/Sports: sort=discount_dsc (sort, not filter) puts discounted items first so
+    # the JS disc<5% filter finds enough products. sort=popularity gives non-discounted items.
+    # Women's Western Wear (sid=2oq,1ml) is specific — sid=2oq alone is generic Men+Women+Kids.
+    "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=sort%3Ddiscount_dsc",
+    "Women_Fashion": "https://www.flipkart.com/women-western-wear/pr?sid=2oq,1ml&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Dpopularity",
-    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Dpopularity",
+    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Ddiscount_dsc",
 }
 
 CATEGORY_KEYWORDS = {
@@ -56,7 +56,7 @@ CATEGORY_KEYWORDS = {
     'Laptops': ['laptop', 'notebook'],
     'TVs': ['tv', 'television'],
     'Men_Fashion': ['men', 'shirt', 'topwear'],
-    'Women_Fashion': ['women', 'western', 'dress', 'clothing'],
+    'Women_Fashion': ['women', 'western', 'dress', 'clothing', 'wear'],
     'Home_Kitchen': ['home', 'kitchen'],
     'Beauty': ['beauty', 'grooming'],
     'Sports': ['sport', 'fitness'],

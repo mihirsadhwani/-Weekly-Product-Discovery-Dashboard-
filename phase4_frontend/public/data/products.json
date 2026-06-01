@@ -1,28 +1,41 @@
 {
-  "last_updated": "2026-06-01T09:32:45.901123",
+  "last_updated": "2026-06-01T09:56:57.072991",
   "week_start": "2026-06-01",
-  "total_products": 6,
+  "total_products": 39,
   "products": [
     {
-      "name": "Eyecirque Lid Wipes for Cleansing Eyelids & Skin around...",
-      "price": 60057,
-      "original_price": null,
-      "discount_percent": 57,
-      "rating": 4.2,
+      "name": "Lacto Calamine Daily Cleansing wipe Aloe, Cucumber, Vit...",
+      "price": 487,
+      "original_price": 60018,
+      "discount_percent": 99,
+      "rating": 4.4,
       "review_count": null,
       "category": "Beauty",
       "sub_category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/facial-tissue/x/f/h/lid-wipes-for-cleansing-eyelids-skin-around-the-eyes-1-30-original-imahhgs2mmr4ecns.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/eyecirque-lid-wipes-cleansing-eyelids-skin-around-eyes/p/itm21ee25beca33d?pid=FLTGW7U7WS3B8JJT&lid=LSTFLTGW7U7WS3B8JJTRMGQ13&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_28&otracker=browse&fm=organic&iid=en_QQKZ5WsKRxiTKJQqI9UKSKuY5lX1ObSrRlUtmSlOqNKZNiZpDZB77hcYQQbymIYsTU4qXZmFrfTWQJSA30w42g%3D%3D&ppt=None&ppn=None&ssid=viumk2n2m80000001780305722494&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T09:22:08.793695",
-      "quick_analysis": null,
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/make-up-remover/r/d/0/-original-imah3jdjeuvwdyvp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lacto-calamine-daily-cleansing-wipe-aloe-cucumber-vitamin-e-paraben-alcohol-free-makeup-remover/p/itmc9a303e0664ad?pid=FLTFTGK7HDHYPCZX&lid=LSTFLTFTGK7HDHYPCZXGCYZOU&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=en_VzFt4HnA9qsAJc5ogJrPvFgK5G-V1ES2jWbJBOimEWv4Gm56Rp9n13R3J4FiNdtFgTTelNQHG-9Eq5DDd_qk-kKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=None&ppn=None&ssid=miqf1sducg0000001780307455693&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:51:02.352452",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Gentle on skin",
+          "Effective remover"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      },
       "analysis": {
-        "pros": [],
-        "cons": [],
+        "pros": [
+          "Gentle on skin",
+          "Effective remover"
+        ],
+        "cons": [
+          "No reviews"
+        ],
         "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
       },
       "is_vfm": false,
       "vfm_score": 0,
@@ -31,23 +44,75 @@
     },
     {
       "name": "Rintex Red Alta Pen For Bharatanatyam - Lead-Free, Alth...",
-      "price": 47049,
-      "original_price": null,
-      "discount_percent": 49,
+      "price": 239,
+      "original_price": 47049,
+      "discount_percent": 99,
       "rating": 4.3,
       "review_count": null,
       "category": "Beauty",
       "sub_category": "Beauty",
       "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/sindoor/v/t/7/55-red-alta-pen-for-bharatanatyam-lead-free-altha-pen-for-hands-original-imahjgkymkaqtxe9.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/rintex-red-alta-pen-bharatanatyam-lead-free-altha-hands-feet/p/itmd9c6cd7f583a5?pid=SINHJCBCXZZWTHCV&lid=LSTSINHJCBCXZZWTHCVKPMQ2F&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_29&otracker=browse&fm=organic&iid=e54dc072-6909-43a0-bfed-be982df8c96b.SINHJCBCXZZWTHCV.SEARCH&ppt=None&ppn=None&ssid=viumk2n2m80000001780305722494&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T09:22:08.793695",
-      "quick_analysis": null,
+      "flipkart_url": "https://www.flipkart.com/rintex-red-alta-pen-bharatanatyam-lead-free-altha-hands-feet/p/itmd9c6cd7f583a5?pid=SINHJCBCXZZWTHCV&lid=LSTSINHJCBCXZZWTHCVKPMQ2F&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_23&otracker=browse&fm=organic&iid=2f86589b-0ecb-4ebe-b284-1686e7398c5b.SINHJCBCXZZWTHCV.SEARCH&ppt=None&ppn=None&ssid=miqf1sducg0000001780307455693&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:51:02.352452",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Lead-Free",
+          "Long-Lasting"
+        ],
+        "top_con": "Smudge Risk",
+        "quick_verdict": "Worth checking"
+      },
       "analysis": {
-        "pros": [],
-        "cons": [],
+        "pros": [
+          "Lead-Free",
+          "Long-Lasting"
+        ],
+        "cons": [
+          "Smudge Risk"
+        ],
         "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "CARRIER 2026 Model 1 Ton 3 Star Split AI Inverter Conve...",
+      "price": 4400,
+      "original_price": 5510040,
+      "discount_percent": 100,
+      "rating": 4.2,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/k/i/v/-original-imahjygtddhzy2jb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/carrier-2026-model-1-ton-3-star-split-ai-inverter-convertible-6-in-1-smart-energy-display-insta-cool-auto-defrost-clean-pm-2-5-filter-ac/p/itm7b61312cd52ea?pid=ACNHJ48NWWSH5UWN&lid=LSTACNHJ48NWWSH5UWNJAYCNG&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe5PJCyiwLS5Ztg-uBjlONi9uO2QR6fuFtKismRxK9uiwVmOBtEFy0FmBP0CX6jfuRQ%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Smart Energy Display",
+          "Insta Cool"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [
+          "Smart Energy Display",
+          "Insta Cool"
+        ],
+        "cons": [
+          "No reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
         "recommendation": "Wait"
       },
       "is_vfm": false,
@@ -56,25 +121,116 @@
       "comparisons": []
     },
     {
-      "name": "RAWLS Eyelash & Eyebrow Growth Oil/Serum for thicker, f...",
-      "price": 55047,
-      "original_price": null,
-      "discount_percent": 47,
-      "rating": 3.9,
+      "name": "Samsung Bespoke AI 2026 Model 1 Ton 5 Star Split Invert...",
+      "price": 4400,
+      "original_price": 7599049,
+      "discount_percent": 100,
+      "rating": 4.2,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/k/m/j/-original-imahmd3z3d5wvkys.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-bespoke-ai-2026-model-1-ton-5-star-split-inverter-wi-fi-energy-saving-voice-control-powerful-cooling-copper-4-way-swing-step-convertible-ac/p/itmb28e3880eed01?pid=ACNHKBNRYZWTDZNP&lid=LSTACNHKBNRYZWTDZNPDTCDI0&marketplace=FLIPKART&store=j9e&srno=b_1_17&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe64-IbvBbqGJIHLFDCpZJyTRqEHsMXpvD1wkyF8tzibt_NzSJq5vUoApsGIr4piuio%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Powerful Cooling",
+          "Energy Saving"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Powerful Cooling",
+          "Energy Saving"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "CARRIER 2026 Model 1.5 Ton 3 Star Split AI Inverter Con...",
+      "price": 4400,
+      "original_price": 6550047,
+      "discount_percent": 100,
+      "rating": 4.2,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/k/i/v/-original-imahjygtddhzy2jb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/carrier-2026-model-1-5-ton-3-star-split-ai-inverter-convertible-6-in-1-smart-energy-display-insta-cool-auto-defrost-clean-pm-2-5-filter-ac/p/itmedd163901c169?pid=ACNHJ48NFWSXC7FS&lid=LSTACNHJ48NFWSXC7FSLIDVWL&marketplace=FLIPKART&store=j9e&srno=b_1_35&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe4wdJBtBftXU4Hs8La3EBzZsg2mTeIC9t9W6WlTmZFont5koc4Vde5BrV07v6K7Rm4%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Smart Energy Display",
+          "Insta Cool"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [
+          "Smart Energy Display",
+          "Insta Cool"
+        ],
+        "cons": [
+          "No reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Eyecirque Lid Wipes for Cleansing Eyelids & Skin around...",
+      "price": 256,
+      "original_price": 60057,
+      "discount_percent": 100,
+      "rating": 4.2,
       "review_count": null,
       "category": "Beauty",
       "sub_category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/eyebrow-enhancer/t/n/v/5-eyelash-eyebrow-growth-oil-serum-for-thicker-fuller-lashes-original-imahjx9qhfamcuvs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/rawls-eyelash-eyebrow-growth-oil-serum-thicker-fuller-lashes-brows-unisex-5-ml/p/itm504382dc6b9c3?pid=EBEH6GS4APDJEZYD&lid=LSTEBEH6GS4APDJEZYDMZ0OLC&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=en_QQKZ5WsKRxiTKJQqI9UKSKuY5lX1ObSrRlUtmSlOqNJ2A0j5gzU_nf7nGgEa8oP7K3SH6TeAoNERyb1EVfa9xA%3D%3D&ppt=None&ppn=None&ssid=viumk2n2m80000001780305722494&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T09:22:08.793695",
-      "quick_analysis": null,
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/facial-tissue/x/f/h/lid-wipes-for-cleansing-eyelids-skin-around-the-eyes-1-30-original-imahhgs2mmr4ecns.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/eyecirque-lid-wipes-cleansing-eyelids-skin-around-eyes/p/itm21ee25beca33d?pid=FLTGW7U7WS3B8JJT&lid=LSTFLTGW7U7WS3B8JJTRMGQ13&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_31&otracker=browse&fm=organic&iid=en_VzFt4HnA9qsAJc5ogJrPvFgK5G-V1ES2jWbJBOimEWsYufjHAsorJQU1lRCUcfnjhTGzoSQOPkoPHhW6Ov8e4g%3D%3D&ppt=None&ppn=None&ssid=miqf1sducg0000001780307455693&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:51:02.352452",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Gentle on skin",
+          "Effective cleansing"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Worth checking"
+      },
       "analysis": {
-        "pros": [],
-        "cons": [],
+        "pros": [
+          "Gentle on skin",
+          "Effective cleansing"
+        ],
+        "cons": [
+          "Limited reviews"
+        ],
         "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
       },
       "is_vfm": false,
       "vfm_score": 0,
@@ -82,25 +238,38 @@
       "comparisons": []
     },
     {
-      "name": "Lacto Calamine Daily Cleansing wipe Aloe, Cucumber, Vit...",
-      "price": 60018,
-      "original_price": null,
-      "discount_percent": 18,
-      "rating": 4.4,
+      "name": "Dr Trust Room (USA) Model 907 Cool Mist Humidifier and ...",
+      "price": 2000,
+      "original_price": 360044,
+      "discount_percent": 99,
+      "rating": 4.2,
       "review_count": null,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/make-up-remover/r/d/0/-original-imah3jdjeuvwdyvp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/lacto-calamine-daily-cleansing-wipe-aloe-cucumber-vitamin-e-paraben-alcohol-free-makeup-remover/p/itmc9a303e0664ad?pid=FLTFTGK7HDHYPCZX&lid=LSTFLTFTGK7HDHYPCZXGCYZOU&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=en_QQKZ5WsKRxiTKJQqI9UKSKuY5lX1ObSrRlUtmSlOqNKscDwSHm_UKxsSWX_6z-yUgTTelNQHG-9Eq5DDd_qk-kKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=None&ppn=None&ssid=viumk2n2m80000001780305722494&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T09:22:08.793695",
-      "quick_analysis": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/humidifier/3/t/8/usa-model-907-cool-mist-humidifier-and-ultrasonic-portable-room-original-imahha4zyadw2bgy.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/trust-room-usa-model-907-cool-mist-humidifier-ultrasonic-portable-home-office/p/itm0c2241f6a18ed?pid=APFFWANT8XGX43YT&lid=LSTAPFFWANT8XGX43YTD6CSPT&marketplace=FLIPKART&store=j9e&srno=b_1_33&otracker=browse&fm=organic&iid=57862f45-f6e1-461f-954d-7e4093727ee0.APFFWANT8XGX43YT.SEARCH&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Cool mist feature",
+          "Portable design"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      },
       "analysis": {
-        "pros": [],
-        "cons": [],
+        "pros": [
+          "Cool mist feature",
+          "Portable design"
+        ],
+        "cons": [
+          "No reviews"
+        ],
         "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
       },
       "is_vfm": false,
       "vfm_score": 0,
@@ -108,25 +277,77 @@
       "comparisons": []
     },
     {
-      "name": "Dazller College Makeup Essentials-3, KreamyKajal + Masc...",
-      "price": 22016,
-      "original_price": null,
-      "discount_percent": 16,
+      "name": "Lloyd 2026 Model 1.5 Ton 4 Star Split Inverter AC",
+      "price": 38990,
+      "original_price": 6199037,
+      "discount_percent": 99,
+      "rating": 4.1,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/p/0/x/-original-imahmyaxchddssnt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-1-5-ton-4-star-split-inverter-ac/p/itm1363ff37ec852?pid=ACNHMRG29GVDTDXD&lid=LSTACNHMRG29GVDTDXDRDTNV7&marketplace=FLIPKART&store=j9e&srno=b_1_18&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe4v5Rc8pSITSYMayTY7lGHscm0ZLOoT2raFL2m5ax62xWkUQrtrR4ehE0IH-fZyNeg%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Inverter Technology",
+          "Energy Efficient"
+        ],
+        "top_con": "Noisy Operation",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Inverter Technology",
+          "Energy Efficient"
+        ],
+        "cons": [
+          "Noisy Operation"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2026 Model 2 Ton 3 Star Split Inverter AC",
+      "price": 4400,
+      "original_price": 7299034,
+      "discount_percent": 100,
       "rating": 3.8,
       "review_count": null,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kajal/k/l/a/5-95-college-makeup-essentials-3-kreamykajal-mascara-original-imahkjdpnprqxz69.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/dazller-college-makeup-essentials-3-kreamykajal-mascara-eyelinerpencil-mattefinish/p/itm898083a7e8bce?pid=KJLGPBWZF5HYW9M7&lid=LSTKJLGPBWZF5HYW9M7PZRQ1P&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=en_QQKZ5WsKRxiTKJQqI9UKSKuY5lX1ObSrRlUtmSlOqNK9JnVGF_S4JPHsIr3V9Lgh7lYM-BKAa7pqVd26Wi19Cw%3D%3D&ppt=None&ppn=None&ssid=viumk2n2m80000001780305722494&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T09:22:08.793695",
-      "quick_analysis": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/d/2/b/-original-imahm4h5y96s9esx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-2-ton-3-star-split-inverter-ac/p/itm4aa424f34d8d1?pid=ACNHHG4MAG8RUDFG&lid=LSTACNHHG4MAG8RUDFGTBME3M&marketplace=FLIPKART&store=j9e&srno=b_1_14&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe4w2Tkrn6fspYHClFDrJGoMCdQK6liaT8wzlJ-Z3FBolKwh4GJdccUSVsNPTiGrw-0%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
       "analysis": {
-        "pros": [],
-        "cons": [],
+        "pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "cons": [
+          "High Price"
+        ],
         "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
       },
       "is_vfm": false,
       "vfm_score": 0,
@@ -134,25 +355,1169 @@
       "comparisons": []
     },
     {
-      "name": "OBN Nail Polish Remover Pads Wet Wipes Pack of 3",
-      "price": 18057,
-      "original_price": null,
-      "discount_percent": 57,
+      "name": "MOTOROLA Motobook 60 Pro Full Metal OLED AI PC Intel Core Ultra 5 225H - (16 GB/512 GB SSD/Windows 11 ...",
+      "price": 42600,
+      "original_price": 10499040,
+      "discount_percent": 100,
       "rating": null,
       "review_count": null,
-      "category": "Beauty",
-      "sub_category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/nail-paint-remover/f/m/1/-original-imahffzphzggcrjx.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/obn-nail-polish-remover-pads-wet-wipes-pack-3/p/itmea5b8cc8ba0ce?pid=NPRENNXBKTWJY4SC&lid=LSTNPRENNXBKTWJY4SCQMLKN0&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_34&otracker=browse&fm=organic&iid=e54dc072-6909-43a0-bfed-be982df8c96b.NPRENNXBKTWJY4SC.SEARCH&ppt=None&ppn=None&ssid=viumk2n2m80000001780305722494&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T09:22:08.793695",
-      "quick_analysis": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/z/t/g/-original-imahmazj9jdvdzeb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-motobook-60-pro-full-metal-oled-ai-pc-intel-core-ultra-5-225h-16-gb-512-gb-ssd-windows-11-home-83ny000din-thin-light-laptop/p/itm4668d847910ea?pid=COMHHPS9UGSHJHZA&lid=LSTCOMHHPS9UGSHJHZA3STSDL&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_1&otracker=browse&fm=organic&iid=en_V0aYDjRrkOFM-aGRLrDtoofzDqIx0_oLPTwW-WOeU_iiYsQRckb6LX3wCNkBN0G-xaoJN_IKdOV7UTxwD7r1Ok4IsYyWu-Pj9cxFjFAoaLk%3D&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      },
       "analysis": {
-        "pros": [],
-        "cons": [],
+        "pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "cons": [
+          "Limited Reviews"
+        ],
         "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "MOTOROLA Motobook 60 Pro Full Metal OLED AI PC Intel Core Ultra 5 225H - (16 GB/512 GB SSD/Windows 11 ...",
+      "price": 42600,
+      "original_price": 10499040,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/f/b/7/-original-imahmazjdpcgnkrq.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-motobook-60-pro-full-metal-oled-ai-pc-intel-core-ultra-5-225h-16-gb-512-gb-ssd-windows-11-home-83ny000cin-thin-light-laptop/p/itm1beec582bb1b7?pid=COMHHPS975YQTYUN&lid=LSTCOMHHPS975YQTYUNPQC03I&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_2&otracker=browse&fm=organic&iid=en_V0aYDjRrkOFM-aGRLrDtoofzDqIx0_oLPTwW-WOeU_gMEdpC7i6DKFTYE2Z4uzRkd22yvK3ygJaodxhIDhNCWIQEIsITtCzc4bHaOMTqL08%3D&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "top_con": "Pricey Option",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "cons": [
+          "Pricey Option"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Samsung Galaxy Book4 Edge Series Copilot AI-PC Full Metal Chasis Snapdragon X - (16 GB/512 GB SSD/Wind...",
+      "price": 42600,
+      "original_price": 9239012,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/a/g/p/-original-imahgwkqughzkwt3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-book4-edge-series-copilot-ai-pc-full-metal-chasis-snapdragon-x-16-gb-512-gb-ssd-windows-11-home-np750xqb-ka1in-thin-light-laptop/p/itm1d61ec8d90cc7?pid=COMHE4ATFWNVHXHS&lid=LSTCOMHE4ATFWNVHXHSIHS0FO&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_6&otracker=browse&fm=organic&iid=en_V0aYDjRrkOFM-aGRLrDtoofzDqIx0_oLPTwW-WOeU_gz5epXcy6ASood3EqOU1q4A9wem4Jfks13NhcL6Yr0FMDbPjpExlWhmpgUQnOg2ao%3D&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Full Metal Chasis"
+        ],
+        "top_con": "Price Concern",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Full Metal Chasis"
+        ],
+        "cons": [
+          "Price Concern"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Samsung Galaxy Book6 Ultra Intel Core Ultra X7 (Series 3) - (32 GB/1 TB SSD/Windows 11 Home) NP960UJG ...",
+      "price": 42600,
+      "original_price": 33319027,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/e/a/1/-original-imahhvjrhr7hypre.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-book6-ultra-intel-core-x7-series-3-32-gb-1-tb-ssd-windows-11-home-np960ujg-thin-light-laptop/p/itmfb5b1ae27b0c0?pid=COMHHPK4TH9ZMD8W&lid=LSTCOMHHPK4TH9ZMD8WMWX2S3&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_9&otracker=browse&fm=organic&iid=en_V0aYDjRrkOFM-aGRLrDtoofzDqIx0_oLPTwW-WOeU_jDBYU1q-52yT7UrknU-A0qoUFPb5XdcEBm1YzrEGTdeWJMZAJirnjvZRqZ0WhE16A%3D&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "MSI Modern 14 AMD Ryzen 5 Hexa Core 7430U - (16 GB/512 GB SSD/Windows 11 Home) 14 C7M-283IN / 14 C7M-4...",
+      "price": 32950,
+      "original_price": 6699031,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/w/e/h/-original-imahg5fuveu8hy3m.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/msi-modern-14-amd-ryzen-5-hexa-core-7430u-16-gb-512-gb-ssd-windows-11-home-c7m-283in-c7m-400in-business-laptop/p/itmef8f5c6fd8e76?pid=COMH3YTFZZZJJCNU&lid=LSTCOMH3YTFZZZJJCNUFS5LIO&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_13&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMH3YTFZZZJJCNU.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Powerful Ryzen 5",
+          "Ample Storage"
+        ],
+        "top_con": "Limited Upgrade",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Powerful Ryzen 5",
+          "Ample Storage"
+        ],
+        "cons": [
+          "Limited Upgrade"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "ASUS Expertbook P1 with 1 Yr ADP Intel Core i3 13th Gen 1315U - (8 GB/512 GB SSD/Windows 11 Home) P150...",
+      "price": 32950,
+      "original_price": 6999027,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/416/416/q/-original-imahehnhwehhffc4.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/asus-expertbook-p1-1-yr-adp-intel-core-i3-13th-gen-1315u-8-gb-512-gb-ssd-windows-11-home-p1503cva-s70501ws-thin-light-laptop/p/itm5b59a30b4c016?pid=COMH8Z2QADYUVZN8&lid=LSTCOMH8Z2QADYUVZN8LRHSHZ&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_16&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMH8Z2QADYUVZN8.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Good Performance"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Good Performance"
+        ],
+        "cons": [
+          "Limited Storage"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lenovo LOQ 2025 Intel Core i7 13th Gen 13700HX - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA ...",
+      "price": 42600,
+      "original_price": 14809016,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/v/i/i/-original-imahfdr2fqzt9d9z.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lenovo-loq-2025-intel-core-i7-13th-gen-13700hx-16-gb-1-tb-ssd-windows-11-home-8-gb-graphics-nvidia-geforce-rtx-5050-15irx10-gaming-laptop/p/itmb8196b6d3b8d4?pid=COMHEWAJZBBN7UP4&lid=LSTCOMHEWAJZBBN7UP4PZBSC8&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_21&otracker=browse&fm=organic&iid=en_V0aYDjRrkOFM-aGRLrDtoofzDqIx0_oLPTwW-WOeU_jPHbKvtd6cfmHGTXJVKR6Ww9jympfQc0PfU1tVdgGwr6e2V9XDvunzl7fbjyNvPBk%3D&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Fast Performance",
+          "Good Graphics"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Fast Performance",
+          "Good Graphics"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "trendycarthub",
+      "price": 108,
+      "original_price": 22050,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Women_Fashion",
+      "sub_category": "Women_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/dupatta/q/t/b/2-5-meters-1-w-w-white-siffon-dupatta-trendycarthub-original-imahnr7byqyhgzys.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/trendycarthub-chiffon-solid-women-dupatta/p/itm6da8cba95ba9f?pid=DUPHNR7EW4VRJAGY&lid=LSTDUPHNR7EW4VRJAGYG5MBMA&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=0a95a0c9-d714-4103-8a8d-c5674fa852ed.DUPHNR7EW4VRJAGY.SEARCH&ppt=None&ppn=None&ssid=pagpa9ocn40000001780307433998&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:39.840048",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Good quality"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Affordable price",
+          "Good quality"
+        ],
+        "cons": [
+          "Limited reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2026 Model 1 Ton 3 Star Split Inverter AC",
+      "price": 4400,
+      "original_price": 4999037,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/a/d/s/-original-imahm3zvy5zg9sm8.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-1-ton-3-star-split-inverter-ac/p/itm737897221bbc1?pid=ACNHHG4MTC9A8ZQU&lid=LSTACNHHG4MTC9A8ZQUB7U7NE&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe4buGonU0zcJd2z8hJEE6iia6OoPZExfDbAoQLbt9w7y04IsYyWu-Pj9cxFjFAoaLk%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "top_con": "No Wi-Fi",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "cons": [
+          "No Wi-Fi"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Aqua Fresh Smoke Audi 18 ltr drink pure India 1st BIS (...",
+      "price": 500,
+      "original_price": 1650072,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/water-purifier/j/i/d/smoke-audi-18-ltr-drink-pure-india-1st-bis-is-16240-2023-cm-original-imahgvd7nrf75f3q.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/aqua-fresh-smoke-audi-18-ltr-drink-pure-india-1st-bis-is-16240-2023-cm-l8100159306-l-ro-uv-uf-copper-alkaline-tds-control-water-purifier/p/itmc3da457d7de29?pid=WAPGW5YZQHM7EY3S&lid=LSTWAPGW5YZQHM7EY3SCZ8VWH&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe43hPEffTZHRViRVVAltaNHKBFTMJEIj_IidqAMxrobyw%3D%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Purification",
+          "Affordable Price"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Purification",
+          "Affordable Price"
+        ],
+        "cons": [
+          "Limited Reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Godrej 2026 Model 1.5 Ton 4 Star Split Inverter 5-In-1 ...",
+      "price": 4400,
+      "original_price": 5060034,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/t/8/q/-original-imahmhatydqw6rku.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/godrej-2026-model-1-5-ton-4-star-split-inverter-5-in-1-convertible-cooling-2-way-air-swing-heavy-duty-cooling-extreme-temperature-ac/p/itm83d29d63e14cb?pid=ACNHJZAZVFE8XY6D&lid=LSTACNHJZAZVFE8XY6DXEVAAG&marketplace=FLIPKART&store=j9e&srno=b_1_15&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe4u4wf5vVV687hSgeyQT0mIVY-lOprCqbIUaO-jJgmUyXxHajYNyuWOMhuZi0IpbY0%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Heavy Duty Cooling",
+          "5-In-1 Convertible"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Heavy Duty Cooling",
+          "5-In-1 Convertible"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2026 Model 1.5 Ton 3 Star Split Inverter AC",
+      "price": 4400,
+      "original_price": 5699038,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/l/1/h/-original-imahm3zvzg8uc8wt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-1-5-ton-3-star-split-inverter-ac/p/itme2ca1cb9f3a65?pid=ACNHHG4MTHXJBQNS&lid=LSTACNHHG4MTHXJBQNSHCQTA5&marketplace=FLIPKART&store=j9e&srno=b_1_22&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe7OCv7nHS1e0CDgnwSzY2DotHk2_omy1XOclsMzm01V4c2q0WE1vzXvbLyFxxyBVaE%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Powerful Cooling",
+          "Energy Saving"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Powerful Cooling",
+          "Energy Saving"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lenovo Chromebook Duet 11M889 MediaTek MediaTek Kompanio 838 - (8 GB/128 GB EMMC Storage/Chrome OS) Ch...",
+      "price": 20000,
+      "original_price": 3769024,
+      "discount_percent": 99,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/g/j/9/-original-imahgfdfgchekzvf.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lenovo-chromebook-duet-11m889-mediatek-kompanio-838-8-gb-128-gb-emmc-storage-chrome-os/p/itm666780c0be940?pid=COMHBCAFZGVNEDTK&lid=LSTCOMHBCAFZGVNEDTKUGILYO&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_4&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMHBCAFZGVNEDTK.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Performance",
+          "Affordable Price"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Performance",
+          "Affordable Price"
+        ],
+        "cons": [
+          "Limited Storage"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "ASUS Vivobook 15 (2025) with Office 2024 + M365 Basic* Intel Core i3 13th Gen - (8 GB/512 GB SSD/Windo...",
+      "price": 28800,
+      "original_price": 5099019,
+      "discount_percent": 99,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/x/i/d/-original-imah8fzgxzjamzju.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/asus-vivobook-15-2025-office-2024-m365-basic-intel-core-i3-13th-gen-8-gb-512-gb-ssd-windows-11-home-x1504va-d5321ws-thin-light-laptop/p/itma044347a6922b?pid=COMHGWQY66YNGVFK&lid=LSTCOMHGWQY66YNGVFKYKVYYT&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_7&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMHGWQY66YNGVFK.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Performance",
+          "Thin Design"
+        ],
+        "top_con": "Limited RAM",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Performance",
+          "Thin Design"
+        ],
+        "cons": [
+          "Limited RAM"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Acer Aspire 3 Intel Pentium Quad Core N6000 - (12 GB/512 GB SSD/Windows 11 Home) A325-45 Thin and Ligh...",
+      "price": 27550,
+      "original_price": 4699014,
+      "discount_percent": 99,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/d/6/p/-original-imah3yhqcgjtxfhw.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/acer-aspire-3-intel-pentium-quad-core-n6000-12-gb-512-gb-ssd-windows-11-home-a325-45-thin-light-laptop/p/itm9ca67a1a3ea22?pid=COMH59ENQYHDYJGX&lid=LSTCOMH59ENQYHDYJGX1QWEL9&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_8&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMH59ENQYHDYJGX.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Performance",
+          "Thin Design"
+        ],
+        "top_con": "Out of Stock",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Performance",
+          "Thin Design"
+        ],
+        "cons": [
+          "Out of Stock"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Sansui 140 cm (55 inch) QLED Ultra HD (4K) Smart Google TV with Dolby Vision| HDR10+| Dolby Atmos| HSR...",
+      "price": 40490,
+      "original_price": 5999032,
+      "discount_percent": 99,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/1/n/k/-original-imahn99wbjgeegr8.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sansui-140-cm-55-inch-qled-ultra-hd-4k-smart-google-tv-dolby-vision-hdr10-atmos-hsr-120hz-memc-30w-surround-sound-floled-panel/p/itm7070b73530afc?pid=TVSHKYK76BWJAYPY&lid=LSTTVSHKYK76BWJAYPYPN6TLS&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_5&otracker=browse&fm=organic&iid=en_y6iSZtR1mZjW6qOr6isXRnIR_XgPdvz5EKMZu6RsZbBy0LvF6aXY33cdujLJxiHzSApFtCYH9Sj5j_uLiZA-mADM2KWit8hFHxJOvPdMi04%3D&ppt=None&ppn=None&ssid=09e6kf02hc0000001780307409272&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:15.917346",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "QLED Display",
+          "Dolby Atmos"
+        ],
+        "top_con": "Price Concern",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "QLED Display",
+          "Dolby Atmos"
+        ],
+        "cons": [
+          "Price Concern"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Sansui 140 cm (55 inch) Ultra HD (4K) LED Smart Google TV with HDR10| HLG| Dolby Audio| HSR 120Hz Refr...",
+      "price": 37990,
+      "original_price": 5999036,
+      "discount_percent": 99,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/l/w/p/-original-imahhadmhaacpnaz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sansui-140-cm-55-inch-ultra-hd-4k-led-smart-google-tv-hdr10-hlg-dolby-audio-hsr-120hz-refresh-rate-memc-30w-surround-sound-floled-panel/p/itm499c5198b82db?pid=TVSHKYHWX7ANKTAZ&lid=LSTTVSHKYHWX7ANKTAZUBUNZE&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_6&otracker=browse&fm=organic&iid=en_y6iSZtR1mZjW6qOr6isXRnIR_XgPdvz5EKMZu6RsZbChJMkh5Ru9KnDBaBewa7iTGfe4Lu3jjbTPlzjHYDmqbI06z3QAm4-AoFL_C4Jep-g%3D&ppt=None&ppn=None&ssid=09e6kf02hc0000001780307409272&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:15.917346",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "4K Ultra HD",
+          "Dolby Audio"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "4K Ultra HD",
+          "Dolby Audio"
+        ],
+        "cons": [
+          "No reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Samsung Galaxy S26 5G (Sky Blue, 256 GB)",
+      "price": 43650,
+      "original_price": 87999,
+      "discount_percent": 50,
+      "rating": null,
+      "review_count": null,
+      "category": "Mobiles",
+      "sub_category": "Mobiles",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/j/u/u/-original-imahhyzhb6v8zvtw.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-s26-5g-sky-blue-256-gb/p/itm0ca5d0430e1c1?pid=MOBHKGAPDXGWGVMC&lid=LSTMOBHKGAPDXGWGVMCGYXKZN&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=en_sSRmDTvAlfimretUuHKZ65SqRJLDUWed8BPJLpa0yXWjT3jJNUOYUd725PFaxsWCFxEQJXjoQYyvJxEaMIS7OfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=o5by845p6o0000001780307390370&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:49:53.374284",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Performance",
+          "Nice Display"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Performance",
+          "Nice Display"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Apple iPhone 17 (Black, 256 GB)",
+      "price": 48650,
+      "original_price": 82900,
+      "discount_percent": 41,
+      "rating": null,
+      "review_count": null,
+      "category": "Mobiles",
+      "sub_category": "Mobiles",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/s/t/g/-original-imahft5gqkxzyeqa.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-black-256-gb/p/itm6eb39da622cdd?pid=MOBHFN6YN2HXB5HE&lid=LSTMOBHFN6YN2HXB5HER9QXGU&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=724d84dc-4473-4b1b-aa22-ba49b72e02b6.MOBHFN6YN2HXB5HE.SEARCH&ppt=None&ppn=None&ssid=o5by845p6o0000001780307390370&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:49:53.374284",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "High Storage",
+          "Fast Performance"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "High Storage",
+          "Fast Performance"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Apple iPhone 16 (White, 128 GB)",
+      "price": 48650,
+      "original_price": 69900,
+      "discount_percent": 30,
+      "rating": null,
+      "review_count": null,
+      "category": "Mobiles",
+      "sub_category": "Mobiles",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/u/i/-original-imahgfmyczqxhtm2.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/apple-iphone-16-white-128-gb/p/itm7c0281cd247be?pid=MOBH4DQF849HCG6G&lid=LSTMOBH4DQF849HCG6GXHBPXY&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=724d84dc-4473-4b1b-aa22-ba49b72e02b6.MOBH4DQF849HCG6G.SEARCH&ppt=None&ppn=None&ssid=o5by845p6o0000001780307390370&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:49:53.374284",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Great Display",
+          "Fast Performance"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Great Display",
+          "Fast Performance"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Apple iPhone 16 (Pink, 128 GB)",
+      "price": 48650,
+      "original_price": 69900,
+      "discount_percent": 30,
+      "rating": null,
+      "review_count": null,
+      "category": "Mobiles",
+      "sub_category": "Mobiles",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/apple-iphone-16-pink-128-gb/p/itmc2e910b4d0b1c?pid=MOBH4DQFWJVDRSHM&lid=LSTMOBH4DQFWJVDRSHMAMTBLL&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_23&otracker=browse&fm=organic&iid=724d84dc-4473-4b1b-aa22-ba49b72e02b6.MOBH4DQFWJVDRSHM.SEARCH&ppt=None&ppn=None&ssid=o5by845p6o0000001780307390370&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:49:53.374284",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Great Camera",
+          "Fast Performance"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Great Camera",
+          "Fast Performance"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Godrej 2026 Model 1.5 Ton 3 Star Split Inverter AC",
+      "price": 4400,
+      "original_price": 4430028,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/i/s/n/-original-imahmhatcwztvkr3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/godrej-2026-model-1-5-ton-3-star-split-inverter-ac/p/itm85bc24d8a76bc?pid=ACNHKCMMCRRH7VXU&lid=LSTACNHKCMMCRRH7VXUB1YVY8&marketplace=FLIPKART&store=j9e&srno=b_1_25&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe6LKE_BlJSchAgCsNNxFbSapXdA4sE0k9Jd3kQtl55qW5xkhLmIBDS3Pr7Nxtl3saw%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Energy Efficient",
+          "Affordable Price"
+        ],
+        "top_con": "No Wi-fi",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Energy Efficient",
+          "Affordable Price"
+        ],
+        "cons": [
+          "No Wi-fi"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Haier 2026 Model 1.5 Ton 3 Star Split Twin Inverter AC",
+      "price": 4400,
+      "original_price": 5900042,
+      "discount_percent": 100,
+      "rating": null,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/0/u/o/-original-imahhxku3casqwzv.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/haier-2026-model-1-5-ton-3-star-split-twin-inverter-ac/p/itmed35eda193230?pid=ACNHHMBYDG2HDCRP&lid=LSTACNHHMBYDG2HDCRPO1ZL8M&marketplace=FLIPKART&store=j9e&srno=b_1_32&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe4wd1KUuN9odz2MkYUnBnHVMtdWNoM_9xvuv4Gt9P_wuXi_WKPcanKd8bzacCBG3uo%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:51.355841",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "ASUS Vivobook 15 (2025) with Office 2024 + M365 Basic*, Intel Core i3 13th Gen 1315U - (8 GB/512 GB SS...",
+      "price": 28800,
+      "original_price": 5099019,
+      "discount_percent": 99,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/y/y/i/-original-imahfnyvfz7zdkh8.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/asus-vivobook-15-2025-office-2024-m365-basic-intel-core-i3-13th-gen-1315u-8-gb-512-gb-ssd-windows-11-home-x1504va-bq323ws-thin-light-laptop/p/itm424e5fcb88c91?pid=COMHCQ5EYPZNGG7B&lid=LSTCOMHCQ5EYPZNGG7BUDAPF3&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_14&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMHCQ5EYPZNGG7B.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Good Performance"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Good Performance"
+        ],
+        "cons": [
+          "Limited Storage"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "ASUS Chromebook CX14 Intel Celeron Dual Core N50 - (4 GB/64 GB EMMC Storage/Chrome OS) CX1405CTA-S6062...",
+      "price": 14000,
+      "original_price": 2299013,
+      "discount_percent": 99,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/f/u/d/-original-imahmhhncbddugp2.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/asus-chromebook-cx14-intel-celeron-dual-core-n50-4-gb-64-gb-emmc-storage-chrome-os-cx1405cta-s60620-laptop/p/itm5a14f3731bf15?pid=COMHKQA3R42GHHJF&lid=LSTCOMHKQA3R42GHHJF7ASEFY&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_20&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMHKQA3R42GHHJF.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Performance",
+          "Affordable Price"
+        ],
+        "top_con": "Low Storage",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Performance",
+          "Affordable Price"
+        ],
+        "cons": [
+          "Low Storage"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Acer Aspire 15 AMD Ryzen 5 Hexa Core 7430U - (16 GB/512 GB SSD/Windows 11 Home) Aspire AS15-42 Thin an...",
+      "price": 32950,
+      "original_price": 5999021,
+      "discount_percent": 99,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/p/c/z/-original-imahg5fusry5atvm.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/acer-aspire-15-amd-ryzen-5-hexa-core-7430u-16-gb-512-gb-ssd-windows-11-home-as15-42-thin-light-laptop/p/itmdaf15e01a1d1a?pid=COMH397XW36HUXB8&lid=LSTCOMH397XW36HUXB8LCSOPU&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_23&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMH397XW36HUXB8.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "cons": [
+          "Limited Storage"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "HP Victus Intel Core i5 13th Gen 13420H - (16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeFor...",
+      "price": 42600,
+      "original_price": 93322,
+      "discount_percent": 54,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/o/5/n/-original-imahg5fxv5emu49y.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hp-victus-intel-core-i5-13th-gen-13420h-16-gb-512-gb-ssd-windows-11-home-6-graphics-nvidia-geforce-rtx-4050-144-hz-15-fa2381tx-15-fa2701tx-15-fa1278tx-gaming-laptop/p/itm12155252a3140?pid=COMH8Z22GGEQZBVQ&lid=LSTCOMH8Z22GGEQZBVQDEIB54&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_15&otracker=browse&fm=organic&iid=en_V0aYDjRrkOFM-aGRLrDtoofzDqIx0_oLPTwW-WOeU_jQrn5mqUQnQRZU9Uv2mqC2amC4iQQH4_o5fLG1KQFVR3xHajYNyuWOMhuZi0IpbY0%3D&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Fast Performance",
+          "Good Graphics"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Fast Performance",
+          "Good Graphics"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "HP 15 (i3 14th Gen) Intel Core 3 100U - (16 GB/512 GB SSD/Windows 11 Home) 15-fd0885TU Thin and Light ...",
+      "price": 32950,
+      "original_price": 50843,
+      "discount_percent": 35,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/n/d/h/-original-imahkrdfczexundv.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hp-15-i3-14th-gen-intel-core-3-100u-16-gb-512-gb-ssd-windows-11-home-15-fd0885tu-thin-light-laptop/p/itm661ed697fa9ca?pid=COMHK4F734GZWHFM&lid=LSTCOMHK4F734GZWHFMN7EU3K&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_3&otracker=browse&fm=organic&iid=en_V0aYDjRrkOFM-aGRLrDtoofzDqIx0_oLPTwW-WOeU_jBa78crfSk-zjCt5vOvFiVVtpXial0bdfERZlRERQru0Ksf8s6I2Oz2HOgbXTo_9U%3D&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Good Performance"
+        ],
+        "top_con": "Limited Graphics",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Good Performance"
+        ],
+        "cons": [
+          "Limited Graphics"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "HP AMD Ryzen 7 Octa Core - (16 GB/512 GB SSD/Windows 11 Home) 15-fc0761AU Laptop",
+      "price": 42600,
+      "original_price": 65387,
+      "discount_percent": 35,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/e/t/p/-original-imahhjyugkghz6yp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hp-amd-ryzen-7-octa-core-16-gb-512-gb-ssd-windows-11-home-15-fc0761au-laptop/p/itm61f1a7157aecd?pid=COMHKXYAB4KG9YRY&lid=LSTCOMHKXYAB4KG9YRYDUWFIG&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_18&otracker=browse&fm=organic&iid=en_V0aYDjRrkOFM-aGRLrDtoofzDqIx0_oLPTwW-WOeU_hzjUMYYSQDgHPDj2c94jiACqIKq12LPycpa2DqQGtDkq1KaJFgl7OeEdnchgqx4tA%3D&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Fast Performance",
+          "Good Battery"
+        ],
+        "top_con": "No Graphics Card",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Fast Performance",
+          "Good Battery"
+        ],
+        "cons": [
+          "No Graphics Card"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lenovo 100e Chromebook Gen 4 MediaTek Kompanio 520 - (4 GB/32 GB EMMC Storage/Chrome OS) 82W00004HA Ch...",
+      "price": 11000,
+      "original_price": 16298,
+      "discount_percent": 33,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/c/g/4/-original-imahgfdyf6grkw9r.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lenovo-100e-chromebook-gen-4-mediatek-kompanio-520-4-gb-32-gb-emmc-storage-chrome-os-82w00004ha/p/itm018b6ddb188dd?pid=COMHA9FK8YXVUUWA&lid=LSTCOMHA9FK8YXVUUWAAREQMZ&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_5&otracker=browse&fm=organic&iid=817568fb-3fdd-48e6-95bf-7d726b0aa88c.COMHA9FK8YXVUUWA.SEARCH&ppt=None&ppn=None&ssid=6bv5bu720w0000001780307398305&ov_redirect=true",
+      "scraped_at": "2026-06-01T09:50:04.948066",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Performance",
+          "Affordable Price"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Performance",
+          "Affordable Price"
+        ],
+        "cons": [
+          "Limited Storage"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
       },
       "is_vfm": false,
       "vfm_score": 0,

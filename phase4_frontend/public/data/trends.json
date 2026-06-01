@@ -1,33 +1,126 @@
 {
   "hot_categories": [
     {
+      "category": "Laptops",
+      "count": 17
+    },
+    {
+      "category": "Home_Kitchen",
+      "count": 12
+    },
+    {
+      "category": "Mobiles",
+      "count": 4
+    },
+    {
       "category": "Beauty",
-      "count": 6
+      "count": 3
+    },
+    {
+      "category": "TVs",
+      "count": 2
+    },
+    {
+      "category": "Women_Fashion",
+      "count": 1
     }
   ],
   "declining_categories": [
     {
       "category": "Beauty",
-      "avg_sentiment": 0.0
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Laptops",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "TVs",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_sentiment": 80.0
     }
   ],
-  "emerging_keywords": [],
+  "emerging_keywords": [
+    {
+      "keyword": "performance",
+      "mentions": 17
+    },
+    {
+      "keyword": "fast",
+      "mentions": 11
+    },
+    {
+      "keyword": "energy",
+      "mentions": 9
+    },
+    {
+      "keyword": "thin",
+      "mentions": 8
+    },
+    {
+      "keyword": "display",
+      "mentions": 7
+    },
+    {
+      "keyword": "cooling",
+      "mentions": 6
+    },
+    {
+      "keyword": "light",
+      "mentions": 6
+    },
+    {
+      "keyword": "affordable",
+      "mentions": 6
+    }
+  ],
   "price_movements": [
     {
       "category": "Beauty",
-      "avg_price": 43707
+      "avg_price": 327
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_price": 6758
+    },
+    {
+      "category": "Laptops",
+      "avg_price": 32950
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 108
+    },
+    {
+      "category": "TVs",
+      "avg_price": 39240
+    },
+    {
+      "category": "Mobiles",
+      "avg_price": 47400
     }
   ],
   "best_deal": {
-    "name": "Eyecirque Lid Wipes for Cleansing Eyelids & Skin around...",
-    "price": 60057,
-    "original_price": null,
-    "discount_percent": 57,
-    "category": "Beauty",
-    "score": 0,
-    "flipkart_url": "https://www.flipkart.com/eyecirque-lid-wipes-cleansing-eyelids-skin-around-eyes/p/itm21ee25beca33d?pid=FLTGW7U7WS3B8JJT&lid=LSTFLTGW7U7WS3B8JJTRMGQ13&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_28&otracker=browse&fm=organic&iid=en_QQKZ5WsKRxiTKJQqI9UKSKuY5lX1ObSrRlUtmSlOqNKZNiZpDZB77hcYQQbymIYsTU4qXZmFrfTWQJSA30w42g%3D%3D&ppt=None&ppn=None&ssid=viumk2n2m80000001780305722494&ov_redirect=true&ov_redirect=true"
+    "name": "CARRIER 2026 Model 1 Ton 3 Star Split AI Inverter Conve...",
+    "price": 4400,
+    "original_price": 5510040,
+    "discount_percent": 100,
+    "category": "Home_Kitchen",
+    "score": 80,
+    "flipkart_url": "https://www.flipkart.com/carrier-2026-model-1-ton-3-star-split-ai-inverter-convertible-6-in-1-smart-energy-display-insta-cool-auto-defrost-clean-pm-2-5-filter-ac/p/itm7b61312cd52ea?pid=ACNHJ48NWWSH5UWN&lid=LSTACNHJ48NWWSH5UWNJAYCNG&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe5PJCyiwLS5Ztg-uBjlONi9uO2QR6fuFtKismRxK9uiwVmOBtEFy0FmBP0CX6jfuRQ%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T09:32:45.901624"
+  "generated_at": "2026-06-01T09:56:57.075166"
 }

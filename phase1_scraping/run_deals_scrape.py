@@ -295,13 +295,13 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         }
         if (!name || name.length < 5 || UI_NAMES.includes(name.toLowerCase())) continue;
 
-        // Filter lines that carry non-selling prices: EMI, exchange offers, cashback, bank offers.
-        // "Exchange up to ₹4,400" appears on AC/appliance cards — ₹4,400 would become min price.
+        // Filter lines that carry EMI/installment amounts — those would become the min price.
+        // Exchange offer values (e.g. "Exchange up to ₹4,400") are NOT filtered by line because
+        // they may share a line with the actual selling price. Instead the disc>88% check below
+        // catches those cases: [4400, 32990, 55100] → disc=92% → filtered.
         const priceText = text.split('\\n').filter(l => {
             const ll = l.toLowerCase();
-            return !ll.includes('/month') && !ll.includes('emi') && !ll.includes('per month')
-                && !ll.includes('exchange') && !ll.includes('cashback')
-                && !ll.includes('bank offer') && !ll.includes('up to ');
+            return !ll.includes('/month') && !ll.includes('emi') && !ll.includes('per month');
         }).join(' ');
 
         const pms = Array.from(priceText.matchAll(/\\u20b9\\s*([\\d,]+)/g));
@@ -311,9 +311,10 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         if (!cur || cur < 100) continue;
         const orig = prices.length > 1 ? Math.max(...prices) : null;
 
-        // Prefer price-based discount (more reliable than badge text).
-        // Badge text says "90% off" even when inflated MRP makes actual discount 30%.
-        // Discount sort pages (fashion) are full of inflated-MRP items; price calc is accurate.
+        // Use price-based discount first (accurate), badge text as fallback.
+        // On discount-sort fashion pages, badges say "90% off" for inflated-MRP items
+        // even when the actual price/MRP difference is only 30%. Price calc is reliable.
+        // Exchange offer contamination: [4400, 32990, 55100] → disc_calc=92% → filtered by >88%.
         let disc = null;
         if (orig && orig > cur)
             disc = Math.round((orig - cur) / orig * 100);

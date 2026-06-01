@@ -41,11 +41,14 @@ DEAL_CATEGORY_URLS = {
     "Mobiles":       "https://www.flipkart.com/mobiles/pr?sid=tyy,4io&p%5B%5D=sort%3Dpopularity",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
-    "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=facets.discount%255B%255D%3D30%2525%2Band%2Babove&p%5B%5D=sort%3Dpopularity",
-    "Women_Fashion": "https://www.flipkart.com/clothing-and-accessories/western-wear/pr?sid=clo,aps&p%5B%5D=facets.discount%255B%255D%3D30%2525%2Band%2Babove&p%5B%5D=sort%3Dpopularity",
+    # No server-side discount filter for fashion/sports — sid=clo,aps and the 30%+ filter
+    # both cause Flipkart to redirect (Bestsellers / Palanquins) via Tor. The JS extractor
+    # already filters disc < 5%, so only discounted items make it through anyway.
+    "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=sort%3Dpopularity",
+    "Women_Fashion": "https://www.flipkart.com/women/clothing/pr?sid=2oq&p%5B%5D=sort%3Dpopularity",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Dpopularity",
-    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=facets.discount%255B%255D%3D30%2525%2Band%2Babove&p%5B%5D=sort%3Dpopularity",
+    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Dpopularity",
 }
 
 CATEGORY_KEYWORDS = {
@@ -53,7 +56,7 @@ CATEGORY_KEYWORDS = {
     'Laptops': ['laptop', 'notebook'],
     'TVs': ['tv', 'television'],
     'Men_Fashion': ['men', 'shirt', 'topwear'],
-    'Women_Fashion': ['women', 'western', 'dress'],
+    'Women_Fashion': ['women', 'western', 'dress', 'clothing'],
     'Home_Kitchen': ['home', 'kitchen'],
     'Beauty': ['beauty', 'grooming'],
     'Sports': ['sport', 'fitness'],
@@ -259,12 +262,16 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         if (lt === 'add to compare' || lt === 'add to cart' || lt === 'buy now' ||
             lt === 'wishlist' || lt === 'compare') continue;
 
-        // Walk up DOM to find the product card (smallest container with a ₹ price).
-        // Fashion cards can be 3000-5000 chars due to size/colour swatches.
+        // Walk up DOM to find the single-product card.
+        // Use /p/ link count rather than text length — a product card has ≤6 product links
+        // (image + name + up to 4 colour/size variants). A grid row has 16+.
+        // Text-length was causing two issues: fashion cards with size swatches exceeded the
+        // limit, and the fallback parent then spanned multiple products causing price mix-ups.
         let card = link.parentElement;
-        for (let i = 0; i < 10 && card; i++) {
+        for (let i = 0; i < 12 && card; i++) {
+            const pCount = card.querySelectorAll('a[href*="/p/"]').length;
             const t = card.innerText || '';
-            if (t.includes('\\u20b9') && t.length < 6000) break;
+            if (t.includes('\\u20b9') && pCount >= 1 && pCount <= 6) break;
             card = card.parentElement;
         }
         if (!card || !(card.innerText || '').includes('\\u20b9')) continue;
@@ -300,11 +307,12 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         if (!pms.length) continue;
         let prices = pms.map(m => parseInt(m[1].replace(/,/g, ''))).filter(p => p > 0);
         if (!prices.length) continue;
-        // EMI ratio filter: installment amounts are always << actual price.
-        // e.g. AC at ₹45,990 shows "No Cost EMI / ₹2,090" on a separate line —
-        // the EMI line keyword filter may miss the ₹ line; drop any price < max/5.
+        // EMI ratio filter: installment amounts are always a tiny fraction of the actual price.
+        // AC at ₹45,990 shows "No Cost EMI / ₹2,090" — ₹2,090 is 4.5% of ₹45,990.
+        // Using 1:20 threshold (5%) so cheap real products (e.g. ₹77 nail polish vs ₹180 MRP,
+        // where ₹77 is 43% of ₹180) are never filtered. Only extreme outliers like EMI amounts.
         const maxP = Math.max(...prices);
-        prices = prices.filter(p => p * 5 >= maxP);
+        prices = prices.filter(p => p * 20 >= maxP);
         if (!prices.length) continue;
         const cur = Math.min(...prices);
         if (!cur || cur < 100) continue;

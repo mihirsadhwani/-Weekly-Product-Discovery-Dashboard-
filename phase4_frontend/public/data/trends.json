@@ -2,23 +2,23 @@
   "hot_categories": [
     {
       "category": "Laptops",
-      "count": 16
-    },
-    {
-      "category": "Mobiles",
-      "count": 9
-    },
-    {
-      "category": "Home_Kitchen",
-      "count": 7
+      "count": 14
     },
     {
       "category": "TVs",
-      "count": 3
+      "count": 12
+    },
+    {
+      "category": "Home_Kitchen",
+      "count": 9
     },
     {
       "category": "Beauty",
-      "count": 1
+      "count": 5
+    },
+    {
+      "category": "Mobiles",
+      "count": 4
     },
     {
       "category": "Men_Fashion",
@@ -27,11 +27,19 @@
   ],
   "declining_categories": [
     {
-      "category": "Beauty",
-      "avg_sentiment": 80.0
+      "category": "TVs",
+      "avg_sentiment": 80.8
     },
     {
       "category": "Home_Kitchen",
+      "avg_sentiment": 80.6
+    },
+    {
+      "category": "Laptops",
+      "avg_sentiment": 80.4
+    },
+    {
+      "category": "Beauty",
       "avg_sentiment": 80.0
     },
     {
@@ -39,88 +47,80 @@
       "avg_sentiment": 80.0
     },
     {
-      "category": "TVs",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Laptops",
-      "avg_sentiment": 78.8
-    },
-    {
       "category": "Mobiles",
-      "avg_sentiment": 8.9
+      "avg_sentiment": 60.0
     }
   ],
   "emerging_keywords": [
     {
       "keyword": "performance",
-      "mentions": 12
+      "mentions": 13
+    },
+    {
+      "keyword": "display",
+      "mentions": 10
+    },
+    {
+      "keyword": "fast",
+      "mentions": 10
     },
     {
       "keyword": "thin",
       "mentions": 10
     },
     {
-      "keyword": "fast",
+      "keyword": "light",
+      "mentions": 8
+    },
+    {
+      "keyword": "qled",
+      "mentions": 7
+    },
+    {
+      "keyword": "dolby",
       "mentions": 7
     },
     {
       "keyword": "affordable",
       "mentions": 7
-    },
-    {
-      "keyword": "light",
-      "mentions": 7
-    },
-    {
-      "keyword": "cooling",
-      "mentions": 5
-    },
-    {
-      "keyword": "energy",
-      "mentions": 5
-    },
-    {
-      "keyword": "design",
-      "mentions": 4
     }
   ],
   "price_movements": [
     {
+      "category": "TVs",
+      "avg_price": 5108382
+    },
+    {
       "category": "Beauty",
-      "avg_price": 239
+      "avg_price": 40445
     },
     {
       "category": "Home_Kitchen",
-      "avg_price": 4057
+      "avg_price": 4982931
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 258
+      "avg_price": 135080
     },
     {
       "category": "Laptops",
-      "avg_price": 29112
-    },
-    {
-      "category": "TVs",
-      "avg_price": 37657
+      "avg_price": 7450414
     },
     {
       "category": "Mobiles",
-      "avg_price": 40933
+      "avg_price": 42900
     }
   ],
   "best_deal": {
     "name": "Men Regular Fit Self Design Spread Collar Casual Shirt",
-    "price": 258,
-    "original_price": 135080,
+    "price": 135080,
+    "original_price": null,
     "discount_percent": 80,
     "category": "Men_Fashion",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/deardean-men-self-design-casual-black-shirt/p/itm572d950334963?pid=SHTHCC3TW8V5BSBH&lid=LSTSHTHCC3TW8V5BSBHFBFR8R&marketplace=FLIPKART&store=clo%2Fash&srno=b_1_32&otracker=browse&fm=organic&iid=en_jIIUg-bocHiojeuYTIgIXG1EFM2IMqsiIcnHZubGmwL-K86lRqj8zvwtwPALsF7I6-aa-lUnKEauR912HdlOW_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=j6u9xmog8w0000001780300000033&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/deardean-men-self-design-casual-black-shirt/p/itm572d950334963?pid=SHTHCC3TW8V5BSBH&lid=LSTSHTHCC3TW8V5BSBHFBFR8R&marketplace=FLIPKART&store=clo%2Fash&srno=b_1_38&otracker=browse&fm=organic&iid=en_xbPtKuNsToGQcSi_6Ia829NNPd4iHZKBQFJs7RUkRNRhYaDE5hiim6cxsGeqYcU4zoswSSgptBMFeAoWrNQtEPUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=6jc7zxjzjk0000001780302124314&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T08:04:06.221464"
+  "generated_at": "2026-06-01T08:38:50.456771"
 }

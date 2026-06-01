@@ -45,7 +45,7 @@ DEAL_CATEGORY_URLS = {
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
     # Fashion/Sports: search URLs avoid sid-based geo-redirects (Geography, Palanquins) via Tor.
     # discount_dsc sort surfaces genuinely discounted items first; JS extractor still filters
-    # fake 90%+ inflated-MRP badge items, leaving real 5-88% deals.
+    # fake 93%+ inflated-MRP badge items, leaving real 5-92% deals.
     "Men_Fashion":   "https://www.flipkart.com/search?q=men+kurta&p%5B%5D=sort%3Ddiscount_dsc",
     "Women_Fashion": "https://www.flipkart.com/search?q=women+kurti&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
@@ -352,10 +352,10 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
 """
         raw = page.evaluate(_js)
 
-        # If page 1 gave < 15 raw products (~10 after discount filtering), scrape page 2 and 3.
-        # This guarantees 10+ products per category even when page 1 is sparse.
+        # Always scrape page 2 to widen the candidate pool.
+        # Skip page 3 only if we already have 30+ raw products (enough for 10 after filtering).
         for pg in [2, 3]:
-            if len(raw) >= 15:
+            if pg == 3 and len(raw) >= 30:
                 break
             sep = '&' if '?' in url else '?'
             try:
@@ -658,7 +658,7 @@ def scrape_deals() -> list[dict]:
         p for p in products
         if p.get('name', '').lower() not in BAD_NAMES
         and (p.get('price') or 0) >= CATEGORY_MIN_PRICES.get(p.get('category', ''), 50)
-        and (p.get('discount_percent') or 0) <= 88
+        and (p.get('discount_percent') or 0) <= 92
     ]
     filtered = before - len(products)
     if filtered:
@@ -700,7 +700,7 @@ def scrape_deals() -> list[dict]:
     before_b = len(products)
     products = [
         p for p in products
-        if (p.get('discount_percent') or 0) <= 88
+        if (p.get('discount_percent') or 0) <= 92
         and (p.get('price') or 0) >= CATEGORY_MIN_PRICES.get(p.get('category', ''), 50)
     ]
     if before_b != len(products):

@@ -450,18 +450,34 @@ def _scrape_reviews(page, product_url: str, max_reviews: int = 10) -> tuple[list
     detail_orig:  int | None = None
     try:
         pd = page.evaluate(r"""() => {
-            for (const el of document.querySelectorAll('div, span')) {
-                if (!el.querySelector('s, del')) continue;
-                const text = el.innerText || '';
-                if (!text.includes('₹')) continue;
-                const prices = [...text.matchAll(/₹\s*([\d,]+)/g)]
-                    .map(m => parseInt(m[1].replace(/,/g, ''))).filter(p => p > 10);
-                if (prices.length >= 2) {
-                    const mn = Math.min(...prices), mx = Math.max(...prices);
-                    if (mx > mn * 1.05) return { price: mn, orig: mx };
+            // Walk <s>/<del> elements directly (strikethrough = MRP on Flipkart).
+            // Collect all (selling, mrp) candidates and return the one with the highest
+            // MRP — this is the actual product price, not exchange-offer values which
+            // also use <s> tags but are much smaller (e.g. ~~5100~~ 4400).
+            const candidates = [];
+            for (const s of document.querySelectorAll('s, del')) {
+                const t = (s.innerText || '').replace(/,/g, '');
+                const m = t.match(/(\d+)/);
+                if (!m) continue;
+                const mrp = parseInt(m[1]);
+                if (mrp < 500) continue;
+                // Walk up 3 levels to find the selling price nearby
+                let el = s.parentElement;
+                for (let i = 0; i < 3 && el; i++) {
+                    const prices = [...(el.innerText || '').matchAll(/₹\s*([\d,]+)/g)]
+                        .map(x => parseInt(x[1].replace(/,/g, '')))
+                        .filter(p => p >= 100 && p < mrp);
+                    if (prices.length > 0) {
+                        candidates.push({ price: Math.max(...prices), orig: mrp });
+                        break;
+                    }
+                    el = el.parentElement;
                 }
             }
-            return null;
+            if (!candidates.length) return null;
+            // Highest orig = actual MRP (not exchange offer / small variant values)
+            candidates.sort((a, b) => b.orig - a.orig);
+            return candidates[0];
         }""")
         if pd:
             detail_price = pd.get('price')

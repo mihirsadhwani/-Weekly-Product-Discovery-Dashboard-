@@ -253,7 +253,7 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
 
         # JavaScript extraction — works on Playwright-rendered DOM regardless of CSS classes.
         # Finds product links (/p/ paths), walks up to the price container, extracts all data.
-        raw = page.evaluate("""
+        _js = """
 () => {
     const results = [];
     const seen = new Set();
@@ -349,7 +349,34 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
     }
     return results.slice(0, 40);
 }
-""")
+"""
+        raw = page.evaluate(_js)
+
+        # If page 1 gave < 15 raw products (~10 after discount filtering), scrape page 2 and 3.
+        # This guarantees 10+ products per category even when page 1 is sparse.
+        for pg in [2, 3]:
+            if len(raw) >= 15:
+                break
+            sep = '&' if '?' in url else '?'
+            try:
+                page.goto(url + sep + f'page={pg}',
+                          wait_until='domcontentloaded', timeout=45000)
+                try:
+                    page.wait_for_selector('a[href*="/p/"]', timeout=15000)
+                except Exception:
+                    pass
+                for pct in [0.2, 0.5, 0.8, 1.0]:
+                    page.evaluate(f"window.scrollTo(0, document.body.scrollHeight * {pct})")
+                    time.sleep(1.0)
+                page.evaluate("window.scrollTo(0, 0)")
+                time.sleep(1.0)
+                raw2 = page.evaluate(_js)
+                if raw2:
+                    raw.extend(raw2)
+                    print(f'    page {pg}: +{len(raw2)} raw products')
+            except Exception as pg_err:
+                print(f'    page {pg}: {pg_err}')
+                break
 
         page.close()
 

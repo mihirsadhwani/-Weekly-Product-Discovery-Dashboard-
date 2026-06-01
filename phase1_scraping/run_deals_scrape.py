@@ -14,6 +14,7 @@ Unlike the daily scraper (new launches), this targets popular discounted product
 
 import json
 import os
+import re
 import sys
 import random
 import time
@@ -45,6 +46,17 @@ DEAL_CATEGORY_URLS = {
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Dpopularity",
     "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Dpopularity",
+}
+
+CATEGORY_KEYWORDS = {
+    'Mobiles': ['mobile', 'phone', 'smartphone'],
+    'Laptops': ['laptop', 'notebook'],
+    'TVs': ['tv', 'television'],
+    'Men_Fashion': ['men', 'shirt', 'topwear'],
+    'Women_Fashion': ['women', 'western', 'dress'],
+    'Home_Kitchen': ['home', 'kitchen'],
+    'Beauty': ['beauty', 'grooming'],
+    'Sports': ['sport', 'fitness'],
 }
 
 REVIEW_SELECTORS = [
@@ -189,27 +201,142 @@ def _parse_listing_html(html: str, category: str) -> list[dict]:
     return products
 
 
-def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[dict]:
-    """Playwright-based listing fetch — real browser bypasses HTTP-level bot detection."""
+def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[dict] | None:
+    """Playwright-based listing fetch.
+
+    Uses JavaScript evaluation to extract products — immune to CSS class name changes
+    that break BeautifulSoup selectors on JS-rendered Flipkart pages.
+
+    Returns None when a geographic redirect is detected (caller should rotate circuit).
+    Returns [] when page loads correctly but no discounted products found.
+    """
     page = None
     try:
         page = context.new_page()
         page.goto(url, wait_until='domcontentloaded', timeout=60000)
-        # Wait for product cards to actually render (Flipkart is JS-heavy)
+        # Wait for product links to appear in the rendered DOM
         try:
-            page.wait_for_selector('div[data-id], div.tUxRFH, div._1AtVbE, div.yKfJKb', timeout=20000)
+            page.wait_for_selector('a[href*="/p/"]', timeout=25000)
         except Exception:
             pass
-        time.sleep(3)
+        time.sleep(4)
+
         title = page.title()
-        html = page.content()
+        print(f'    title: {title!r}')
+
+        # Geographic redirect detection — foreign Tor exits serve wrong regional content
+        keywords = CATEGORY_KEYWORDS.get(category, [])
+        if keywords and not any(kw in title.lower() for kw in keywords):
+            print(f'    Geographic redirect — {category} keywords not in title')
+            page.close()
+            return None
+
+        # JavaScript extraction — works on Playwright-rendered DOM regardless of CSS classes.
+        # Finds product links (/p/ paths), walks up to the price container, extracts all data.
+        raw = page.evaluate("""
+() => {
+    const results = [];
+    const seen = new Set();
+
+    for (const link of document.querySelectorAll('a[href]')) {
+        const href = link.href || '';
+        if ((!href.includes('/p/') && !href.includes('/dl/')) ||
+            href.includes('/reviews') || href.includes('/questions') ||
+            href.includes('/seller')) continue;
+        if (seen.has(href)) continue;
+
+        // Walk up DOM to find the product card (smallest container with a ₹ price)
+        let card = link.parentElement;
+        for (let i = 0; i < 10 && card; i++) {
+            const t = card.innerText || '';
+            if (t.includes('\\u20b9') && t.length < 2500) break;
+            card = card.parentElement;
+        }
+        if (!card || !(card.innerText || '').includes('\\u20b9')) continue;
+
+        const text = card.innerText || '';
+
+        // Product name from link text; fall back to first short non-price child text
+        let name = (link.innerText || link.title || '').trim();
+        if (name.length < 5 || name.includes('\\u20b9')) {
+            name = '';
+            for (const el of card.querySelectorAll('*')) {
+                const t = (el.innerText || '').trim();
+                if (t.length > 8 && t.length < 200 &&
+                    !t.includes('\\u20b9') && !t.includes('%') &&
+                    el.children.length <= 3) {
+                    name = t;
+                    break;
+                }
+            }
+        }
+        if (!name || name.length < 5) continue;
+
+        // All ₹ amounts in the card — current = min, original = max
+        const pms = Array.from(text.matchAll(/\\u20b9\\s*([\\d,]+)/g));
+        if (!pms.length) continue;
+        const prices = pms.map(m => parseInt(m[1].replace(/,/g, '')));
+        const cur = Math.min(...prices);
+        if (!cur || cur < 50) continue;
+        const orig = prices.length > 1 ? Math.max(...prices) : null;
+
+        // Discount percentage — from badge text or calculated from prices
+        const dm = text.match(/(\\d{1,3})%\\s*off/i);
+        let disc = dm ? parseInt(dm[1]) : null;
+        if (!disc && orig && orig > cur)
+            disc = Math.round((orig - cur) / orig * 100);
+        if (!disc || disc < 5 || disc > 95) continue;
+
+        // Rating (look for X.X between 3.0 and 5.0)
+        const rm = text.match(/\\b([3-5]\\.[0-9])\\b/);
+
+        // First non-data: image
+        const img = card.querySelector('img[src]');
+        const imgSrc = (img && img.src && !img.src.startsWith('data:')) ? img.src : null;
+
+        seen.add(href);
+        results.push({
+            name: name.slice(0, 150), href,
+            price: cur, orig_price: orig, disc_pct: disc,
+            rating: rm ? parseFloat(rm[1]) : null, img_src: imgSrc,
+        });
+    }
+    return results.slice(0, 20);
+}
+""")
+
         page.close()
-        products = _parse_listing_html(html, category)
-        if not products:
-            print(f'  (0 products — page title: {title!r})')
+
+        if not raw:
+            print(f'    0 products extracted')
+            return []
+
+        now = datetime.now().isoformat()
+        products = []
+        for p in raw:
+            img_url = p.get('img_src')
+            if img_url:
+                img_url = re.sub(r'/\d+/\d+/', '/416/416/', img_url)
+            products.append({
+                'name': p['name'],
+                'price': p['price'],
+                'original_price': p.get('orig_price'),
+                'discount_percent': p.get('disc_pct'),
+                'rating': p.get('rating'),
+                'review_count': None,
+                'category': category,
+                'sub_category': category,
+                'image_url': img_url,
+                'flipkart_url': p['href'],
+                'scraped_at': now,
+                '_reviews': [],
+            })
+
+        print(f'    {len(products)} products with ≥5% discount')
         return products
+
     except Exception as e:
-        print(f'  Playwright listing error: {e}')
+        print(f'    Playwright error ({category}): {e}')
         try:
             if page:
                 page.close()
@@ -386,65 +513,60 @@ def scrape_deals() -> list[dict]:
         print(f'  {category}: {len(stubs)} products with discounts')
         time.sleep(random.uniform(1.0, 2.0))
 
-    # Fallback 1: Tor — up to 10 circuits (daily scraper succeeds ~circuit 4; more attempts = better odds)
+    # Fallback 1: Playwright+Tor — Chromium TLS fingerprint bypasses CDN bot detection.
+    # Python requests has a static non-browser JA3 hash → Cloudflare always 529s it.
+    # Playwright/Chromium presents an identical TLS fingerprint to real Chrome → passes through.
     if not products:
-        print('\nDirect blocked — retrying via Tor...')
-        for circuit in range(10):
-            if circuit > 0:
-                print(f'\n  Exit node blocked — rotating Tor circuit ({circuit}/4)...')
-                rotated = _rotate_tor_circuit()
-                if not rotated:
-                    print('  NEWNYM unavailable — waiting 30s for natural circuit rotation...')
-                    time.sleep(30)
-            circuit_products: list[dict] = []
-            for category, url in DEAL_CATEGORY_URLS.items():
-                print(f'Scraping deals: {category} (Tor circuit {circuit + 1})...')
-                stubs = _fetch_deals_listing(url, category, via_tor=True)
-                circuit_products.extend(stubs)
-                print(f'  {category}: {len(stubs)} products')
-                time.sleep(random.uniform(1.0, 2.0))
-            if circuit_products:
-                products.extend(circuit_products)
-                print(f'Tor circuit {circuit + 1} succeeded!')
-                break
+        print('\nHTTP blocked — retrying via Playwright+Tor (browser TLS fingerprint)...')
+        with sync_playwright() as pw:
+            tor_browser = pw.chromium.launch(
+                headless=True,
+                args=[
+                    '--disable-blink-features=AutomationControlled',
+                    '--no-sandbox',
+                    '--disable-dev-shm-usage',
+                    '--proxy-server=socks5://127.0.0.1:9050',
+                ],
+            )
+            tor_context = tor_browser.new_context(
+                user_agent=random.choice(USER_AGENTS),
+                locale='en-IN',
+                timezone_id='Asia/Kolkata',
+                viewport={'width': 1280, 'height': 900},
+                extra_http_headers={
+                    'Accept-Language': 'en-IN,en;q=0.9',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                },
+            )
 
-    # Fallback 2: Tor with recency_desc URLs — same format as daily scraper (known to work)
-    # Popularity-sorted pages have stricter anti-bot; recency_desc pages are less guarded.
-    # We still filter for discounted products after fetching.
-    RECENCY_URLS = {
-        "Mobiles":       "https://www.flipkart.com/mobiles-accessories/pr?sid=tyy,4io&p%5B%5D=sort%3Drecency_desc",
-        "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Drecency_desc",
-        "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Drecency_desc",
-        "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=sort%3Drecency_desc",
-        "Women_Fashion": "https://www.flipkart.com/clothing-and-accessories/western-wear/pr?sid=clo,aps&p%5B%5D=sort%3Drecency_desc",
-        "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Drecency_desc",
-        "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Drecency_desc",
-        "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Drecency_desc",
-    }
-    if not products:
-        print('\nAll popularity URLs blocked — retrying via Tor with recency_desc URLs...')
-        for circuit in range(3):
-            if circuit > 0:
-                print(f'\n  Exit node blocked — rotating Tor circuit ({circuit}/2)...')
-                rotated = _rotate_tor_circuit()
-                if not rotated:
-                    print('  NEWNYM unavailable — waiting 30s...')
-                    time.sleep(30)
-            circuit_products = []
-            for category, url in RECENCY_URLS.items():
-                print(f'Scraping deals: {category} (recency fallback, circuit {circuit + 1})...')
-                stubs = _fetch_deals_listing(url, category, via_tor=True)
-                # keep only products with a real discount
-                discounted = [p for p in stubs if (p.get('discount_percent') or 0) >= 5]
-                circuit_products.extend(discounted)
-                print(f'  {category}: {len(stubs)} total, {len(discounted)} with ≥5% discount')
-                time.sleep(random.uniform(1.0, 2.0))
-            if circuit_products:
-                products.extend(circuit_products)
-                print(f'Recency fallback circuit {circuit + 1} succeeded — {len(circuit_products)} discounted products!')
-                break
+            for circuit in range(5):
+                if circuit > 0:
+                    print(f'\n  Rotating Tor circuit ({circuit}/4)...')
+                    rotated = _rotate_tor_circuit()
+                    if not rotated:
+                        print('  NEWNYM unavailable — waiting 30s...')
+                        time.sleep(30)
 
-    # Fallback 3: ScraperAPI
+                circuit_products: list[dict] = []
+                redirect_count = 0
+                for category, url in DEAL_CATEGORY_URLS.items():
+                    print(f'  {category} (Playwright+Tor circuit {circuit + 1})...')
+                    result = _fetch_deals_listing_playwright(url, category, tor_context)
+                    if result is None:
+                        redirect_count += 1
+                    elif result:
+                        circuit_products.extend(result)
+                    time.sleep(random.uniform(2.0, 3.5))
+
+                print(f'  Circuit {circuit + 1}: {len(circuit_products)} products, {redirect_count}/8 geographic redirects')
+                if circuit_products:
+                    products.extend(circuit_products)
+                    print(f'Playwright+Tor circuit {circuit + 1} succeeded!')
+                    break
+
+            tor_browser.close()
+
+    # Fallback 2: ScraperAPI
     if not products and scraperapi_key:
         print('\nTor blocked — retrying via ScraperAPI...')
         for category, url in DEAL_CATEGORY_URLS.items():

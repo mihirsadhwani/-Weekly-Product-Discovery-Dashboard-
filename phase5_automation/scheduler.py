@@ -17,12 +17,10 @@ def run_phase(phase_name: str, command: str) -> None:
     print(f">> {phase_name}")
     print(f"{'='*60}\n")
 
-    result = subprocess.run(command, shell=True, capture_output=True, text=True)
-    print(result.stdout)
+    result = subprocess.run(command, shell=True)
 
     if result.returncode != 0:
-        print(f"[FAILED] {phase_name}:")
-        print(result.stderr)
+        print(f"[FAILED] {phase_name} (exit code {result.returncode})")
         sys.exit(1)
 
     print(f"[OK] {phase_name}\n")

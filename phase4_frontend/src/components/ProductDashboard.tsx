@@ -165,10 +165,10 @@ export default function ProductDashboard({ data, newToday, trends, freshFinds }:
           </section>
         )}
 
-        {/* This Week's Best */}
+        {/* This Week's Deals */}
         <SectionHeader
-          title="This Week's Best"
-          subtitle={`AI-analyzed · ${data.total_products} curated products from Flipkart`}
+          title="This Week's Best Deals"
+          subtitle={`Discounted picks · AI-analyzed · ${data.total_products} deals across 8 categories`}
           accent="indigo"
         />
 

@@ -174,10 +174,24 @@ export default function ProductCard({
           {product.name}
         </h3>
 
-        {/* Price */}
-        <p className="text-2xl font-extrabold text-emerald-600 tracking-tight leading-none">
-          {formatPrice(product.price)}
-        </p>
+        {/* Price + discount */}
+        <div className="flex flex-col gap-0.5">
+          <div className="flex items-baseline gap-2 flex-wrap">
+            <p className="text-2xl font-extrabold text-emerald-600 tracking-tight leading-none">
+              {formatPrice(product.price)}
+            </p>
+            {product.discount_percent && product.discount_percent > 0 && (
+              <span className="text-xs font-bold text-red-600 bg-red-50 border border-red-100 px-1.5 py-0.5 rounded-md">
+                {product.discount_percent}% off
+              </span>
+            )}
+          </div>
+          {product.original_price && product.original_price > (product.price ?? 0) && (
+            <p className="text-xs text-slate-400 line-through leading-none">
+              MRP {formatPrice(product.original_price)}
+            </p>
+          )}
+        </div>
 
         {/* Price drop prediction */}
         {product.price_prediction?.likely && (

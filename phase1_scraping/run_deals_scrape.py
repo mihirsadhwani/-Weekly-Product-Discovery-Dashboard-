@@ -245,6 +245,11 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
             href.includes('/seller')) continue;
         if (seen.has(href)) continue;
 
+        // Skip UI action links — "Add to Compare" / "Add to Cart" buttons also use /p/ hrefs
+        const lt = (link.innerText || '').trim().toLowerCase();
+        if (lt === 'add to compare' || lt === 'add to cart' || lt === 'buy now' ||
+            lt === 'wishlist' || lt === 'compare') continue;
+
         // Walk up DOM to find the product card (smallest container with a ₹ price)
         let card = link.parentElement;
         for (let i = 0; i < 10 && card; i++) {
@@ -256,28 +261,36 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
 
         const text = card.innerText || '';
 
-        // Product name from link text; fall back to first short non-price child text
+        // Product name — use link text if it looks like a real product name
+        const UI_NAMES = ['add to compare', 'add to cart', 'buy now', 'wishlist', 'compare', 'view details'];
         let name = (link.innerText || link.title || '').trim();
-        if (name.length < 5 || name.includes('\\u20b9')) {
+        if (!name || name.length < 5 || name.includes('\\u20b9') || UI_NAMES.includes(name.toLowerCase())) {
             name = '';
             for (const el of card.querySelectorAll('*')) {
                 const t = (el.innerText || '').trim();
-                if (t.length > 8 && t.length < 200 &&
+                if (t.length > 10 && t.length < 200 &&
                     !t.includes('\\u20b9') && !t.includes('%') &&
+                    !UI_NAMES.includes(t.toLowerCase()) &&
                     el.children.length <= 3) {
                     name = t;
                     break;
                 }
             }
         }
-        if (!name || name.length < 5) continue;
+        if (!name || name.length < 5 || UI_NAMES.includes(name.toLowerCase())) continue;
 
-        // All ₹ amounts in the card — current = min, original = max
-        const pms = Array.from(text.matchAll(/\\u20b9\\s*([\\d,]+)/g));
+        // Filter EMI / monthly installment lines before extracting prices.
+        // Flipkart shows "EMI from ₹2,090/month" on cards — this would be picked as min price.
+        const priceText = text.split('\\n').filter(l => {
+            const ll = l.toLowerCase();
+            return !ll.includes('/month') && !ll.includes('emi') && !ll.includes('per month');
+        }).join(' ');
+
+        const pms = Array.from(priceText.matchAll(/\\u20b9\\s*([\\d,]+)/g));
         if (!pms.length) continue;
         const prices = pms.map(m => parseInt(m[1].replace(/,/g, '')));
         const cur = Math.min(...prices);
-        if (!cur || cur < 50) continue;
+        if (!cur || cur < 100) continue;
         const orig = prices.length > 1 ? Math.max(...prices) : null;
 
         // Discount percentage — from badge text or calculated from prices
@@ -285,7 +298,7 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         let disc = dm ? parseInt(dm[1]) : null;
         if (!disc && orig && orig > cur)
             disc = Math.round((orig - cur) / orig * 100);
-        if (!disc || disc < 5 || disc > 95) continue;
+        if (!disc || disc < 5 || disc > 88) continue;
 
         // Rating (look for X.X between 3.0 and 5.0)
         const rm = text.match(/\\b([3-5]\\.[0-9])\\b/);
@@ -577,6 +590,24 @@ def scrape_deals() -> list[dict]:
     if not products:
         print('No deals found.')
         return []
+
+    # Python-level sanity filters — catch anything the JS extractor missed
+    CATEGORY_MIN_PRICES = {
+        'Mobiles': 1500, 'Laptops': 8000, 'TVs': 5000,
+        'Home_Kitchen': 300, 'Beauty': 30, 'Sports': 100,
+        'Men_Fashion': 100, 'Women_Fashion': 100,
+    }
+    BAD_NAMES = {'add to compare', 'add to cart', 'buy now', 'wishlist', 'compare', 'view details'}
+    before = len(products)
+    products = [
+        p for p in products
+        if p.get('name', '').lower() not in BAD_NAMES
+        and (p.get('price') or 0) >= CATEGORY_MIN_PRICES.get(p.get('category', ''), 50)
+        and (p.get('discount_percent') or 0) <= 88
+    ]
+    filtered = before - len(products)
+    if filtered:
+        print(f'Filtered {filtered} bogus products (wrong name / price too low / fake discount)')
 
     print(f'\nTotal deal stubs: {len(products)} — fetching reviews...')
 

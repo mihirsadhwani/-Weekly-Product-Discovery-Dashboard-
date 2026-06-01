@@ -426,64 +426,13 @@ def _fetch_deals_listing(url: str, category: str, via_tor: bool = False, scraper
 # Phase B — reviews via Playwright
 # ---------------------------------------------------------------------------
 
-def _scrape_reviews(page, product_url: str, max_reviews: int = 10) -> tuple[list[str], int | None, int | None]:
-    """Returns (reviews, selling_price, original_price).
-
-    Price is extracted from the detail page — much more accurate than the listing page
-    because the detail page has a single, unambiguous price block with a strikethrough MRP.
-    This avoids EMI/cashback/WOW-DEAL amounts that pollute listing page text.
-    """
+def _scrape_reviews(page, product_url: str, max_reviews: int = 5) -> tuple[list[str], int | None, int | None]:
+    """Returns (reviews, selling_price, original_price)."""
     try:
-        page.goto(product_url, wait_until='domcontentloaded', timeout=60000)
-        time.sleep(2.0)
+        page.goto(product_url, wait_until='domcontentloaded', timeout=15000)
+        time.sleep(0.3)
     except Exception:
         return [], None, None
-
-    # ------------------------------------------------------------------ #
-    # Price extraction — must happen BEFORE any navigation to review pages #
-    # ------------------------------------------------------------------ #
-    # Strategy: find the element containing a strikethrough MRP (<s>/<del>).
-    # That container always holds exactly two prices: selling price + MRP.
-    # WOW DEAL / bank-offer sections never contain a strikethrough, so they
-    # are excluded automatically.
-    detail_price: int | None = None
-    detail_orig:  int | None = None
-    try:
-        pd = page.evaluate(r"""() => {
-            // Walk <s>/<del> elements directly (strikethrough = MRP on Flipkart).
-            // Collect all (selling, mrp) candidates and return the one with the highest
-            // MRP — this is the actual product price, not exchange-offer values which
-            // also use <s> tags but are much smaller (e.g. ~~5100~~ 4400).
-            const candidates = [];
-            for (const s of document.querySelectorAll('s, del')) {
-                const t = (s.innerText || '').replace(/,/g, '');
-                const m = t.match(/(\d+)/);
-                if (!m) continue;
-                const mrp = parseInt(m[1]);
-                if (mrp < 500) continue;
-                // Walk up 3 levels to find the selling price nearby
-                let el = s.parentElement;
-                for (let i = 0; i < 3 && el; i++) {
-                    const prices = [...(el.innerText || '').matchAll(/₹\s*([\d,]+)/g)]
-                        .map(x => parseInt(x[1].replace(/,/g, '')))
-                        .filter(p => p >= 100 && p < mrp);
-                    if (prices.length > 0) {
-                        candidates.push({ price: Math.max(...prices), orig: mrp });
-                        break;
-                    }
-                    el = el.parentElement;
-                }
-            }
-            if (!candidates.length) return null;
-            // Highest orig = actual MRP (not exchange offer / small variant values)
-            candidates.sort((a, b) => b.orig - a.orig);
-            return candidates[0];
-        }""")
-        if pd:
-            detail_price = pd.get('price')
-            detail_orig  = pd.get('orig')
-    except Exception:
-        pass
 
     reviews = []
     for sel in REVIEW_SELECTORS:
@@ -519,31 +468,6 @@ def _scrape_reviews(page, product_url: str, max_reviews: int = 10) -> tuple[list
             for txt in js_reviews:
                 if txt not in reviews:
                     reviews.append(txt)
-        except Exception:
-            pass
-
-    if len(reviews) < 3:
-        try:
-            rev_link = page.query_selector("a._1KWZpX, span.b5NQAz, div._3UAT2v a, a[href*='reviews']")
-            if rev_link:
-                href = rev_link.get_attribute('href')
-                if href:
-                    rev_url = f'https://www.flipkart.com{href}' if href.startswith('/') else href
-                    page.goto(rev_url, wait_until='domcontentloaded', timeout=60000)
-                    time.sleep(2)
-                    for sel in REVIEW_SELECTORS:
-                        try:
-                            for el in page.query_selector_all(sel):
-                                try:
-                                    text = el.inner_text().strip()
-                                    if len(text) > 40 and 'READ MORE' not in text and text not in reviews:
-                                        reviews.append(text)
-                                except Exception:
-                                    continue
-                        except Exception:
-                            continue
-                        if len(reviews) >= max_reviews:
-                            break
         except Exception:
             pass
 
@@ -710,28 +634,26 @@ def scrape_deals() -> list[dict]:
         page = context.new_page()
         for i, product in enumerate(products, 1):
             try:
-                reviews, detail_price, detail_orig = _scrape_reviews(page, product['flipkart_url'])
+                reviews, _, __ = _scrape_reviews(page, product['flipkart_url'])
                 product['_reviews'] = reviews
-
-                # Overwrite listing-page prices with accurate detail-page prices.
-                # Detail page has a single price block; listing page mixes EMI/cashback amounts.
-                if detail_price and detail_price > 0:
-                    product['price'] = detail_price
-                if detail_orig and detail_orig > 0:
-                    product['original_price'] = detail_orig
-                # Recalculate discount with the accurate prices
-                p_cur  = product.get('price') or 0
-                p_orig = product.get('original_price') or 0
-                if p_cur and p_orig and p_orig > p_cur:
-                    product['discount_percent'] = round((p_orig - p_cur) / p_orig * 100)
 
                 price_str    = f"₹{product.get('price', '?')}"
                 discount_str = f"{product.get('discount_percent', '?')}% off"
                 print(f'  [{i}/{len(products)}] {price_str} {discount_str} | {product["name"][:35]} -> {len(reviews)} reviews')
             except Exception as e:
                 print(f'  [{i}/{len(products)}] review error: {e}')
-            time.sleep(random.uniform(1.5, 2.5))
+            time.sleep(0.5)
         browser.close()
+
+    # Re-filter after Phase B — listing page prices are used as-is, so re-check bounds
+    before_b = len(products)
+    products = [
+        p for p in products
+        if (p.get('discount_percent') or 0) <= 88
+        and (p.get('price') or 0) >= CATEGORY_MIN_PRICES.get(p.get('category', ''), 50)
+    ]
+    if before_b != len(products):
+        print(f'Post-Phase-B filter removed {before_b - len(products)} products')
 
     # Phase C: AI analysis
     print('\nRunning AI analysis...')

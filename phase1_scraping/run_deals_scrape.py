@@ -48,7 +48,9 @@ DEAL_CATEGORY_URLS = {
     "Women_Fashion": "https://www.flipkart.com/women-western-wear/pr?sid=2oq,1ml&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Dpopularity",
-    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Ddiscount_dsc",
+    # Sports: discount_dsc permanently redirects to Palanquins via Tor (all circuits).
+    # popularity sort loads the correct page in circuit 2; price-based disc calc finds deals.
+    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Dpopularity",
 }
 
 CATEGORY_KEYWORDS = {
@@ -293,11 +295,13 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         }
         if (!name || name.length < 5 || UI_NAMES.includes(name.toLowerCase())) continue;
 
-        // Filter EMI / monthly installment lines before extracting prices.
-        // Flipkart shows "EMI from ₹2,090/month" on cards — this would be picked as min price.
+        // Filter lines that carry non-selling prices: EMI, exchange offers, cashback, bank offers.
+        // "Exchange up to ₹4,400" appears on AC/appliance cards — ₹4,400 would become min price.
         const priceText = text.split('\\n').filter(l => {
             const ll = l.toLowerCase();
-            return !ll.includes('/month') && !ll.includes('emi') && !ll.includes('per month');
+            return !ll.includes('/month') && !ll.includes('emi') && !ll.includes('per month')
+                && !ll.includes('exchange') && !ll.includes('cashback')
+                && !ll.includes('bank offer') && !ll.includes('up to ');
         }).join(' ');
 
         const pms = Array.from(priceText.matchAll(/\\u20b9\\s*([\\d,]+)/g));
@@ -307,11 +311,16 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         if (!cur || cur < 100) continue;
         const orig = prices.length > 1 ? Math.max(...prices) : null;
 
-        // Discount percentage — from badge text or calculated from prices
-        const dm = text.match(/(\\d{1,3})%\\s*off/i);
-        let disc = dm ? parseInt(dm[1]) : null;
-        if (!disc && orig && orig > cur)
+        // Prefer price-based discount (more reliable than badge text).
+        // Badge text says "90% off" even when inflated MRP makes actual discount 30%.
+        // Discount sort pages (fashion) are full of inflated-MRP items; price calc is accurate.
+        let disc = null;
+        if (orig && orig > cur)
             disc = Math.round((orig - cur) / orig * 100);
+        if (!disc) {
+            const dm = text.match(/(\\d{1,3})%\\s*off/i);
+            disc = dm ? parseInt(dm[1]) : null;
+        }
         if (!disc || disc < 5 || disc > 88) continue;
 
         // Rating (look for X.X between 3.0 and 5.0)

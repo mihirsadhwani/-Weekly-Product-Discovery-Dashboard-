@@ -2,117 +2,80 @@
   "hot_categories": [
     {
       "category": "Laptops",
-      "count": 18
+      "count": 19
     },
     {
       "category": "Home_Kitchen",
-      "count": 13
-    },
-    {
-      "category": "TVs",
-      "count": 4
+      "count": 9
     },
     {
       "category": "Mobiles",
-      "count": 4
+      "count": 3
+    },
+    {
+      "category": "TVs",
+      "count": 3
     },
     {
       "category": "Beauty",
       "count": 2
-    },
-    {
-      "category": "Men_Fashion",
-      "count": 1
     }
   ],
   "declining_categories": [
     {
       "category": "Beauty",
-      "avg_sentiment": 40.0
-    },
-    {
-      "category": "TVs",
-      "avg_sentiment": 20.0
-    },
-    {
-      "category": "Laptops",
-      "avg_sentiment": 13.3
+      "avg_sentiment": 0.0
     },
     {
       "category": "Home_Kitchen",
-      "avg_sentiment": 12.3
+      "avg_sentiment": 0.0
     },
     {
-      "category": "Men_Fashion",
+      "category": "Laptops",
       "avg_sentiment": 0.0
     },
     {
       "category": "Mobiles",
       "avg_sentiment": 0.0
+    },
+    {
+      "category": "TVs",
+      "avg_sentiment": 0.0
     }
   ],
-  "emerging_keywords": [
-    {
-      "keyword": "performance",
-      "mentions": 3
-    },
-    {
-      "keyword": "thin",
-      "mentions": 2
-    },
-    {
-      "keyword": "light",
-      "mentions": 2
-    },
-    {
-      "keyword": "heavy",
-      "mentions": 2
-    },
-    {
-      "keyword": "duty",
-      "mentions": 2
-    },
-    {
-      "keyword": "cooling",
-      "mentions": 2
-    }
-  ],
+  "emerging_keywords": [],
   "price_movements": [
     {
       "category": "Beauty",
       "avg_price": 248
     },
     {
-      "category": "Laptops",
-      "avg_price": 32003
-    },
-    {
       "category": "Home_Kitchen",
-      "avg_price": 7827
+      "avg_price": 4158
     },
     {
-      "category": "TVs",
-      "avg_price": 41865
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_price": 258
+      "category": "Laptops",
+      "avg_price": 31320
     },
     {
       "category": "Mobiles",
-      "avg_price": 47400
+      "avg_price": 48650
+    },
+    {
+      "category": "TVs",
+      "avg_price": 44490
     }
   ],
   "best_deal": {
-    "name": "Currently unavailable\nAdd to Compare\nSamsung Galaxy Book4 Metal Intel Core i3 13th Gen 1315U - (8 GB/512 GB SSD/Windows 11 Home) NP750XGJ-L...\n4.410,5",
-    "price": 11000,
-    "original_price": 13164939,
-    "discount_percent": 100,
-    "category": "Laptops",
-    "score": 80,
-    "flipkart_url": "https://www.flipkart.com/samsung-galaxy-book4-metal-intel-core-i3-13th-gen-1315u-8-gb-512-gb-ssd-windows-11-home-np750xgj-lg9in-thin-light-laptop/p/itmc29d559898e6f?pid=COMH4Y6KKRC9YSWE&store=6bo%2Fb5g&srno=b_1_5&otracker=browse&fm=organic&iid=cbed4952-f5c1-450a-9067-a859e331bf57.COMH4Y6KKRC9YSWE.SEARCH&ppt=None&ppn=None&ssid=ejh178bi8w0000001780317556815&ov_redirect=true"
+    "name": "Aqua Fresh Smoke Audi 18 ltr drink pure India 1st BIS (...",
+    "price": 500,
+    "original_price": 1650072,
+    "discount_percent": 72,
+    "category": "Home_Kitchen",
+    "score": 0,
+    "flipkart_url": "https://www.flipkart.com/aqua-fresh-smoke-audi-18-ltr-drink-pure-india-1st-bis-is-16240-2023-cm-l8100159306-l-ro-uv-uf-copper-alkaline-tds-control-water-purifier/p/itmc3da457d7de29?pid=WAPGW5YZQHM7EY3S&lid=LSTWAPGW5YZQHM7EY3SCZ8VWH&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=en_4G3KyfwlgtYgvP9rF4jJPDb3rwpxSjD6K_piRmxM4kh_v2yhVwR5toHT-KeF2vrhKBFTMJEIj_IidqAMxrobyw%3D%3D&ppt=None&ppn=None&ssid=sy3junbsv40000001780322462455&ov_redirect=true&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T13:39:56.339325"
+  "generated_at": "2026-06-01T14:13:55.908102"
 }

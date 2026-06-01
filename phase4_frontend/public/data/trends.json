@@ -1,51 +1,114 @@
 {
   "hot_categories": [
     {
-      "category": "Electronics",
-      "count": 7
+      "category": "Laptops",
+      "count": 17
+    },
+    {
+      "category": "TVs",
+      "count": 11
+    },
+    {
+      "category": "Home_Kitchen",
+      "count": 10
+    },
+    {
+      "category": "Mobiles",
+      "count": 9
+    },
+    {
+      "category": "Beauty",
+      "count": 2
     }
   ],
   "declining_categories": [
     {
-      "category": "Electronics",
-      "avg_sentiment": 50.0
+      "category": "Beauty",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "TVs",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Laptops",
+      "avg_sentiment": 77.6
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 35.6
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "battery",
-      "mentions": 6
+      "keyword": "performance",
+      "mentions": 17
     },
     {
-      "keyword": "life",
-      "mentions": 6
-    },
-    {
-      "keyword": "camera",
-      "mentions": 5
-    },
-    {
-      "keyword": "long",
-      "mentions": 5
-    },
-    {
-      "keyword": "high",
-      "mentions": 4
+      "keyword": "thin",
+      "mentions": 11
     },
     {
       "keyword": "fast",
-      "mentions": 4
+      "mentions": 8
     },
     {
-      "keyword": "charging",
-      "mentions": 4
+      "keyword": "picture",
+      "mentions": 8
+    },
+    {
+      "keyword": "cooling",
+      "mentions": 7
+    },
+    {
+      "keyword": "energy",
+      "mentions": 7
+    },
+    {
+      "keyword": "smart",
+      "mentions": 7
     },
     {
       "keyword": "affordable",
-      "mentions": 2
+      "mentions": 6
     }
   ],
+  "price_movements": [
+    {
+      "category": "Beauty",
+      "avg_price": 158
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_price": 4010
+    },
+    {
+      "category": "TVs",
+      "avg_price": 11790
+    },
+    {
+      "category": "Mobiles",
+      "avg_price": 41728
+    },
+    {
+      "category": "Laptops",
+      "avg_price": 29252
+    }
+  ],
+  "best_deal": {
+    "name": "Add to Compare",
+    "price": 2090,
+    "original_price": 26999,
+    "discount_percent": 92,
+    "category": "TVs",
+    "score": 80,
+    "flipkart_url": "https://www.flipkart.com/philips-108-cm-43-inch-qled-ultra-hd-4k-smart-google-tv-dolby-vision-30w-atmos-120hz-refresh-rate-hdr-10-wider-colour-gamut-narrow-bezel-32-gb-storage/p/itm59ca3adca93c0?pid=TVSHEBY6HXP2SPHY&lid=LSTTVSHEBY6HXP2SPHYSRO30B&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_21&otracker=browse&fm=organic&iid=febd62fd-3d04-428d-99c8-d1305ee1bfd1.TVSHEBY6HXP2SPHY.SEARCH&ppt=None&ppn=None&ssid=zlc81rq0ds0000001780297724132&ov_redirect=true"
+  },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-05-30T21:10:21.368932"
+  "generated_at": "2026-06-01T07:20:56.905987"
 }

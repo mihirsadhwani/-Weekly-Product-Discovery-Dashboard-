@@ -262,16 +262,13 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         if (lt === 'add to compare' || lt === 'add to cart' || lt === 'buy now' ||
             lt === 'wishlist' || lt === 'compare') continue;
 
-        // Walk up DOM to find the single-product card.
-        // Use /p/ link count rather than text length — a product card has ≤6 product links
-        // (image + name + up to 4 colour/size variants). A grid row has 16+.
-        // Text-length was causing two issues: fashion cards with size swatches exceeded the
-        // limit, and the fallback parent then spanned multiple products causing price mix-ups.
+        // Walk up DOM to find the product card (smallest container with a ₹ price).
+        // 8000 char limit: generous enough for fashion cards with size/colour swatches,
+        // tight enough to avoid spanning a full grid row with multiple products.
         let card = link.parentElement;
-        for (let i = 0; i < 12 && card; i++) {
-            const pCount = card.querySelectorAll('a[href*="/p/"]').length;
+        for (let i = 0; i < 10 && card; i++) {
             const t = card.innerText || '';
-            if (t.includes('\\u20b9') && pCount >= 1 && pCount <= 6) break;
+            if (t.includes('\\u20b9') && t.length < 8000) break;
             card = card.parentElement;
         }
         if (!card || !(card.innerText || '').includes('\\u20b9')) continue;
@@ -305,15 +302,7 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
 
         const pms = Array.from(priceText.matchAll(/\\u20b9\\s*([\\d,]+)/g));
         if (!pms.length) continue;
-        let prices = pms.map(m => parseInt(m[1].replace(/,/g, ''))).filter(p => p > 0);
-        if (!prices.length) continue;
-        // EMI ratio filter: installment amounts are always a tiny fraction of the actual price.
-        // AC at ₹45,990 shows "No Cost EMI / ₹2,090" — ₹2,090 is 4.5% of ₹45,990.
-        // Using 1:20 threshold (5%) so cheap real products (e.g. ₹77 nail polish vs ₹180 MRP,
-        // where ₹77 is 43% of ₹180) are never filtered. Only extreme outliers like EMI amounts.
-        const maxP = Math.max(...prices);
-        prices = prices.filter(p => p * 20 >= maxP);
-        if (!prices.length) continue;
+        const prices = pms.map(m => parseInt(m[1].replace(/,/g, '')));
         const cur = Math.min(...prices);
         if (!cur || cur < 100) continue;
         const orig = prices.length > 1 ? Math.max(...prices) : null;
@@ -437,12 +426,48 @@ def _fetch_deals_listing(url: str, category: str, via_tor: bool = False, scraper
 # Phase B — reviews via Playwright
 # ---------------------------------------------------------------------------
 
-def _scrape_reviews(page, product_url: str, max_reviews: int = 10) -> list[str]:
+def _scrape_reviews(page, product_url: str, max_reviews: int = 10) -> tuple[list[str], int | None, int | None]:
+    """Returns (reviews, selling_price, original_price).
+
+    Price is extracted from the detail page — much more accurate than the listing page
+    because the detail page has a single, unambiguous price block with a strikethrough MRP.
+    This avoids EMI/cashback/WOW-DEAL amounts that pollute listing page text.
+    """
     try:
         page.goto(product_url, wait_until='domcontentloaded', timeout=60000)
         time.sleep(2.0)
     except Exception:
-        return []
+        return [], None, None
+
+    # ------------------------------------------------------------------ #
+    # Price extraction — must happen BEFORE any navigation to review pages #
+    # ------------------------------------------------------------------ #
+    # Strategy: find the element containing a strikethrough MRP (<s>/<del>).
+    # That container always holds exactly two prices: selling price + MRP.
+    # WOW DEAL / bank-offer sections never contain a strikethrough, so they
+    # are excluded automatically.
+    detail_price: int | None = None
+    detail_orig:  int | None = None
+    try:
+        pd = page.evaluate(r"""() => {
+            for (const el of document.querySelectorAll('div, span')) {
+                if (!el.querySelector('s, del')) continue;
+                const text = el.innerText || '';
+                if (!text.includes('₹')) continue;
+                const prices = [...text.matchAll(/₹\s*([\d,]+)/g)]
+                    .map(m => parseInt(m[1].replace(/,/g, ''))).filter(p => p > 10);
+                if (prices.length >= 2) {
+                    const mn = Math.min(...prices), mx = Math.max(...prices);
+                    if (mx > mn * 1.05) return { price: mn, orig: mx };
+                }
+            }
+            return null;
+        }""")
+        if pd:
+            detail_price = pd.get('price')
+            detail_orig  = pd.get('orig')
+    except Exception:
+        pass
 
     reviews = []
     for sel in REVIEW_SELECTORS:
@@ -506,7 +531,7 @@ def _scrape_reviews(page, product_url: str, max_reviews: int = 10) -> list[str]:
         except Exception:
             pass
 
-    return reviews[:max_reviews]
+    return reviews[:max_reviews], detail_price, detail_orig
 
 
 # ---------------------------------------------------------------------------
@@ -669,10 +694,24 @@ def scrape_deals() -> list[dict]:
         page = context.new_page()
         for i, product in enumerate(products, 1):
             try:
-                reviews = _scrape_reviews(page, product['flipkart_url'])
+                reviews, detail_price, detail_orig = _scrape_reviews(page, product['flipkart_url'])
                 product['_reviews'] = reviews
+
+                # Overwrite listing-page prices with accurate detail-page prices.
+                # Detail page has a single price block; listing page mixes EMI/cashback amounts.
+                if detail_price and detail_price > 0:
+                    product['price'] = detail_price
+                if detail_orig and detail_orig > 0:
+                    product['original_price'] = detail_orig
+                # Recalculate discount with the accurate prices
+                p_cur  = product.get('price') or 0
+                p_orig = product.get('original_price') or 0
+                if p_cur and p_orig and p_orig > p_cur:
+                    product['discount_percent'] = round((p_orig - p_cur) / p_orig * 100)
+
+                price_str    = f"₹{product.get('price', '?')}"
                 discount_str = f"{product.get('discount_percent', '?')}% off"
-                print(f'  [{i}/{len(products)}] {discount_str} | {product["name"][:40]} -> {len(reviews)} reviews')
+                print(f'  [{i}/{len(products)}] {price_str} {discount_str} | {product["name"][:35]} -> {len(reviews)} reviews')
             except Exception as e:
                 print(f'  [{i}/{len(products)}] review error: {e}')
             time.sleep(random.uniform(1.5, 2.5))

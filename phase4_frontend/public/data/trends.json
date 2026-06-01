@@ -1,106 +1,66 @@
 {
   "hot_categories": [
     {
-      "category": "Laptops",
-      "count": 13
-    },
-    {
       "category": "Home_Kitchen",
-      "count": 7
-    },
-    {
-      "category": "TVs",
-      "count": 6
+      "count": 8
     },
     {
       "category": "Sports",
-      "count": 2
+      "count": 5
     },
     {
       "category": "Beauty",
-      "count": 1
-    },
-    {
-      "category": "Women_Fashion",
       "count": 1
     }
   ],
   "declining_categories": [
     {
-      "category": "TVs",
-      "avg_sentiment": 27.5
-    },
-    {
-      "category": "Laptops",
-      "avg_sentiment": 23.8
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 22.9
+      "category": "Sports",
+      "avg_sentiment": 62.2
     },
     {
       "category": "Beauty",
       "avg_sentiment": 0.0
     },
     {
-      "category": "Sports",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Women_Fashion",
+      "category": "Home_Kitchen",
       "avg_sentiment": 0.0
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "affordable",
-      "mentions": 3
+      "keyword": "effective",
+      "mentions": 2
     },
     {
-      "keyword": "performance",
-      "mentions": 3
-    },
-    {
-      "keyword": "picture",
+      "keyword": "easy",
       "mentions": 2
     }
   ],
   "price_movements": [
     {
-      "category": "Home_Kitchen",
-      "avg_price": 17329
-    },
-    {
-      "category": "TVs",
-      "avg_price": 8363
-    },
-    {
       "category": "Sports",
-      "avg_price": 220
-    },
-    {
-      "category": "Laptops",
-      "avg_price": 60601
+      "avg_price": 980
     },
     {
       "category": "Beauty",
       "avg_price": 239
     },
     {
-      "category": "Women_Fashion",
-      "avg_price": 317
+      "category": "Home_Kitchen",
+      "avg_price": 17450
     }
   ],
   "best_deal": {
-    "name": "MarQ by Flipkart 80 cm (32 inch) HD Ready LED TV\n4.212,721 Ratings & 955 Reviews\nHD Ready | LED\nModel ID: 32HDNDQEE1B\nLaunch Year: 2023\nTotal Sound Ou",
-    "price": 7499,
-    "original_price": 1700055,
-    "discount_percent": 55,
-    "category": "TVs",
-    "score": 85,
-    "flipkart_url": "https://www.flipkart.com/marq-flipkart-80-cm-32-inch-hd-ready-led-tv/p/itm9cf4b18ac50a6?pid=TVSGZGGPZ5JKMGYE&lid=LSTTVSGZGGPZ5JKMGYEXKW0X0&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_22&otracker=browse&fm=organic&iid=28336531-55da-4add-a220-0633c9bec00f.TVSGZGGPZ5JKMGYE.SEARCH&ppt=None&ppn=None&ssid=d776symry80000001780337177474&ov_redirect=true"
+    "name": "Shopeleven Dual Spring Tummy Trimmer- Multipurpose Fitn...",
+    "price": 198,
+    "original_price": 99080,
+    "discount_percent": 80,
+    "category": "Sports",
+    "score": 80,
+    "flipkart_url": "https://www.flipkart.com/shopeleven-dual-spring-tummy-trimmer-multipurpose-fitness-xs-24-home-gym-ab-exerciser/p/itm8e226866c91f2?pid=ABEFTZ5ZS8BYX6GZ&lid=LSTABEFTZ5ZS8BYX6GZZOOP9B&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_26&otracker=search&fm=organic&iid=435eb848-a158-478d-bf05-7b06f43b5a9e.ABEFTZ5ZS8BYX6GZ.SEARCH&ppt=None&ppn=None&ssid=bjit4hr4g00000001780340654108&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T18:43:04.243532"
+  "generated_at": "2026-06-01T19:08:33.845247"
 }

@@ -41,16 +41,16 @@ DEAL_CATEGORY_URLS = {
     "Mobiles":       "https://www.flipkart.com/mobiles/pr?sid=tyy,4io&p%5B%5D=sort%3Dpopularity",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
-    # Fashion: search URLs avoid sid-based geo-redirects that hit category pages via Tor.
-    # discount_range filter ensures only genuinely discounted items appear on the page —
-    # prevents 90%+ inflated-MRP badge items from filling the top results.
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+tshirts&p%5B%5D=sort%3Dpopularity&p%5B%5D=facets.discount_range%5B%5D%3D30%25+or+more",
-    "Women_Fashion": "https://www.flipkart.com/search?q=women+tops&p%5B%5D=sort%3Dpopularity&p%5B%5D=facets.discount_range%5B%5D%3D30%25+or+more",
+    # Fashion/Sports: search URLs avoid sid-based geo-redirects (Geography, Palanquins) via Tor.
+    # No discount_range URL filter — it caused "All Categories" fallback page on some circuits
+    # which has a different card layout → 0 products. JS extractor filters disc 5-88% instead.
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+tshirts&p%5B%5D=sort%3Dpopularity",
+    "Women_Fashion": "https://www.flipkart.com/search?q=women+tops&p%5B%5D=sort%3Dpopularity",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Dpopularity",
     # Sports: sid=wr1 category page always redirects to Palanquins via all Tor circuits.
     # Search URL avoids that geo-redirect entirely.
-    "Sports":        "https://www.flipkart.com/search?q=gym+fitness+equipment&p%5B%5D=sort%3Dpopularity&p%5B%5D=facets.discount_range%5B%5D%3D10%25+or+more",
+    "Sports":        "https://www.flipkart.com/search?q=gym+fitness+equipment&p%5B%5D=sort%3Dpopularity",
 }
 
 CATEGORY_KEYWORDS = {

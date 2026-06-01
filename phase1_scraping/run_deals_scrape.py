@@ -41,11 +41,11 @@ DEAL_CATEGORY_URLS = {
     "Mobiles":       "https://www.flipkart.com/mobiles/pr?sid=tyy,4io&p%5B%5D=sort%3Dpopularity",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
-    "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=sort%3Dpopularity",
-    "Women_Fashion": "https://www.flipkart.com/clothing-and-accessories/western-wear/pr?sid=clo,aps&p%5B%5D=sort%3Dpopularity",
+    "Men_Fashion":   "https://www.flipkart.com/clothing-and-accessories/topwear/pr?sid=clo,ash&p%5B%5D=facets.discount%255B%255D%3D30%2525%2Band%2Babove&p%5B%5D=sort%3Dpopularity",
+    "Women_Fashion": "https://www.flipkart.com/clothing-and-accessories/western-wear/pr?sid=clo,aps&p%5B%5D=facets.discount%255B%255D%3D30%2525%2Band%2Babove&p%5B%5D=sort%3Dpopularity",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Dpopularity",
-    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=sort%3Dpopularity",
+    "Sports":        "https://www.flipkart.com/sports-fitness/pr?sid=wr1&p%5B%5D=facets.discount%255B%255D%3D30%2525%2Band%2Babove&p%5B%5D=sort%3Dpopularity",
 }
 
 CATEGORY_KEYWORDS = {
@@ -552,30 +552,44 @@ def scrape_deals() -> list[dict]:
                 },
             )
 
-            for circuit in range(5):
+            # Smart retry: track per-category results, only retry categories that redirected.
+            # A category is "done" once it returns products OR returns [] (correct page, 0 discounts).
+            # A category stays in the retry queue only if it got a geographic redirect (None).
+            category_results: dict[str, list[dict]] = {}
+            pending = dict(DEAL_CATEGORY_URLS)  # categories still needing a valid response
+
+            for circuit in range(6):
+                if not pending:
+                    break
                 if circuit > 0:
-                    print(f'\n  Rotating Tor circuit ({circuit}/4)...')
+                    print(f'\n  Rotating Tor circuit (retrying {len(pending)} categories)...')
                     rotated = _rotate_tor_circuit()
                     if not rotated:
                         print('  NEWNYM unavailable — waiting 30s...')
                         time.sleep(30)
 
-                circuit_products: list[dict] = []
-                redirect_count = 0
-                for category, url in DEAL_CATEGORY_URLS.items():
-                    print(f'  {category} (Playwright+Tor circuit {circuit + 1})...')
+                still_redirecting: dict[str, str] = {}
+                for category, url in list(pending.items()):
+                    print(f'  {category} (circuit {circuit + 1})...')
                     result = _fetch_deals_listing_playwright(url, category, tor_context)
                     if result is None:
-                        redirect_count += 1
-                    elif result:
-                        circuit_products.extend(result)
+                        still_redirecting[category] = url  # keep for next circuit
+                    else:
+                        category_results[category] = result  # done (even if empty)
                     time.sleep(random.uniform(2.0, 3.5))
 
-                print(f'  Circuit {circuit + 1}: {len(circuit_products)} products, {redirect_count}/8 geographic redirects')
-                if circuit_products:
-                    products.extend(circuit_products)
-                    print(f'Playwright+Tor circuit {circuit + 1} succeeded!')
-                    break
+                pending = still_redirecting
+                done_count = len(category_results)
+                total_found = sum(len(v) for v in category_results.values())
+                print(f'  Circuit {circuit + 1}: {total_found} products across {done_count} categories, {len(pending)} still redirecting')
+
+            for prods in category_results.values():
+                products.extend(prods)
+
+            if products:
+                print(f'Playwright+Tor succeeded: {len(products)} products from {len(category_results)} categories')
+            elif category_results:
+                print(f'Playwright+Tor reached all categories but found 0 discounted products')
 
             tor_browser.close()
 

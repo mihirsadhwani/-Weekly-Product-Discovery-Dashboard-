@@ -49,9 +49,9 @@ jobs:
       - name: Start Tor proxy
         run: |
           sudo apt-get install -y tor
-          printf "\nControlPort 9051\nCookieAuthentication 0\n" | sudo tee -a /etc/tor/torrc
+          printf "\nControlPort 9051\nCookieAuthentication 0\nExitNodes {in}\n" | sudo tee -a /etc/tor/torrc
           sudo service tor restart
-          sleep 25
+          sleep 35
           curl -s --socks5 127.0.0.1:9050 --max-time 15 https://check.torproject.org/api/ip \
             | python3 -c "import sys,json; d=json.load(sys.stdin); print('Tor IP:', d.get('IP'), '| IsTor:', d.get('IsTor'))" \
             || echo "Tor check timed out (non-fatal)"

@@ -2,11 +2,15 @@
   "hot_categories": [
     {
       "category": "Laptops",
-      "count": 17
+      "count": 18
     },
     {
       "category": "Home_Kitchen",
-      "count": 12
+      "count": 13
+    },
+    {
+      "category": "TVs",
+      "count": 4
     },
     {
       "category": "Mobiles",
@@ -14,97 +18,85 @@
     },
     {
       "category": "Beauty",
-      "count": 3
-    },
-    {
-      "category": "TVs",
       "count": 2
     },
     {
-      "category": "Women_Fashion",
+      "category": "Men_Fashion",
       "count": 1
     }
   ],
   "declining_categories": [
     {
       "category": "Beauty",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Laptops",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 80.0
+      "avg_sentiment": 40.0
     },
     {
       "category": "TVs",
-      "avg_sentiment": 80.0
+      "avg_sentiment": 20.0
     },
     {
-      "category": "Women_Fashion",
-      "avg_sentiment": 80.0
+      "category": "Laptops",
+      "avg_sentiment": 13.3
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_sentiment": 12.3
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 0.0
     }
   ],
   "emerging_keywords": [
     {
       "keyword": "performance",
-      "mentions": 17
-    },
-    {
-      "keyword": "fast",
-      "mentions": 11
-    },
-    {
-      "keyword": "energy",
-      "mentions": 9
+      "mentions": 3
     },
     {
       "keyword": "thin",
-      "mentions": 8
-    },
-    {
-      "keyword": "display",
-      "mentions": 7
-    },
-    {
-      "keyword": "cooling",
-      "mentions": 6
+      "mentions": 2
     },
     {
       "keyword": "light",
-      "mentions": 6
+      "mentions": 2
     },
     {
-      "keyword": "affordable",
-      "mentions": 6
+      "keyword": "heavy",
+      "mentions": 2
+    },
+    {
+      "keyword": "duty",
+      "mentions": 2
+    },
+    {
+      "keyword": "cooling",
+      "mentions": 2
     }
   ],
   "price_movements": [
     {
       "category": "Beauty",
-      "avg_price": 327
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_price": 6758
+      "avg_price": 248
     },
     {
       "category": "Laptops",
-      "avg_price": 32950
+      "avg_price": 32003
     },
     {
-      "category": "Women_Fashion",
-      "avg_price": 108
+      "category": "Home_Kitchen",
+      "avg_price": 7827
     },
     {
       "category": "TVs",
-      "avg_price": 39240
+      "avg_price": 41865
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_price": 258
     },
     {
       "category": "Mobiles",
@@ -112,15 +104,15 @@
     }
   ],
   "best_deal": {
-    "name": "CARRIER 2026 Model 1 Ton 3 Star Split AI Inverter Conve...",
-    "price": 4400,
-    "original_price": 5510040,
+    "name": "Currently unavailable\nAdd to Compare\nSamsung Galaxy Book4 Metal Intel Core i3 13th Gen 1315U - (8 GB/512 GB SSD/Windows 11 Home) NP750XGJ-L...\n4.410,5",
+    "price": 11000,
+    "original_price": 13164939,
     "discount_percent": 100,
-    "category": "Home_Kitchen",
+    "category": "Laptops",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/carrier-2026-model-1-ton-3-star-split-ai-inverter-convertible-6-in-1-smart-energy-display-insta-cool-auto-defrost-clean-pm-2-5-filter-ac/p/itm7b61312cd52ea?pid=ACNHJ48NWWSH5UWN&lid=LSTACNHJ48NWWSH5UWNJAYCNG&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=en_3rLawD0eqLMSmcZnk-efG8U7z6QybgKpzZvyYKEPNe5PJCyiwLS5Ztg-uBjlONi9uO2QR6fuFtKismRxK9uiwVmOBtEFy0FmBP0CX6jfuRQ%3D&ppt=None&ppn=None&ssid=7icexzytzk0000001780307444686&ov_redirect=true&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/samsung-galaxy-book4-metal-intel-core-i3-13th-gen-1315u-8-gb-512-gb-ssd-windows-11-home-np750xgj-lg9in-thin-light-laptop/p/itmc29d559898e6f?pid=COMH4Y6KKRC9YSWE&store=6bo%2Fb5g&srno=b_1_5&otracker=browse&fm=organic&iid=cbed4952-f5c1-450a-9067-a859e331bf57.COMH4Y6KKRC9YSWE.SEARCH&ppt=None&ppn=None&ssid=ejh178bi8w0000001780317556815&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-01T09:56:57.075166"
+  "generated_at": "2026-06-01T13:39:56.339325"
 }

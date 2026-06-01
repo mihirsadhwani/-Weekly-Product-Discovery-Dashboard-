@@ -55,6 +55,19 @@ DEAL_CATEGORY_URLS = {
     "Sports":        "https://www.flipkart.com/search?q=gym+fitness+equipment&p%5B%5D=sort%3Ddiscount_dsc",
 }
 
+# Alternate search URLs tried when primary URL gives < 10 products after all 6 circuits.
+# All use discount_dsc so the page is pre-sorted by deals.
+DEAL_CATEGORY_FALLBACK_URLS = {
+    "Mobiles":       "https://www.flipkart.com/search?q=mobile+phones&p%5B%5D=sort%3Ddiscount_dsc",
+    "Laptops":       "https://www.flipkart.com/search?q=laptop+computer&p%5B%5D=sort%3Ddiscount_dsc",
+    "TVs":           "https://www.flipkart.com/search?q=smart+tv+television&p%5B%5D=sort%3Ddiscount_dsc",
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+shirts+clothing&p%5B%5D=sort%3Ddiscount_dsc",
+    "Women_Fashion": "https://www.flipkart.com/search?q=women+dresses+clothing&p%5B%5D=sort%3Ddiscount_dsc",
+    "Home_Kitchen":  "https://www.flipkart.com/search?q=home+kitchen+appliances&p%5B%5D=sort%3Ddiscount_dsc",
+    "Beauty":        "https://www.flipkart.com/search?q=skincare+beauty+products&p%5B%5D=sort%3Ddiscount_dsc",
+    "Sports":        "https://www.flipkart.com/search?q=sports+fitness+equipment&p%5B%5D=sort%3Ddiscount_dsc",
+}
+
 CATEGORY_KEYWORDS = {
     'Mobiles': ['mobile', 'phone', 'smartphone'],
     'Laptops': ['laptop', 'notebook'],
@@ -623,6 +636,29 @@ def scrape_deals() -> list[dict]:
                 done_count = len(category_results)
                 total_found = sum(len(v) for v in category_results.values())
                 print(f'  Circuit {circuit + 1}: {total_found} products across {done_count} categories, {len(pending)} still redirecting')
+
+            # Fallback pass: for any category still under 10 products, try an alternate
+            # search URL on the existing Tor context (no extra circuit rotation needed).
+            MIN_PER_CAT = 10
+            short_cats = {
+                cat: DEAL_CATEGORY_FALLBACK_URLS[cat]
+                for cat in DEAL_CATEGORY_FALLBACK_URLS
+                if len(category_results.get(cat, [])) < MIN_PER_CAT
+            }
+            if short_cats:
+                print(f'\n  Fallback pass: {len(short_cats)} categories under {MIN_PER_CAT} products...')
+                for cat, fb_url in short_cats.items():
+                    print(f'  {cat} fallback URL...')
+                    fb_result = _fetch_deals_listing_playwright(fb_url, cat, tor_context)
+                    if fb_result:
+                        existing = category_results.get(cat, [])
+                        seen_hrefs = {p['flipkart_url'] for p in existing}
+                        new_prods = [p for p in fb_result if p['flipkart_url'] not in seen_hrefs]
+                        category_results[cat] = existing + new_prods
+                        print(f'    {cat}: {len(category_results[cat])} total after fallback')
+                    elif fb_result is None:
+                        print(f'    {cat} fallback: timeout/redirect — skipping')
+                    time.sleep(random.uniform(2.0, 3.0))
 
             for prods in category_results.values():
                 products.extend(prods)

@@ -40,29 +40,26 @@ from config import DELAY_MIN, DELAY_MAX, USER_AGENTS
 DEAL_CATEGORY_URLS = {
     # Electronics: category pages with discount_dsc fills the page with discounted items.
     # popularity sort only shows popular items, many without visible discount badges.
-    "Mobiles":       "https://www.flipkart.com/mobiles/pr?sid=tyy,4io&p%5B%5D=sort%3Ddiscount_dsc",
+    # Mobiles: search URL avoids comparison/listing pages that show 0 discount cards.
+    "Mobiles":       "https://www.flipkart.com/search?q=redmi+realme+samsung+mobile&p%5B%5D=sort%3Ddiscount_dsc",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
     # Fashion/Sports: search URLs avoid sid-based geo-redirects (Geography, Palanquins) via Tor.
-    # discount_dsc sort surfaces genuinely discounted items first; JS extractor still filters
-    # fake 93%+ inflated-MRP badge items, leaving real 5-92% deals.
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+kurta&p%5B%5D=sort%3Ddiscount_dsc",
-    "Women_Fashion": "https://www.flipkart.com/search?q=women+kurti&p%5B%5D=sort%3Ddiscount_dsc",
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+polo+tshirt&p%5B%5D=sort%3Ddiscount_dsc",
+    "Women_Fashion": "https://www.flipkart.com/search?q=women+printed+kurti&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Ddiscount_dsc",
-    # Sports: sid=wr1 category page always redirects to Palanquins via all Tor circuits.
-    # Search URL avoids geo-redirect; discount_dsc shows gym equipment deals first.
+    # Sports: sid=wr1 always redirects to Palanquins via Tor. Search URL avoids this.
     "Sports":        "https://www.flipkart.com/search?q=gym+fitness+equipment&p%5B%5D=sort%3Ddiscount_dsc",
 }
 
 # Alternate search URLs tried when primary URL gives < 10 products after all 6 circuits.
-# All use discount_dsc so the page is pre-sorted by deals.
 DEAL_CATEGORY_FALLBACK_URLS = {
-    "Mobiles":       "https://www.flipkart.com/search?q=mobile+phones&p%5B%5D=sort%3Ddiscount_dsc",
+    "Mobiles":       "https://www.flipkart.com/search?q=4g+smartphones+under+20000&p%5B%5D=sort%3Ddiscount_dsc",
     "Laptops":       "https://www.flipkart.com/search?q=laptop+computer&p%5B%5D=sort%3Ddiscount_dsc",
     "TVs":           "https://www.flipkart.com/search?q=smart+tv+television&p%5B%5D=sort%3Ddiscount_dsc",
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+shirts+clothing&p%5B%5D=sort%3Ddiscount_dsc",
-    "Women_Fashion": "https://www.flipkart.com/search?q=women+dresses+clothing&p%5B%5D=sort%3Ddiscount_dsc",
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+cotton+casual+shirt&p%5B%5D=sort%3Ddiscount_dsc",
+    "Women_Fashion": "https://www.flipkart.com/search?q=women+ethnic+wear+saree&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/search?q=home+kitchen+appliances&p%5B%5D=sort%3Ddiscount_dsc",
     "Beauty":        "https://www.flipkart.com/search?q=skincare+beauty+products&p%5B%5D=sort%3Ddiscount_dsc",
     "Sports":        "https://www.flipkart.com/search?q=sports+fitness+equipment&p%5B%5D=sort%3Ddiscount_dsc",
@@ -715,9 +712,22 @@ def scrape_deals() -> list[dict]:
     if filtered:
         print(f'Filtered {filtered} bogus products (wrong name / price too low / fake discount)')
 
-    print(f'\nTotal deal stubs: {len(products)} — fetching reviews...')
+    # Pre-balance before Phase B: only fetch reviews for top 15 per category (max 120 total).
+    # Fetching reviews for 194 raw products took 4+ hours; this caps it at ~40 min.
+    _pre_seen: dict[str, int] = {}
+    _review_candidates: list[dict] = []
+    for p in sorted(products, key=lambda x: ((x.get('discount_percent') or 0) * 0.5 + (x.get('rating') or 0) * 10), reverse=True):
+        cat = p['category']
+        if _pre_seen.get(cat, 0) < 15:
+            _review_candidates.append(p)
+            _pre_seen[cat] = _pre_seen.get(cat, 0) + 1
+    products_no_review = [p for p in products if p not in _review_candidates]
+    for p in products_no_review:
+        p['_reviews'] = []
 
-    # Phase B: reviews via Playwright
+    print(f'\nTotal deal stubs: {len(products)} — fetching reviews for top {len(_review_candidates)}...')
+
+    # Phase B: reviews via Playwright (15s page timeout prevents hangs)
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -733,18 +743,20 @@ def scrape_deals() -> list[dict]:
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             },
         )
-        page = context.new_page()
-        for i, product in enumerate(products, 1):
+        rev_page = context.new_page()
+        rev_page.set_default_timeout(15000)  # 15s per page — skip hangers
+        for i, product in enumerate(_review_candidates, 1):
             try:
-                reviews, _, __ = _scrape_reviews(page, product['flipkart_url'])
+                reviews, _, __ = _scrape_reviews(rev_page, product['flipkart_url'])
                 product['_reviews'] = reviews
 
                 price_str    = f"₹{product.get('price', '?')}"
                 discount_str = f"{product.get('discount_percent', '?')}% off"
-                print(f'  [{i}/{len(products)}] {price_str} {discount_str} | {product["name"][:35]} -> {len(reviews)} reviews')
+                print(f'  [{i}/{len(_review_candidates)}] {price_str} {discount_str} | {product["name"][:35]} -> {len(reviews)} reviews')
             except Exception as e:
-                print(f'  [{i}/{len(products)}] review error: {e}')
-            time.sleep(0.5)
+                product['_reviews'] = []
+                print(f'  [{i}/{len(_review_candidates)}] review error: {e}')
+            time.sleep(0.2)
         browser.close()
 
     # Re-filter after Phase B — listing page prices are used as-is, so re-check bounds

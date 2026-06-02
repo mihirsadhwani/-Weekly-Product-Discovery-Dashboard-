@@ -1,8 +1,125 @@
 {
-  "last_updated": "2026-06-01T19:08:33.844139",
+  "last_updated": "2026-06-02T02:04:51.772053",
   "week_start": "2026-06-01",
-  "total_products": 14,
+  "total_products": 80,
   "products": [
+    {
+      "name": "Nandiayan by Colorsky Dark Shades Setof12 Liquid Matte ...",
+      "price": 103,
+      "original_price": 55081,
+      "discount_percent": 81,
+      "rating": 3.8,
+      "review_count": null,
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/lipstick/j/0/q/2-5-by-colorsky-dark-shades-setof12-liquid-matte-lipsticks-long-original-imahn9snqzbvkz4c.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/nandiayan-colorsky-dark-shades-setof12-liquid-matte-lipsticks-long-lasting-smudgeproof/p/itm0c0d778f2eb5f?pid=LSKHCYBJVEEHBKSH&lid=LSTLSKHCYBJVEEHBKSHWWF7ZW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_2_53&otracker=browse&fm=organic&iid=c5170061-99a6-4131-9247-3cf387f47c05.LSKHCYBJVEEHBKSH.SEARCH&ppt=None&ppn=None&ssid=yrx17fevb40000001780349608226&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:41.004500",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Long Lasting",
+          "Smudge Proof"
+        ],
+        "top_con": "Color Variety",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Long Lasting",
+          "Smudge Proof"
+        ],
+        "cons": [
+          "Color Variety"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "gim Push-Up Bars for Home Gym Workout | Gym Equipment &...",
+      "price": 237,
+      "original_price": 120080,
+      "discount_percent": 80,
+      "rating": 3.6,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/t/7/a/anti-slip-push-up-bars-for-home-workout-sturdy-ergonomic-na-jim-original-imahj95bxtfbhza8.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/gim-push-up-bars-home-gym-workout-equipment-fitness-accessories-ab-exerciser/p/itme1bb706e82181?pid=ABEHKH8EUFZAKG9S&lid=LSTABEHKH8EUFZAKG9SGGQVXU&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_2_44&otracker=search&fm=organic&iid=f69bc8b7-c635-4d7a-9812-e8fd8e5c455c.ABEHKH8EUFZAKG9S.SEARCH&ppt=None&ppn=None&ssid=x7y22h4c1s0000001780349637152&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Durable design"
+        ],
+        "top_con": "Limited grip",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Easy to use",
+          "Durable design"
+        ],
+        "cons": [
+          "Limited grip"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Aquagrand Skyland 1 Year Warranty| Multi Stage purifica...",
+      "price": 4135,
+      "original_price": 1450071,
+      "discount_percent": 71,
+      "rating": 4.1,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/water-purifier/e/1/i/skyland-1-year-warranty-multi-stage-purification-technology-original-imahm8r984znmhr9.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/aquagrand-skyland-1-year-warranty-multi-stage-purification-technology-18-l-ro-uv-uf-tds-control-water-purifier/p/itm686061ad6c527?pid=WAPGZTXKRYB9NZSR&lid=LSTWAPGZTXKRYB9NZSRGY2IZN&marketplace=FLIPKART&store=j9e&srno=b_3_119&otracker=browse&fm=organic&iid=7490293e-2d03-4831-bbc2-6825a32ac318.WAPGZTXKRYB9NZSR.SEARCH&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Multi Stage Purification",
+          "TDS Control"
+        ],
+        "top_con": "Warranty Concerns",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Multi Stage Purification",
+          "TDS Control"
+        ],
+        "cons": [
+          "Warranty Concerns"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
     {
       "name": "Trending",
       "price": 1460,
@@ -13,24 +130,24 @@
       "category": "Sports",
       "sub_category": "Sports",
       "image_url": "https://rukminim2.flixcart.com/image/416/416/l2krs7k0/home-gym-combo/k/z/6/40-pvc-combo-3-with-pvc-dumbbells-adrenex-by-flipkart-original-imagdw7h96keybzw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/adrenex-40-kg-pvc-combo-3-dumbbells-home-gym/p/itmcdb91de3baddd?pid=HGCGDW7HFMGNSFGH&lid=LSTHGCGDW7HFMGNSFGHBY0FUX&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&spotlightTagId=default_TrendingId_qoc%2Famf&srno=s_1_24&otracker=search&fm=organic&iid=435eb848-a158-478d-bf05-7b06f43b5a9e.HGCGDW7HFMGNSFGH.SEARCH&ppt=sp&ppn=sp&ssid=bjit4hr4g00000001780340654108&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:04:22.140545",
+      "flipkart_url": "https://www.flipkart.com/adrenex-40-kg-pvc-combo-3-dumbbells-home-gym/p/itmcdb91de3baddd?pid=HGCGDW7HFMGNSFGH&lid=LSTHGCGDW7HFMGNSFGHBY0FUX&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&spotlightTagId=default_TrendingId_qoc%2Famf&srno=s_1_20&otracker=search&fm=organic&iid=a772026e-0014-4950-97c2-eeed47fffb6a.HGCGDW7HFMGNSFGH.SEARCH&ppt=sp&ppn=sp&ssid=9oyerf5pvk0000001780349627755&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
       "quick_analysis": {
         "quick_score": 72,
         "top_pros": [
-          "Good Quality",
-          "Affordable Price"
+          "Good value",
+          "Durable equipment"
         ],
-        "top_con": "Limited Accessories",
+        "top_con": "Quality issues",
         "quick_verdict": "Worth checking"
       },
       "analysis": {
         "pros": [
-          "Good Quality",
-          "Affordable Price"
+          "Good value",
+          "Durable equipment"
         ],
         "cons": [
-          "Limited Accessories"
+          "Quality issues"
         ],
         "top_quote": "",
         "sentiment_score": 72,
@@ -43,33 +160,33 @@
       "comparisons": []
     },
     {
-      "name": "Manogyam Tummy Trimmer Double Spring -Waist Trimmer-Abs...",
-      "price": 202,
-      "original_price": 75073,
-      "discount_percent": 73,
-      "rating": 3.8,
+      "name": "GLAMVEDA Rice & Ceramide Korean Glass Skin Moisturizer ...",
+      "price": 270,
+      "original_price": 70061,
+      "discount_percent": 61,
+      "rating": 4.1,
       "review_count": null,
-      "category": "Sports",
-      "sub_category": "Sports",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/w/0/h/abs-tummy-trimmer-with-double-steel-spring-burn-off-calories-original-imah3cha3zqncuvt.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/manogyam-tummy-trimmer-double-spring-waist-trimmer-abs-exerciser-body-toner-fat-buster-multipurpose-fitness-equipment-unisex-ab-exerciser/p/itm60752cea7e172?pid=ABEF4N25VWXMHBQX&lid=LSTABEF4N25VWXMHBQXRVSNOB&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_20&otracker=search&fm=organic&iid=435eb848-a158-478d-bf05-7b06f43b5a9e.ABEF4N25VWXMHBQX.SEARCH&ppt=None&ppn=None&ssid=bjit4hr4g00000001780340654108&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:04:22.140545",
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/d/k/t/rice-ceramide-korean-glass-skin-moisturizer-nourishment-combo-original-imahhvdeyquufghg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/glamveda-rice-ceramide-korean-glass-skin-moisturizer-nourishment-combo-face-wash/p/itm550e6bb48dc02?pid=CBKGTCJBGX746RNK&lid=LSTCBKGTCJBGX746RNKIKYHIQ&marketplace=FLIPKART&q=skincare+beauty+products&store=g9b%2Fema%2F5la&srno=s_2_69&otracker=search&fm=organic&iid=d4ea69b0-5d8f-427f-ad5c-fcf272c1c376.CBKGTCJBGX746RNK.SEARCH&ppt=None&ppn=None&ssid=2iga6sdi1c0000001780349748245&qH=fbbea86e5e0e9a8f&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:35:59.968243",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Effective Toning",
-          "Easy Use"
+          "Hydrates skin",
+          "Gentle formula"
         ],
-        "top_con": "Spring Durability",
+        "top_con": "Sensitive skin",
         "quick_verdict": "Worth checking"
       },
       "analysis": {
         "pros": [
-          "Effective Toning",
-          "Easy Use"
+          "Hydrates skin",
+          "Gentle formula"
         ],
         "cons": [
-          "Spring Durability"
+          "Sensitive skin"
         ],
         "top_quote": "",
         "sentiment_score": 80,
@@ -82,37 +199,37 @@
       "comparisons": []
     },
     {
-      "name": "KRX 40 kg PVC 343 with Unfilled Punching Bag & PVC Dumb...",
-      "price": 2799,
-      "original_price": 742062,
-      "discount_percent": 62,
-      "rating": 3.8,
+      "name": "Blu Essentials Miniature Trial Kit | Mini Korean Glass ...",
+      "price": 117,
+      "original_price": 27056,
+      "discount_percent": 56,
+      "rating": 4.4,
       "review_count": null,
-      "category": "Sports",
-      "sub_category": "Sports",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/ka8jdzk0/kit/9/e/r/pvc-40-kg-combo-343-with-unfilled-punching-bag-pvc-dumbbells-na-original-imafruu5gahmshmm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/krx-40-kg-pvc-343-unfilled-punching-bag-dumbbells-home-gym-combo/p/itm8caff2a232322?pid=KITFRUSUET2ND9ER&lid=LSTKITFRUSUET2ND9ERWNLVPN&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_28&otracker=search&fm=organic&iid=en_aZd44adVrmXZev5mWqqtUH43xvwINtebPSouDKqKD_T_Ykh9BVlGOTQX9smIAkO4kzM_1ocpzQXgCqfFAC-3dQ%3D%3D&ppt=None&ppn=None&ssid=bjit4hr4g00000001780340654108&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:04:22.140545",
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/b/n/i/miniature-trial-kit-mini-korean-glass-skincare-for-travel-women-original-imahmaqc2bmzadhb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/blu-essentials-miniature-trial-kit-mini-korean-glass-skincare-travel-women-men-all-skin-types/p/itm821c114aca45a?pid=CBKHM9TGMRMAX6N3&lid=LSTCBKHM9TGMRMAX6N3RFDLPG&marketplace=FLIPKART&q=skincare+beauty+products&store=g9b%2Fema%2F5la&srno=s_1_3&otracker=search&fm=organic&iid=b78f4947-37f3-42cf-8148-8451ca2da68e.CBKHM9TGMRMAX6N3.SEARCH&ppt=None&ppn=None&ssid=5ntbeusuvk0000001780349738914&qH=fbbea86e5e0e9a8f&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:35:59.968243",
       "quick_analysis": {
-        "quick_score": 79,
+        "quick_score": 80,
         "top_pros": [
-          "Good Value",
-          "Complete Combo"
+          "Travel friendly",
+          "All skin types"
         ],
-        "top_con": "PVC Quality",
+        "top_con": "Acne concern",
         "quick_verdict": "Worth checking"
       },
       "analysis": {
         "pros": [
-          "Good Value",
-          "Complete Combo"
+          "Travel friendly",
+          "All skin types"
         ],
         "cons": [
-          "PVC Quality"
+          "Acne concern"
         ],
         "top_quote": "",
-        "sentiment_score": 79,
-        "quality_score": 79,
+        "sentiment_score": 80,
+        "quality_score": 80,
         "recommendation": "Buy"
       },
       "is_vfm": false,
@@ -121,33 +238,306 @@
       "comparisons": []
     },
     {
-      "name": "Shopeleven Dual Spring Tummy Trimmer- Multipurpose Fitn...",
-      "price": 198,
-      "original_price": 99080,
+      "name": "BAJAJ 90 L Desert Air Cooler for Larger Room Big Ice Ch...",
+      "price": 10999,
+      "original_price": 1839040,
+      "discount_percent": 40,
+      "rating": 4.3,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-cooler/h/i/y/200-200-dmh90-neo-90-bajaj-original-imahcaz86rdmpecs.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/bajaj-90-l-desert-air-cooler-larger-room-big-ice-chamber-high-speed-cooling-90ft-throw-inverter-compatible/p/itm44740af995797?pid=AICGYZGHPHH7G9VE&lid=LSTAICGYZGHPHH7G9VEYU73KF&marketplace=FLIPKART&store=j9e&srno=b_2_70&otracker=browse&fm=organic&iid=73c3bc5f-34db-4e78-97ae-530794e1c918.AICGYZGHPHH7G9VE.SEARCH&ppt=None&ppn=None&ssid=pt2svgpits0000001780349578724&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "High-Speed Cooling",
+          "Big Ice Chamber"
+        ],
+        "top_con": "Noise Level",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "High-Speed Cooling",
+          "Big Ice Chamber"
+        ],
+        "cons": [
+          "Noise Level"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "SUJATA MG03 1000 W Mixer Grinder",
+      "price": 7745,
+      "original_price": 1233037,
+      "discount_percent": 37,
+      "rating": 4.5,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/6/u/d/-original-imahmrqmfadprbpt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sujata-mg03-1000-w-mixer-grinder/p/itm4368e67aa6027?pid=MIXH4M4YK3X2XTEC&lid=LSTMIXH4M4YK3X2XTECEHFCVI&marketplace=FLIPKART&store=j9e&srno=b_3_86&otracker=browse&fm=organic&iid=7490293e-2d03-4831-bbc2-6825a32ac318.MIXH4M4YK3X2XTEC.SEARCH&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "High Power",
+          "Fast Grinding"
+        ],
+        "top_con": "Noise Level",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "High Power",
+          "Fast Grinding"
+        ],
+        "cons": [
+          "Noise Level"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Men Chikan Embroidery Viscose Rayon A-line Kurta",
+      "price": 368,
+      "original_price": 326088,
+      "discount_percent": 88,
+      "rating": null,
+      "review_count": null,
+      "category": "Men_Fashion",
+      "sub_category": "Men_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/o/z/6/s-kurta-wine-romj-original-imahhqgzfrj5nqrg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/triom-men-chikan-embroidery-a-line-kurta/p/itm19ce79d43cb96?pid=KTAHYKMYEJYF8RWZ&lid=LSTKTAHYKMYEJYF8RWZDDPGGJ&marketplace=FLIPKART&q=men+kurta&store=clo%2Fcfv%2Fcib%2Fjks&srno=s_2_72&otracker=search&fm=organic&iid=en_euH9QRyzHLq8qIT9OFvY0FF7kTtKzdFoaYsZbQyNkWdZPQfPtYnrTQjdJiikuftSx9_0NwdUbB4mkMXfvMqsN_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=z1s9pxqw7k0000001780349520780&qH=25d9d61470ceb6f0&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:12.427548",
+      "quick_analysis": {
+        "quick_score": 85,
+        "top_pros": [
+          "Good Quality",
+          "Affordable Price"
+        ],
+        "top_con": "Limited Sizes",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Quality",
+          "Affordable Price"
+        ],
+        "cons": [
+          "Limited Sizes"
+        ],
+        "top_quote": "",
+        "sentiment_score": 85,
+        "quality_score": 85,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2025 Model 1.5 Ton 5 Star Split Inverter AC",
+      "price": 38490,
+      "original_price": 6199037,
+      "discount_percent": 37,
+      "rating": 4.1,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/d/y/l/-original-imahcrhuvqzbubgf.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2025-model-1-5-ton-5-star-split-inverter-ac/p/itm014e7059b73b1?pid=ACNHAF5BUYZH6EEC&lid=LSTACNHAF5BUYZH6EECNRLTFC&marketplace=FLIPKART&store=j9e&srno=b_3_107&otracker=browse&fm=organic&iid=en_KPFC0znNhH0BOD9G4it5iUrJDon4_xDam0rvD4Ln583g04nig1I1Z7vcqjnSxps3tqz-SdCIxl_Xa1K237Qv4QoALCbycPwh4GANX5MSKZw%3D&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "top_con": "Noise Level",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "cons": [
+          "Noise Level"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "JIM Tummy Trimmer for Abs Workout & Home Fitness Ab Exe...",
+      "price": 180,
+      "original_price": 140087,
+      "discount_percent": 87,
+      "rating": null,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/c/w/d/tummy-trimmer-for-abs-workout-home-fitness-na-jim-original-imahk8sgdyuqhvnc.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jim-tummy-trimmer-abs-workout-home-fitness-ab-exerciser/p/itm2e92c373552c7?pid=ABEHK8SGHZGYHTGG&lid=LSTABEHK8SGHZGYHTGGAVCJ87&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_2_79&otracker=search&fm=organic&iid=f69bc8b7-c635-4d7a-9812-e8fd8e5c455c.ABEHK8SGHZGYHTGG.SEARCH&ppt=None&ppn=None&ssid=x7y22h4c1s0000001780349637152&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Effective workout"
+        ],
+        "top_con": "Durability issue",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Easy to use",
+          "Effective workout"
+        ],
+        "cons": [
+          "Durability issue"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Panasonic 2026 Model 1 Ton 5 Star Split Inverter with W...",
+      "price": 41490,
+      "original_price": 5500024,
+      "discount_percent": 24,
+      "rating": 4.2,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/5/o/3/-original-imahha9xsttgdgnh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/panasonic-2026-model-1-ton-5-star-split-inverter-wi-fi-smart-dustbuster-tech-matter-enabled-ai-higher-airflow-4-way-swing-cools-55-deg-c-copper-condenser-8in1-convertible-pm0-1-filter-ac/p/itm5e2095edfd00a?pid=ACNHJZN5Z2ZYMZ6N&lid=LSTACNHJZN5Z2ZYMZ6NSZXYLF&marketplace=FLIPKART&store=j9e&srno=b_1_21&otracker=browse&fm=organic&iid=en_aDRJn8KzpFoTARZxGumh8SJI6lOppWTy02S7ERCfMmsv7RRykpkfyv7WqNr5v6nsm5Byoc3Xi12In3HryR7psaaL4MeE-wnKeqb6Gut1ViE%3D&ppt=None&ppn=None&ssid=m3a2sai79c0000001780349567330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 85,
+        "top_pros": [
+          "Wi-fi Smart",
+          "Higher Airflow"
+        ],
+        "top_con": "Pricey Option",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Wi-fi Smart",
+          "Higher Airflow"
+        ],
+        "cons": [
+          "Pricey Option"
+        ],
+        "top_quote": "",
+        "sentiment_score": 85,
+        "quality_score": 85,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2026 Model 2 Ton 3 Star Split Inverter AC",
+      "price": 47990,
+      "original_price": 7299034,
+      "discount_percent": 34,
+      "rating": 3.8,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/d/2/b/-original-imahm4h5y96s9esx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-2-ton-3-star-split-inverter-ac/p/itm4aa424f34d8d1?pid=ACNHHG4MAG8RUDFG&lid=LSTACNHHG4MAG8RUDFGTBME3M&marketplace=FLIPKART&store=j9e&srno=b_2_57&otracker=browse&fm=organic&iid=en_ReDEj7YEX83ux8fmIHsrzM9hK6uRO_Le2I4ALTvViV9YcEIayPN2DpQwNIdREnnhgWOQJjbH3iUzvzUFsn2hxeI7uWi7bi3WLqk6JF-UYDE%3D&ppt=None&ppn=None&ssid=pt2svgpits0000001780349578724&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "top_con": "Noise Level",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "cons": [
+          "Noise Level"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "LIVOX Tummy Trimmer, Ab Roller, Pushup Bar, Toning Tube...",
+      "price": 664,
+      "original_price": 340080,
       "discount_percent": 80,
       "rating": null,
       "review_count": null,
       "category": "Sports",
       "sub_category": "Sports",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/d/y/w/snewtummy-trimmer-double-spring-black-sale-price-buy-online-original-imahgyg2gxdtzht8.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/shopeleven-dual-spring-tummy-trimmer-multipurpose-fitness-xs-24-home-gym-ab-exerciser/p/itm8e226866c91f2?pid=ABEFTZ5ZS8BYX6GZ&lid=LSTABEFTZ5ZS8BYX6GZZOOP9B&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_26&otracker=search&fm=organic&iid=435eb848-a158-478d-bf05-7b06f43b5a9e.ABEFTZ5ZS8BYX6GZ.SEARCH&ppt=None&ppn=None&ssid=bjit4hr4g00000001780340654108&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:04:22.140545",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/w/y/e/tummy-trimmer-ab-roller-pushup-bar-toning-tube-skipping-rope-and-original-imah83rbyvzugd5z.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/livox-tummy-trimmer-ab-roller-pushup-bar-toning-tube-skipping-rope-r-hand-grip-exerciser/p/itm53c6f7f091f3f?pid=ABEGZHBGZTHSH7HY&lid=LSTABEGZHBGZTHSH7HYQBUYCD&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_2_67&otracker=search&fm=organic&iid=f69bc8b7-c635-4d7a-9812-e8fd8e5c455c.ABEGZHBGZTHSH7HY.SEARCH&ppt=None&ppn=None&ssid=x7y22h4c1s0000001780349637152&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Effective Trimmer",
-          "Easy Use"
+          "Effective Toning",
+          "Multi Functional"
         ],
-        "top_con": "Spring Durability",
+        "top_con": "Quality Issues",
         "quick_verdict": "Worth checking"
       },
       "analysis": {
         "pros": [
-          "Effective Trimmer",
-          "Easy Use"
+          "Effective Toning",
+          "Multi Functional"
         ],
         "cons": [
-          "Spring Durability"
+          "Quality Issues"
         ],
         "top_quote": "",
         "sentiment_score": 80,
@@ -160,17 +550,719 @@
       "comparisons": []
     },
     {
-      "name": "Oddish Way to Fitness Tummy Twister Gym/Home Equipment ...",
-      "price": 243,
-      "original_price": 120079,
-      "discount_percent": 79,
+      "name": "Natraj Aatamaker Viva Atta Chakki Fully Automatic Domes...",
+      "price": 15967,
+      "original_price": 2209027,
+      "discount_percent": 27,
       "rating": 4.1,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/flourmill/a/416/416/10-133-natraj-aatamaker-original-imagg6fchh6uzq6s.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/natraj-aatamaker-viva-atta-chakki-fully-automatic-domestic-ghar-ghanti-maker-flourmill-viva/p/itmeaa4a8406fe14?pid=FRMFZWY8BDSZ2JBV&lid=LSTFRMFZWY8BDSZ2JBVIQRV3U&marketplace=FLIPKART&store=j9e&srno=b_3_98&otracker=browse&fm=organic&iid=en_KPFC0znNhH0BOD9G4it5iUrJDon4_xDam0rvD4Ln583eYzd1jlcUDiTB0f2jZasclNaDJrn4gmwOF7wOQ68kK_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Fully automatic"
+        ],
+        "top_con": "High price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Easy to use",
+          "Fully automatic"
+        ],
+        "cons": [
+          "High price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "JIM Stable Push Up Bar for Home Strength Workout Ab Exe...",
+      "price": 237,
+      "original_price": 110078,
+      "discount_percent": 78,
+      "rating": null,
       "review_count": null,
       "category": "Sports",
       "sub_category": "Sports",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/s/w/d/way-to-fitness-tummy-twister-gym-home-equipment-ab-exerciser-na-original-imahaysdbjx5sdhg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/oddish-way-fitness-tummy-twister-gym-home-equipment-ab-exerciser/p/itmcd108901f9a6c?pid=ABEHAYSDZGP6DGRF&lid=LSTABEHAYSDZGP6DGRFRRUXW3&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_33&otracker=search&fm=organic&iid=435eb848-a158-478d-bf05-7b06f43b5a9e.ABEHAYSDZGP6DGRF.SEARCH&ppt=None&ppn=None&ssid=bjit4hr4g00000001780340654108&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:04:22.140545",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/r/s/z/stable-push-up-bar-for-home-strength-workout-na-jim-original-imahjeqvfzqqrqf2.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jim-stable-push-up-bar-home-strength-workout-ab-exerciser/p/itmfe2287c1a42e4?pid=ABEHJEQVR39ZXUPH&lid=LSTABEHJEQVR39ZXUPHV9K8WL&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_3_98&otracker=search&fm=organic&iid=c8154fb2-52a4-499d-9674-81f3c6f592e0.ABEHJEQVR39ZXUPH.SEARCH&ppt=None&ppn=None&ssid=y49nat568w0000001780349643730&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Stable design",
+          "Easy workout"
+        ],
+        "top_con": "Space required",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Stable design",
+          "Easy workout"
+        ],
+        "cons": [
+          "Space required"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "JIM Home Gym Push Up Bar | Muscle Building Fitness Equi...",
+      "price": 237,
+      "original_price": 110078,
+      "discount_percent": 78,
+      "rating": null,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/2/d/6/home-gym-push-up-bar-muscle-building-fitness-equipment-na-jim-original-imahjeqha7zxabpm.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jim-home-gym-push-up-bar-muscle-building-fitness-equipment-ab-exerciser/p/itm6eca4286c313a?pid=ABEHJEQHQQBNQGP6&lid=LSTABEHJEQHQQBNQGP6IOVMJE&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_3_102&otracker=search&fm=organic&iid=c8154fb2-52a4-499d-9674-81f3c6f592e0.ABEHJEQHQQBNQGP6.SEARCH&ppt=None&ppn=None&ssid=y49nat568w0000001780349643730&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Builds muscle"
+        ],
+        "top_con": "Durability issue",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Easy to use",
+          "Builds muscle"
+        ],
+        "cons": [
+          "Durability issue"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "JIM Double Spring Tummy Trimmer for Home Fitness and We...",
+      "price": 310,
+      "original_price": 140077,
+      "discount_percent": 77,
+      "rating": null,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/b/s/j/double-spring-tummy-trimmer-for-home-fitness-and-weight-control-original-imahk7mnga2phzuj.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jim-double-spring-tummy-trimmer-home-fitness-weight-control-ab-exerciser/p/itm980b86a584e42?pid=ABEHK7MNFEGDAJJK&lid=LSTABEHK7MNFEGDAJJKGWHCKO&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_3_111&otracker=search&fm=organic&iid=c8154fb2-52a4-499d-9674-81f3c6f592e0.ABEHK7MNFEGDAJJK.SEARCH&ppt=None&ppn=None&ssid=y49nat568w0000001780349643730&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Effective Tummy Trimmer",
+          "Easy Home Fitness"
+        ],
+        "top_con": "Spring Durability Issue",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Effective Tummy Trimmer",
+          "Easy Home Fitness"
+        ],
+        "cons": [
+          "Spring Durability Issue"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "kaina skincare Body Polishing Kit Set of 5 (A combo of ...",
+      "price": 1707,
+      "original_price": 220022,
+      "discount_percent": 22,
+      "rating": 4.3,
+      "review_count": null,
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/l15bxjk0/combo-kit/n/p/m/ubtan-body-polishing-kit-set-of-5-a-combo-of-body-wash-body-original-imagcrtztyeyk9nj.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kaina-skincare-body-polishing-kit-set-5-a-combo-wash-scrub/p/itma294969215700?pid=CBKFZ5YVWTUCPJCC&lid=LSTCBKFZ5YVWTUCPJCCIGGIPE&marketplace=FLIPKART&q=skincare+beauty+products&store=g9b%2Fema%2F5la&srno=s_1_14&otracker=search&fm=organic&iid=b78f4947-37f3-42cf-8148-8451ca2da68e.CBKFZ5YVWTUCPJCC.SEARCH&ppt=None&ppn=None&ssid=5ntbeusuvk0000001780349738914&qH=fbbea86e5e0e9a8f&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:35:59.968243",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Gentle on skin",
+          "Effective exfoliation"
+        ],
+        "top_con": "Pricey kit",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Gentle on skin",
+          "Effective exfoliation"
+        ],
+        "cons": [
+          "Pricey kit"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Aqua Fresh Smoke Audi 18 ltr drink pure India 1st BIS (...",
+      "price": 4507,
+      "original_price": 1650072,
+      "discount_percent": 72,
+      "rating": null,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/water-purifier/j/i/d/smoke-audi-18-ltr-drink-pure-india-1st-bis-is-16240-2023-cm-original-imahgvd7nrf75f3q.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/aqua-fresh-smoke-audi-18-ltr-drink-pure-india-1st-bis-is-16240-2023-cm-l8100159306-l-ro-uv-uf-copper-alkaline-tds-control-water-purifier/p/itmc3da457d7de29?pid=WAPGW5YZQHM7EY3S&lid=LSTWAPGW5YZQHM7EY3SCZ8VWH&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=en_aDRJn8KzpFoTARZxGumh8SJI6lOppWTy02S7ERCfMmuZv0L9z3HLn6NRoJfsfEODKBFTMJEIj_IidqAMxrobyw%3D%3D&ppt=None&ppn=None&ssid=m3a2sai79c0000001780349567330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Purification",
+          "TDS Control"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Purification",
+          "TDS Control"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "JIM Steel Body Tummy Trimmer for Long Lasting Use Ab Ex...",
+      "price": 305,
+      "original_price": 110072,
+      "discount_percent": 72,
+      "rating": null,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/q/g/l/steel-body-tummy-trimmer-for-long-lasting-use-na-jim-original-imahjf5z6zpzpzfg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jim-steel-body-tummy-trimmer-long-lasting-use-ab-exerciser/p/itmc9078f0cfb7ba?pid=ABEHJF5Z3BA4T8HH&lid=LSTABEHJF5Z3BA4T8HH3UKM2L&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_3_117&otracker=search&fm=organic&iid=c8154fb2-52a4-499d-9674-81f3c6f592e0.ABEHJF5Z3BA4T8HH.SEARCH&ppt=None&ppn=None&ssid=y49nat568w0000001780349643730&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Long Lasting",
+          "Steel Body"
+        ],
+        "top_con": "Durability Issue",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Long Lasting",
+          "Steel Body"
+        ],
+        "cons": [
+          "Durability Issue"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "JIM Multi-Purpose Tummy Trimmer for Body Toning Ab Exer...",
+      "price": 310,
+      "original_price": 110071,
+      "discount_percent": 71,
+      "rating": null,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/416/416/c/multi-purpose-tummy-trimmer-for-body-toning-na-jim-original-imahjf6jhbaupzsn.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jim-multi-purpose-tummy-trimmer-body-toning-ab-exerciser/p/itme0bb48380430c?pid=ABEHJF6J26FMBJWS&lid=LSTABEHJF6J26FMBJWSU6QU3W&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_3_106&otracker=search&fm=organic&iid=c8154fb2-52a4-499d-9674-81f3c6f592e0.ABEHJF6J26FMBJWS.SEARCH&ppt=None&ppn=None&ssid=y49nat568w0000001780349643730&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Effective Toning",
+          "Easy Use"
+        ],
+        "top_con": "Durability Issue",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Effective Toning",
+          "Easy Use"
+        ],
+        "cons": [
+          "Durability Issue"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "JIM Multi-Functional Foldable Push Up Rack Board for Ho...",
+      "price": 356,
+      "original_price": 120070,
+      "discount_percent": 70,
+      "rating": null,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/h/f/e/multi-functional-foldable-push-up-rack-board-for-home-gym-na-jim-original-imahj3942ghhz6rt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jim-multi-functional-foldable-push-up-rack-board-home-gym-ab-exerciser/p/itm7cf46c3de8eba?pid=ABEHJ394FDE8ZEFU&lid=LSTABEHJ394FDE8ZEFUWIKFBY&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_3_93&otracker=search&fm=organic&iid=c8154fb2-52a4-499d-9674-81f3c6f592e0.ABEHJ394FDE8ZEFU.SEARCH&ppt=None&ppn=None&ssid=y49nat568w0000001780349643730&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Foldable Design",
+          "Multi Functional"
+        ],
+        "top_con": "Stability Issue",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Foldable Design",
+          "Multi Functional"
+        ],
+        "cons": [
+          "Stability Issue"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "SN FASHION ATTIRE",
+      "price": 347,
+      "original_price": 120071,
+      "discount_percent": 71,
+      "rating": null,
+      "review_count": null,
+      "category": "Women_Fashion",
+      "sub_category": "Women_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/c/u/v/3xl-print001-sn-fashion-attire-resized-2-original-imahf3yxwf2hadzr.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sn-fashion-attire-women-floral-print-a-line-kurta/p/itm8ce733e4b526d?pid=KTAHEB66XFMHPCB6&lid=LSTKTAHEB66XFMHPCB6ANELLP&marketplace=FLIPKART&q=women+kurti&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_1_5&otracker=search&fm=organic&iid=en_WwKE5sMM9EQWSeRkCTU5kpfu4yUbLQQcHpw0JZwr-_Eka6RDuX85w-ab6auyPmTRHUzaJzvfQfgofuDi2UQu-vUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=osz2fueoc00000001780349538803&qH=2682dfdcd99c9794&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:42.314546",
+      "quick_analysis": {
+        "quick_score": 71,
+        "top_pros": [
+          "Floral Print",
+          "Cotton Blend"
+        ],
+        "top_con": "Price Concern",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Floral Print",
+          "Cotton Blend"
+        ],
+        "cons": [
+          "Price Concern"
+        ],
+        "top_quote": "",
+        "sentiment_score": 71,
+        "quality_score": 71,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "SN FASHION ATTIRE",
+      "price": 347,
+      "original_price": 120071,
+      "discount_percent": 71,
+      "rating": null,
+      "review_count": null,
+      "category": "Women_Fashion",
+      "sub_category": "Women_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/c/u/v/3xl-print001-sn-fashion-attire-resized-2-original-imahf3yxwf2hadzr.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sn-fashion-attire-women-floral-print-a-line-kurta/p/itm8ce733e4b526d?pid=KTAHEB66XFMHPCB6&lid=LSTKTAHEB66XFMHPCB6ANELLP&marketplace=FLIPKART&q=women+kurti&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_3_87&otracker=search&fm=organic&iid=en_06JJgwfNxFOyhYh2_7XcNoBN6ufphS8uGYCnUP4i8F7SgGc61AaIb8bFZPIDAk_rmWI3bPYFqLX_FgxFTKaoyw%3D%3D&ppt=None&ppn=None&ssid=7urcqct48g0000001780349557188&qH=2682dfdcd99c9794&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:42.314546",
+      "quick_analysis": {
+        "quick_score": 71,
+        "top_pros": [
+          "Floral Print",
+          "Cotton Blend"
+        ],
+        "top_con": "Price Concern",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Floral Print",
+          "Cotton Blend"
+        ],
+        "cons": [
+          "Price Concern"
+        ],
+        "top_quote": "",
+        "sentiment_score": 71,
+        "quality_score": 71,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Bush 80 cm (32 inch) QLED HD Ready Smart Android Based TV\n3.9153 Ratings & 17 Reviews\nHD Ready | QLED\nModel ID: BH32S YPRO/Q\nLaunch Year: 2025\nTotal S",
+      "price": 8499,
+      "original_price": 2199061,
+      "discount_percent": 61,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/6/w/7/-original-imahhmkfqvfx3hhd.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/bush-80-cm-32-inch-qled-hd-ready-smart-android-based-tv/p/itm5917d0749d439?pid=TVSHKAJPM5DSGFXH&lid=LSTTVSHKAJPM5DSGFXHZO97MY&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_13&otracker=browse&fm=organic&iid=597294cb-9a6a-4a92-9182-47e30a69aa6e.TVSHKAJPM5DSGFXH.SEARCH&ppt=None&ppn=None&ssid=ph8edfmweo0000001780349482241&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Picture Quality",
+          "Smart Android"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Picture Quality",
+          "Smart Android"
+        ],
+        "cons": [
+          "Limited Reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Sansui 80 cm (32 inch) HD Ready LED Smart Coolita TV with IPS Panel| Dolby Audio| Surround Sound| 60Hz...",
+      "price": 11490,
+      "original_price": 1999042,
+      "discount_percent": 42,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/f/y/t/-original-imahn99w5kh5cepy.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sansui-80-cm-32-inch-hd-ready-led-smart-coolita-tv-ips-panel-dolby-audio-surround-sound-60hz-refresh-rate/p/itmb5cf72369548e?pid=TVSHJYGJCGYAE2KJ&lid=LSTTVSHJYGJCGYAE2KJ7DSDPH&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_2_27&otracker=browse&fm=organic&iid=en_l3qcJZoiOzed3PqMWzK77iJvBOkVeu4I5B2qMXfjcAhP9joc3_X6PHuHPOY0rCVgYEzFtg7NBvOyXwLTVxTs_oQEIsITtCzc4bHaOMTqL08%3D&ppt=None&ppn=None&ssid=sgn488miow0000001780349493309&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Picture Quality",
+          "Dolby Audio"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Picture Quality",
+          "Dolby Audio"
+        ],
+        "cons": [
+          "Limited Reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Sansui 80 cm (32 inch) QLED HD Ready Smart Coolita TV with Dolby Audio| Built-in Soundbar| Surround So...",
+      "price": 12190,
+      "original_price": 2099041,
+      "discount_percent": 41,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/d/p/b/-original-imahn99wkhvhgmvh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sansui-80-cm-32-inch-qled-hd-ready-smart-coolita-tv-dolby-audio-built-in-soundbar-surround-sound-60hz-refresh-rate/p/itm8389db3f6fb7a?pid=TVSHJZQ34ANFYVS4&lid=LSTTVSHJZQ34ANFYVS4Z2IHHE&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_1_5&otracker=browse&fm=organic&iid=en_clwgQYzQAxQ8eZfIajSxdAoVu8NJg0FVvzj8HPv2tV5kz0CHRhrWTGfFikQNSVdq-2PXS_Jf_YmWo3dd9IJ0VVmOBtEFy0FmBP0CX6jfuRQ%3D&ppt=None&ppn=None&ssid=ph8edfmweo0000001780349482241&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Dolby Audio",
+          "Built-in Soundbar"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Dolby Audio",
+          "Built-in Soundbar"
+        ],
+        "cons": [
+          "Limited Reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Sansui 80 cm (32 inch) QLED HD Ready Smart Coolita TV with Dolby Audio| Built-in Soundbar| Surround So...",
+      "price": 12190,
+      "original_price": 2099041,
+      "discount_percent": 41,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/d/p/b/-original-imahn99wkhvhgmvh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sansui-80-cm-32-inch-qled-hd-ready-smart-coolita-tv-dolby-audio-built-in-soundbar-surround-sound-60hz-refresh-rate/p/itm8389db3f6fb7a?pid=TVSHJZQ34ANFYVS4&lid=LSTTVSHJZQ34ANFYVS4Z2IHHE&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_3_57&otracker=browse&fm=organic&iid=en_y7FoVynHM0X9SkaIAZQWogvjjmkUbOWQvZ7YyApCnol_TPEPdXmkD9tFFB5QmSqLFnbzyX8uayGbnM5FTjGRVuo15S0a61Wzzbg3qNOknKY%3D&ppt=None&ppn=None&ssid=4xz53o3hhc0000001780349500156&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good picture quality",
+          "Built-in soundbar"
+        ],
+        "top_con": "Limited brand info",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good picture quality",
+          "Built-in soundbar"
+        ],
+        "cons": [
+          "Limited brand info"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "MOTOROLA Motobook 60 Pro Full Metal OLED AI PC Intel Core Ultra 5 225H - (16 GB/512 GB SSD/Windows 11 ...",
+      "price": 62990,
+      "original_price": 10499040,
+      "discount_percent": 40,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/f/b/7/-original-imahmazjdpcgnkrq.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-motobook-60-pro-full-metal-oled-ai-pc-intel-core-ultra-5-225h-16-gb-512-gb-ssd-windows-11-home-83ny000cin-thin-light-laptop/p/itm1beec582bb1b7?pid=COMHHPS975YQTYUN&lid=LSTCOMHHPS975YQTYUNPQC03I&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_6&otracker=browse&fm=organic&iid=en_QXDWw3m7kky4cJQ5XcszI4amMpMuBmFU4wCA27S7xmmW3q0Zw68MXnXaxePHAzytJXRV8qEoQ55_RMoBg42DBo06z3QAm4-AoFL_C4Jep-g%3D&ppt=None&ppn=None&ssid=djb2k9yovk0000001780349455498&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "top_con": "Pricey Option",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "cons": [
+          "Pricey Option"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "MOTOROLA Motobook 60 Pro Full Metal OLED AI PC Intel Core Ultra 5 225H - (16 GB/512 GB SSD/Windows 11 ...",
+      "price": 62990,
+      "original_price": 10499040,
+      "discount_percent": 40,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/z/t/g/-original-imahmazj9jdvdzeb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-motobook-60-pro-full-metal-oled-ai-pc-intel-core-ultra-5-225h-16-gb-512-gb-ssd-windows-11-home-83ny000din-thin-light-laptop/p/itm4668d847910ea?pid=COMHHPS9UGSHJHZA&lid=LSTCOMHHPS9UGSHJHZA3STSDL&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_2_27&otracker=browse&fm=organic&iid=en_FMYz9Bs28no-D8EXtwKiUGflBgLET3xRPHsGs8BjmoOXVNo5yDDwuUzpVGUCKV-IxaoJN_IKdOV7UTxwD7r1OoQEIsITtCzc4bHaOMTqL08%3D&ppt=None&ppn=None&ssid=sjap6zgpyo0000001780349466704&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "top_con": "Pricey Option",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "cons": [
+          "Pricey Option"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "MOTOROLA Motobook 60 Pro Full Metal OLED AI PC Intel Core Ultra 5 225H - (16 GB/512 GB SSD/Windows 11 ...",
+      "price": 62990,
+      "original_price": 10499040,
+      "discount_percent": 40,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/z/t/g/-original-imahmazj9jdvdzeb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-motobook-60-pro-full-metal-oled-ai-pc-intel-core-ultra-5-225h-16-gb-512-gb-ssd-windows-11-home-83ny000din-thin-light-laptop/p/itm4668d847910ea?pid=COMHHPS9UGSHJHZA&lid=LSTCOMHHPS9UGSHJHZA3STSDL&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_3_50&otracker=browse&fm=organic&iid=c1521fbb-88d2-43c6-8afa-a409723a690e.COMHHPS9UGSHJHZA.SEARCH&ppt=None&ppn=None&ssid=03b5652be80000001780349473351&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "top_con": "Pricey Option",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "cons": [
+          "Pricey Option"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Dr Trust (USA) Modern Electronic Digital LCD Precision ...",
+      "price": 674,
+      "original_price": 200066,
+      "discount_percent": 66,
+      "rating": 4.3,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/weighing-scale/i/a/x/usa-modern-electronic-digital-lcd-precision-weight-machine-180kg-original-imaghskzaub9wbhn.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/trust-usa-modern-electronic-digital-lcd-precision-weight-machine-180kg-capacity-weighing-scale/p/itmb3a6f89a0d2f9?pid=WSLGEHGUCZPWYDZW&lid=LSTWSLGEHGUCZPWYDZWD2LGTC&marketplace=FLIPKART&store=j9e&srno=b_2_76&otracker=browse&fm=organic&iid=73c3bc5f-34db-4e78-97ae-530794e1c918.WSLGEHGUCZPWYDZW.SEARCH&ppt=None&ppn=None&ssid=pt2svgpits0000001780349578724&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -191,6 +1283,559 @@
       "comparisons": []
     },
     {
+      "name": "Kutchina ROMANIA 90 Auto Clean Wall Mounted Black 1300 ...",
+      "price": 10319,
+      "original_price": 3149067,
+      "discount_percent": 67,
+      "rating": 4.2,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/chimney/q/r/5/1200-2022-180-90-romania-90-1250-kutchina-original-imahfcfh4tcdvvqp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kutchina-romania-90-auto-clean-wall-mounted-black-1300-cmh-chimney/p/itm76f139b833308?pid=CHYGFCD7Z6RNFDYF&lid=LSTCHYGFCD7Z6RNFDYFAPFUU6&marketplace=FLIPKART&store=j9e&srno=b_3_84&otracker=browse&fm=organic&iid=7490293e-2d03-4831-bbc2-6825a32ac318.CHYGFCD7Z6RNFDYF.SEARCH&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Sansui 140 cm (55 inch) Ultra HD (4K) LED Smart Google TV with HDR10| HLG| Dolby Audio| HSR 120Hz Refr...",
+      "price": 37990,
+      "original_price": 5999036,
+      "discount_percent": 36,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/l/w/p/-original-imahhadmhaacpnaz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sansui-140-cm-55-inch-ultra-hd-4k-led-smart-google-tv-hdr10-hlg-dolby-audio-hsr-120hz-refresh-rate-memc-30w-surround-sound-floled-panel/p/itm499c5198b82db?pid=TVSHKYHWX7ANKTAZ&lid=LSTTVSHKYHWX7ANKTAZUBUNZE&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_2_47&otracker=browse&fm=organic&iid=en_l3qcJZoiOzed3PqMWzK77iJvBOkVeu4I5B2qMXfjcAjAvvEs-UJ0dv2oZuxXTmq2DAjwGZz9LNlI6i2OYR27tI06z3QAm4-AoFL_C4Jep-g%3D&ppt=None&ppn=None&ssid=sgn488miow0000001780349493309&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good picture quality",
+          "Dolby Audio"
+        ],
+        "top_con": "Limited brand support",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good picture quality",
+          "Dolby Audio"
+        ],
+        "cons": [
+          "Limited brand support"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "MOTOROLA Motobook 60 Full Metal OLED (i5 14th Gen) Intel Core 5 (Series 2) 210H - (16 GB/512 GB SSD/Wi...",
+      "price": 59990,
+      "original_price": 9369035,
+      "discount_percent": 35,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/g/r/p/-original-imahg5ftvnmqhgqp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-motobook-60-full-metal-oled-i5-14th-gen-intel-core-5-series-2-210h-16-gb-512-gb-ssd-windows-11-home-14irh10r-thin-light-laptop/p/itme7b254581c42e?pid=COMHAUZW4MMNNCGT&lid=LSTCOMHAUZW4MMNNCGTEVATRK&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_2_40&otracker=browse&fm=organic&iid=3784999e-b6c1-4248-9ec7-b97c65fc07d5.COMHAUZW4MMNNCGT.SEARCH&ppt=None&ppn=None&ssid=sjap6zgpyo0000001780349466704&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Full Metal Body",
+          "OLED Display"
+        ],
+        "cons": [
+          "Limited Reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Samsung Galaxy Book6 Ultra Intel Core Ultra X7 (Series 3) - (32 GB/1 TB SSD/Windows 11 Home) NP960UJG ...",
+      "price": 222990,
+      "original_price": 33319033,
+      "discount_percent": 33,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/e/a/1/-original-imahhvjrhr7hypre.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-book6-ultra-intel-core-x7-series-3-32-gb-1-tb-ssd-windows-11-home-np960ujg-thin-light-laptop/p/itmfb5b1ae27b0c0?pid=COMHHPK4TH9ZMD8W&lid=LSTCOMHHPK4TH9ZMD8WMWX2S3&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_11&otracker=browse&fm=organic&iid=en_QXDWw3m7kky4cJQ5XcszI4amMpMuBmFU4wCA27S7xmm64wjvaJqsGtBMjuWsqC6CoUFPb5XdcEBm1YzrEGTdeevN4Mn-dv-pi277bRzMbnY%3D&ppt=None&ppn=None&ssid=djb2k9yovk0000001780349455498&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Primebook 2 Neo (2025) in-Built AI MediaTek Helio G99 (MT8781) - (6 GB/128 GB/Android 15) PBG9911128#B...",
+      "price": 19990,
+      "original_price": 2999033,
+      "discount_percent": 33,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/416/416/j/-original-imahfyg9aes9fskz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/primebook-2-neo-2025-in-built-ai-mediatek-helio-g99-mt8781-6-gb-128-gb-android-15-pbg9911128-b7b7b7-thin-light-laptop/p/itmbf605949ab673?pid=COMHDGD5AJEV875Y&lid=LSTCOMHDGD5AJEV875YGWNEQP&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_3_55&otracker=browse&fm=organic&iid=en_8Y9LdsMZax1GRl8_jgWZsFsGOjfAhJGMbU7JrqRNtQcWGkKHoun6QeptwAZC4E02des2tHFcrjnMnAOV9C-OTkKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=None&ppn=None&ssid=03b5652be80000001780349473351&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "In-Built AI"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "In-Built AI"
+        ],
+        "cons": [
+          "Limited Storage"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Samsung Galaxy Book6 Ultra Intel Core Ultra X7 (Series 3) - (32 GB/1 TB SSD/Windows 11 Home) NP960UJG ...",
+      "price": 222990,
+      "original_price": 33319033,
+      "discount_percent": 33,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/e/a/1/-original-imahhvjrhr7hypre.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-book6-ultra-intel-core-x7-series-3-32-gb-1-tb-ssd-windows-11-home-np960ujg-thin-light-laptop/p/itmfb5b1ae27b0c0?pid=COMHHPK4TH9ZMD8W&lid=LSTCOMHHPK4TH9ZMD8WMWX2S3&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_3_61&otracker=browse&fm=organic&iid=en_8Y9LdsMZax1GRl8_jgWZsFsGOjfAhJGMbU7JrqRNtQfdfp-jKudkZtZhinpxNrls1rRch1W_GDKRAkMLj-nq5vUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=03b5652be80000001780349473351&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "cons": [
+          "High Price"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "MSI Modern 14 Intel Core i5 13th Gen 1334U - (16 GB/512 GB SSD/Windows 11 Home) Modern 14 C13M-116IN T...",
+      "price": 48990,
+      "original_price": 7399033,
+      "discount_percent": 33,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/t/p/b/-original-imahdabdtszs74x3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/msi-modern-14-intel-core-i5-13th-gen-1334u-16-gb-512-gb-ssd-windows-11-home-c13m-116in-thin-light-laptop/p/itmc1e2cec962619?pid=COMHCRGWV8J2FZNH&lid=LSTCOMHCRGWV8J2FZNH9BYBFI&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_3_70&otracker=browse&fm=organic&iid=c1521fbb-88d2-43c6-8afa-a409723a690e.COMHCRGWV8J2FZNH.SEARCH&ppt=None&ppn=None&ssid=03b5652be80000001780349473351&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "top_con": "Limited Ports",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Fast Performance"
+        ],
+        "cons": [
+          "Limited Ports"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Sansui 140 cm (55 inch) QLED Ultra HD (4K) Smart Google TV with Dolby Vision| HDR10+| Dolby Atmos| HSR...",
+      "price": 40490,
+      "original_price": 5999032,
+      "discount_percent": 32,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/1/n/k/-original-imahn99wbjgeegr8.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sansui-140-cm-55-inch-qled-ultra-hd-4k-smart-google-tv-dolby-vision-hdr10-atmos-hsr-120hz-memc-30w-surround-sound-floled-panel/p/itm7070b73530afc?pid=TVSHKYK76BWJAYPY&lid=LSTTVSHKYK76BWJAYPYPN6TLS&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_2_37&otracker=browse&fm=organic&iid=en_l3qcJZoiOzed3PqMWzK77iJvBOkVeu4I5B2qMXfjcAjRWxWrNfFnw9_7IrGlsKMYcC0EZVfFhXcQpXzUE4ccWmVkv0XZFiOX7bbXdlao_f8%3D&ppt=None&ppn=None&ssid=sgn488miow0000001780349493309&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "QLED Display",
+          "Dolby Atmos"
+        ],
+        "top_con": "Limited Stock",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "QLED Display",
+          "Dolby Atmos"
+        ],
+        "cons": [
+          "Limited Stock"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Sansui 109 cm (43 inch) Ultra HD (4K) LED Smart Google TV with HDR10| HLG| Dolby Audio| HSR 120Hz Refr...",
+      "price": 28490,
+      "original_price": 4049029,
+      "discount_percent": 29,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/416/416/s/-original-imahn99whhhkmft3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sansui-109-cm-43-inch-ultra-hd-4k-led-smart-google-tv-hdr10-hlg-dolby-audio-hsr-120hz-refresh-rate-memc-30w-surround-sound-floled-panel/p/itm0e886760b806f?pid=TVSHKYKYJFEEDAZB&lid=LSTTVSHKYKYJFEEDAZBSRAAV4&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_3_71&otracker=browse&fm=organic&iid=en_y7FoVynHM0X9SkaIAZQWogvjjmkUbOWQvZ7YyApCnomtKCZ6V0PHsF4ddxtVyB_3WO82QwDMrTsWvra5rIS3uADM2KWit8hFHxJOvPdMi04%3D&ppt=None&ppn=None&ssid=4xz53o3hhc0000001780349500156&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Picture Quality",
+          "Dolby Audio"
+        ],
+        "top_con": "Limited Brand Support",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Picture Quality",
+          "Dolby Audio"
+        ],
+        "cons": [
+          "Limited Brand Support"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lenovo IdeaPad Slim 3 Next Gen AI PC WUXGA IPS Copilot + PC with 1Yr ADP Snapdragon X - (16 GB/512 GB ...",
+      "price": 62990,
+      "original_price": 8839028,
+      "discount_percent": 28,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/d/z/z/-original-imahgfdfx3hhguyc.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lenovo-ideapad-slim-3-next-gen-ai-pc-wuxga-ips-copilot-1yr-adp-snapdragon-x-16-gb-512-gb-ssd-windows-11-home-15q8x10-thin-light-laptop/p/itmd6d920cf123c3?pid=COMHDMJYDGBTMJXG&lid=LSTCOMHDMJYDGBTMJXG112MJM&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_2_33&otracker=browse&fm=organic&iid=3784999e-b6c1-4248-9ec7-b97c65fc07d5.COMHDMJYDGBTMJXG.SEARCH&ppt=None&ppn=None&ssid=sjap6zgpyo0000001780349466704&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Thin and Light",
+          "Next Gen AI"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "Next Gen AI"
+        ],
+        "cons": [
+          "Limited Reviews"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Minomine Gamechangers Skincare Routine Kit for Soft & G...",
+      "price": 763,
+      "original_price": 190059,
+      "discount_percent": 59,
+      "rating": 3.9,
+      "review_count": null,
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/r/3/t/gamechangers-skincare-routine-kit-for-soft-glowing-skin-unisex-original-imahc5gw2cqmzbvm.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/minomine-gamechangers-skincare-routine-kit-soft-glowing-skin-unisex-cleanser-serum-toner-moisturizer-sunscreen-combo/p/itm74969f4fc088f?pid=CBKHC5H4NRRTWYJG&lid=LSTCBKHC5H4NRRTWYJGHLKTXQ&marketplace=FLIPKART&q=skincare+beauty+products&store=g9b%2Fema%2F5la&srno=s_1_12&otracker=search&fm=organic&iid=en_YDqpPu5ULoA1EARpAocOawlD62AixcijoyLZG__TfKnp2Ump59wB38qGAgOYJTF3EKjSfwXixzPuaaA4e_M3Iw%3D%3D&ppt=None&ppn=None&ssid=5ntbeusuvk0000001780349738914&qH=fbbea86e5e0e9a8f&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:35:59.968243",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Minomine Gamechangers Skincare Routine Kit for Soft & G...",
+      "price": 763,
+      "original_price": 190059,
+      "discount_percent": 59,
+      "rating": 3.9,
+      "review_count": null,
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/r/3/t/gamechangers-skincare-routine-kit-for-soft-glowing-skin-unisex-original-imahc5gw2cqmzbvm.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/minomine-gamechangers-skincare-routine-kit-soft-glowing-skin-unisex-cleanser-serum-toner-moisturizer-sunscreen-combo/p/itm74969f4fc088f?pid=CBKHC5H4NRRTWYJG&lid=LSTCBKHC5H4NRRTWYJGHLKTXQ&marketplace=FLIPKART&q=skincare+beauty+products&store=g9b%2Fema%2F5la&srno=s_3_114&otracker=search&fm=organic&iid=195305fa-0854-4a04-8717-a24758f0b5b8.CBKHC5H4NRRTWYJG.SEARCH&ppt=None&ppn=None&ssid=add643kn340000001780349754845&qH=fbbea86e5e0e9a8f&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:35:59.968243",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lenovo Chromebook Duet 11M889 MediaTek MediaTek Kompanio 838 - (8 GB/128 GB EMMC Storage/Chrome OS) Ch...",
+      "price": 28400,
+      "original_price": 3769024,
+      "discount_percent": 24,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/g/j/9/-original-imahgfdfgchekzvf.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lenovo-chromebook-duet-11m889-mediatek-kompanio-838-8-gb-128-gb-emmc-storage-chrome-os/p/itm666780c0be940?pid=COMHBCAFZGVNEDTK&lid=LSTCOMHBCAFZGVNEDTKUGILYO&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_4&otracker=browse&fm=organic&iid=d68a3878-ba84-425a-b5c0-7b15e4319cb6.COMHBCAFZGVNEDTK.SEARCH&ppt=None&ppn=None&ssid=djb2k9yovk0000001780349455498&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Great Display",
+          "Long Battery"
+        ],
+        "top_con": "Slow Performance",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Great Display",
+          "Long Battery"
+        ],
+        "cons": [
+          "Slow Performance"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Joy Honey & Almonds Advanced Nourishing Body Lotion For...",
+      "price": 306,
+      "original_price": 62050,
+      "discount_percent": 50,
+      "rating": 4.3,
+      "review_count": null,
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/moisturizer-cream/h/5/k/-original-imahg7serg5pmrnz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/joy-honey-almonds-advanced-nourishing-body-lotion-all-skin-types/p/itm6260db37cd61e?pid=MSCEXCWVACFZNSGM&lid=LSTMSCEXCWVACFZNSGMVUS4TA&marketplace=FLIPKART&q=skincare+beauty+products&store=g9b%2Fema%2F5la&srno=s_2_44&otracker=search&fm=organic&iid=d4ea69b0-5d8f-427f-ad5c-fcf272c1c376.MSCEXCWVACFZNSGM.SEARCH&ppt=None&ppn=None&ssid=2iga6sdi1c0000001780349748245&qH=fbbea86e5e0e9a8f&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:35:59.968243",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "LG LR600 80 cm (32 inch) HD Ready LED Smart WebOS TV with Alpha5 Gen 6 AI Processor 150+ Free LG Chann...",
+      "price": 15990,
+      "original_price": 2099023,
+      "discount_percent": 23,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/j/u/1/-original-imahnewn2gfgmtuh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lg-lr600-80-cm-32-inch-hd-ready-led-smart-webos-tv-alpha5-gen-6-ai-processor-150-free-channels-functions-sound-virtual-surround-5-1-up-mix-hdr-10-magic-remote-compatible-60hz-refresh-rate-fta-satellite-connectivity-wi-fi-built-in/p/itme6cf2b2438945?pid=TVSH8YWVHYPQGBGN&lid=LSTTVSH8YWVHYPQGBGN63N3VF&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_3_63&otracker=browse&fm=organic&iid=b0934bdc-974b-49b8-ab80-81b23a92a919.TVSH8YWVHYPQGBGN.SEARCH&ppt=None&ppn=None&ssid=4xz53o3hhc0000001780349500156&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Smart Features",
+          "AI Sound"
+        ],
+        "top_con": "Limited Resolution",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Smart Features",
+          "AI Sound"
+        ],
+        "cons": [
+          "Limited Resolution"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
       "name": "Rintex Red Alta Pen For Bharatanatyam - Lead-Free, Alth...",
       "price": 239,
       "original_price": 47049,
@@ -200,9 +1845,14 @@
       "category": "Beauty",
       "sub_category": "Beauty",
       "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/sindoor/v/t/7/55-red-alta-pen-for-bharatanatyam-lead-free-altha-pen-for-hands-original-imahjgkymkaqtxe9.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/rintex-red-alta-pen-bharatanatyam-lead-free-altha-hands-feet/p/itmd9c6cd7f583a5?pid=SINHJCBCXZZWTHCV&lid=LSTSINHJCBCXZZWTHCVKPMQ2F&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_23&otracker=browse&fm=organic&iid=b9925628-9175-42d7-81b7-f735a73c03d9.SINHJCBCXZZWTHCV.SEARCH&ppt=None&ppn=None&ssid=glc45vgmts0000001780340637559&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:04:07.249556",
-      "quick_analysis": null,
+      "flipkart_url": "https://www.flipkart.com/rintex-red-alta-pen-bharatanatyam-lead-free-altha-hands-feet/p/itmd9c6cd7f583a5?pid=SINHJCBCXZZWTHCV&lid=LSTSINHJCBCXZZWTHCVKPMQ2F&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_26&otracker=browse&fm=organic&iid=a610741a-a059-4d52-9a62-bb0e38c306e4.SINHJCBCXZZWTHCV.SEARCH&ppt=None&ppn=None&ssid=g1y35r9lq80000001780349596719&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:41.004500",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
       "analysis": {
         "pros": [],
         "cons": [],
@@ -217,18 +1867,54 @@
       "comparisons": []
     },
     {
-      "name": "Haier 190 L Direct Cool Single Door 5 Star Refrigerator...",
-      "price": 17990,
-      "original_price": 2729034,
+      "name": "Bestseller",
+      "price": 248,
+      "original_price": 42040,
+      "discount_percent": 40,
+      "rating": 4.4,
+      "review_count": null,
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kajal/p/5/h/-original-imahmb43uzenjh5t.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lakm-9-5-eyeconic-kajal-twin-pack-lasts-upto-24hrs-pack-2/p/itm3904ee14ce26f?pid=KJLF7VNFP2KXUCVQ&lid=LSTKJLF7VNFP2KXUCVQ7UCXKW&marketplace=FLIPKART&store=g9b%2Fffi&spotlightTagId=default_BestsellerId_g9b%2Fffi&srno=b_2_44&otracker=browse&fm=organic&iid=c5170061-99a6-4131-9247-3cf387f47c05.KJLF7VNFP2KXUCVQ.SEARCH&ppt=browse&ppn=browse&ssid=yrx17fevb40000001780349608226&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:41.004500",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "IMECO Bamboo Facial Tissues Papers 100 Pulls | 2 Ply | ...",
+      "price": 178,
+      "original_price": 27034,
       "discount_percent": 34,
-      "rating": 4.9,
+      "rating": 4.4,
       "review_count": null,
-      "category": "Home_Kitchen",
-      "sub_category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/w/w/u/-original-imahn6xx6kgdzkzc.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/haier-190-l-direct-cool-single-door-5-star-refrigerator-base-drawer/p/itmb80f283dff3be?pid=RFRHMJUNUDAHHCAV&lid=LSTRFRHMJUNUDAHHCAV5WQQWO&marketplace=FLIPKART&store=j9e&srno=b_1_27&otracker=browse&fm=organic&iid=en_FPz-4nW95KVjbagpsVLvCCKUdN9Zhv31AID1Et5iP0-NsSKdsGKvfJoNNVhlmyQOqxfAgrZ5I7pSL1yyvqsJmssvznWCApVxH0FtqY3oUAk%3D&ppt=None&ppn=None&ssid=c2qxfpkyqo0000001780340625566&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:03:51.513157",
-      "quick_analysis": null,
+      "category": "Beauty",
+      "sub_category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/facial-tissue/0/d/l/bamboo-facial-tissues-papers-100-pulls-2-ply-ultra-soft-original-imahmghshcjhxeef.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/imeco-bamboo-facial-tissues-papers-100-pulls-2-ply-ultra-soft-biodegradable/p/itm0a0851052a023?pid=FLTHE8V9AAYE8KGV&lid=LSTFLTHE8V9AAYE8KGVOX0MXW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_2_80&otracker=browse&fm=organic&iid=c5170061-99a6-4131-9247-3cf387f47c05.FLTHE8V9AAYE8KGV.SEARCH&ppt=None&ppn=None&ssid=yrx17fevb40000001780349608226&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:41.004500",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
       "analysis": {
         "pros": [],
         "cons": [],
@@ -243,103 +1929,573 @@
       "comparisons": []
     },
     {
-      "name": "Haier 190 L Direct Cool Single Door 4 Star Refrigerator...",
-      "price": 14890,
-      "original_price": 2439038,
+      "name": "Men Chikan Embroidery Viscose Rayon A-line Kurta",
+      "price": 368,
+      "original_price": 326088,
+      "discount_percent": 88,
+      "rating": null,
+      "review_count": null,
+      "category": "Men_Fashion",
+      "sub_category": "Men_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/o/z/6/s-kurta-wine-romj-original-imahhqgzfrj5nqrg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/triom-men-chikan-embroidery-a-line-kurta/p/itm19ce79d43cb96?pid=KTAHYKMYEJYF8RWZ&lid=LSTKTAHYKMYEJYF8RWZDDPGGJ&marketplace=FLIPKART&q=men+kurta&store=clo%2Fcfv%2Fcib%2Fjks&srno=s_1_32&otracker=search&fm=organic&iid=en_Cx4di8OzfWeAxZvllOCtOsvazy8ze06kMyTIv5ETOrmvvHn5hWLsAdjsfcWPdJlBlRT00OXdvwFUMvGjZaxCbfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=0qm78lvmqo0000001780349511419&qH=25d9d61470ceb6f0&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:12.427548",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Men Chikan Embroidery Viscose Rayon A-line Kurta",
+      "price": 368,
+      "original_price": 326088,
+      "discount_percent": 88,
+      "rating": null,
+      "review_count": null,
+      "category": "Men_Fashion",
+      "sub_category": "Men_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/o/z/6/s-kurta-wine-romj-original-imahhqgzfrj5nqrg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/triom-men-chikan-embroidery-a-line-kurta/p/itm19ce79d43cb96?pid=KTAHYKMYEJYF8RWZ&lid=LSTKTAHYKMYEJYF8RWZDDPGGJ&marketplace=FLIPKART&q=men+kurta&store=clo%2Fcfv%2Fcib%2Fjks&srno=s_3_112&otracker=search&fm=organic&iid=en_vS_-HRpSb29bDlzzmLakb1oKIRNl_QT5xKh58BXeoWhRJFCo6FLoq2hTkUa2vMolx9_0NwdUbB4mkMXfvMqsN_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=None&ppn=None&ssid=5m7sljgs8w0000001780349527296&qH=25d9d61470ceb6f0&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:12.427548",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Men Embroidered Cotton Rayon A-line Kurta",
+      "price": 450,
+      "original_price": 356087,
+      "discount_percent": 87,
+      "rating": null,
+      "review_count": null,
+      "category": "Men_Fashion",
+      "sub_category": "Men_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/u/t/z/xxl-kurta-lavender-almora-resized-2-original-imah9z9kewkvcu9z.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/almora-men-embroidered-a-line-kurta/p/itm78f8c2f185c70?pid=KTAH3EXKYFMGFJFW&lid=LSTKTAH3EXKYFMGFJFWANSWMC&marketplace=FLIPKART&q=men+kurta&store=clo%2Fcfv%2Fcib%2Fjks&srno=s_1_14&otracker=search&fm=organic&iid=f33ed9f8-e3fb-48ea-b160-b95927b96de2.KTAH3EXKYFMGFJFW.SEARCH&ppt=None&ppn=None&ssid=0qm78lvmqo0000001780349511419&qH=25d9d61470ceb6f0&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:12.427548",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Men Embroidered Cotton Rayon A-line Kurta",
+      "price": 445,
+      "original_price": 356087,
+      "discount_percent": 87,
+      "rating": null,
+      "review_count": null,
+      "category": "Men_Fashion",
+      "sub_category": "Men_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/w/9/k/s-kurta-white-romj-original-imahhqgzvj7fwf5q.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/almora-men-embroidered-a-line-kurta/p/itm5930b6a4a4147?pid=KTAGYFZPMU9Z3HPJ&lid=LSTKTAGYFZPMU9Z3HPJDUCWPR&marketplace=FLIPKART&q=men+kurta&store=clo%2Fcfv%2Fcib%2Fjks&srno=s_2_73&otracker=search&fm=organic&iid=db98352c-44a9-473c-a5a4-b7495b5951aa.KTAGYFZPMU9Z3HPJ.SEARCH&ppt=None&ppn=None&ssid=z1s9pxqw7k0000001780349520780&qH=25d9d61470ceb6f0&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:12.427548",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Men Embroidered Cotton Rayon A-line Kurta",
+      "price": 445,
+      "original_price": 356087,
+      "discount_percent": 87,
+      "rating": null,
+      "review_count": null,
+      "category": "Men_Fashion",
+      "sub_category": "Men_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/f/w/h/l-kurta-aqua-blue-almora-resized-2-original-imahdk6eswxhcjnz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/almora-men-embroidered-a-line-kurta/p/itm4716be295ced6?pid=KTAGYFK8JDMTAVVG&lid=LSTKTAGYFK8JDMTAVVGOPT2YY&marketplace=FLIPKART&q=men+kurta&store=clo%2Fcfv%2Fcib%2Fjks&srno=s_2_74&otracker=search&fm=organic&iid=db98352c-44a9-473c-a5a4-b7495b5951aa.KTAGYFK8JDMTAVVG.SEARCH&ppt=None&ppn=None&ssid=z1s9pxqw7k0000001780349520780&qH=25d9d61470ceb6f0&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:12.427548",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Samsung 80 cm (32 inch) HD Ready LED Smart Tizen TV with Voice Assistance Remote Control | 100+ Free C...",
+      "price": 16490,
+      "original_price": 179007,
+      "discount_percent": 7,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/a/g/0/-original-imahj8ydqperu79z.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-80-cm-32-inch-hd-ready-led-smart-tizen-tv-voice-assistance-remote-control-100-free-channels-hdr-10-support-purcolor-knox-security-digital-tuner-object-tracking-sound-lite-adaptive-q-symphony/p/itm46f9a52992ace?pid=TVSHBCHTKTHN5GSM&lid=LSTTVSHBCHTKTHN5GSMGAFQ6R&marketplace=FLIPKART&store=ckf%2Fczl&spotlightTagId=default_FkPickId_ckf%2Fczl&srno=b_1_20&otracker=browse&fm=organic&iid=597294cb-9a6a-4a92-9182-47e30a69aa6e.TVSHBCHTKTHN5GSM.SEARCH&ppt=None&ppn=None&ssid=ph8edfmweo0000001780349482241&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Smart TV features",
+          "Good picture quality"
+        ],
+        "top_con": "Limited screen size",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Smart TV features",
+          "Good picture quality"
+        ],
+        "cons": [
+          "Limited screen size"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Women A-line Dark Blue Above Knee/Mid Thigh Length Dres...",
+      "price": 326,
+      "original_price": 167080,
+      "discount_percent": 80,
+      "rating": null,
+      "review_count": null,
+      "category": "Women_Fashion",
+      "sub_category": "Women_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/z/k/x/-original-imahffa9zbv96dtz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/oomph-women-a-line-dark-blue-above-knee-mid-thigh-length-dress/p/itme608228e035aa?pid=DREGGGHKZZJPQFNV&lid=LSTDREGGGHKZZJPQFNVYU02MQ&marketplace=FLIPKART&q=women+dresses+clothing&store=clo%2Fodx%2Fmaj%2Fjhy&srno=s_2_45&otracker=search&fm=organic&iid=120cf43a-bc68-46f5-916d-3442eebaf41a.DREGGGHKZZJPQFNV.SEARCH&ppt=None&ppn=None&ssid=95ete9l6o00000001780349720374&qH=890f73d163138b0a&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:35:32.486160",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Pack of 2 Women Floral Print, Bandhani, Block Print Pur...",
+      "price": 450,
+      "original_price": 199077,
+      "discount_percent": 77,
+      "rating": null,
+      "review_count": null,
+      "category": "Women_Fashion",
+      "sub_category": "Women_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/v/l/k/l-ishaq-grey-bijli-ark-original-imahnrfxdqkhygqt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/ark-women-floral-print-bandhani-block-print-straight-kurta/p/itm3772d0ffd22a2?pid=KTAHNRFYJGJYCJZG&lid=LSTKTAHNRFYJGJYCJZGSYXHU5&marketplace=FLIPKART&q=women+kurti&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_2_55&otracker=search&fm=organic&iid=eec6cabb-785b-427f-b9c3-3ee7eb9bf9e1.KTAHNRFYJGJYCJZG.SEARCH&ppt=None&ppn=None&ssid=k3239c625s0000001780349550367&qH=2682dfdcd99c9794&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:42.314546",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Uniboom ULTIMA 60 cm (24 inch) HD Ready LED TV with 30W Sounbar Edition - Aura Vision+ Display - Monit...",
+      "price": 5190,
+      "original_price": 1999074,
+      "discount_percent": 74,
+      "rating": null,
+      "review_count": null,
+      "category": "TVs",
+      "sub_category": "TVs",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/television/q/3/b/-original-imaha9h8xjp9da3w.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/uniboom-ultima-60-cm-24-inch-hd-ready-led-tv-30w-sounbar-aura-vision-display-monitor-support-2-hdmi/p/itmc19f4000b0ac6?pid=TVSH9JPVG5GMH3WW&lid=LSTTVSH9JPVG5GMH3WWUGZEGS&marketplace=FLIPKART&store=ckf%2Fczl&srno=b_2_26&otracker=browse&fm=organic&iid=d20d52c0-cea9-4ce9-8a0d-e3518b573a7d.TVSH9JPVG5GMH3WW.SEARCH&ppt=None&ppn=None&ssid=sgn488miow0000001780349493309&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:45.268621",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Women A-line Pink Above Knee/Mid Thigh Length Dress",
+      "price": 354,
+      "original_price": 134073,
+      "discount_percent": 73,
+      "rating": null,
+      "review_count": null,
+      "category": "Women_Fashion",
+      "sub_category": "Women_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/dress/n/h/i/xxl-na-md695-oomph-original-imagz78dnxfrz8wb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/oomph-women-a-line-pink-above-knee-mid-thigh-length-dress/p/itm2a78d85d4fd5c?pid=DREGZ7U8KFBHSTGC&lid=LSTDREGZ7U8KFBHSTGCROQSPF&marketplace=FLIPKART&q=women+dresses+clothing&store=clo%2Fodx%2Fmaj%2Fjhy&srno=s_2_66&otracker=search&fm=organic&iid=120cf43a-bc68-46f5-916d-3442eebaf41a.DREGZ7U8KFBHSTGC.SEARCH&ppt=None&ppn=None&ssid=95ete9l6o00000001780349720374&qH=890f73d163138b0a&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:35:32.486160",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "SN FASHION ATTIRE",
+      "price": 347,
+      "original_price": 120071,
+      "discount_percent": 71,
+      "rating": null,
+      "review_count": null,
+      "category": "Women_Fashion",
+      "sub_category": "Women_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/c/u/v/3xl-print001-sn-fashion-attire-resized-2-original-imahf3yxwf2hadzr.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sn-fashion-attire-women-floral-print-a-line-kurta/p/itm8ce733e4b526d?pid=KTAHEB66XFMHPCB6&lid=LSTKTAHEB66XFMHPCB6ANELLP&marketplace=FLIPKART&q=women+kurti&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_2_47&otracker=search&fm=organic&iid=en_dbC0q8dIafLZ85V90JMu_TRM6tkGL5QSVt_Gj0RRQnN7oWpYwDmU6KumKNzHXIYMmWI3bPYFqLX_FgxFTKaoyw%3D%3D&ppt=None&ppn=None&ssid=k3239c625s0000001780349550367&qH=2682dfdcd99c9794&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:42.314546",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "SN FASHION ATTIRE",
+      "price": 347,
+      "original_price": 120071,
+      "discount_percent": 71,
+      "rating": null,
+      "review_count": null,
+      "category": "Women_Fashion",
+      "sub_category": "Women_Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/kurta/c/u/v/3xl-print001-sn-fashion-attire-resized-2-original-imahf3yxwf2hadzr.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sn-fashion-attire-women-floral-print-a-line-kurta/p/itm8ce733e4b526d?pid=KTAHEB66ZCNGKZAH&lid=LSTKTAHEB66ZCNGKZAH2HBNCT&marketplace=FLIPKART&q=women+kurti&store=clo%2Fcfv%2Fcib%2Frkt&srno=s_2_74&otracker=search&fm=organic&iid=eec6cabb-785b-427f-b9c3-3ee7eb9bf9e1.KTAHEB66ZCNGKZAH.SEARCH&ppt=None&ppn=None&ssid=k3239c625s0000001780349550367&qH=2682dfdcd99c9794&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:32:42.314546",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Shopeleven Double srping Tummy Trimmer Full body Ab exe...",
+      "price": 212,
+      "original_price": 99078,
+      "discount_percent": 78,
+      "rating": 4.3,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/g/x/t/double-srping-tummy-trimmer-full-body-ab-exerciser-home-gym-kit-original-imahmsudmyhhhgsk.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/shopeleven-double-srping-tummy-trimmer-full-body-ab-exerciser-home-gym-kit-k2-red/p/itmd616f0d6a5fb9?pid=ABEFT5KYZZNZZYBT&lid=LSTABEFT5KYZZNZZYBTIYY8W5&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_2_50&otracker=search&fm=organic&iid=f69bc8b7-c635-4d7a-9812-e8fd8e5c455c.ABEFT5KYZZNZZYBT.SEARCH&ppt=None&ppn=None&ssid=x7y22h4c1s0000001780349637152&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Oddish Way to Fitness Tummy Twister Gym/Home Equipment ...",
+      "price": 243,
+      "original_price": 120079,
+      "discount_percent": 79,
+      "rating": 4.1,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/s/w/d/way-to-fitness-tummy-twister-gym-home-equipment-ab-exerciser-na-original-imahaysdbjx5sdhg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/oddish-way-fitness-tummy-twister-gym-home-equipment-ab-exerciser/p/itmcd108901f9a6c?pid=ABEHAYSDZGP6DGRF&lid=LSTABEHAYSDZGP6DGRFRRUXW3&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_33&otracker=search&fm=organic&iid=a772026e-0014-4950-97c2-eeed47fffb6a.ABEHAYSDZGP6DGRF.SEARCH&ppt=None&ppn=None&ssid=9oyerf5pvk0000001780349627755&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "LIVOX Tummy Trimmer, Toning tube, Ab wheel Roller, Push...",
+      "price": 652,
+      "original_price": 300078,
+      "discount_percent": 78,
+      "rating": 3.9,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/e/k/b/tummy-trimmer-toning-tube-ab-wheel-roller-pushup-bar-rope-original-imah4std6x8azury.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/livox-tummy-trimmer-toning-tube-ab-wheel-roller-pushup-bar-rope-2handgrip-exerciser/p/itm832b364f42d03?pid=ABEGRWHCCUW2EGDZ&lid=LSTABEGRWHCCUW2EGDZBRLJYZ&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_2_64&otracker=search&fm=organic&iid=f69bc8b7-c635-4d7a-9812-e8fd8e5c455c.ABEGRWHCCUW2EGDZ.SEARCH&ppt=None&ppn=None&ssid=x7y22h4c1s0000001780349637152&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "JIM All-in-One Muscle Building Board for Home Gym Ab Ex...",
+      "price": 361,
+      "original_price": 120069,
+      "discount_percent": 69,
+      "rating": 4.5,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/z/e/7/all-in-one-muscle-building-board-for-home-gym-na-jim-original-imahj2zbxhag9hd7.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jim-all-in-one-muscle-building-board-home-gym-ab-exerciser/p/itm672b5af94d0f2?pid=ABEHJ2ZBSZMTRHYC&lid=LSTABEHJ2ZBSZMTRHYCBDUAB2&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_2_72&otracker=search&fm=organic&iid=f69bc8b7-c635-4d7a-9812-e8fd8e5c455c.ABEHJ2ZBSZMTRHYC.SEARCH&ppt=None&ppn=None&ssid=x7y22h4c1s0000001780349637152&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Manogyam Tummy Trimmer Double Spring -Waist Trimmer-Abs...",
+      "price": 202,
+      "original_price": 75073,
+      "discount_percent": 73,
+      "rating": 3.8,
+      "review_count": null,
+      "category": "Sports",
+      "sub_category": "Sports",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/ab-exerciser/w/0/h/abs-tummy-trimmer-with-double-steel-spring-burn-off-calories-original-imah3cha3zqncuvt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/manogyam-tummy-trimmer-double-spring-waist-trimmer-abs-exerciser-body-toner-fat-buster-multipurpose-fitness-equipment-unisex-ab-exerciser/p/itm60752cea7e172?pid=ABEF4N25VWXMHBQX&lid=LSTABEF4N25VWXMHBQXRVSNOB&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_24&otracker=search&fm=organic&iid=a772026e-0014-4950-97c2-eeed47fffb6a.ABEF4N25VWXMHBQX.SEARCH&ppt=None&ppn=None&ssid=9oyerf5pvk0000001780349627755&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:34:08.857816",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2026 Model 1.5 Ton 3 Star Split Inverter AC",
+      "price": 34990,
+      "original_price": 5699038,
       "discount_percent": 38,
-      "rating": 4.4,
-      "review_count": null,
-      "category": "Home_Kitchen",
-      "sub_category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/x/x/c/-original-imahmgkkqvb8gygq.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/haier-190-l-direct-cool-single-door-4-star-refrigerator-ice-formation-possible-60-minutes-easy-safe-clean-back-large-veg-box-led-light-lock-key-safety/p/itmd9e7256ee6d5b?pid=RFRHKMPPPZ8FQGPH&lid=LSTRFRHKMPPPZ8FQGPH22HY61&marketplace=FLIPKART&store=j9e&srno=b_1_38&otracker=browse&fm=organic&iid=en_FPz-4nW95KVjbagpsVLvCCKUdN9Zhv31AID1Et5iP09RhM7XKgWLxUaFoIQMy2mvRjJV3OHIbOXF8iP8sIG9SDUAxv6Z8Fa7FZceVio0OKQ%3D&ppt=None&ppn=None&ssid=c2qxfpkyqo0000001780340625566&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:03:51.513157",
-      "quick_analysis": null,
-      "analysis": {
-        "pros": [],
-        "cons": [],
-        "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": null,
-      "comparisons": []
-    },
-    {
-      "name": "Haier 190 L Direct Cool Single Door 4 Star Refrigerator...",
-      "price": 15990,
-      "original_price": 2559037,
-      "discount_percent": 37,
-      "rating": 4.4,
-      "review_count": null,
-      "category": "Home_Kitchen",
-      "sub_category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/g/z/5/-original-imahmgkkb7ghayzj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/haier-190-l-direct-cool-single-door-4-star-refrigerator-base-drawer-ice-formation-possible-60-minutes-easy-safe-clean-back-large-veg-box-lock-key/p/itme2d010de14588?pid=RFRHKMPPGS9FHXZF&lid=LSTRFRHKMPPGS9FHXZFLK0FPI&marketplace=FLIPKART&store=j9e&srno=b_1_11&otracker=browse&fm=organic&iid=en_FPz-4nW95KVjbagpsVLvCCKUdN9Zhv31AID1Et5iP0-ygguIHhdDJOpgtLWX6iZyFrXY1k0P8iGhfZKk2XAWrCsp2Pb6ljaD52iOeV1GD4o%3D&ppt=None&ppn=None&ssid=c2qxfpkyqo0000001780340625566&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:03:51.513157",
-      "quick_analysis": null,
-      "analysis": {
-        "pros": [],
-        "cons": [],
-        "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": null,
-      "comparisons": []
-    },
-    {
-      "name": "Haier 190 L Direct Cool Single Door 5 Star Refrigerator...",
-      "price": 17190,
-      "original_price": 2379027,
-      "discount_percent": 27,
-      "rating": 4.4,
-      "review_count": null,
-      "category": "Home_Kitchen",
-      "sub_category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/v/e/g/-original-imahmgkkyhhqybsg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/haier-190-l-direct-cool-single-door-5-star-refrigerator-base-drawer-ice-formation-possible-60-minutes-easy-safe-clean-back-large-veg-box/p/itmcee6c45a4ac07?pid=RFRHKMPPJZ7EF7GG&lid=LSTRFRHKMPPJZ7EF7GGDXYMIL&marketplace=FLIPKART&store=j9e&srno=b_1_17&otracker=browse&fm=organic&iid=en_FPz-4nW95KVjbagpsVLvCCKUdN9Zhv31AID1Et5iP0_BHgCUKrFOGwFagYOa_VRWwa6ISBNi7D3NLYy6CaLBXvNzSJq5vUoApsGIr4piuio%3D&ppt=None&ppn=None&ssid=c2qxfpkyqo0000001780340625566&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:03:51.513157",
-      "quick_analysis": null,
-      "analysis": {
-        "pros": [],
-        "cons": [],
-        "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
-      },
-      "is_vfm": false,
-      "vfm_score": 0,
-      "price_prediction": null,
-      "comparisons": []
-    },
-    {
-      "name": "Aqua Fresh Smoke Audi 18 ltr drink pure India 1st BIS (...",
-      "price": 4507,
-      "original_price": 1650072,
-      "discount_percent": 72,
       "rating": null,
       "review_count": null,
       "category": "Home_Kitchen",
       "sub_category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/water-purifier/j/i/d/smoke-audi-18-ltr-drink-pure-india-1st-bis-is-16240-2023-cm-original-imahgvd7nrf75f3q.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/aqua-fresh-smoke-audi-18-ltr-drink-pure-india-1st-bis-is-16240-2023-cm-l8100159306-l-ro-uv-uf-copper-alkaline-tds-control-water-purifier/p/itmc3da457d7de29?pid=WAPGW5YZQHM7EY3S&lid=LSTWAPGW5YZQHM7EY3SCZ8VWH&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=en_FPz-4nW95KVjbagpsVLvCCKUdN9Zhv31AID1Et5iP09AH7zt8P4Kknr8El-Ia5DMyghwTjY512vOtj_rhLkt7A%3D%3D&ppt=None&ppn=None&ssid=c2qxfpkyqo0000001780340625566&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:03:51.513157",
-      "quick_analysis": null,
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/l/1/h/-original-imahm3zvzg8uc8wt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-1-5-ton-3-star-split-inverter-ac/p/itme2ca1cb9f3a65?pid=ACNHHG4MTHXJBQNS&lid=LSTACNHHG4MTHXJBQNSHCQTA5&marketplace=FLIPKART&store=j9e&srno=b_2_45&otracker=browse&fm=organic&iid=en_ReDEj7YEX83ux8fmIHsrzM9hK6uRO_Le2I4ALTvViV8V20hIRRmZtsszE0Uae5OE0i8sQjsH0Q50Kv_d71-qB41S1pI3rCk1qbkKPcNlckM%3D&ppt=None&ppn=None&ssid=pt2svgpits0000001780349578724&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "top_con": "Noise Level",
+        "quick_verdict": "Worth checking"
+      },
       "analysis": {
-        "pros": [],
-        "cons": [],
+        "pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "cons": [
+          "Noise Level"
+        ],
         "top_quote": "",
-        "sentiment_score": 0,
-        "quality_score": 0,
-        "recommendation": "Wait"
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
       },
       "is_vfm": false,
       "vfm_score": 0,
@@ -347,18 +2503,62 @@
       "comparisons": []
     },
     {
-      "name": "Whirlpool 235 L Frost Free Double Door 2 Star Refrigera...",
-      "price": 25740,
-      "original_price": 3040015,
-      "discount_percent": 15,
-      "rating": 4.2,
+      "name": "Lloyd 2026 Model 1 Ton 3 Star Split Inverter AC",
+      "price": 31490,
+      "original_price": 4999037,
+      "discount_percent": 37,
+      "rating": null,
       "review_count": null,
       "category": "Home_Kitchen",
       "sub_category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/416/416/v/-original-imahhzmcqxbcsd4f.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/whirlpool-235-l-frost-free-double-door-2-star-refrigerator/p/itm59d3e174106f1?pid=RFRHJX6MKU2VTZRR&lid=LSTRFRHJX6MKU2VTZRRHGPIQQ&marketplace=FLIPKART&store=j9e&srno=b_1_18&otracker=browse&fm=organic&iid=en_FPz-4nW95KVjbagpsVLvCCKUdN9Zhv31AID1Et5iP08E_tOLRqxd181dB1E30juaRR06RCX5Fn0Cd4xNq1Ariae2V9XDvunzl7fbjyNvPBk%3D&ppt=None&ppn=None&ssid=c2qxfpkyqo0000001780340625566&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:03:51.513157",
-      "quick_analysis": null,
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/a/d/s/-original-imahm3zvy5zg9sm8.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-1-ton-3-star-split-inverter-ac/p/itm737897221bbc1?pid=ACNHHG4MTC9A8ZQU&lid=LSTACNHHG4MTC9A8ZQUB7U7NE&marketplace=FLIPKART&store=j9e&srno=b_3_81&otracker=browse&fm=organic&iid=en_KPFC0znNhH0BOD9G4it5iUrJDon4_xDam0rvD4Ln583NxFi1Kik121mCy8lmKgBAdih9TQHy0ubvSZjHhnhCU00Lqp3nUBlQeeazI_xhu1k%3D&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "top_con": "Noise Level",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Energy Efficient",
+          "Fast Cooling"
+        ],
+        "cons": [
+          "Noise Level"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "HAVELLS 52 L Room/Personal Air Cooler",
+      "price": 6499,
+      "original_price": 1619059,
+      "discount_percent": 59,
+      "rating": 3.8,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-cooler/i/t/0/-original-imahkvpjgfz56ufn.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/havells-52-l-room-personal-air-cooler/p/itm4e80613ba7643?pid=AICHKKR45BSPFDYH&lid=LSTAICHKKR45BSPFDYH0FLMSD&marketplace=FLIPKART&store=j9e&srno=b_3_116&otracker=browse&fm=organic&iid=7490293e-2d03-4831-bbc2-6825a32ac318.AICHKKR45BSPFDYH.SEARCH&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
       "analysis": {
         "pros": [],
         "cons": [],
@@ -373,18 +2573,93 @@
       "comparisons": []
     },
     {
-      "name": "Pureit Classic 23 L Gravity Based Water Purifier | Acti...",
-      "price": 3299,
-      "original_price": 35005,
-      "discount_percent": 5,
+      "name": "Primebook 2 Neo (2025) in-Built AI MediaTek Helio G99 (MT8781) - (6 GB/128 GB/Android 15) PBG9911128#B...",
+      "price": 19990,
+      "original_price": 2999033,
+      "discount_percent": 33,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/416/416/j/-original-imahfyg9aes9fskz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/primebook-2-neo-2025-in-built-ai-mediatek-helio-g99-mt8781-6-gb-128-gb-android-15-pbg9911128-b7b7b7-thin-light-laptop/p/itmbf605949ab673?pid=COMHDGD5AJEV875Y&lid=LSTCOMHDGD5AJEV875YGWNEQP&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_3&otracker=browse&fm=organic&iid=en_QXDWw3m7kky4cJQ5XcszI4amMpMuBmFU4wCA27S7xmnDjSutwzunmWb3iYlHEAreo5764WPBWqaJ07vz0iQIwEKsf8s6I2Oz2HOgbXTo_9U%3D&ppt=None&ppn=None&ssid=djb2k9yovk0000001780349455498&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 70,
+        "top_pros": [
+          "Thin and Light",
+          "In-Built AI"
+        ],
+        "top_con": "Limited RAM",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Thin and Light",
+          "In-Built AI"
+        ],
+        "cons": [
+          "Limited RAM"
+        ],
+        "top_quote": "",
+        "sentiment_score": 70,
+        "quality_score": 70,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Atomberg Ameza Remote Controlled|High Air Flow|Low Nois...",
+      "price": 2599,
+      "original_price": 490046,
+      "discount_percent": 46,
+      "rating": 4.3,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/fan/j/k/n/ameza-remote-controlled-high-air-flow-low-noise-power-saving-original-imahnjb8zvk5cfa5.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/atomberg-ameza-remote-controlled-high-air-flow-low-noise-power-saving-timeless-design-2-year-warranty-bldc-motor-1200-mm-ceiling-fan/p/itm8955dc642cf60?pid=FANGG8BDYBABEFCC&lid=LSTFANGG8BDYBABEFCCU9BOUB&marketplace=FLIPKART&store=j9e&srno=b_2_50&otracker=browse&fm=organic&iid=73c3bc5f-34db-4e78-97ae-530794e1c918.FANGG8BDYBABEFCC.SEARCH&ppt=None&ppn=None&ssid=pt2svgpits0000001780349578724&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Atomberg Studio6 InchSilent Exhaust FanBathroom&Kitchen...",
+      "price": 1749,
+      "original_price": 318045,
+      "discount_percent": 45,
       "rating": 4.1,
       "review_count": null,
       "category": "Home_Kitchen",
       "sub_category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/water-purifier/4/e/a/-original-imahmz9ruqd7tt6k.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/pureit-classic-23-l-gravity-based-water-purifier-activated-carbon-filtration-no-electricity-required-multi-stage-purification-uses-programmed-germ-kill-technology/p/itm64962de425159?pid=WAPHMBZXJXHNQGRH&lid=LSTWAPHMBZXJXHNQGRHZ9PGGU&marketplace=FLIPKART&store=j9e&srno=b_1_25&otracker=browse&fm=organic&iid=en_FPz-4nW95KVjbagpsVLvCCKUdN9Zhv31AID1Et5iP0963vdFwtfAio_byuLwToQoc2rWjvkiU62mCA-epzXOrtzVZusnqMRsJ2VfVNgXwcI%3D&ppt=None&ppn=None&ssid=c2qxfpkyqo0000001780340625566&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:03:51.513157",
-      "quick_analysis": null,
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/exhaust-fan/f/9/d/-original-imahhx8f2pmjv8jn.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/atomberg-studio6-inchsilent-exhaust-fanbathroom-kitcheninstallation-round-cut-153mm-150-mm-fan/p/itmf71412247ee19?pid=EXFGEGEKZGWMHR7V&lid=LSTEXFGEGEKZGWMHR7VMS2IPU&marketplace=FLIPKART&store=j9e&srno=b_2_73&otracker=browse&fm=organic&iid=73c3bc5f-34db-4e78-97ae-530794e1c918.EXFGEGEKZGWMHR7V.SEARCH&ppt=None&ppn=None&ssid=pt2svgpits0000001780349578724&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
       "analysis": {
         "pros": [],
         "cons": [],
@@ -399,18 +2674,186 @@
       "comparisons": []
     },
     {
-      "name": "LG 2026 Model 1.5 tons 3 Star Split Dual Inverter Faste...",
-      "price": 39990,
-      "original_price": 7499046,
-      "discount_percent": 46,
-      "rating": null,
+      "name": "SUJATA SUPERMIX 900 W Juicer Mixer Grinder",
+      "price": 5687,
+      "original_price": 963040,
+      "discount_percent": 40,
+      "rating": 4.5,
       "review_count": null,
       "category": "Home_Kitchen",
       "sub_category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/u/u/8/-original-imahhyzwwhz9zzdu.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/lg-2026-model-1-5-tons-3-star-split-dual-inverter-faster-cooling-energy-saving-ai-convertible-6-in-1-cooling-4-way-air-swing-hd-filter-anti-virus-protection-cools-55-degree-celsius-him-clean-viraat-mode-diet-plus-ac/p/itm0e9483a8fffb5?pid=ACNHHU33FYXBAGCG&lid=LSTACNHHU33FYXBAGCG45BCTR&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=en_FPz-4nW95KVjbagpsVLvCCKUdN9Zhv31AID1Et5iP0_dDsZLqo4_zNLVCr9BU21bef-1-GrIbR053PshqlkTEYQEIsITtCzc4bHaOMTqL08%3D&ppt=None&ppn=None&ssid=c2qxfpkyqo0000001780340625566&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-01T19:03:51.513157",
-      "quick_analysis": null,
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/m/u/v/-original-imahmrqm9z7hmgtt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sujata-supermix-900-w-juicer-mixer-grinder/p/itm134d5e007507a?pid=MIXG3YKHXMN7GHUZ&lid=LSTMIXG3YKHXMN7GHUZLQR9UM&marketplace=FLIPKART&store=j9e&srno=b_3_103&otracker=browse&fm=organic&iid=7490293e-2d03-4831-bbc2-6825a32ac318.MIXG3YKHXMN7GHUZ.SEARCH&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "ASUS Chromebook CX14 Intel Celeron Dual Core N50 - (4 GB/64 GB EMMC Storage/Chrome OS) CX1405CTA-S6062...",
+      "price": 19800,
+      "original_price": 2299013,
+      "discount_percent": 13,
+      "rating": null,
+      "review_count": null,
+      "category": "Laptops",
+      "sub_category": "Laptops",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/f/u/d/-original-imahmhhncbddugp2.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/asus-chromebook-cx14-intel-celeron-dual-core-n50-4-gb-64-gb-emmc-storage-chrome-os-cx1405cta-s60620-laptop/p/itm5a14f3731bf15?pid=COMHKQA3R42GHHJF&lid=LSTCOMHKQA3R42GHHJF7ASEFY&marketplace=FLIPKART&store=6bo%2Fb5g&srno=b_1_18&otracker=browse&fm=organic&iid=d68a3878-ba84-425a-b5c0-7b15e4319cb6.COMHKQA3R42GHHJF.SEARCH&ppt=None&ppn=None&ssid=djb2k9yovk0000001780349455498&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:31:18.477910",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Performance",
+          "Affordable Price"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      },
+      "analysis": {
+        "pros": [
+          "Good Performance",
+          "Affordable Price"
+        ],
+        "cons": [
+          "Limited Storage"
+        ],
+        "top_quote": "",
+        "sentiment_score": 80,
+        "quality_score": 80,
+        "recommendation": "Buy"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "SUJATA Maxima 900 W Juicer Mixer Grinder",
+      "price": 6980,
+      "original_price": 1107036,
+      "discount_percent": 36,
+      "rating": 4.5,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/1/p/6/-original-imahmrqmcrgbjfqu.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/sujata-maxima-900-w-juicer-mixer-grinder/p/itma2eecdaf4995f?pid=MIXGU5QEGSDGU7WK&lid=LSTMIXGU5QEGSDGU7WK3T2AAI&marketplace=FLIPKART&store=j9e&srno=b_3_120&otracker=browse&fm=organic&iid=7490293e-2d03-4831-bbc2-6825a32ac318.MIXGU5QEGSDGU7WK.SEARCH&ppt=None&ppn=None&ssid=jzp4cd67mo0000001780349585703&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2026 Model 1.5 Ton 4 Star Split Inverter AC",
+      "price": 38990,
+      "original_price": 6199037,
+      "discount_percent": 37,
+      "rating": 4.1,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/p/0/x/-original-imahmyaxchddssnt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-1-5-ton-4-star-split-inverter-ac/p/itm1363ff37ec852?pid=ACNHMRG29GVDTDXD&lid=LSTACNHMRG29GVDTDXDRDTNV7&marketplace=FLIPKART&store=j9e&srno=b_1_17&otracker=browse&fm=organic&iid=en_aDRJn8KzpFoTARZxGumh8SJI6lOppWTy02S7ERCfMmupfEdhU9qWxBCj0ZSrj-Gsf0KMY_p7MXvnl4iHicCCsfNzSJq5vUoApsGIr4piuio%3D&ppt=None&ppn=None&ssid=m3a2sai79c0000001780349567330&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2026 Model 1.5 Ton 4 Star Split Inverter AC",
+      "price": 38990,
+      "original_price": 6199037,
+      "discount_percent": 37,
+      "rating": 4.1,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/p/0/x/-original-imahmyaxchddssnt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2026-model-1-5-ton-4-star-split-inverter-ac/p/itm1363ff37ec852?pid=ACNHMRG29GVDTDXD&lid=LSTACNHMRG29GVDTDXDRDTNV7&marketplace=FLIPKART&store=j9e&srno=b_2_52&otracker=browse&fm=organic&iid=en_ReDEj7YEX83ux8fmIHsrzM9hK6uRO_Le2I4ALTvViV__GKTjmxVMeqObt-JqV1iIlt1B1I77T7EVOwaE0yysN6_79k9JweGWTUr13AZpY3Y%3D&ppt=None&ppn=None&ssid=pt2svgpits0000001780349578724&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
+      "analysis": {
+        "pros": [],
+        "cons": [],
+        "top_quote": "",
+        "sentiment_score": 0,
+        "quality_score": 0,
+        "recommendation": "Wait"
+      },
+      "is_vfm": false,
+      "vfm_score": 0,
+      "price_prediction": null,
+      "comparisons": []
+    },
+    {
+      "name": "Lloyd 2025 Model 1.5 Ton 5 Star Split Inverter AC",
+      "price": 38490,
+      "original_price": 6199037,
+      "discount_percent": 37,
+      "rating": 4.1,
+      "review_count": null,
+      "category": "Home_Kitchen",
+      "sub_category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/d/y/l/-original-imahcrhuvqzbubgf.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lloyd-2025-model-1-5-ton-5-star-split-inverter-ac/p/itm014e7059b73b1?pid=ACNHAF5BUYZH6EEC&lid=LSTACNHAF5BUYZH6EECNRLTFC&marketplace=FLIPKART&store=j9e&srno=b_2_67&otracker=browse&fm=organic&iid=en_ReDEj7YEX83ux8fmIHsrzM9hK6uRO_Le2I4ALTvViV-zTT1wsLINpFbtw7lRhbxAtqz-SdCIxl_Xa1K237Qv4QoALCbycPwh4GANX5MSKZw%3D&ppt=None&ppn=None&ssid=pt2svgpits0000001780349578724&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-01T21:33:10.834391",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      },
       "analysis": {
         "pros": [],
         "cons": [],

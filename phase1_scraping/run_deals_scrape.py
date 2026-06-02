@@ -276,6 +276,13 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
             page.close()
             return None
 
+        # Diagnostic: count product links visible on this page (helps diagnose 0-product cases)
+        try:
+            p_links = page.evaluate("() => document.querySelectorAll('a[href*=\"/p/\"]').length")
+            print(f'    /p/ links on page: {p_links}')
+        except Exception:
+            pass
+
         # Per-category discount cap: fashion/beauty have legitimately high badge discounts.
         _disc_cap = 95 if category in ('Men_Fashion', 'Women_Fashion') else 92 if category == 'Beauty' else 85
 

@@ -40,13 +40,13 @@ from config import DELAY_MIN, DELAY_MAX, USER_AGENTS
 DEAL_CATEGORY_URLS = {
     # Electronics: category pages with discount_dsc fills the page with discounted items.
     # popularity sort only shows popular items, many without visible discount badges.
-    # Mobiles: search URL avoids comparison/listing pages that show 0 discount cards.
-    "Mobiles":       "https://www.flipkart.com/search?q=redmi+realme+samsung+mobile&p%5B%5D=sort%3Ddiscount_dsc",
+    # Mobiles: smartphones subcategory SID gives standard listing cards (not comparison page).
+    "Mobiles":       "https://www.flipkart.com/mobiles/smartphones/pr?sid=tyy,4io,7ck&p%5B%5D=sort%3Ddiscount_dsc",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
-    # Fashion/Sports: search URLs avoid sid-based geo-redirects (Geography, Palanquins) via Tor.
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+polo+tshirt&p%5B%5D=sort%3Ddiscount_dsc",
-    "Women_Fashion": "https://www.flipkart.com/search?q=women+printed+kurti&p%5B%5D=sort%3Ddiscount_dsc",
+    # Fashion: kurta/kurti gives best product count; disc cap raised to 95% for ethnic wear.
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+kurta&p%5B%5D=sort%3Ddiscount_dsc",
+    "Women_Fashion": "https://www.flipkart.com/search?q=women+kurti&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Ddiscount_dsc",
     # Sports: sid=wr1 always redirects to Palanquins via Tor. Search URL avoids this.
@@ -276,6 +276,9 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
             page.close()
             return None
 
+        # Per-category discount cap: fashion/beauty have legitimately high badge discounts.
+        _disc_cap = 95 if category in ('Men_Fashion', 'Women_Fashion') else 92 if category == 'Beauty' else 85
+
         # JavaScript extraction — works on Playwright-rendered DOM regardless of CSS classes.
         # Finds product links (/p/ paths), walks up to the price container, extracts all data.
         _js = """
@@ -351,12 +354,12 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         const orig = prices.length > 1 ? Math.max(...prices) : null;
 
         // Badge text first (what user sees), price-based calc as fallback/correction.
-        // Price-based corrects inflated-MRP fashion: badge "90% off" but actual is 30% → passes.
         const dm = text.match(/(\\d{1,3})%\\s*off/i);
         let disc = dm ? parseInt(dm[1]) : null;
         if (!disc && orig && orig > cur)
             disc = Math.round((orig - cur) / orig * 100);
-        if (!disc || disc < 5 || disc > 92) continue;
+        // Per-category cap injected by Python (DISC_CAP placeholder).
+        if (!disc || disc < 5 || disc > __DISC_CAP__) continue;
 
         // Rating (look for X.X between 3.0 and 5.0)
         const rm = text.match(/\\b([3-5]\\.[0-9])\\b/);
@@ -375,7 +378,10 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
     return results.slice(0, 40);
 }
 """
-        raw = page.evaluate(_js)
+        _js_eval = _js.replace('__DISC_CAP__', str(_disc_cap))
+        raw = page.evaluate(_js_eval)
+        seen_hrefs_raw = {p['href'] for p in raw}
+        seen_names_raw = {p['name'].lower()[:60] for p in raw}
 
         # Always scrape page 2 to widen the candidate pool.
         # Skip page 3 only if we already have 30+ raw products (enough for 10 after filtering).
@@ -395,10 +401,18 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
                     time.sleep(1.0)
                 page.evaluate("window.scrollTo(0, 0)")
                 time.sleep(1.0)
-                raw2 = page.evaluate(_js)
+                raw2 = page.evaluate(_js_eval)
                 if raw2:
-                    raw.extend(raw2)
-                    print(f'    page {pg}: +{len(raw2)} raw products')
+                    # Deduplicate across pages by URL and name to prevent showing same product multiple times.
+                    new_only = [
+                        p for p in raw2
+                        if p['href'] not in seen_hrefs_raw
+                        and p['name'].lower()[:60] not in seen_names_raw
+                    ]
+                    seen_hrefs_raw.update(p['href'] for p in new_only)
+                    seen_names_raw.update(p['name'].lower()[:60] for p in new_only)
+                    raw.extend(new_only)
+                    print(f'    page {pg}: +{len(new_only)} new products (deduped)')
             except Exception as pg_err:
                 print(f'    page {pg}: {pg_err}')
                 break
@@ -706,7 +720,7 @@ def scrape_deals() -> list[dict]:
         p for p in products
         if p.get('name', '').lower() not in BAD_NAMES
         and (p.get('price') or 0) >= CATEGORY_MIN_PRICES.get(p.get('category', ''), 50)
-        and (p.get('discount_percent') or 0) <= 92
+        and (p.get('discount_percent') or 0) <= (95 if p.get('category') in ('Men_Fashion', 'Women_Fashion') else 92 if p.get('category') == 'Beauty' else 85)
     ]
     filtered = before - len(products)
     if filtered:
@@ -763,7 +777,7 @@ def scrape_deals() -> list[dict]:
     before_b = len(products)
     products = [
         p for p in products
-        if (p.get('discount_percent') or 0) <= 92
+        if (p.get('discount_percent') or 0) <= (95 if p.get('category') in ('Men_Fashion', 'Women_Fashion') else 92 if p.get('category') == 'Beauty' else 85)
         and (p.get('price') or 0) >= CATEGORY_MIN_PRICES.get(p.get('category', ''), 50)
     ]
     if before_b != len(products):

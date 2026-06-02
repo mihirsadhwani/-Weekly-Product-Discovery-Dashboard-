@@ -38,15 +38,16 @@ from config import DELAY_MIN, DELAY_MAX, USER_AGENTS
 # ---------------------------------------------------------------------------
 
 DEAL_CATEGORY_URLS = {
-    # Electronics: category pages with discount_dsc fills the page with discounted items.
-    # popularity sort only shows popular items, many without visible discount badges.
-    # Mobiles: smartphones subcategory SID gives standard listing cards (not comparison page).
-    "Mobiles":       "https://www.flipkart.com/mobiles/smartphones/pr?sid=tyy,4io,7ck&p%5B%5D=sort%3Ddiscount_dsc",
+    # Mobiles: SID tyy,4io,7ck always geo-redirects to "Instrument Stringers" via Tor (every circuit).
+    # Brand-name search URL ensures title has 'mobile'/'phone' for geo-check AND shows standard
+    # listing cards with visible % off badges (sorted by discount).
+    "Mobiles":       "https://www.flipkart.com/search?q=redmi+samsung+realme+mobile+phone&p%5B%5D=sort%3Ddiscount_dsc",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
-    # Fashion: kurta/kurti gives best product count; disc cap raised to 95% for ethnic wear.
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+kurta&p%5B%5D=sort%3Ddiscount_dsc",
-    "Women_Fashion": "https://www.flipkart.com/search?q=women+kurti&p%5B%5D=sort%3Ddiscount_dsc",
+    # Fashion: search URLs return "All Categories" format (120 links → 0-1 products — no MRP shown).
+    # SID-based category pages (clo,bmj / clo,rvz) return standard grid cards with % off badges.
+    "Men_Fashion":   "https://www.flipkart.com/mens-clothing/pr?sid=clo,bmj&p%5B%5D=sort%3Ddiscount_dsc",
+    "Women_Fashion": "https://www.flipkart.com/womens-clothing/pr?sid=clo,rvz&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Ddiscount_dsc",
     # Sports: sid=wr1 always redirects to Palanquins via Tor. Search URL avoids this.
@@ -55,10 +56,12 @@ DEAL_CATEGORY_URLS = {
 
 # Alternate search URLs tried when primary URL gives < 10 products after all 6 circuits.
 DEAL_CATEGORY_FALLBACK_URLS = {
-    "Mobiles":       "https://www.flipkart.com/search?q=4g+smartphones+under+20000&p%5B%5D=sort%3Ddiscount_dsc",
+    # Mobiles: second brand/spec query — enough keyword overlap that title passes geo-check.
+    "Mobiles":       "https://www.flipkart.com/search?q=vivo+oppo+oneplus+smartphone+4g+5g&p%5B%5D=sort%3Ddiscount_dsc",
     "Laptops":       "https://www.flipkart.com/search?q=laptop+computer&p%5B%5D=sort%3Ddiscount_dsc",
     "TVs":           "https://www.flipkart.com/search?q=smart+tv+television&p%5B%5D=sort%3Ddiscount_dsc",
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+cotton+casual+shirt&p%5B%5D=sort%3Ddiscount_dsc",
+    # Fashion fallbacks: ethnic wear reliably shows MRP + current price + % badge.
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+ethnic+wear+kurta+set&p%5B%5D=sort%3Ddiscount_dsc",
     "Women_Fashion": "https://www.flipkart.com/search?q=women+ethnic+wear+saree&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/search?q=home+kitchen+appliances&p%5B%5D=sort%3Ddiscount_dsc",
     "Beauty":        "https://www.flipkart.com/search?q=skincare+beauty+products&p%5B%5D=sort%3Ddiscount_dsc",
@@ -66,7 +69,7 @@ DEAL_CATEGORY_FALLBACK_URLS = {
 }
 
 CATEGORY_KEYWORDS = {
-    'Mobiles': ['mobile', 'phone', 'smartphone'],
+    'Mobiles': ['mobile', 'phone', 'smartphone', 'redmi', 'samsung', 'realme'],
     'Laptops': ['laptop', 'notebook'],
     'TVs': ['tv', 'television'],
     'Men_Fashion': ['men', 'kurta', 'shirt', 'tshirt', 'clothing', 'fashion'],
@@ -285,6 +288,9 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
 
         # Per-category discount cap: fashion/beauty have legitimately high badge discounts.
         _disc_cap = 95 if category in ('Men_Fashion', 'Women_Fashion') else 92 if category == 'Beauty' else 85
+        # Mobiles use "Special Price" format — no % off badge, sometimes no MRP shown.
+        # Allow null disc for Mobiles so those phones aren't silently dropped.
+        _disc_min = 0 if category == 'Mobiles' else 5
 
         # JavaScript extraction — works on Playwright-rendered DOM regardless of CSS classes.
         # Finds product links (/p/ paths), walks up to the price container, extracts all data.
@@ -365,8 +371,10 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
         let disc = dm ? parseInt(dm[1]) : null;
         if (!disc && orig && orig > cur)
             disc = Math.round((orig - cur) / orig * 100);
-        // Per-category cap injected by Python (DISC_CAP placeholder).
-        if (!disc || disc < 5 || disc > __DISC_CAP__) continue;
+        // __MIN_DISC__ = 0 for Mobiles (allow null disc — "Special Price" phones without badge).
+        // For all others __MIN_DISC__ = 5 (require visible discount).
+        if (disc !== null && (disc < __MIN_DISC__ || disc > __DISC_CAP__)) continue;
+        if (disc === null && __MIN_DISC__ > 0) continue;
 
         // Rating (look for X.X between 3.0 and 5.0)
         const rm = text.match(/\\b([3-5]\\.[0-9])\\b/);
@@ -385,7 +393,7 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
     return results.slice(0, 40);
 }
 """
-        _js_eval = _js.replace('__DISC_CAP__', str(_disc_cap))
+        _js_eval = _js.replace('__DISC_CAP__', str(_disc_cap)).replace('__MIN_DISC__', str(_disc_min))
         raw = page.evaluate(_js_eval)
         seen_hrefs_raw = {p['href'] for p in raw}
         seen_names_raw = {p['name'].lower()[:60] for p in raw}

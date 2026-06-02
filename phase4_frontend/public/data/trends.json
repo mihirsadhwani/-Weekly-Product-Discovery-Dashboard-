@@ -2,125 +2,125 @@
   "hot_categories": [
     {
       "category": "Home_Kitchen",
-      "count": 20
+      "count": 15
     },
     {
-      "category": "Sports",
+      "category": "Women_Fashion",
       "count": 15
     },
     {
       "category": "Laptops",
-      "count": 12
-    },
-    {
-      "category": "Beauty",
-      "count": 10
+      "count": 14
     },
     {
       "category": "TVs",
+      "count": 14
+    },
+    {
+      "category": "Beauty",
+      "count": 11
+    },
+    {
+      "category": "Sports",
       "count": 10
     },
     {
-      "category": "Women_Fashion",
-      "count": 7
-    },
-    {
       "category": "Men_Fashion",
-      "count": 6
+      "count": 7
     }
   ],
   "declining_categories": [
     {
-      "category": "Laptops",
-      "avg_sentiment": 79.2
-    },
-    {
-      "category": "TVs",
-      "avg_sentiment": 72.0
-    },
-    {
-      "category": "Sports",
-      "avg_sentiment": 52.8
-    },
-    {
       "category": "Home_Kitchen",
-      "avg_sentiment": 40.2
+      "avg_sentiment": 80.0
     },
     {
-      "category": "Beauty",
-      "avg_sentiment": 32.0
+      "category": "Laptops",
+      "avg_sentiment": 80.0
     },
     {
       "category": "Women_Fashion",
-      "avg_sentiment": 20.3
+      "avg_sentiment": 79.8
+    },
+    {
+      "category": "TVs",
+      "avg_sentiment": 63.9
+    },
+    {
+      "category": "Beauty",
+      "avg_sentiment": 36.4
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 24.0
     },
     {
       "category": "Men_Fashion",
-      "avg_sentiment": 14.2
+      "avg_sentiment": 23.6
     }
   ],
   "emerging_keywords": [
     {
+      "keyword": "performance",
+      "mentions": 11
+    },
+    {
       "keyword": "fast",
+      "mentions": 9
+    },
+    {
+      "keyword": "daily",
       "mentions": 8
     },
     {
-      "keyword": "easy",
+      "keyword": "wear",
+      "mentions": 8
+    },
+    {
+      "keyword": "thin",
+      "mentions": 8
+    },
+    {
+      "keyword": "affordable",
       "mentions": 7
     },
     {
       "keyword": "picture",
+      "mentions": 7
+    },
+    {
+      "keyword": "design",
       "mentions": 6
-    },
-    {
-      "keyword": "display",
-      "mentions": 6
-    },
-    {
-      "keyword": "thin",
-      "mentions": 6
-    },
-    {
-      "keyword": "light",
-      "mentions": 6
-    },
-    {
-      "keyword": "cooling",
-      "mentions": 5
-    },
-    {
-      "keyword": "effective",
-      "mentions": 5
     }
   ],
   "price_movements": [
     {
-      "category": "Beauty",
-      "avg_price": 469
+      "category": "Home_Kitchen",
+      "avg_price": 12927
     },
     {
       "category": "Sports",
-      "avg_price": 398
+      "avg_price": 443
     },
     {
-      "category": "Home_Kitchen",
-      "avg_price": 19439
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_price": 407
+      "category": "Beauty",
+      "avg_price": 364
     },
     {
       "category": "Women_Fashion",
-      "avg_price": 360
+      "avg_price": 749
     },
     {
-      "category": "TVs",
-      "avg_price": 18901
+      "category": "Men_Fashion",
+      "avg_price": 383
     },
     {
       "category": "Laptops",
-      "avg_price": 74592
+      "avg_price": 45133
+    },
+    {
+      "category": "TVs",
+      "avg_price": 22517
     }
   ],
   "best_deal": {
@@ -134,5 +134,5 @@
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-02T02:04:51.779321"
+  "generated_at": "2026-06-02T09:02:47.488447"
 }

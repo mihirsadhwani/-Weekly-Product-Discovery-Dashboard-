@@ -361,17 +361,17 @@ def scrape_light() -> list[dict]:
     analyzed = 0
     for i, product in enumerate(products, 1):
         reviews = product.pop('_reviews', [])
-        if reviews:
-            try:
-                qa = quick_analysis(product['name'], reviews)
-                product['quick_analysis'] = qa
+        try:
+            qa = quick_analysis(product['name'], reviews)
+            product['quick_analysis'] = qa
+            if reviews:
                 print(f'  [{i}/{len(products)}] score={qa.get("quick_score", 0)} | {product["name"][:35]}')
                 analyzed += 1
-            except Exception as e:
-                print(f'  [{i}/{len(products)}] analysis error: {e}')
-                product['quick_analysis'] = None
-            time.sleep(2)
-        else:
+                time.sleep(2)
+            else:
+                product['quick_analysis'] = qa  # fallback dict, no API call made
+        except Exception as e:
+            print(f'  [{i}/{len(products)}] analysis error: {e}')
             product['quick_analysis'] = None
 
     output_dir = Path(__file__).parent.parent / 'output'

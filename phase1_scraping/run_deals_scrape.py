@@ -47,7 +47,9 @@ DEAL_CATEGORY_URLS = {
     # Fashion: SID clo,bmj always geo-redirects to "Beakers" via Tor (confirmed across multiple runs).
     # clo,rvz works. For Men_Fashion, use ethnic-wear search — sherwanis/pathani suits always
     # show MRP + % badge (same marketing pattern as sarees which reliably gave 14 products).
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+sherwani+ethnic+wear&p%5B%5D=sort%3Ddiscount_dsc",
+    # Broad ethnic-wear search: sherwanis + kurta sets both show MRP in search results.
+    # __MIN_DISC__=0 (like Mobiles) allows null-disc ethnic items that lack a % badge.
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+sherwani+kurta+set+ethnic&p%5B%5D=sort%3Ddiscount_dsc",
     "Women_Fashion": "https://www.flipkart.com/womens-clothing/pr?sid=clo,rvz&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Ddiscount_dsc",
@@ -73,7 +75,7 @@ CATEGORY_KEYWORDS = {
     'Mobiles': ['mobile', 'phone', 'smartphone', 'redmi', 'samsung', 'realme'],
     'Laptops': ['laptop', 'notebook'],
     'TVs': ['tv', 'television'],
-    'Men_Fashion': ['men', 'kurta', 'shirt', 'tshirt', 'clothing', 'fashion'],
+    'Men_Fashion': ['men', 'kurta', 'shirt', 'tshirt', 'clothing', 'fashion', 'sherwani', 'ethnic'],
     'Women_Fashion': ['women', 'kurti', 'western', 'dress', 'clothing', 'wear', 'fashion'],
     'Home_Kitchen': ['home', 'kitchen'],
     'Beauty': ['beauty', 'grooming'],
@@ -289,9 +291,11 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
 
         # Per-category discount cap: fashion/beauty have legitimately high badge discounts.
         _disc_cap = 95 if category in ('Men_Fashion', 'Women_Fashion') else 92 if category == 'Beauty' else 85
-        # Mobiles use "Special Price" format — no % off badge, sometimes no MRP shown.
-        # Allow null disc for Mobiles so those phones aren't silently dropped.
-        _disc_min = 0 if category == 'Mobiles' else 5
+        # Mobiles use "Special Price" format; Men_Fashion ethnic-wear search returns items
+        # that often omit the % badge even when heavily discounted. Allow null disc for both
+        # so those products aren't silently dropped. The search URLs are specific enough that
+        # unrelated products are very unlikely to slip through.
+        _disc_min = 0 if category in ('Mobiles', 'Men_Fashion') else 5
 
         # JavaScript extraction — works on Playwright-rendered DOM regardless of CSS classes.
         # Finds product links (/p/ paths), walks up to the price container, extracts all data.

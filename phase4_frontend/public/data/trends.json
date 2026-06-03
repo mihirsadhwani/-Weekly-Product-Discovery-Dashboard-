@@ -1,16 +1,16 @@
 {
   "hot_categories": [
     {
-      "category": "Laptops",
-      "count": 15
-    },
-    {
-      "category": "Sports",
+      "category": "Beauty",
       "count": 13
     },
     {
+      "category": "Sports",
+      "count": 12
+    },
+    {
       "category": "Home_Kitchen",
-      "count": 11
+      "count": 12
     },
     {
       "category": "Women_Fashion",
@@ -21,7 +21,7 @@
       "count": 10
     },
     {
-      "category": "Beauty",
+      "category": "Laptops",
       "count": 10
     },
     {
@@ -30,121 +30,88 @@
     },
     {
       "category": "Men_Fashion",
-      "count": 2
+      "count": 4
     }
   ],
   "declining_categories": [
     {
-      "category": "Laptops",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "TVs",
-      "avg_sentiment": 40.5
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_sentiment": 40.0
-    },
-    {
-      "category": "Sports",
-      "avg_sentiment": 36.8
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_sentiment": 32.0
-    },
-    {
       "category": "Beauty",
       "avg_sentiment": 0.0
     },
     {
       "category": "Home_Kitchen",
       "avg_sentiment": 0.0
+    },
+    {
+      "category": "Laptops",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "TVs",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_sentiment": 0.0
     }
   ],
-  "emerging_keywords": [
-    {
-      "keyword": "fast",
-      "mentions": 17
-    },
-    {
-      "keyword": "performance",
-      "mentions": 14
-    },
-    {
-      "keyword": "thin",
-      "mentions": 9
-    },
-    {
-      "keyword": "light",
-      "mentions": 8
-    },
-    {
-      "keyword": "design",
-      "mentions": 7
-    },
-    {
-      "keyword": "display",
-      "mentions": 6
-    },
-    {
-      "keyword": "battery",
-      "mentions": 6
-    },
-    {
-      "keyword": "workout",
-      "mentions": 5
-    }
-  ],
+  "emerging_keywords": [],
   "price_movements": [
     {
       "category": "Sports",
-      "avg_price": 417
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_price": 740
-    },
-    {
-      "category": "Laptops",
-      "avg_price": 62017
-    },
-    {
-      "category": "TVs",
-      "avg_price": 20484
-    },
-    {
-      "category": "Beauty",
-      "avg_price": 324
+      "avg_price": 653
     },
     {
       "category": "Home_Kitchen",
-      "avg_price": 16467
+      "avg_price": 8040
     },
     {
-      "category": "Mobiles",
-      "avg_price": 24399
+      "category": "Beauty",
+      "avg_price": 517
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 601
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 482
+      "avg_price": 1104
+    },
+    {
+      "category": "TVs",
+      "avg_price": 22244
+    },
+    {
+      "category": "Laptops",
+      "avg_price": 48231
+    },
+    {
+      "category": "Mobiles",
+      "avg_price": 25099
     }
   ],
   "best_deal": {
-    "name": "Men Embroidered Cotton Rayon A-line Kurta",
-    "price": 445,
-    "original_price": 356087,
-    "discount_percent": 87,
-    "category": "Men_Fashion",
-    "score": 80,
-    "flipkart_url": "https://www.flipkart.com/almora-men-embroidered-a-line-kurta/p/itm4716be295ced6?pid=KTAGYFK8JDMTAVVG&lid=LSTKTAGYFK8JDMTAVVGOPT2YY&marketplace=FLIPKART&q=men+kurta&store=clo%2Fcfv%2Fcib%2Fjks&srno=s_2_59&otracker=search&fm=organic&iid=f5bac05f-c73d-4133-87a7-58c2b929a3f3.KTAGYFK8JDMTAVVG.SEARCH&ppt=sp&ppn=sp&ssid=jecqgo29j40000001780405247747&qH=25d9d61470ceb6f0"
+    "name": "PRO365 Combo Of Double TT, Pushup Bar, Toning Tube and ...",
+    "price": 651,
+    "original_price": 410084,
+    "discount_percent": 84,
+    "category": "Sports",
+    "score": 0,
+    "flipkart_url": "https://www.flipkart.com/pro365-combo-double-tt-pushup-bar-toning-tube-abdominal-wheel-ab-exerciser-fitness-accessory-kit/p/itm71aadc4bea0a6?pid=KITGZZFMUVB8KTQQ&lid=LSTKITGZZFMUVB8KTQQN1NQGP&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_2_67&otracker=search&fm=organic&iid=0a3f68de-5716-4807-8972-6b35eb8675f0.KITGZZFMUVB8KTQQ.SEARCH&ppt=sp&ppn=sp&ssid=4i1ybvi69s0000001780460692417&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-02T19:20:06.297169"
+  "generated_at": "2026-06-03T04:52:55.029653"
 }

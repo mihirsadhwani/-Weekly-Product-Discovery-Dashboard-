@@ -44,9 +44,10 @@ DEAL_CATEGORY_URLS = {
     "Mobiles":       "https://www.flipkart.com/search?q=redmi+samsung+realme+mobile+phone&p%5B%5D=sort%3Ddiscount_dsc",
     "Laptops":       "https://www.flipkart.com/computers/laptops/pr?sid=6bo,b5g&p%5B%5D=sort%3Dpopularity",
     "TVs":           "https://www.flipkart.com/televisions/pr?sid=ckf,czl&p%5B%5D=sort%3Dpopularity",
-    # Fashion: search URLs return "All Categories" format (120 links → 0-1 products — no MRP shown).
-    # SID-based category pages (clo,bmj / clo,rvz) return standard grid cards with % off badges.
-    "Men_Fashion":   "https://www.flipkart.com/mens-clothing/pr?sid=clo,bmj&p%5B%5D=sort%3Ddiscount_dsc",
+    # Fashion: SID clo,bmj always geo-redirects to "Beakers" via Tor (confirmed across multiple runs).
+    # clo,rvz works. For Men_Fashion, use ethnic-wear search — sherwanis/pathani suits always
+    # show MRP + % badge (same marketing pattern as sarees which reliably gave 14 products).
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+sherwani+ethnic+wear&p%5B%5D=sort%3Ddiscount_dsc",
     "Women_Fashion": "https://www.flipkart.com/womens-clothing/pr?sid=clo,rvz&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/home-kitchen/pr?sid=j9e&p%5B%5D=sort%3Dpopularity",
     "Beauty":        "https://www.flipkart.com/beauty-grooming/pr?sid=g9b,ffi&p%5B%5D=sort%3Ddiscount_dsc",
@@ -60,8 +61,8 @@ DEAL_CATEGORY_FALLBACK_URLS = {
     "Mobiles":       "https://www.flipkart.com/search?q=vivo+oppo+oneplus+smartphone+4g+5g&p%5B%5D=sort%3Ddiscount_dsc",
     "Laptops":       "https://www.flipkart.com/search?q=laptop+computer&p%5B%5D=sort%3Ddiscount_dsc",
     "TVs":           "https://www.flipkart.com/search?q=smart+tv+television&p%5B%5D=sort%3Ddiscount_dsc",
-    # Fashion fallbacks: ethnic wear reliably shows MRP + current price + % badge.
-    "Men_Fashion":   "https://www.flipkart.com/search?q=men+ethnic+wear+kurta+set&p%5B%5D=sort%3Ddiscount_dsc",
+    # Fashion fallbacks: different ethnic wear product type — both always show MRP + % badge.
+    "Men_Fashion":   "https://www.flipkart.com/search?q=men+pathani+suit+cotton+ethnic&p%5B%5D=sort%3Ddiscount_dsc",
     "Women_Fashion": "https://www.flipkart.com/search?q=women+ethnic+wear+saree&p%5B%5D=sort%3Ddiscount_dsc",
     "Home_Kitchen":  "https://www.flipkart.com/search?q=home+kitchen+appliances&p%5B%5D=sort%3Ddiscount_dsc",
     "Beauty":        "https://www.flipkart.com/search?q=skincare+beauty+products&p%5B%5D=sort%3Ddiscount_dsc",

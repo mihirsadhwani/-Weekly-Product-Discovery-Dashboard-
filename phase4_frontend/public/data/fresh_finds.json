@@ -1,1189 +1,285 @@
 {
-  "date": "2026-06-03T18:42:18Z",
-  "total_products": 70,
+  "date": "2026-06-04T09:23:26Z",
+  "total_products": 20,
   "products": [
     {
-      "name": "Women Crepe Kurta Pant Dupatta Set",
-      "price": 899,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/ethnic-set/s/j/y/xl-sky-blue-rasamalai-suit-tf-trijal-fab-original-imaheeef8grhtbkw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/yipsy-fashion-women-kurta-pant-dupatta-set/p/itm1c60e74b0328d?pid=ETHHNNKKUG28DEBZ&lid=LSTETHHNNKKUG28DEBZHL6T3P&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.ETHHNNKKUG28DEBZ.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.793454",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Pure Cotton Solid Grey Women Dupatta",
-      "price": 178,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-dupatta/y/o/t/2-25-meters-1-grey-dup-001-crazy-attires-women-original-imahh7msnsygsgfr.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sibracreation-pure-cotton-solid-women-dupatta/p/itm50a97ecbe3dbc?pid=DUPHNUJWHEYZRHKW&lid=LSTDUPHNUJWHEYZRHKWVHC3MI&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.DUPHNUJWHEYZRHKW.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.793696",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Poly Georgette Embroidered Pink Women Dupatta",
-      "price": 403,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/v/5/i/2-25-meters-1-2sd-gulabi-kruvisha-original-imahntkhes9hhqke.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kruvisha-poly-georgette-embroidered-women-dupatta/p/itmd554487a184be?pid=DUPHNTHDFHUY57WQ&lid=LSTDUPHNTHDFHUY57WQN7H5FO&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.DUPHNTHDFHUY57WQ.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.793912",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Embroidered design",
-          "Affordable price"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Chiffon Solid White Women Dupatta",
-      "price": 178,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-dupatta/b/i/a/2-25-meters-2-nt69whiteredcombo-crazy-attires-women-original-imahh7mrtyqfzrga.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sibracreation-chiffon-solid-women-dupatta/p/itm63e9108c9dcc9?pid=DUPHNUJ8HPM6EVQF&lid=LSTDUPHNUJ8HPM6EVQFNAEUKP&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.DUPHNUJ8HPM6EVQF.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.794219",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Good Quality"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pure Cotton Solid White Women Dupatta",
-      "price": 178,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-dupatta/y/o/f/2-25-meters-1-dup-wht-cot-001-crazy-attires-women-original-imahh7msxpkbcg7h.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/flyxo-pure-cotton-solid-women-dupatta/p/itmb2d10dc8e3260?pid=DUPHNUJ5XKBZVGAN&lid=LSTDUPHNUJ5XKBZVGAN1UZALH&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.DUPHNUJ5XKBZVGAN.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.794429",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Baby Boys & Baby Girls Casual T-shirt Pant",
-      "price": 223,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/y/d/u/0-3-months-ifa-cp-hola-butter-orange-hoc-ifadresses-original-imahm6jfmswmehk7.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ifa-fashion-baby-boys-girls-casual-t-shirt-pant/p/itmffc78311b06b0?pid=KPBHZY7YNVT4CFUJ&lid=LSTKPBHZY7YNVT4CFUJSGPYGR&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.KPBHZY7YNVT4CFUJ.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.794644",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Cute design"
-        ],
-        "top_con": "Size issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pack of 2 Printed Women Round Neck Pure Cotton Multicol...",
-      "price": 448,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/p/v/0/s-2026-ovrsize-353-christy-world-original-imahm5af4zuzyfqz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/metronaut-printed-women-round-neck-multicolor-t-shirt/p/itm32fc460cd4c00?pid=TSHHN9HPC4TZ8UTW&lid=LSTTSHHN9HPC4TZ8UTWNYS1UU&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.TSHHN9HPC4TZ8UTW.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.794844",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pack of 3 Women Solid Crepe A-line Kurta",
-      "price": 395,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/l/w/u/m-net-green-yellow-black-hofc-original-imahgtn6rktkxwet.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ccoft-women-solid-a-line-kurta/p/itm33a191ba5390b?pid=KTAHZY3GGAG6FJBZ&lid=LSTKTAHZY3GGAG6FJBZFKSVSD&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.KTAHZY3GGAG6FJBZ.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.795081",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Good Quality"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pure Cotton Solid White Women Dupatta",
-      "price": 178,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/t/m/9/2-25-meters-1-cotton-white-flyxo-original-imahnuj5fxgyux8a.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sibracreation-pure-cotton-solid-women-dupatta/p/itma0e2c4bd23c1b?pid=DUPHNUJ8KZRH52UB&lid=LSTDUPHNUJ8KZRH52UBQSY5MV&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.DUPHNUJ8KZRH52UB.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.795287",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pack of 2 Women Printed Round Neck Pure Cotton Maroon, ...",
-      "price": 447,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/h/q/q/xl-women-printed-t-shirt-49bhr-nexcy-original-imahmrgzqjrux4vy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hoc-printed-women-round-neck-maroon-green-t-shirt/p/itm300de29647a4a?pid=TSHHZY5XGNYH2KJH&lid=LSTTSHHZY5XGNYH2KJHG3LWJR&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=7b5577fb-8cb4-447f-a7de-88c444f02d73.TSHHZY5XGNYH2KJH.SEARCH&ppt=None&ppn=None&ssid=suweux6hi80000001780481933215&ov_redirect=true",
-      "scraped_at": "2026-06-03T10:18:54.795493",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Girls Maxi/Full Length Casual Dress",
-      "price": 442,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/n/k/x/5-6-years-d-w-051-flora-original-imah2ynyhsnu44zw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/chakli-girls-maxi-full-length-casual-dress/p/itm0c5a6dc609f45?pid=KDEHZY8ANKCBMQEK&lid=LSTKDEHZY8ANKCBMQEK3J07TB&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.KDEHZY8ANKCBMQEK.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.861942",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Cotton Blend Solid White Women Dupatta",
-      "price": 178,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-dupatta/x/4/j/2-25-meters-1-women-pure-solid-cotton-dupatta-with-pom-pom-original-imahh7msxk9b29xe.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sibracreation-cotton-blend-solid-women-dupatta/p/itma59d25d458c12?pid=DUPHNUKJH7UXUUXJ&lid=LSTDUPHNUKJH7UXUUXJRPQMCK&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.DUPHNUKJH7UXUUXJ.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.862170",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Cotton blend"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Poly Georgette Embroidered Maroon Women Dupatta",
-      "price": 403,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/n/f/c/2-25-meters-1-2sd-wine-kruvisha-original-imahntkh2ahkmg2f.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kruvisha-poly-georgette-embroidered-women-dupatta/p/itm095398f51ece1?pid=DUPHNTHEF3JZFUZH&lid=LSTDUPHNTHEF3JZFUZHA3PYKL&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.DUPHNTHEF3JZFUZH.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.862380",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Embroidered design",
-          "Affordable price"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Embellished, Blocked Printed, Woven, Self Design Daily ...",
-      "price": 315,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/w/c/x/free-sn-167-lakshmi-fashions-unstitched-original-imahmsjkt6mghmkt.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/lakshmi-fashions-embellished-blocked-printed-woven-self-design-daily-wear-pure-cotton-saree/p/itmfde0e596ee46f?pid=SARHMSJKBF7RSPJS&lid=LSTSARHMSJKBF7RSPJSWC0NSM&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.SARHMSJKBF7RSPJS.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.862646",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pure Cotton Solid White Women Dupatta",
-      "price": 178,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/4/d/h/2-5-meters-1-pure-cotton-white-dupatta-flyxo-original-imahnukdg8qkmkhk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sibracreation-pure-cotton-solid-women-dupatta/p/itm5da56a9092aa4?pid=DUPHNUKDRRQ3PZJG&lid=LSTDUPHNUKDRRQ3PZJGF6JPUD&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.DUPHNUKDRRQ3PZJG.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.862909",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pack of 2 Men Solid Polo Neck Pure Cotton Black, White ...",
-      "price": 898,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/2/1/f/s-smart-men-premium-polo-sharx-trends-original-imahzybybkhc89mz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sharx-trends-solid-men-polo-neck-black-white-t-shirt/p/itmff89b8878c459?pid=TSHHZYBY6K5PHKSV&lid=LSTTSHHZYBY6K5PHKSVMV4R8I&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.TSHHZYBY6K5PHKSV.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.863110",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Women Night Suit Set Grey Printed",
-      "price": 400,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-suit/b/y/y/xl-new26-nightsuit22-dres-craftss-original-imahmgtgcggzafsm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hoc-women-printed-grey-night-suit-set/p/itm576d05d37d1ee?pid=NSTHZYEQED3QTVH2&lid=LSTNSTHZYEQED3QTVH2FJR8IX&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.NSTHZYEQED3QTVH2.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.863306",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Comfortable Grey",
-          "Affordable Price"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Men Self Design Round Neck Polyester White T-Shirt",
+      "name": "Pack of 3 Solid Men Trunk",
       "price": 260,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/l/h/s/m-headspin20-white-m-men-round-bz-indian-eagle-original-imahgmewkhvachey.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/dubifas-trend-self-design-men-round-neck-white-t-shirt/p/itm583470600451f?pid=TSHHZYERMSYZQYDR&lid=LSTTSHHZYERMSYZQYDRCVQUGX&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.TSHHZYERMSYZQYDR.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.863507",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brief/6/l/r/l-3-re-fk-trunk-printed-90-3pcs-bothra-original-imahgvpgcbvtmkhm.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/bothra-men-brief/p/itmb0e804e8bca98?pid=BRFHJ753WSJZTUKZ&lid=LSTBRFHJ753WSJZTUKZIOFIO1&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.BRFHJ753WSJZTUKZ.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.566487",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Good quality"
-        ],
-        "top_con": "No reviews",
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
         "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "Woven Bollywood Organza Saree",
+      "name": "Solid Women Raincoat",
+      "price": 160,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-raincoat/6/b/b/xxl-1-sh-rai-hoc-fk2-1pc-button-raincoat-xxl-h-17-multi2-original-imahngbazzpbe9yz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/livik-solid-women-raincoat/p/itm101b42c69b7e3?pid=RNCHNKHR5D7KFMGQ&lid=LSTRNCHNKHR5D7KFMGQ8U0UUW&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.RNCHNKHR5D7KFMGQ.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.566740",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Solid Women Raincoat",
+      "price": 172,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-raincoat/2/n/p/free-1-raincoat-paryag-men-women-original-imahm4gdheswzhxg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/paryag-solid-women-raincoat/p/itma5c1b28a38a6e?pid=RNCHNHHAQNJ2XD4Z&lid=LSTRNCHNHHAQNJ2XD4Z4G35LP&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.RNCHNHHAQNJ2XD4Z.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.566931",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Printed Bollywood Organza Saree",
+      "price": 899,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/v/r/b/free-hn-vnd-638-maroon-here-now-unstitched-original-imahhheykbrpgwhs.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/yipsy-fashion-printed-bollywood-organza-saree/p/itm712f721723c8a?pid=SARHK8KCXJVYWYGZ&lid=LSTSARHK8KCXJVYWYGZ78WPNF&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.SARHK8KCXJVYWYGZ.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.567131",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "trendycarthub Silk Blend Abaya",
       "price": 539,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/j/z/o/free-rajnigandha-patang-pich-r-out-b4-aarunika-sbt-unstitched-original-imahns7hzyhrssyv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/aarunika-lgf-woven-bollywood-organza-saree/p/itm2044723f213e3?pid=SARHNUZAUEYNRF9G&lid=LSTSARHNUZAUEYNRF9G6QOBXM&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.SARHNUZAUEYNRF9G.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.863725",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/abaya-burqa/s/d/l/free-h6660-trendycarthub-original-imahnqey99q33tvj.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/trendycarthub-silk-blend-abaya/p/itm91417b677c506?pid=ABQHNQEY7BCBRFXZ&lid=LSTABQHNQEY7BCBRFXZTSWUYC&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.ABQHNQEY7BCBRFXZ.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.567308",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Bollywood style"
-        ],
-        "top_con": "Quality unknown",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Baby Boys Self Design Cotton Blend Regular T Shirt",
-      "price": 167,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-t-shirt/h/d/q/0-1-month-kd-t-shirt-147-vk-trendz-original-imahzy6zzc2er2u9.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vk-trendz-baby-boys-self-design-cotton-blend-regular-t-shirt/p/itm4073a52140903?pid=KTBHZY9YAFSUCSBV&lid=LSTKTBHZY9YAFSUCSBVKAJHE8&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=93c6fa78-12d8-4858-a3cf-e16f28fdf490.KTBHZY9YAFSUCSBV.SEARCH&ppt=None&ppn=None&ssid=z85xwl3xw00000001780500256305&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:17.863928",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Cotton Blend",
-          "Affordable Price"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "The Violet Tag Set of 24 artificial reusable nails in V...",
-      "price": 209,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/artificial-nail/5/7/5/set-of-24-artificial-reusable-nails-in-vanilla-moon-design-with-original-imahj83zug56gktk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/violet-tag-set-24-artificial-reusable-nails-vanilla-moon-design-glue-silver/p/itmd58c8d8501a5b?pid=ALNHJ864WR8GV4UZ&lid=LSTALNHJ864WR8GV4UZUVGML7&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.ALNHJ864WR8GV4UZ.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.631242",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Reusable nails",
-          "Affordable price"
-        ],
-        "top_con": "Limited designs",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Kraivo Anti Paronychia Relief Oil | for nail care and a...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-nail-filer/9/4/n/2-anti-paronychia-relief-oil-for-daily-healthy-nail-appearance-original-imahzf8xndgwgzsk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kraivo-anti-paronychia-relief-oil-nail-care-appearance-support/p/itmff8cd974aa582?pid=NFLHZFY84VTXDDKF&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.NFLHZFY84VTXDDKF.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.631572",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Nail care support",
-          "Relief oil"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Kraivo Anti Paronychia Relief Oil | for stronger health...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-nail-filer/d/b/m/2-anti-paronychia-relief-oil-for-daily-nail-beauty-and-comfort-original-imahzf8xdeyajywe.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kraivo-anti-paronychia-relief-oil-stronger-healthy-nail-appearance/p/itm48ed9e9462ba2?pid=NFLHZFAAQTG4F6CV&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.NFLHZFAAQTG4F6CV.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.631909",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Healthy nail",
-          "Strong relief"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Qurielle Beauty Tools Makeup Brush Set with Blender Puf...",
-      "price": 76,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/2/x/j/beauty-tools-makeup-brush-set-with-blender-puff-10-gcmb011-original-imahzf58hmbsvvpv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/qurielle-beauty-tools-makeup-brush-set-blender-puff/p/itm41278e84a75f0?pid=BARHZF59VSUFDKXZ&lid=LSTBARHZF59VSUFDKXZ4JW2FR&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.BARHZF59VSUFDKXZ.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.632140",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Good Quality"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Givni Mart Travel Mini Foldable Compact Square Design B...",
-      "price": 267,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact-mirror/f/r/v/2-foldable-compact-beauty-makeup-pocket-mirror-square-sqr-original-imahjhnrrupzhttk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/givni-mart-travel-mini-foldable-compact-square-design-beauty-makeup-pocket-mirror/p/itmd6a680c717e84?pid=CTMHJNRMTRE57THH&lid=LSTCTMHJNRMTRE57THH0C4QLW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.CTMHJNRMTRE57THH.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.632367",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Compact Design",
-          "Portable"
-        ],
-        "top_con": "Limited Zoom",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "GULGLOW99 Gel lipstick Moisturising Glossy Finish Gives...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-balm/l/i/c/3-6-gel-lipstick-moisturising-glossy-finish-gives-a-natural-original-imahzf7ranjf3w4w.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/gulglow99-gel-lipstick-moisturising-glossy-finish-gives-natural-colour-changing-fruity/p/itm4587d1cc74fb3?pid=LPBHZF8NCGH6YWBF&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.LPBHZF8NCGH6YWBF.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.632698",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Moisturising",
-          "Glossy Finish"
-        ],
-        "top_con": "Colour Changing",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "GFSU - GO FOR SOMETHING UNIQUE Glossy Finish Nail Polis...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-polish/g/c/f/10-glossy-finish-nail-polish-10ml-no-toxin-glossy-nail-lacquer-original-imahzfywmnuqk99g.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/gfsu-go-something-unique-glossy-finish-nail-polish-10ml-no-toxin-lacquer-red/p/itm4676b43520382?pid=NLPHZFYYX6K6PG9G&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.NLPHZFYYX6K6PG9G.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.633024",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Glossy Finish",
-          "No Toxin"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "ROSEFLIX doting vision Perimium Quality Face Makeup Com...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/makeup-kit/e/u/x/perimium-quality-face-makeup-combo-pack-of-11pcs-roseflix-doting-original-imahzfavtgp7qvwj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/roseflix-doting-vision-perimium-quality-face-makeup-combo-pack-11pcs/p/itm48e8da8cdd3f6?pid=MKTHZFAWAJJKTGJM&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.MKTHZFAWAJJKTGJM.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.633350",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Good Quality",
-          "Complete Kit"
-        ],
-        "top_con": "Unknown Brand",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "shanara LOVE & LUSH Red edition Matte liquid lipstic (s...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/f/f/n/15-love-lush-red-edition-matte-liquid-lipstic-set-of-4-10060-original-imahzfyqhuefbyzt.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/shanara-love-lush-red-matte-liquid-lipstic-set-4-10060/p/itm3d5c52210a230?pid=LSKHZFF47Z63ADYW&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.LSKHZFF47Z63ADYW.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.633656",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Matte Finish",
-          "Multicolor Options"
-        ],
-        "top_con": "Limited Reviews",
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
         "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "MANEKI-NEKO Bright Pink Velvet Liquid Lipstick",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/y/w/7/16-bright-pink-velvet-liquid-lipstick-maneki-neko-original-imahzf7vcspgzr5m.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/maneki-neko-bright-pink-velvet-liquid-lipstick/p/itm40bdce2196c03?pid=LSKHZF8X483EUYBT&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=61893074-0f53-43ef-93e0-70b0a732ca57.LSKHZF8X483EUYBT.SEARCH&ppt=None&ppn=None&ssid=v7x3sqxkbk0000001780500264530&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T15:24:25.633980",
+      "name": "Woven Banarasi Satin Saree",
+      "price": 808,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/u/x/y/free-copy-marron-003-jaal-mg-sf-saree-creation-unstitched-original-imahnz4yskvzzqej.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/banarasi-parampara-woven-satin-saree/p/itm16755c3dafc9c?pid=SARHZFGCN5YFHBYY&lid=LSTSARHZFGCN5YFHBYYDPYW89&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.SARHZFGCN5YFHBYY.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.567494",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Vibrant Pink Color",
-          "Matte Finish"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "POCO C85x Charger in the Box (Sunset Gold, 64 GB)",
-      "price": 12499,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/g/l/-original-imahmqga4sxzfnzn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/poco-c85x-charger-box-sunset-gold-64-gb/p/itmb4f0abb00b20c?pid=MOBHMGG5PYZRFMKU&lid=LSTMOBHMGG5PYZRFMKUCJZJZ4&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHMGG5PYZRFMKU.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.285545",
+      "name": "Men Regular Fit Solid Spread Collar Casual Shirt",
+      "price": 397,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/c/c/m/xl-sd-fulslbabypink-bhikadiya-original-imahgnn6zguudeue.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/dhyanifashionss-trend-men-solid-casual-pink-shirt/p/itm1582c63ac4711?pid=SHTHZFHHYEXAU8X5&lid=LSTSHTHZFHHYEXAU8X50R1FR9&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.SHTHZFHHYEXAU8X5.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.567681",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Fast Charging"
-        ],
-        "top_con": "Out of Stock",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "realme P4 Lite 5G (Mosaic Green, 64 GB)",
-      "price": 14999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/f/p/-original-imahhngjhhgsxpe4.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-64-gb/p/itm90c243961f214?pid=MOBHHFBUUUQNXRGX&lid=LSTMOBHHFBUUUQNXRGXKR3NYG&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHHFBUUUQNXRGX.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.285722",
+      "name": "Women Beige, Black, White Camisole",
+      "price": 304,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/camisole-slip/s/t/y/4xl-3-2in1-bra-slip-diku-original-imahj8whdwxzfbb4.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/diku-women-camisole/p/itmcf8b3cf049a07?pid=CSPHJ8WHAXBFFNGS&lid=LSTCSPHJ8WHAXBFFNGS05QKVD&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.CSPHJ8WHAXBFFNGS.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.567863",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Fast 5G"
-        ],
-        "top_con": "Low Storage",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "HMD Vibe2 5G (Peach Pink, 64 GB)",
-      "price": 12999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/b/c/-original-imahnkky6hkycnhv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-5g-peach-pink-64-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYHR2G4DPH&lid=LSTMOBHN6XYHR2G4DPHDCM2MY&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHN6XYHR2G4DPH.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.285885",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "5G Support"
-        ],
-        "top_con": "Low Storage",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HMD Vibe2 5G (Nordic Blue, 128 GB)",
-      "price": 13999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/8/t/-original-imahnkky56bcvnaz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-5g-nordic-blue-128-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYNGZQCBWB&lid=LSTMOBHN6XYNGZQCBWBVAYNRE&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHN6XYNGZQCBWB.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.286035",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "5G Support"
-        ],
-        "top_con": "RAM Concern",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "REDMI Note 15 SE 5G Snapdragon (Crimson Reserve, 128 GB)",
-      "price": 22999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/b/z/-original-imahn99tk2z4jh4j.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/redmi-note-15-se-5g-snapdragon-crimson-reserve-128-gb/p/itm9673d59744d29?pid=MOBHN52FTTUWZGBA&lid=LSTMOBHN52FTTUWZGBA7GXSD5&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHN52FTTUWZGBA.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.286178",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Fast 5G",
-          "Good Battery"
-        ],
-        "top_con": "High Price",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "POCO M8 Charger in the Box (Frost Silver, 128 GB)",
-      "price": 19999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/o/5/k/-original-imahmqgafdchqxug.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/poco-m8-charger-box-frost-silver-128-gb/p/itma321e3a229e7b?pid=MOBHMGG5HBC8MRBG&lid=LSTMOBHMGG5HBC8MRBGXF9FVG&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHMGG5HBC8MRBG.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.286315",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Battery",
-          "Fast Charging"
-        ],
-        "top_con": "Limited Storage",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HOTLINE TIGER",
+      "name": "Printed Couple T-shirts Twinning Set",
       "price": 599,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/f/x/tiger-tiger-hotline-original-imahhwaapjtgm69h.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hotline-tiger/p/itm80299e38ac1bd?pid=MOBHHWAA9DJGPNFS&lid=LSTMOBHHWAA9DJGPNFSSNG8TR&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHHWAA9DJGPNFS.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.286455",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Good Offers"
-        ],
-        "top_con": "Limited Info",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "realme P4 Lite 5G (Mosaic Green, 128 GB)",
-      "price": 16499,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/j/x/-original-imahhngsymvs8bfs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-gb/p/itm90c243961f214?pid=MOBHN7A8PBUWNHG5&lid=LSTMOBHN7A8PBUWNHG5BENLLV&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHN7A8PBUWNHG5.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.286599",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Battery",
-          "Fast Charging"
-        ],
-        "top_con": "Limited Storage",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "MOTOROLA g67 power 5G (Pantone CILANTRO, 256 GB)",
-      "price": 27999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/o/f/-original-imahkusxhyk4xbnf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/motorola-g67-power-5g-pantone-cilantro-256-gb/p/itme91d2943b446d?pid=MOBHN3UXSVHPQ7MC&lid=LSTMOBHN3UXSVHPQ7MCN0OLIS&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHN3UXSVHPQ7MC.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.286737",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long battery",
-          "Fast 5G"
-        ],
-        "top_con": "Out of stock",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "SIAVANTAGE PRO 14 (Orange, 32 GB)",
-      "price": 6400,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/v/e/pro-8-pro-8-siavantage-original-imahgmw2g6vyjqpd.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/siavantage-pro-14-orange-32-gb/p/itme1a36c22b972c?pid=MOBHNFTGY7PVUYA7&lid=LSTMOBHNFTGY7PVUYA71P00SM&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=c7293584-f5c7-4788-bc31-5e9f620d006a.MOBHNFTGY7PVUYA7.SEARCH&ppt=None&ppn=None&ssid=szp8p6q71c0000001780511801454&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:43.286903",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Decent RAM"
-        ],
-        "top_con": "Limited Storage",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Girls Maxi/Full Length Casual Dress",
-      "price": 442,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/n/k/x/5-6-years-d-w-051-flora-original-imah2ynyhsnu44zw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/chakli-girls-maxi-full-length-casual-dress/p/itm0c5a6dc609f45?pid=KDEHZY8ANKCBMQEK&lid=LSTKDEHZY8ANKCBMQEK3J07TB&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.KDEHZY8ANKCBMQEK.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.887944",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/twinning-set/p/d/q/m-m-shw-mhs-cp-cupcake-mr-na-na-neckwaist-men-women-original-imahmsvknugxstwj.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/shawindo-printed-couple-t-shirts-twinning-set/p/itm0252479fef985?pid=TGQHNH3HG6F2QVK9&lid=LSTTGQHNH3HG6F2QVK9IOP3X3&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.TGQHNH3HG6F2QVK9.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.568034",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Casual Design"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "Baby Boys BABY SUIT Printed Suit",
-      "price": 360,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/suit/y/6/y/3-6-months-pink-baby-suit-set-moderndress-original-imahnrdw95r8gazw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/moderndress-baby-suit-printed-boys/p/itmc09ceb4cf2067?pid=SUIHNRDWCQHX8BHW&lid=LSTSUIHNRDWCQHX8BHWO9PRNX&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.SUIHNRDWCQHX8BHW.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.888133",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Quality",
-          "Affordable Price"
-        ],
-        "top_con": "Limited Sizes",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pure Cotton Solid White Women Dupatta",
+      "name": "Round Neck Women Blouse",
       "price": 178,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/4/d/h/2-5-meters-1-pure-cotton-white-dupatta-flyxo-original-imahnukdg8qkmkhk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sibracreation-pure-cotton-solid-women-dupatta/p/itm5da56a9092aa4?pid=DUPHNUKDRRQ3PZJG&lid=LSTDUPHNUKDRRQ3PZJGF6JPUD&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.DUPHNUKDRRQ3PZJG.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.889157",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/blouse/j/l/p/32-pt-pink-crush-32-lambodar-textiles-original-imahnt96fhdnghfb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/lambodar-textiles-round-neck-women-blouse/p/itmfff94ff4c42ca?pid=BLOHNTDRZZFEXZMR&lid=LSTBLOHNTDRZZFEXZMR7H08FW&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=3b8b9be6-2633-4ae8-9fea-c2015d1eb67a.BLOHNTDRZZFEXZMR.SEARCH&ppt=None&ppn=None&ssid=dhsy3sdr2o0000001780564256446&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:10:57.568214",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Woven Bollywood Organza Saree",
-      "price": 539,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/j/z/o/free-rajnigandha-patang-pich-r-out-b4-aarunika-sbt-unstitched-original-imahns7hzyhrssyv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/aarunika-lgf-woven-bollywood-organza-saree/p/itm2044723f213e3?pid=SARHNUZAUEYNRF9G&lid=LSTSARHNUZAUEYNRF9G6QOBXM&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.SARHNUZAUEYNRF9G.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.889344",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Bollywood style"
-        ],
-        "top_con": "Quality unknown",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Nihan Cotton Blend Floral Print Abaya With Hijab",
-      "price": 360,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/abaya-burqa/3/k/p/free-slt-hjb-01-nihan-original-imahnsffzdgsm4xs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nihan-cotton-blend-floral-print-abaya-hijab/p/itmb851ee172f344?pid=ABQHNSFFG7MCFZXN&lid=LSTABQHNSFFG7MCFZXNQPICMO&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.ABQHNSFFG7MCFZXN.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.889515",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Floral Print",
-          "Cotton Blend"
-        ],
-        "top_con": "No Reviews",
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
         "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "Pack of 2 Women Printed Round Neck Pure Cotton Green T-...",
-      "price": 447,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/z/k/y/xxl-women-printed-t-shirt-14bhr-nexcy-original-imahmrgnpenr7nh5.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hoc-printed-women-round-neck-green-t-shirt/p/itmffb71310ca3e6?pid=TSHHZY5MHGT7R6BS&lid=LSTTSHHZY5MHGT7R6BSU5EQMY&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.TSHHZY5MHGT7R6BS.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.889683",
+      "name": "BUY HUDA Magic Jelly Flower Lipstick Temperature Changi...",
+      "price": 225,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/6/6/6/20-magic-jelly-flower-lipstick-temperature-changing-lipstick-original-imahzf6f6mwepnuk.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/buy-huda-magic-jelly-flower-lipstick-temperature-changing-pack-2/p/itm31ddf24730a72?pid=LSKHZFVBG9TWRAUE&lid=LSTLSKHZFVBG9TWRAUEUD4LMZ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.LSKHZFVBG9TWRAUE.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.275418",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Men Printed Round Neck Cotton Blend Black T-Shirt",
-      "price": 436,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/7/m/l/m-trendy-men-ovr-tees-682-dripnova-original-imahzy94xbjhtuef.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/dripnova-printed-men-round-neck-black-t-shirt/p/itm2b5ad9cded707?pid=TSHHZY9BX6QNXHZJ&lid=LSTTSHHZY9BX6QNXHZJSECUUT&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.TSHHZY9BX6QNXHZJ.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.889870",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good quality",
-          "Affordable price"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Women Nighty with Robe",
-      "price": 254,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/night-dress-nighty/f/l/s/free-new-nighty-h44-plus5-original-imahzy85gzr5ujkn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/plus5-women-nighty-robe/p/itm2b1b6a4f8c032?pid=NDNHZY86VSSGM5AP&lid=LSTNDNHZY86VSSGM5APWDIBKV&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.NDNHZY86VSSGM5AP.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.890120",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Comfortable Nighty",
-          "Affordable Price"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Ruby Trendz Silk Blend Solid Burqa With Hijab",
-      "price": 539,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/abaya-burqa/e/z/t/free-hijab-rubytrendz-original-imahmy92zzhvgbgu.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ruby-trendz-silk-blend-solid-burqa-hijab/p/itmdd211886741b7?pid=ABQHNR46MA6AQYCD&lid=LSTABQHNR46MA6AQYCDVDOERA&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.ABQHNR46MA6AQYCD.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.890394",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Silk Blend Material",
-          "New Arrival"
-        ],
-        "top_con": "New Seller",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Embroidered Kurta, Sharara & Dupatta Set",
-      "price": 764,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-salwar-kurta-dupatta/g/c/f/xl-sh-esw-gopifhn-rd-yellow-2929-xl-skd-goapifashion-original-imahnbzcmxasdvdm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/akarifashion-embroidered-kurta-sharara-dupatta-set/p/itm279c4b9053563?pid=SWDHZY5YGGHWF9UW&lid=LSTSWDHZY5YGGHWF9UWVK7UA4&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=b4c7f0c8-3dd1-40ce-8fc4-0471a0e83b04.SWDHZY5YGGHWF9UW.SEARCH&ppt=None&ppn=None&ssid=78iyjlcc400000001780511805611&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:47.890679",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Embroidered design",
-          "Affordable price"
-        ],
-        "top_con": "No reviews",
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
         "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "XEAMUSY Round Silicone Air Fryer Liner Airfryer Tray",
-      "price": 160,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/o/4/g/round-silicone-air-fryer-liner-xeamusy-1-original-imahj8yydznb8xn4.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/xeamusy-round-silicone-air-fryer-liner-airfryer-tray/p/itm9c82e44b6b612?pid=AFTHJ85KY5MHWQ2C&lid=LSTAFTHJ85KY5MHWQ2CICMOX4&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.AFTHJ85KY5MHWQ2C.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.779396",
+      "name": "AFARAXIA Korean Red Matte Tint Long Lasting Waterproof ...",
+      "price": null,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/l/y/b/8-korean-lip-tint-velvet-matte-lip-mud-long-lasting-red-lipstick-original-imahdkhyh5hhbx7d.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/afaraxia-korean-red-matte-tint-long-lasting-waterproof-women/p/itm4d81f79d03daf?pid=LSKHZFYGHU5NG7EU&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.LSKHZFYGHU5NG7EU.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.275740",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Easy to clean",
-          "Non stick surface"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Kanav DRAIN32 Washing Machine Door Hinge",
-      "price": 298,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/washing-machine-door-hinge/6/r/f/drain32-kanav-original-imahnzaetckuhawp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kanav-drain32-washing-machine-door-hinge/p/itm30583d3735f0e?pid=WMRHZFGWZGRFH4BM&lid=LSTWMRHZFGWZGRFH4BMP4JOLT&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.WMRHZFGWZGRFH4BM.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.779607",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Easy Installation",
-          "Durable Material"
-        ],
-        "top_con": "New Seller",
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
         "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "GUGGU Grinder_1 200 W Mixer Grinder",
-      "price": 585,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/a/p/5/mini-mixer-grinder-stainless-steel-body-grinder-machine-for-original-imahzf8hctj3zuyk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/guggu-grinder-1-200-w-mixer-grinder/p/itm5bdd0c6c45385?pid=MIXHZF9XVGEYGXT8&lid=LSTMIXHZF9XVGEYGXT8FJSGFI&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.MIXHZF9XVGEYGXT8.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.779843",
+      "name": "PIRKGLOW Smooth Soft Petal",
+      "price": 72,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/l/0/c/12-smooth-soft-petal-pirkglow-original-imahzfvftsafzw7f.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/pirkglow-smooth-soft-petal/p/itmb2518de7cff63?pid=LSKHZFVGZ4M4YXZZ&lid=LSTLSKHZFVGZ4M4YXZZSKPWOZ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.LSKHZFVGZ4M4YXZZ.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.275952",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Stainless steel"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "GUGGU Grinder_1 200 W Mixer Grinder",
-      "price": 585,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/u/1/g/mini-mixer-grinder-stainless-steel-body-grinder-machine-for-original-imahzf8kwwjsanze.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/guggu-grinder-1-200-w-mixer-grinder/p/itm3babbe0090e9e?pid=MIXHZFA8H9FYSBKK&lid=LSTMIXHZFA8H9FYSBKKXUTSPQ&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.MIXHZFA8H9FYSBKK.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.780126",
+      "name": "PIRKGLOW Smooth Scarlet Kiss",
+      "price": 57,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/l/r/4/12-smooth-scarlet-kiss-pirkglow-original-imahzfvffcsvacuf.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/pirkglow-smooth-scarlet-kiss/p/itm485d5c7a4379e?pid=LSKHZFVGCF36ZFA3&lid=LSTLSKHZFVGCF36ZFA34LSXJZ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.LSKHZFVGCF36ZFA3.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.276159",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Stainless steel"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "SACRO Grinder_1 200 W Mixer Grinder",
-      "price": 585,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/a/o/b/mini-mixer-grinder-stainless-steel-body-grinder-machine-for-original-imahzf8jghtktzym.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sacro-grinder-1-200-w-mixer-grinder/p/itmd30a8b222a55b?pid=MIXHZF9VFJCVRSGF&lid=LSTMIXHZF9VFJCVRSGFVNUNT0&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.MIXHZF9VFJCVRSGF.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.780338",
+      "name": "Qurielle 10 Pcs Makeup Beauty Brush Set",
+      "price": 79,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/t/e/o/10-pcs-makeup-beauty-brush-set-8-10-pcs-makeup-beauty-brush-set-original-imahzffqtrjyb2w9.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/qurielle-10-pcs-makeup-beauty-brush-set/p/itma02b287205d6f?pid=BARHZFUFQGKVPZX7&lid=LSTBARHZFUFQGKVPZX7OVYSJR&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.BARHZFUFQGKVPZX7.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.276361",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Stainless steel"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "SYARA Grinder_1 200 W Mixer Grinder",
-      "price": 585,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/h/w/2/mini-mixer-grinder-stainless-steel-body-grinder-machine-for-original-imahzf8frybmfzcg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/syara-grinder-1-200-w-mixer-grinder/p/itm5a06f17b7c03c?pid=MIXHZF9XVABYAD7Z&lid=LSTMIXHZF9XVABYAD7ZT0M1FQ&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.MIXHZF9XVABYAD7Z.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.780551",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Stainless steel"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "GUGGU Grinder_1 200 W Mixer Grinder",
-      "price": 585,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/y/y/y/mini-mixer-grinder-stainless-steel-body-grinder-machine-for-original-imahzf8hrnnnbbsv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/guggu-grinder-1-200-w-mixer-grinder/p/itm2c9281365558c?pid=MIXHZFA78FHMRKGG&lid=LSTMIXHZFA78FHMRKGG2QCQRX&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.MIXHZFA78FHMRKGG.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.780758",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Stainless steel"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "SYARA Grinder_1 200 W Mixer Grinder",
-      "price": 585,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/a/p/5/mini-mixer-grinder-stainless-steel-body-grinder-machine-for-original-imahzf8hctj3zuyk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/syara-grinder-1-200-w-mixer-grinder/p/itma8b1873962d89?pid=MIXHZFA8GZKTU5HR&lid=LSTMIXHZFA8GZKTU5HRSSCVQT&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.MIXHZFA8GZKTU5HR.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.780993",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Stainless steel"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "PPI Light Weight Dry Iron_22 750 W Dry Iron",
-      "price": 485,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/iron/0/s/q/light-weight-dry-iron-for-daily-use-22-floreta-original-imahnnwywppdqwa3.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ppi-light-weight-dry-iron-22-750-w-iron/p/itmcb2fde84d4564?pid=IRNHZF9VKCQNXTH2&lid=LSTIRNHZF9VKCQNXTH2SZT0PG&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.IRNHZF9VKCQNXTH2.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.781199",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Light Weight",
-          "Affordable Price"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "SACRO Grinder_1 200 W Mixer Grinder",
-      "price": 585,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/6/u/n/mini-mixer-grinder-stainless-steel-body-grinder-machine-for-original-imahzf8jnpzv9spx.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sacro-grinder-1-200-w-mixer-grinder/p/itm04352ae16fcc5?pid=MIXHZF9VBTUFMWVZ&lid=LSTMIXHZF9VBTUFMWVZOOKOGL&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=94fa136e-ba7f-4bc2-a645-904245aad372.MIXHZF9VBTUFMWVZ.SEARCH&ppt=None&ppn=None&ssid=po42hse89c0000001780511810077&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:51.781404",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Stainless steel"
-        ],
-        "top_con": "Low power",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Glowoly True Matte Long Lasting Liquid Lipsticks-Pack o...",
+      "name": "Gaunumaa",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/n/y/z/24-true-matte-long-lasting-liquid-lipsticks-pack-of-6-glowoly-original-imahzfg3fydfprzf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/glowoly-true-matte-long-lasting-liquid-lipsticks-pack-6/p/itm2a39a5d2051d2?pid=LSKHZFGZFGGE44F2&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.LSKHZFGZFGGE44F2.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.734647",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/tattoo/n/j/b/6-6-v-1486-1745-voorkoms-11-original-imahzyyhha3gmszq.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/gaunumaa/p/itm2f5cf05e46069?pid=TTTHZFZYSUSYYZGU&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.TTTHZFZYSUSYYZGU.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.276658",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long Lasting",
-          "Matte Finish"
-        ],
-        "top_con": "Color Variation",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "The Violet Tag Set of 24 artificial reusable nails in V...",
-      "price": 209,
+      "name": "PIRKGLOW Smooth Ruby Touch",
+      "price": 77,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/artificial-nail/5/7/5/set-of-24-artificial-reusable-nails-in-vanilla-moon-design-with-original-imahj83zug56gktk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/violet-tag-set-24-artificial-reusable-nails-vanilla-moon-design-glue-silver/p/itmd58c8d8501a5b?pid=ALNHJ864WR8GV4UZ&lid=LSTALNHJ864WR8GV4UZUVGML7&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.ALNHJ864WR8GV4UZ.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.734914",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/e/c/r/12-smooth-ruby-touch-pirkglow-original-imahzfvf8pk9gzfh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/pirkglow-smooth-ruby-touch/p/itm59bf4d0b121fa?pid=LSKHZFVFZHZBNQTV&lid=LSTLSKHZFVFZHZBNQTVLGHSKH&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.LSKHZFVFZHZBNQTV.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.276860",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Reusable nails",
-          "Affordable price"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "tanvi27 Color Rich Toxic Free Perfection Shine Nail Pol...",
+      "name": "THTC best nail combo kit and red glossy finish nail pai...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-polish/s/v/v/12-color-rich-toxic-free-perfection-shine-nail-polish-tanvi27-original-imahzf9cq9pkxcuf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/tanvi27-color-rich-toxic-free-perfection-shine-nail-polish-dark-peach/p/itma08dade5dfe01?pid=NLPHZF9CWYFSFGG7&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.NLPHZF9CWYFSFGG7.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.735181",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/combo-kit/x/r/l/full-nail-tips-set-press-on-nails-women-artificial-white-with-original-imahzfaxjbc6ffrq.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/thtc-best-nail-combo-kit-red-glossy-finish-paint/p/itm6c5df6b711152?pid=CBKHZFZ8XXDSZUEG&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.CBKHZFZ8XXDSZUEG.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.277161",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Toxic Free",
-          "Glossy Finish"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "Nxgtya White Nail Tips with Glue | 100 PCS False Nails ...",
-      "price": 89,
+      "name": "PIRKGLOW Smooth Rose Glow",
+      "price": 72,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/artificial-nail/y/k/s/white-nail-tips-with-glue-100-pcs-false-nails-kit-for-women-ng15-original-imahzfbsswtbhpuq.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nxgtya-white-nail-tips-glue-100-pcs-false-nails-kit-women-nails-1/p/itm515e1ff8dcafb?pid=ALNHZFBSDZBEJF9J&lid=LSTALNHZFBSDZBEJF9JXGWQ7G&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.ALNHZFBSDZBEJF9J.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.735383",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/p/o/h/12-smooth-rose-glow-pirkglow-original-imahzfvfzfuhbphj.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/pirkglow-smooth-rose-glow/p/itmd5e2397a239ef?pid=LSKHZFVGM6CSXG86&lid=LSTLSKHZFVGM6CSXG86TANZTR&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.LSKHZFVGM6CSXG86.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.277365",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Easy application"
-        ],
-        "top_con": "Glue quality",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     },
     {
-      "name": "Glamyou NEW7_Latest Design Tilak Style Bindi Forehead M...",
-      "price": 135,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/bindi/f/f/y/new7-latest-design-tilak-style-bindi-forehead-multicolor-bindis-original-imahnzutzzutf98e.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/glamyou-new7-latest-design-tilak-style-bindi-forehead-multicolor-bindis-bollywood-mara/p/itmafff061f52445?pid=BINHNZUTFPUNAUJK&lid=LSTBINHNZUTFPUNAUJK9YMTQE&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.BINHNZUTFPUNAUJK.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.735571",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "New Design",
-          "Affordable Price"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "lalishq Honey Lip Oil – Deep Nourishment, Hydration & G...",
+      "name": "AFARAXIA New Matte Tint Long Lasting Waterproof tint Fo...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-gloss/m/c/x/30-honey-lip-oil-deep-nourishment-hydration-glossy-shine-for-original-imahzfbyppjhzbwz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/lalishq-honey-lip-oil-deep-nourishment-hydration-glossy-shine-soft-lips/p/itme0cdd82bb280e?pid=LGSHZFBYTGB3MGU5&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.LGSHZFBYTGB3MGU5.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.735859",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-plumper/m/0/l/waterproof-lip-and-cheek-tint-tinted-lip-balm-for-women-girls-original-imahdkgbputtxuuh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/afaraxia-new-matte-tint-long-lasting-waterproof-women/p/itmf01499113150b?pid=LSKHZFYWJ5GBEVC7&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=81c8b2c1-ef01-4a58-a141-8c091a9c3c39.LSKHZFYWJ5GBEVC7.SEARCH&ppt=None&ppn=None&ssid=jnjizgig5c0000001780564264978&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-04T09:11:06.277672",
       "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Deep Nourishment",
-          "Glossy Shine"
-        ],
-        "top_con": "Not Organic",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Nxgtya White Nail Tips with Glue | 100 PCS False Nails ...",
-      "price": 89,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/artificial-nail/n/9/v/white-nail-tips-with-glue-100-pcs-false-nails-kit-for-women-ng8-original-imahzfbus5nmfhnf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nxgtya-white-nail-tips-glue-100-pcs-false-nails-kit-women-nails-1/p/itmb9b5cb6d663a4?pid=ALNHZFBUKUXJT2TC&lid=LSTALNHZFBUKUXJT2TCA3NQUP&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.ALNHZFBUKUXJT2TC.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.736050",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good quality",
-          "Affordable price"
-        ],
-        "top_con": "Glue quality",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "GABBU Coloured Lip Gloss | Hydrating | High Shine | Non...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-gloss/o/a/z/4-5-coloured-lip-gloss-hydrating-high-shine-non-sticky-gabbu-original-imahzf9yggqvkkzk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/gabbu-coloured-lip-gloss-hydrating-high-shine-non-sticky/p/itm439743f925a82?pid=LGSHZFB2HZXTXWBG&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.LGSHZFB2HZXTXWBG.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.736330",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Hydrating formula",
-          "High shine"
-        ],
-        "top_con": "Non sticky claim",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "DARYUE Non transfer super hydrating matte lipstick .",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/g/3/a/3-8-non-transfer-super-hydrating-matte-lipstick-daryue-original-imahzfajggfdtejg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/daryue-non-transfer-super-hydrating-matte-lipstick/p/itmc2934788c4bef?pid=LSKHZFBYEPFPW8ZQ&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.LSKHZFBYEPFPW8ZQ.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.736600",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Hydrating formula",
-          "Matte finish"
-        ],
-        "top_con": "Transfer issue",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Nxgtya White Nail Tips with Glue | 100 PCS False Nails ...",
-      "price": 89,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/artificial-nail/h/c/f/white-nail-tips-with-glue-100-pcs-false-nails-kit-for-women-ng11-original-imahzfbzauzhcm5h.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nxgtya-white-nail-tips-glue-100-pcs-false-nails-kit-women-nails-1/p/itmf011b47fe1223?pid=ALNHZFBZJSUTPYTG&lid=LSTALNHZFBZJSUTPYTGKGVV1N&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=ddbaeec0-6e34-4a0e-a30f-eab90535eb9e.ALNHZFBZJSUTPYTG.SEARCH&ppt=None&ppn=None&ssid=fnqmh16a000000001780511814215&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-06-03T18:36:55.736800",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good quality",
-          "Affordable price"
-        ],
-        "top_con": "Glue quality",
-        "quick_verdict": "Worth checking"
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
       }
     }
   ]

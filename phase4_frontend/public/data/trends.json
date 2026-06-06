@@ -1,23 +1,23 @@
 {
   "hot_categories": [
     {
-      "category": "Beauty",
-      "count": 13
-    },
-    {
-      "category": "Sports",
-      "count": 12
-    },
-    {
       "category": "Home_Kitchen",
       "count": 12
     },
     {
-      "category": "Women_Fashion",
-      "count": 10
+      "category": "Beauty",
+      "count": 11
     },
     {
       "category": "TVs",
+      "count": 11
+    },
+    {
+      "category": "Sports",
+      "count": 10
+    },
+    {
+      "category": "Women_Fashion",
       "count": 10
     },
     {
@@ -30,88 +30,121 @@
     },
     {
       "category": "Men_Fashion",
-      "count": 4
+      "count": 9
     }
   ],
   "declining_categories": [
     {
-      "category": "Beauty",
-      "avg_sentiment": 0.0
+      "category": "TVs",
+      "avg_sentiment": 82.3
     },
     {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 0.0
+      "category": "Beauty",
+      "avg_sentiment": 80.5
     },
     {
       "category": "Laptops",
-      "avg_sentiment": 0.0
+      "avg_sentiment": 80.5
     },
     {
-      "category": "Men_Fashion",
-      "avg_sentiment": 0.0
+      "category": "Home_Kitchen",
+      "avg_sentiment": 80.4
     },
     {
       "category": "Mobiles",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Sports",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "TVs",
-      "avg_sentiment": 0.0
+      "avg_sentiment": 80.0
     },
     {
       "category": "Women_Fashion",
-      "avg_sentiment": 0.0
+      "avg_sentiment": 79.4
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 64.0
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_sentiment": 52.0
     }
   ],
-  "emerging_keywords": [],
-  "price_movements": [
+  "emerging_keywords": [
     {
-      "category": "Sports",
-      "avg_price": 653
+      "keyword": "affordable",
+      "mentions": 16
     },
     {
+      "keyword": "fast",
+      "mentions": 15
+    },
+    {
+      "keyword": "easy",
+      "mentions": 8
+    },
+    {
+      "keyword": "picture",
+      "mentions": 8
+    },
+    {
+      "keyword": "performance",
+      "mentions": 8
+    },
+    {
+      "keyword": "effective",
+      "mentions": 7
+    },
+    {
+      "keyword": "design",
+      "mentions": 7
+    },
+    {
+      "keyword": "skin",
+      "mentions": 7
+    }
+  ],
+  "price_movements": [
+    {
       "category": "Home_Kitchen",
-      "avg_price": 8040
+      "avg_price": 18974
+    },
+    {
+      "category": "Sports",
+      "avg_price": 599
     },
     {
       "category": "Beauty",
-      "avg_price": 517
+      "avg_price": 662
     },
     {
       "category": "Women_Fashion",
-      "avg_price": 601
+      "avg_price": 900
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 1104
+      "avg_price": 853
     },
     {
       "category": "TVs",
-      "avg_price": 22244
+      "avg_price": 25687
     },
     {
       "category": "Laptops",
-      "avg_price": 48231
+      "avg_price": 42240
     },
     {
       "category": "Mobiles",
-      "avg_price": 25099
+      "avg_price": 23140
     }
   ],
   "best_deal": {
-    "name": "PRO365 Combo Of Double TT, Pushup Bar, Toning Tube and ...",
-    "price": 651,
-    "original_price": 410084,
-    "discount_percent": 84,
-    "category": "Sports",
-    "score": 0,
-    "flipkart_url": "https://www.flipkart.com/pro365-combo-double-tt-pushup-bar-toning-tube-abdominal-wheel-ab-exerciser-fitness-accessory-kit/p/itm71aadc4bea0a6?pid=KITGZZFMUVB8KTQQ&lid=LSTKITGZZFMUVB8KTQQN1NQGP&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_2_67&otracker=search&fm=organic&iid=0a3f68de-5716-4807-8972-6b35eb8675f0.KITGZZFMUVB8KTQQ.SEARCH&ppt=sp&ppn=sp&ssid=4i1ybvi69s0000001780460692417&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true"
+    "name": "LIEBESGEWAND",
+    "price": 324,
+    "original_price": 250087,
+    "discount_percent": 87,
+    "category": "Women_Fashion",
+    "score": 80,
+    "flipkart_url": "https://www.flipkart.com/liebesgewand-printed-graphic-print-temple-border-daily-wear-cotton-linen-saree/p/itm9b87ff93019bf?pid=SARHKJC3CCDHGZSJ&lid=LSTSARHKJC3CCDHGZSJTZT5VI&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&spotlightTagId=default_BestsellerId_clo%2F8on%2Fzpd%2F9og&srno=s_1_26&otracker=search&fm=organic&iid=f4cdaf7a-0d45-48ec-b9f8-f56284e7837f.SARHKJC3CCDHGZSJ.SEARCH&ppt=None&ppn=None&ssid=wwbg7q8hu80000001780772557934&qH=9312319821db7ffa&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-03T04:52:55.029653"
+  "generated_at": "2026-06-06T19:13:31.053733"
 }

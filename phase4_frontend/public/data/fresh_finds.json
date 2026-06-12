@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-12T09:46:54Z",
-  "total_products": 40,
+  "date": "2026-06-12T13:56:09Z",
+  "total_products": 80,
   "products": [
     {
       "name": "Samsung Galaxy F70e 5G (Limelight Green, 128 GB)",
@@ -677,6 +677,683 @@
         "top_pros": [
           "Cuticle care",
           "Nourishment routine"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Samsung Galaxy F70e 5G (Limelight Green, 128 GB)",
+      "price": 12999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/p/o/-original-imahmz2gwjzykfgp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-f70e-5g-limelight-green-128-gb/p/itmf26a013c841a6?pid=MOBHMGHQ7MHMMHJZ&lid=LSTMOBHMGHQ7MHMMHJZ6Y5PNV&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHMGHQ7MHMMHJZ.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.374189",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Samsung Galaxy F07 (Green, 64 GB)",
+      "price": 9499,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/t/r/o/-original-imahjwcmjfzax5rj.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-f07-green-64-gb/p/itm294cbb65839e6?pid=MOBHMGHHXHYZEAVB&lid=LSTMOBHMGHHXHYZEAVBR68SR7&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHMGHHXHYZEAVB.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.374370",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good battery",
+          "Fast performance"
+        ],
+        "top_con": "No exchange",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "POCO C85x (Sunset Gold, 64 GB)",
+      "price": 12999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/g/l/-original-imahmqga4sxzfnzn.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/poco-c85x-sunset-gold-64-gb/p/itm6b8cdd362c306?pid=MOBHMGG5PYZRFMKU&lid=LSTMOBHMGG5PYZRFMKUCJZJZ4&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHMGG5PYZRFMKU.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.374529",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "Decent RAM"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Vivo T4 Lite 5G (Titanium Gold 2026) (4GB 128GB)",
+      "price": 16999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-titanium-gold-2026-4gb-128gb/p/itm49fb53d099f3c?pid=MOBHNCRKN8ZBGAJR&lid=LSTMOBHNCRKN8ZBGAJRBI6C1Z&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHNCRKN8ZBGAJR.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.374725",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "5G Support"
+        ],
+        "top_con": "Stock Issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "HMD Vibe2 5G (Nordic Blue, 128 GB)",
+      "price": 14999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/8/t/-original-imahnkky56bcvnaz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-5g-nordic-blue-128-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYNGZQCBWB&lid=LSTMOBHN6XYNGZQCBWBVAYNRE&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHN6XYNGZQCBWB.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.374884",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Battery",
+          "Fast Charging"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "MOTOROLA g37 power (PANTONE Nautical Blue, 128 GB)",
+      "price": 15999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/g/r/-original-imahng2y4zgbb6ej.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-g37-power-pantone-nautical-blue-128-gb/p/itmf752f4981d932?pid=MOBHHVFYGN57RYAH&lid=LSTMOBHHVFYGN57RYAHB2DF12&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHHVFYGN57RYAH.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.375037",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Battery",
+          "Affordable Price"
+        ],
+        "top_con": "Limited RAM",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "MOTOROLA g06 power (Pantone tapestry, 64 GB)",
+      "price": 12999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/n/a/-original-imahnfuypbu3zse3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-g06-power-pantone-tapestry-64-gb/p/itm29390fa68401d?pid=MOBHN973FFYHGUGG&lid=LSTMOBHN973FFYHGUGG27JKDQ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHN973FFYHGUGG.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.375195",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good battery",
+          "Affordable price"
+        ],
+        "top_con": "Limited storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "OnePlus Nord CE6 Lite (Hyper Black, 128 GB)",
+      "price": 23555,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/n/m/nord-ce6-lite-oneplus-nord-ce6-lite-oneplus-original-imahn8bd7npu6u8p.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/oneplus-nord-ce6-lite-hyper-black-128-gb/p/itm894a5599b758b?pid=MOBHN8BDFU3PHHUR&lid=LSTMOBHN8BDFU3PHHURZ7NUUC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHN8BDFU3PHHUR.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.375344",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Performance",
+          "Low Price"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "realme P4 Lite 5G (Mosaic Blue, 64 GB)",
+      "price": 14499,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/z/a/-original-imahhngs3z46gnew.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-5g-mosaic-blue-64-gb/p/itm90c243961f214?pid=MOBHN7A8CMJGRACT&lid=LSTMOBHN7A8CMJGRACTDRIOJU&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHN7A8CMJGRACT.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.375497",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "Fast 5G"
+        ],
+        "top_con": "Low Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "realme P4 Lite 5G (Mosaic Green, 128 GB)",
+      "price": 15999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/j/x/-original-imahhngsymvs8bfs.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-5g-mosaic-green-128-gb/p/itm90c243961f214?pid=MOBHN7A8PBUWNHG5&lid=LSTMOBHN7A8PBUWNHG5BENLLV&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=140a2aff-3ab0-45b0-a732-7bbe04e3180c.MOBHN7A8PBUWNHG5.SEARCH&ppt=None&ppn=None&ssid=szi93q3oao0000001781272243764&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:45.375676",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good battery",
+          "Fast charging"
+        ],
+        "top_con": "High price",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Pack of 2 Men Self Design Polo Neck Polyester Brown, Bl...",
+      "price": 539,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/x/o/b/5xl-polo-8015-kajaru-original-imahza4ybdeznxtb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kajaru-self-design-men-polo-neck-brown-black-t-shirt/p/itmd786e0662ed88?pid=TSHHZA7NAHCHQEH5&lid=LSTTSHHZA7NAHCHQEH5I0LJ3T&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.TSHHZA7NAHCHQEH5.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.542150",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Quality",
+          "Affordable Price"
+        ],
+        "top_con": "Size Issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Printed Bollywood Georgette Saree",
+      "price": 313,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/g/a/z/free-1303-1307-kanooda-prints-unstitched-original-imahz4zu3vkhsygd.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kanooda-prints-printed-bollywood-georgette-saree/p/itmd44a18635e7d4?pid=SARHZ4ZVYBMEHZFY&lid=LSTSARHZ4ZVYBMEHZFYCBCVQV&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.SARHZ4ZVYBMEHZFY.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.542363",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Attractive design"
+        ],
+        "top_con": "Quality unknown",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Sports/Regular Cap",
+      "price": 160,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/cap/p/n/m/free-852014-selloria-original-imahgvhutbv7wz3t.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/civora-sports-regular-cap/p/itm2c8b8f11220a7?pid=CAPHZ4NTYTSAGFUK&lid=LSTCAPHZ4NTYTSAGFUKXVUCOI&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.CAPHZ4NTYTSAGFUK.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.542567",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Quality",
+          "Affordable Price"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Bra & Panty Set Solid Red, Maroon, Black Lingerie Set",
+      "price": 89,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lingerie-set/j/b/w/30-perfect-shape-bra-panty-set-savelle-x-original-imahz52zsar3hhqt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/romelle-lingerie-set/p/itm5ef10feb65148?pid=LINHZ53FGGGFWAGG&lid=LSTLINHZ53FGGGFWAGGYIGISN&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.LINHZ53FGGGFWAGG.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.542790",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Variety colors"
+        ],
+        "top_con": "Size issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Chiffon Printed Multicolor Women Dupatta",
+      "price": 162,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/k/t/v/1-75-meters-2-dup-mss-2-1206-mss-fashion-original-imahz4rwme56gzz4.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/mss-fashion-chiffon-printed-women-dupatta/p/itm9c3e7f4f64cc1?pid=DUPHZ4RXYZYCKRG5&lid=LSTDUPHZ4RXYZYCKRG5V6D3F4&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.DUPHZ4RXYZYCKRG5.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.542986",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Multicolor design"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Women Regular Fit Dyed/Ombre Mandarin Collar Casual Shi...",
+      "price": 434,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/g/r/y/5xl-ombrey-shirt-yellow-w-a11-cadmon-original-imahza7afhvgy6by.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/cadmon-women-dyed-ombre-casual-yellow-shirt/p/itmdfd1dbe53eaf8?pid=SHTHZA7B5VA8FPVA&lid=LSTSHTHZA7B5VA8FPVAMTS2VY&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.SHTHZA7B5VA8FPVA.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.543177",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Comfortable fit",
+          "Affordable price"
+        ],
+        "top_con": "Color variation",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Casual Regular Sleeves Solid Women White Top",
+      "price": 358,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/v/q/k/s-1-white-tshirt-star-mandarin-crepe-top-metronaut-original-imahz6tknaat4a4p.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/aniha-casual-solid-women-white-top/p/itm8fe2cf3137141?pid=TOPHZ7QHV2EYYA98&lid=LSTTOPHZ7QHV2EYYA98N89PS8&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.TOPHZ7QHV2EYYA98.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.543366",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good quality",
+          "Affordable price"
+        ],
+        "top_con": "Size issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Boys Festive & Party Kurta and Pyjama Set",
+      "price": 404,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-ethnic-set/y/w/a/9-10-years-d2-yelow-kids-set31-9-10-years-kdenterprise-original-imahz9vfzgkngnne.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/stylevault-boys-festive-party-kurta-pyjama-set/p/itm6814ebed49708?pid=KETHZA7UZQMWFXBF&lid=LSTKETHZA7UZQMWFXBF06PRXC&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.KETHZA7UZQMWFXBF.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.543568",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Festive design",
+          "Affordable price"
+        ],
+        "top_con": "Size issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Chiffon Printed Multicolor Women Dupatta",
+      "price": 162,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/o/i/s/1-75-meters-2-dup-mss-2-1071-mss-fashion-original-imahz4rsefqugvs3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/mss-fashion-chiffon-printed-women-dupatta/p/itmd9a45aeeac772?pid=DUPHZ4RSD6MYFPZ3&lid=LSTDUPHZ4RSD6MYFPZ3M9I0SY&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.DUPHZ4RSD6MYFPZ3.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.543796",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Multicolor design"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Men Graphic Print Round Neck Pure Cotton Dark Blue T-Sh...",
+      "price": 360,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/a/f/3/s-f12-here-now-original-imahza3wf8fyhd4j.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/here-now-graphic-print-men-round-neck-dark-blue-t-shirt/p/itm89c33689fcaa6?pid=TSHHZA7NXF2YNHZK&lid=LSTTSHHZA7NXF2YNHZKJGWW20&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=14987a55-00e3-4244-9b17-1d9b6a62b807.TSHHZA7NXF2YNHZK.SEARCH&ppt=None&ppn=None&ssid=p3gjaec1kw0000001781272248780&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:50.543979",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Pure Cotton",
+          "Affordable Price"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "CONTROLER SANSUI GOOGLE TV REMOTE SANSUI ANDROID LED TV...",
+      "price": 298,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/9/g/q/sansui-android-led-tv-remote-controler-original-imahz2cwawfwudbr.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/controler-sansui-google-tv-remote-android-led-comaptible-controller/p/itm4b4de8971672f?pid=REMHZ2DJ3PXW4KGH&lid=LSTREMHZ2DJ3PXW4KGHXUOBIZ&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHZ2DJ3PXW4KGH.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.095039",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Good compatibility"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "CONTROLER REALME SMART LED TV REMOTE WITHOUT VOICE CONT...",
+      "price": 298,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/f/v/k/realme-smart-led-tv-remote-controler-original-imahz4jnhgawqjmk.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/controler-realme-smart-led-tv-remote-without-voice-control-android-remote-controller/p/itmbc13c786e1e68?pid=REMHZ4JZZZPXUEGK&lid=LSTREMHZ4JZZZPXUEGKV7BMTR&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHZ4JZZZPXUEGK.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.095283",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Easy control"
+        ],
+        "top_con": "No voice control",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Electvision Smart 4k Android Remote Control (without vo...",
+      "price": 198,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/2/g/c/smart-4k-android-remote-control-without-voice-compatible-with-original-imahz5z3q8unryqg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/electvision-smart-4k-android-remote-control-without-voice-compatible-sony-controller/p/itm7064958266985?pid=REMHZ5Z3GBVHEXMY&lid=LSTREMHZ5Z3GBVHEXMY6XDHKP&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHZ5Z3GBVHEXMY.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.095504",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Android compatible"
+        ],
+        "top_con": "No voice control",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Samruddhi sales Bpl-01 This remote is compatible with b...",
+      "price": 215,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/t/s/t/bpl-01-samruddhi-sales-original-imahk46fr8efuqbg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-bpl-01-remote-compatible-bpl-smar-tv-controller/p/itm703a27fd57456?pid=REMHK46FC3RDQZDY&lid=LSTREMHK46FC3RDQZDY95W9PF&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHK46FC3RDQZDY.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.095755",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Good price"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Samruddhi sales AKB76040308 This remote is compatible w...",
+      "price": 248,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/b/c/m/akb76040308-samruddhi-sales-original-imahz4p3akmhtjym.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-akb76040308-remote-compatible-lg-smart-tv-model-akb76040308-controller/p/itmd7abf9842cb11?pid=REMHZ2SWGPFRVQWB&lid=LSTREMHZ2SWGPFRVQWBBOFF72&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHZ2SWGPFRVQWB.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.095973",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Compatible with LG",
+          "Affordable price"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Samruddhi sales Mo-218 This remote is compatible with b...",
+      "price": 370,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/y/n/f/mo-218-samruddhi-sales-original-imahnnjkdgyzmrhb.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-mo-218-remote-compatible-bluestar-air-conditioner-controller/p/itmaa493451b32d1?pid=REMHNNJKHNX2GAFS&lid=LSTREMHNNJKHNX2GAFSM4UA9B&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHNNJKHNX2GAFS.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.096193",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Compatible with Bluestar",
+          "Affordable price"
+        ],
+        "top_con": "No reviews yet",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Samruddhi sales YY-131 This remote is compatible with h...",
+      "price": 323,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/q/a/l/yy-131-samruddhi-sales-original-imahzy59g6nbjv4y.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-yy-131-remote-compatible-haier-air-conditioner-controller/p/itm5ad6d5e3899e2?pid=REMHZY7VQBE8ZNHP&lid=LSTREMHZY7VQBE8ZNHPMTC1PN&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHZY7VQBE8ZNHP.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.096409",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Compatible with Haier",
+          "Easy to use"
+        ],
+        "top_con": "Limited brand support",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Thunderex Voltas Smile Remote Compatible with AC Contro...",
+      "price": 398,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/t/b/b/remote-compatible-with-ac-control-suitable-for-split-window-original-imahz4gjjkwsgcmx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/thunderex-voltas-smile-remote-compatible-ac-control-suitable-split-window-controller/p/itmbf54de829bf05?pid=REMHZ4GKQY2UN9FZ&lid=LSTREMHZ4GKQY2UN9FZRPKQKB&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHZ4GKQY2UN9FZ.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.096647",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Good price"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Trustbolt Lg LG Remote Control for LG SMART LED/LCD TVU...",
+      "price": 748,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/1/a/t/lg-remote-control-for-lg-smart-led-lcd-tvuniversal-remote-original-imahjqx5qjh7a5t9.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/trustbolt-lg-remote-control-smart-led-lcd-tvuniversal-all-tv-controller/p/itm8aae19dda3cbd?pid=REMHM4GG3BAVMZFP&lid=LSTREMHM4GG3BAVMZFPF6A6TY&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHM4GG3BAVMZFP.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.096867",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Universal control"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "JSKV 160 i-cool AC Remote Compatible For ONIDA Remote C...",
+      "price": 500,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/p/p/a/160-i-cool-ac-remote-compatible-for-jskv-original-imahzfr2jcfvgzad.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/jskv-160-i-cool-ac-remote-compatible-onida-controller/p/itmc92c027507e3c?pid=REMHZFR2G24UQTTU&lid=LSTREMHZFR2G24UQTTUKUOSRM&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=b59c6e8a-8ff5-49b5-8e8b-c10f137dade9.REMHZFR2G24UQTTU.SEARCH&ppt=None&ppn=None&ssid=786im5olc00000001781272253777&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:55.097080",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Cost effective"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Paperly feather soft facial tissue-Pack of 1",
+      "price": 57,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/facial-tissue/i/n/9/feather-soft-facial-tissue-pack-of-1-1-1-paperly-original-imahjjgnxzkfqpjy.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/paperly-feather-soft-facial-tissue-pack-1/p/itm024520f714c1b?pid=FLTHJJGN8JFYRTRQ&lid=LSTFLTHJJGN8JFYRTRQQ0OB2Y&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.FLTHJJGN8JFYRTRQ.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.180567",
+      "quick_analysis": {
+        "quick_score": 60,
+        "top_pros": [
+          "Feather Soft",
+          "Ultra Premium"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "THE EDIT BEAUTY BAR Waterproof Eyelash Adhesive",
+      "price": 108,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyelash-adhesive/c/j/y/1-ardell-duo-brush-on-striplash-adhesive-clear-5g-pack-of-1-the-original-imahzf8xshv8hw2e.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/edit-beauty-bar-waterproof-eyelash-adhesive/p/itm530ba300d63f4?pid=EYAHZF8YJW9SWJAE&lid=LSTEYAHZF8YJW9SWJAEXG5OEY&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.EYAHZF8YJW9SWJAE.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.180818",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Waterproof",
+          "Affordable"
+        ],
+        "top_con": "New seller",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Heritage Soft Facial Tissue Paper 2 Ply | 40 x 40 cm Fa...",
+      "price": 388,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/facial-tissue/z/h/s/soft-facial-tissue-paper-2-ply-40-x-40-cm-face-tissue-50-pulls-original-imahn4xehgfskgvx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/heritage-soft-facial-tissue-paper-2-ply-40-x-cm-face-50-pulls-per-pack/p/itm7f07da7fea3cb?pid=FLTHN4XEBKVMD4MP&lid=LSTFLTHN4XEBKVMD4MP9EJVPY&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.FLTHN4XEBKVMD4MP.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.181030",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Soft tissue",
+          "Good size"
+        ],
+        "top_con": "New seller",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "El Syco Glass Filer Shiner Nail Shine Buffer Polisher f...",
+      "price": 113,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-filer/n/c/j/1-glass-filer-shiner-nail-shine-buffer-polisher-for-finger-nail-original-imahzfy58wfjwfze.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/el-syco-glass-filer-shiner-nail-shine-buffer-polisher-finger-crystal/p/itm70f30c0ed228b?pid=NFLHZFY5G2K8P43R&lid=LSTNFLHZFY5G2K8P43RVZHGXY&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.NFLHZFY5G2K8P43R.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.181259",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Affordable price"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Givni Mart Travel Mini Foldable Compact Square Design B...",
+      "price": 267,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact-mirror/f/r/v/2-foldable-compact-beauty-makeup-pocket-mirror-square-sqr-original-imahjhnrrupzhttk.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/givni-mart-travel-mini-foldable-compact-square-design-beauty-makeup-pocket-mirror/p/itmd6a680c717e84?pid=CTMHJNRMTRE57THH&lid=LSTCTMHJNRMTRE57THH0C4QLW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.CTMHJNRMTRE57THH.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.181475",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Compact Design",
+          "Portable"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Kraivo Anti Paronychia Relief Oil | for stronger nail n...",
+      "price": 152,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-nail-filer/j/5/z/2-anti-paronychia-relief-oil-for-fingernail-support-and-original-imahzf8xnd7hjg53.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kraivo-anti-paronychia-relief-oil-stronger-nail-nourishment-support-care/p/itmb268734673bba?pid=NFLHZFY6HQCVMMGA&lid=LSTNFLHZFY6HQCVMMGALYX3VW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.NFLHZFY6HQCVMMGA.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.181710",
+      "quick_analysis": {
+        "quick_score": 60,
+        "top_pros": [
+          "Nourishes nails",
+          "Relief oil"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Kraivo Anti Paronychia Relief Oil | for smooth nail bea...",
+      "price": 152,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-nail-filer/k/4/z/2-anti-paronychia-relief-oil-for-fingernail-support-and-original-imahzf8zhxfh9hhg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kraivo-anti-paronychia-relief-oil-smooth-nail-beauty-nourishment-care/p/itm49c60f796a87d?pid=NFLHZFBGCHADRXZD&lid=LSTNFLHZFBGCHADRXZDRCKHWO&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.NFLHZFBGCHADRXZD.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.181923",
+      "quick_analysis": {
+        "quick_score": 60,
+        "top_pros": [
+          "Nourishes nails",
+          "Soothes irritation"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Kraivo Anti Paronychia Relief Oil | for toenail comfort...",
+      "price": 152,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-nail-filer/i/m/u/2-anti-paronychia-relief-oil-for-nail-comfort-and-beauty-support-original-imahzf8x6pyt9qgh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kraivo-anti-paronychia-relief-oil-toenail-comfort-care-routine/p/itm2be8942efd474?pid=NFLHZFBYZRXYK7XV&lid=LSTNFLHZFBYZRXYK7XVOOLHZV&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.NFLHZFBYZRXYK7XV.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.182143",
+      "quick_analysis": {
+        "quick_score": 60,
+        "top_pros": [
+          "Toenail comfort",
+          "Relief oil"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Kraivo Anti Paronychia Relief Oil | for daily healthy n...",
+      "price": 152,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-nail-filer/t/i/x/2-anti-paronychia-relief-oil-for-smooth-nail-comfort-and-support-original-imahzf8vjzeffrhz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kraivo-anti-paronychia-relief-oil-daily-healthy-nail-appearance-support/p/itmd9691ee2486a8?pid=NFLHZFEDKCGMMRH3&lid=LSTNFLHZFEDKCGMMRH36XG7NW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.NFLHZFEDKCGMMRH3.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.182357",
+      "quick_analysis": {
+        "quick_score": 60,
+        "top_pros": [
+          "Relief from Paronychia",
+          "Healthy nail support"
+        ],
+        "top_con": "Limited reviews available",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Kraivo Anti Paronychia Relief Oil | for healthy nail co...",
+      "price": 152,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-nail-filer/q/r/9/2-anti-paronychia-relief-oil-for-fingernail-beauty-and-care-original-imahzf8x7wxhzypa.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kraivo-anti-paronychia-relief-oil-healthy-nail-comfort-support/p/itmd7670aec6ca59?pid=NFLHZFY7TEJ2YYGJ&lid=LSTNFLHZFY7TEJ2YYGJOYN8KK&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=9c55ba25-f2b5-44a0-a8fc-dc3556452e90.NFLHZFY7TEJ2YYGJ.SEARCH&ppt=None&ppn=None&ssid=nz0hzmz2zk0000001781272258025&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-06-12T13:50:59.182586",
+      "quick_analysis": {
+        "quick_score": 60,
+        "top_pros": [
+          "Healthy nail",
+          "Fast relief"
         ],
         "top_con": "Limited reviews",
         "quick_verdict": "Wait for more data"

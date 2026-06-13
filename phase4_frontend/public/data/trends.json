@@ -1,23 +1,27 @@
 {
   "hot_categories": [
     {
-      "category": "Home_Kitchen",
-      "count": 12
-    },
-    {
-      "category": "Beauty",
-      "count": 11
-    },
-    {
       "category": "TVs",
-      "count": 11
+      "count": 10
+    },
+    {
+      "category": "Home_Kitchen",
+      "count": 10
     },
     {
       "category": "Sports",
       "count": 10
     },
     {
+      "category": "Beauty",
+      "count": 10
+    },
+    {
       "category": "Women_Fashion",
+      "count": 10
+    },
+    {
+      "category": "Men_Fashion",
       "count": 10
     },
     {
@@ -27,124 +31,120 @@
     {
       "category": "Mobiles",
       "count": 10
-    },
-    {
-      "category": "Men_Fashion",
-      "count": 9
     }
   ],
   "declining_categories": [
     {
-      "category": "TVs",
-      "avg_sentiment": 82.3
-    },
-    {
       "category": "Beauty",
       "avg_sentiment": 80.5
     },
     {
-      "category": "Laptops",
+      "category": "Home_Kitchen",
       "avg_sentiment": 80.5
     },
     {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 80.4
+      "category": "Mobiles",
+      "avg_sentiment": 80.5
     },
     {
-      "category": "Mobiles",
+      "category": "Laptops",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Sports",
       "avg_sentiment": 80.0
     },
     {
       "category": "Women_Fashion",
-      "avg_sentiment": 79.4
-    },
-    {
-      "category": "Sports",
-      "avg_sentiment": 64.0
+      "avg_sentiment": 80.0
     },
     {
       "category": "Men_Fashion",
-      "avg_sentiment": 52.0
+      "avg_sentiment": 79.2
+    },
+    {
+      "category": "TVs",
+      "avg_sentiment": 73.0
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "affordable",
-      "mentions": 16
-    },
-    {
-      "keyword": "fast",
+      "keyword": "display",
       "mentions": 15
     },
     {
       "keyword": "easy",
-      "mentions": 8
-    },
-    {
-      "keyword": "picture",
-      "mentions": 8
-    },
-    {
-      "keyword": "performance",
-      "mentions": 8
-    },
-    {
-      "keyword": "effective",
-      "mentions": 7
+      "mentions": 11
     },
     {
       "keyword": "design",
-      "mentions": 7
+      "mentions": 11
     },
     {
-      "keyword": "skin",
-      "mentions": 7
+      "keyword": "affordable",
+      "mentions": 11
+    },
+    {
+      "keyword": "performance",
+      "mentions": 11
+    },
+    {
+      "keyword": "fast",
+      "mentions": 10
+    },
+    {
+      "keyword": "effective",
+      "mentions": 9
+    },
+    {
+      "keyword": "fabric",
+      "mentions": 5
     }
   ],
   "price_movements": [
     {
+      "category": "TVs",
+      "avg_price": 27067
+    },
+    {
       "category": "Home_Kitchen",
-      "avg_price": 18974
+      "avg_price": 7982
     },
     {
       "category": "Sports",
-      "avg_price": 599
+      "avg_price": 508
     },
     {
       "category": "Beauty",
-      "avg_price": 662
+      "avg_price": 322
     },
     {
       "category": "Women_Fashion",
-      "avg_price": 900
+      "avg_price": 644
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 853
-    },
-    {
-      "category": "TVs",
-      "avg_price": 25687
+      "avg_price": 896
     },
     {
       "category": "Laptops",
-      "avg_price": 42240
+      "avg_price": 88240
     },
     {
       "category": "Mobiles",
-      "avg_price": 23140
+      "avg_price": 52644
     }
   ],
   "best_deal": {
-    "name": "LIEBESGEWAND",
-    "price": 324,
-    "original_price": 250087,
-    "discount_percent": 87,
+    "name": "Embroidered Bollywood Georgette Saree",
+    "price": 808,
+    "original_price": 730088,
+    "discount_percent": 88,
     "category": "Women_Fashion",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/liebesgewand-printed-graphic-print-temple-border-daily-wear-cotton-linen-saree/p/itm9b87ff93019bf?pid=SARHKJC3CCDHGZSJ&lid=LSTSARHKJC3CCDHGZSJTZT5VI&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&spotlightTagId=default_BestsellerId_clo%2F8on%2Fzpd%2F9og&srno=s_1_26&otracker=search&fm=organic&iid=f4cdaf7a-0d45-48ec-b9f8-f56284e7837f.SARHKJC3CCDHGZSJ.SEARCH&ppt=None&ppn=None&ssid=wwbg7q8hu80000001780772557934&qH=9312319821db7ffa&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/ethnora-embroidered-bollywood-georgette-saree/p/itma1bdca9c170cd?pid=SARHZYYXGHHFUHVK&lid=LSTSARHZYYXGHHFUHVKYUILZS&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&srno=s_1_3&otracker=search&fm=organic&iid=bc5472bc-b394-40b0-b9f6-ae749af1050f.SARHZYYXGHHFUHVK.SEARCH&ppt=None&ppn=None&ssid=4dpcwm9l5c0000001781377249844&qH=9312319821db7ffa"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-06T19:13:31.053733"
+  "generated_at": "2026-06-13T19:09:53.052367"
 }

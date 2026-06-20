@@ -1,15 +1,11 @@
 {
   "hot_categories": [
     {
-      "category": "TVs",
+      "category": "Sports",
       "count": 10
     },
     {
       "category": "Home_Kitchen",
-      "count": 10
-    },
-    {
-      "category": "Sports",
       "count": 10
     },
     {
@@ -26,6 +22,10 @@
     },
     {
       "category": "Laptops",
+      "count": 10
+    },
+    {
+      "category": "TVs",
       "count": 10
     },
     {
@@ -36,18 +36,26 @@
   "declining_categories": [
     {
       "category": "Beauty",
-      "avg_sentiment": 80.5
+      "avg_sentiment": 81.5
+    },
+    {
+      "category": "TVs",
+      "avg_sentiment": 81.5
     },
     {
       "category": "Home_Kitchen",
-      "avg_sentiment": 80.5
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 80.5
+      "avg_sentiment": 80.0
     },
     {
       "category": "Laptops",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Mobiles",
       "avg_sentiment": 80.0
     },
     {
@@ -56,95 +64,87 @@
     },
     {
       "category": "Women_Fashion",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_sentiment": 79.2
-    },
-    {
-      "category": "TVs",
-      "avg_sentiment": 73.0
+      "avg_sentiment": 79.1
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "display",
-      "mentions": 15
-    },
-    {
-      "keyword": "easy",
-      "mentions": 11
-    },
-    {
-      "keyword": "design",
-      "mentions": 11
-    },
-    {
       "keyword": "affordable",
-      "mentions": 11
-    },
-    {
-      "keyword": "performance",
-      "mentions": 11
+      "mentions": 18
     },
     {
       "keyword": "fast",
-      "mentions": 10
+      "mentions": 11
+    },
+    {
+      "keyword": "display",
+      "mentions": 11
     },
     {
       "keyword": "effective",
+      "mentions": 10
+    },
+    {
+      "keyword": "silk",
+      "mentions": 10
+    },
+    {
+      "keyword": "performance",
       "mentions": 9
     },
     {
-      "keyword": "fabric",
-      "mentions": 5
+      "keyword": "easy",
+      "mentions": 8
+    },
+    {
+      "keyword": "blend",
+      "mentions": 7
     }
   ],
   "price_movements": [
     {
-      "category": "TVs",
-      "avg_price": 27067
+      "category": "Sports",
+      "avg_price": 871
     },
     {
       "category": "Home_Kitchen",
-      "avg_price": 7982
-    },
-    {
-      "category": "Sports",
-      "avg_price": 508
+      "avg_price": 6382
     },
     {
       "category": "Beauty",
-      "avg_price": 322
+      "avg_price": 800
     },
     {
       "category": "Women_Fashion",
-      "avg_price": 644
+      "avg_price": 666
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 896
+      "avg_price": 734
     },
     {
       "category": "Laptops",
-      "avg_price": 88240
+      "avg_price": 76890
+    },
+    {
+      "category": "TVs",
+      "avg_price": 27894
     },
     {
       "category": "Mobiles",
-      "avg_price": 52644
+      "avg_price": 24999
     }
   ],
   "best_deal": {
-    "name": "Embroidered Bollywood Georgette Saree",
-    "price": 808,
-    "original_price": 730088,
-    "discount_percent": 88,
+    "name": "Printed Daily Wear Jacquard, Organza Saree",
+    "price": 350,
+    "original_price": 350090,
+    "discount_percent": 90,
     "category": "Women_Fashion",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/ethnora-embroidered-bollywood-georgette-saree/p/itma1bdca9c170cd?pid=SARHZYYXGHHFUHVK&lid=LSTSARHZYYXGHHFUHVKYUILZS&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&srno=s_1_3&otracker=search&fm=organic&iid=bc5472bc-b394-40b0-b9f6-ae749af1050f.SARHZYYXGHHFUHVK.SEARCH&ppt=None&ppn=None&ssid=4dpcwm9l5c0000001781377249844&qH=9312319821db7ffa"
+    "flipkart_url": "https://www.flipkart.com/tigersnake-printed-daily-wear-jacquard-organza-saree/p/itm79ca8716e9b62?pid=SARGHZ4EAZZZTUHQ&lid=LSTSARGHZ4EAZZZTUHQJNM1XM&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&srno=s_2_63&otracker=search&fm=organic&iid=94885d0a-9a65-401a-b454-f191790a6945.SARGHZ4EAZZZTUHQ.SEARCH&ppt=None&ppn=None&ssid=apztz1yerk0000001781982259031&qH=9312319821db7ffa&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-13T19:09:53.052367"
+  "generated_at": "2026-06-20T19:14:02.641904"
 }

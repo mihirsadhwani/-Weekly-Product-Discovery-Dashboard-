@@ -1,15 +1,15 @@
 {
   "hot_categories": [
     {
-      "category": "Sports",
-      "count": 10
-    },
-    {
       "category": "Home_Kitchen",
-      "count": 10
+      "count": 13
     },
     {
       "category": "Beauty",
+      "count": 13
+    },
+    {
+      "category": "Sports",
       "count": 10
     },
     {
@@ -21,11 +21,11 @@
       "count": 10
     },
     {
-      "category": "Laptops",
+      "category": "TVs",
       "count": 10
     },
     {
-      "category": "TVs",
+      "category": "Laptops",
       "count": 10
     },
     {
@@ -35,12 +35,12 @@
   ],
   "declining_categories": [
     {
-      "category": "Beauty",
+      "category": "TVs",
       "avg_sentiment": 81.5
     },
     {
-      "category": "TVs",
-      "avg_sentiment": 81.5
+      "category": "Beauty",
+      "avg_sentiment": 80.4
     },
     {
       "category": "Home_Kitchen",
@@ -55,25 +55,29 @@
       "avg_sentiment": 80.0
     },
     {
-      "category": "Mobiles",
+      "category": "Women_Fashion",
       "avg_sentiment": 80.0
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 77.0
     },
     {
       "category": "Sports",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_sentiment": 79.1
+      "avg_sentiment": 72.0
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "affordable",
-      "mentions": 18
+      "keyword": "fast",
+      "mentions": 20
     },
     {
-      "keyword": "fast",
+      "keyword": "affordable",
+      "mentions": 17
+    },
+    {
+      "keyword": "design",
       "mentions": 11
     },
     {
@@ -81,70 +85,66 @@
       "mentions": 11
     },
     {
-      "keyword": "effective",
+      "keyword": "performance",
       "mentions": 10
+    },
+    {
+      "keyword": "skin",
+      "mentions": 9
     },
     {
       "keyword": "silk",
-      "mentions": 10
-    },
-    {
-      "keyword": "performance",
       "mentions": 9
     },
     {
       "keyword": "easy",
       "mentions": 8
-    },
-    {
-      "keyword": "blend",
-      "mentions": 7
     }
   ],
   "price_movements": [
     {
-      "category": "Sports",
-      "avg_price": 871
-    },
-    {
       "category": "Home_Kitchen",
-      "avg_price": 6382
+      "avg_price": 20624
     },
     {
       "category": "Beauty",
       "avg_price": 800
     },
     {
+      "category": "Sports",
+      "avg_price": 746
+    },
+    {
       "category": "Women_Fashion",
-      "avg_price": 666
+      "avg_price": 798
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 734
-    },
-    {
-      "category": "Laptops",
-      "avg_price": 76890
+      "avg_price": 798
     },
     {
       "category": "TVs",
-      "avg_price": 27894
+      "avg_price": 13207
+    },
+    {
+      "category": "Laptops",
+      "avg_price": 87790
     },
     {
       "category": "Mobiles",
-      "avg_price": 24999
+      "avg_price": 25188
     }
   ],
   "best_deal": {
-    "name": "Printed Daily Wear Jacquard, Organza Saree",
-    "price": 350,
-    "original_price": 350090,
-    "discount_percent": 90,
+    "name": "LIEBESGEWAND",
+    "price": 305,
+    "original_price": 250087,
+    "discount_percent": 87,
     "category": "Women_Fashion",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/tigersnake-printed-daily-wear-jacquard-organza-saree/p/itm79ca8716e9b62?pid=SARGHZ4EAZZZTUHQ&lid=LSTSARGHZ4EAZZZTUHQJNM1XM&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&srno=s_2_63&otracker=search&fm=organic&iid=94885d0a-9a65-401a-b454-f191790a6945.SARGHZ4EAZZZTUHQ.SEARCH&ppt=None&ppn=None&ssid=apztz1yerk0000001781982259031&qH=9312319821db7ffa&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/liebesgewand-printed-daily-wear-cotton-linen-saree/p/itm9b87ff93019bf?pid=SARHKJC3CCDHGZSJ&lid=LSTSARHKJC3CCDHGZSJHYSZMN&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&spotlightTagId=default_BestsellerId_clo%2F8on%2Fzpd%2F9og&srno=s_1_9&otracker=search&fm=organic&iid=928c8323-62b5-400f-904e-ff22b60662ac.SARHKJC3CCDHGZSJ.SEARCH&ppt=None&ppn=None&ssid=a5ai716ky80000001782586657277&qH=9312319821db7ffa&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-20T19:14:02.641904"
+  "generated_at": "2026-06-27T19:07:35.839063"
 }

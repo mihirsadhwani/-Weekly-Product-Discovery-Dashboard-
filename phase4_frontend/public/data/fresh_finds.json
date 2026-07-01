@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-01T09:03:06Z",
-  "total_products": 10,
+  "date": "2026-07-01T13:25:34Z",
+  "total_products": 20,
   "products": [
     {
       "name": "Drova Makeup Kits",
@@ -166,6 +166,173 @@
           "Long lasting"
         ],
         "top_con": "Color variation",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Vivo T4 Lite 5G (Titanium Gold 2026) (4GB 128GB)",
+      "price": 16999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-titanium-gold-2026-4gb-128gb/p/itm49fb53d099f3c?pid=MOBHNCRKN8ZBGAJR&lid=LSTMOBHNCRKN8ZBGAJREUTFV0&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHNCRKN8ZBGAJR.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.420041",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Vivo T4 Lite 5G (Prism Blue 2026) ( 4GB 64GB)",
+      "price": 14999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/r/i/-original-imahnq7mcqxru4nv.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-prism-blue-2026-4gb-64gb/p/itm49fb53d099f3c?pid=MOBHNCRKA4XQFSRM&lid=LSTMOBHNCRKA4XQFSRMKUYMUR&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHNCRKA4XQFSRM.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.420216",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "Fast 5G"
+        ],
+        "top_con": "Low Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Samsung Galaxy F70e 5G (Limelight Green, 128 GB)",
+      "price": 15499,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/p/o/-original-imahmz2gwjzykfgp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-f70e-5g-limelight-green-128-gb/p/itmf26a013c841a6?pid=MOBHMGHQ7MHMMHJZ&lid=LSTMOBHMGHQ7MHMMHJZ6Y5PNV&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHMGHQ7MHMMHJZ.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.420402",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good battery",
+          "Fast charging"
+        ],
+        "top_con": "Limited storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Vivo T4 Lite 5G (Titanium Gold 2026) (4GB 64GB)",
+      "price": 14999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-titanium-gold-2026-4gb-64gb/p/itm49fb53d099f3c?pid=MOBHNCRK44PF7QEN&lid=LSTMOBHNCRK44PF7QENJQHGI9&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHNCRK44PF7QEN.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.420558",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Battery",
+          "Fast Charging"
+        ],
+        "top_con": "Low Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "REDMI Note 15 SE 5G Snapdragon (Carbon Black, 128 GB)",
+      "price": 22999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/l/b/z/-original-imahn97aqcudgdpy.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/redmi-note-15-se-5g-snapdragon-carbon-black-128-gb/p/itm60b0ad3a0da9d?pid=MOBHN52FDHRHXYKD&lid=LSTMOBHN52FDHRHXYKDT6HEXV&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHN52FDHRHXYKD.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.420714",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Fast 5G",
+          "Good Battery"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "HMD Vibe2 5G (Cosmic Lavender, 128 GB)",
+      "price": 16999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/3/z/-original-imahnkkyvxqcz86h.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-5g-cosmic-lavender-128-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYGKZEYC64&lid=LSTMOBHN6XYGKZEYC6485EX8Y&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHN6XYGKZEYC64.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.420865",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Battery",
+          "Fast Charging"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "HMD Vibe2 5G (Peach Pink, 128 GB)",
+      "price": 16999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/b/c/-original-imahnkky6hkycnhv.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-5g-peach-pink-128-gb/p/itm71c3ae6df2a26?pid=MOBHN6XYSHFH3BNJ&lid=LSTMOBHN6XYSHFH3BNJAIKEZZ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHN6XYSHFH3BNJ.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.421016",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Battery",
+          "Fast Charging"
+        ],
+        "top_con": "High Price",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "realme P4 Lite 5G (Mosaic Blue, 64 GB)",
+      "price": 15499,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/z/a/-original-imahhngs3z46gnew.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-5g-mosaic-blue-64-gb/p/itm90c243961f214?pid=MOBHN7A8CMJGRACT&lid=LSTMOBHN7A8CMJGRACTDRIOJU&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHN7A8CMJGRACT.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.421167",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "Fast 5G"
+        ],
+        "top_con": "Low Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "MOTOROLA g06 power (Pantone tapestry, 64 GB)",
+      "price": 12999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/n/a/-original-imahnfuypbu3zse3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/motorola-g06-power-pantone-tapestry-64-gb/p/itm29390fa68401d?pid=MOBHN973FFYHGUGG&lid=LSTMOBHN973FFYHGUGG27JKDQ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHN973FFYHGUGG.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.421337",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Battery",
+          "Affordable Price"
+        ],
+        "top_con": "Limited RAM",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "realme P4 Lite (Beach Gold, 64 GB)",
+      "price": 12999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/a/a/-original-imahmx82vachdh9z.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-beach-gold-64-gb/p/itm029fbc88fdc91?pid=MOBHMX7KF4XYHTDM&lid=LSTMOBHMX7KF4XYHTDMBW6TWC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=942ab596-6aad-470b-9951-a208625a0c7d.MOBHMX7KF4XYHTDM.SEARCH&ppt=None&ppn=None&ssid=mq6iup4vps0000001782912174425&ov_redirect=true",
+      "scraped_at": "2026-07-01T13:22:55.421489",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "Decent RAM"
+        ],
+        "top_con": "Out of stock",
         "quick_verdict": "Worth checking"
       }
     }

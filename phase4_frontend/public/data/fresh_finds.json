@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-04T11:57:43Z",
-  "total_products": 60,
+  "date": "2026-07-04T15:56:05Z",
+  "total_products": 90,
   "products": [
     {
       "name": "Samsung Galaxy F70e 5G (Limelight Green, 128 GB)",
@@ -1019,6 +1019,510 @@
           "SPF 30+"
         ],
         "top_con": "Limited Shades",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Samsung Galaxy F70e 5G (Limelight Green, 128 GB)",
+      "price": 12999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/p/o/-original-imahmz2gwjzykfgp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-f70e-5g-limelight-green-128-gb/p/itmf26a013c841a6?pid=MOBHMGHQ7MHMMHJZ&lid=LSTMOBHMGHQ7MHMMHJZ6Y5PNV&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHMGHQ7MHMMHJZ.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.136566",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Vivo T4 Lite 5G (Titanium Gold 2026) (4GB 64GB)",
+      "price": 14999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-titanium-gold-2026-4gb-64gb/p/itm49fb53d099f3c?pid=MOBHNCRK44PF7QEN&lid=LSTMOBHNCRK44PF7QENBDEBI7&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHNCRK44PF7QEN.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.136741",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "realme P4 Lite (Beach Gold, 64 GB)",
+      "price": 11999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/a/a/-original-imahmx82vachdh9z.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-beach-gold-64-gb/p/itm029fbc88fdc91?pid=MOBHMX7KF4XYHTDM&lid=LSTMOBHMX7KF4XYHTDMBW6TWC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHMX7KF4XYHTDM.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.136898",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Battery",
+          "Fast Charging"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Vivo T4 Lite 5G (Titanium Gold 2026) (4GB 128GB)",
+      "price": 16999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-titanium-gold-2026-4gb-128gb/p/itm49fb53d099f3c?pid=MOBHNCRKN8ZBGAJR&lid=LSTMOBHNCRKN8ZBGAJREUTFV0&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHNCRKN8ZBGAJR.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.137048",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Battery",
+          "Fast Charging"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Vivo T4 Lite 5G (Prism Blue 2026) ( 4GB 64GB)",
+      "price": 14999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/r/i/-original-imahnq7mcqxru4nv.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-prism-blue-2026-4gb-64gb/p/itm49fb53d099f3c?pid=MOBHNCRKA4XQFSRM&lid=LSTMOBHNCRKA4XQFSRMKUYMUR&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHNCRKA4XQFSRM.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.137203",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "Fast 5G"
+        ],
+        "top_con": "Low Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "POCO C85x (Emerald Green, 128 GB)",
+      "price": 13499,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/7/s/-original-imahmqganju6a3gt.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/poco-c85x-emerald-green-128-gb/p/itm2ed0d15dfc872?pid=MOBHMGG5JUYG9DCY&lid=LSTMOBHMGG5JUYG9DCYHB3OAA&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHMGG5JUYG9DCY.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.137380",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "Emerald Green"
+        ],
+        "top_con": "RAM Concern",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "realme P4 Lite 5G (Mosaic Blue, 64 GB)",
+      "price": 14749,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/z/a/-original-imahhngs3z46gnew.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-5g-mosaic-blue-64-gb/p/itm90c243961f214?pid=MOBHN7A8CMJGRACT&lid=LSTMOBHN7A8CMJGRACTDRIOJU&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHN7A8CMJGRACT.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.137537",
+      "quick_analysis": {
+        "quick_score": 70,
+        "top_pros": [
+          "Good Battery",
+          "Fast Charging"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "REDMI Note 15 SE 5G Snapdragon (Carbon Black, 128 GB)",
+      "price": 22999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/l/b/z/-original-imahn97aqcudgdpy.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/redmi-note-15-se-5g-snapdragon-carbon-black-128-gb/p/itm60b0ad3a0da9d?pid=MOBHN52FDHRHXYKD&lid=LSTMOBHN52FDHRHXYKDT6HEXV&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHN52FDHRHXYKD.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.137692",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Fast Performance",
+          "Good Battery"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "XOME XM17 PRO MAXX (Orange, 128 GB)",
+      "price": 11999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/k/y/xm-17-pro-max-xm-17-pro-max-xome-original-imahzbhrfsnrxg5v.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/xome-xm17-pro-maxx-orange-128-gb/p/itm6be0c1fcdd4ac?pid=MOBHZBZSVHGQCKHZ&lid=LSTMOBHZBZSVHGQCKHZ5QIWHX&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHZBZSVHGQCKHZ.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.137833",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "High Storage"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "realme P4 Lite (Sea Blue, 64 GB)",
+      "price": 11999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/9/g/q/-original-imahmx8fh8pacxjf.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-sea-blue-64-gb/p/itm029fbc88fdc91?pid=MOBHMX7KEQPFYJ5U&lid=LSTMOBHMX7KEQPFYJ5UYOGZ28&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=07d6eda7-f94c-4f31-8160-15170a8529dc.MOBHMX7KEQPFYJ5U.SEARCH&ppt=None&ppn=None&ssid=rhn1kk5nnk0000001783179960795&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:02.137979",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Price",
+          "Decent Performance"
+        ],
+        "top_con": "Limited Storage",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Women Regular Fit Striped Spread Collar Casual Shirt",
+      "price": 299,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/o/3/m/m-shirt45-mentry-original-imahhfmvgr37havc.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/srbcorporation-women-striped-casual-blue-white-shirt/p/itm4fdd0ec803db8?pid=SHTHMRPPHDJCTZ9P&lid=LSTSHTHMRPPHDJCTZ9P8BDUN2&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.SHTHMRPPHDJCTZ9P.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.192073",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Casual style"
+        ],
+        "top_con": "Size issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Girls Self Design Parka Jacket",
+      "price": 448,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/8/8/v/2-3-years-1-no-lady-kids-01-frosta-original-imahzrjnbzz3mgpa.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/frosta-full-sleeve-self-design-girls-jacket/p/itmc1c89ef5b4e1c?pid=JCKHZRKFWVZKKN89&lid=LSTJCKHZRKFWVZKKN89K5L66N&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.JCKHZRKFWVZKKN89.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.192344",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable Price",
+          "Variety Sizes"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Embellished, Embroidered Bollywood Chiffon Saree",
+      "price": 717,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/e/i/o/free-geetanjali-light-5-k-5-fashion-unstitched-original-imahzmgj2tzugasa.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/k-9-fashion-embellished-embroidered-bollywood-chiffon-saree/p/itm5550e4d708af5?pid=SARHZRTGVHUNC5NT&lid=LSTSARHZRTGVHUNC5NT2VTHLE&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.SARHZRTGVHUNC5NT.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.192547",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Embellished design",
+          "Affordable price"
+        ],
+        "top_con": "Quality unknown",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Unstitched Pure Cotton Salwar Suit Material Printed",
+      "price": 900,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/fabric/i/a/z/yes-2-5-m-unstitched-2-36-m-ctn-suit-129-azarvi-original-imahzrsnc5uhyhed.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/azarvi-pure-cotton-printed-salwar-suit-material/p/itm9d40363461fe6?pid=FABHZRTAJAYGDQHC&lid=LSTFABHZRTAJAYGDQHCKVGA3L&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.FABHZRTAJAYGDQHC.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.192737",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Pure Cotton",
+          "Affordable Price"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Striped Men Track Suit",
+      "price": 900,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/track-suit/u/b/j/m-track-suit-for-men-alishba-resized-2-original-imahggryugcqtnam.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/qabira-striped-men-track-suit/p/itmd587f5061fb26?pid=TKSHGZTPSZF2FHYZ&lid=LSTTKSHGZTPSZF2FHYZVF3DDE&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.TKSHGZTPSZF2FHYZ.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.192926",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Quality",
+          "Affordable Price"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Boys Regular Fit Solid Spread Collar Casual Shirt",
+      "price": 315,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/n/k/m/12-13-years-mtyu-kids-combo-shirt-indostrend-original-imahmd663pyvvpfd.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/trendyindo-gn-boys-solid-casual-blue-red-shirt/p/itm4659792f57cee?pid=SHTHZYNHCVYBBWRU&lid=LSTSHTHZYNHCVYBBWRU7WD3GR&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.SHTHZYNHCVYBBWRU.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.193127",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good quality",
+          "Affordable price"
+        ],
+        "top_con": "Size issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Pack of 2 Solid Men Brief",
+      "price": 355,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brief/h/n/p/l-2-1102-kapil-fashion-point-original-imahzwk5eguuckyh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kapil-fashion-point-men-brief/p/itmae21bde977e68?pid=BRFHZWK5KJHZWPZX&lid=LSTBRFHZWK5KJHZWPZXMUN8KY&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.BRFHZWK5KJHZWPZX.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.193355",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Quality",
+          "Affordable Price"
+        ],
+        "top_con": "Size Issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Floral Print Daily Wear Georgette Saree",
+      "price": 260,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/u/l/e/free-veena-pink-5602-zmr-trendz-unstitched-original-imahzruhcztxxgzm.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/zmr-trendz-floral-print-daily-wear-georgette-saree/p/itma4369c010c319?pid=SARHZRUJB5Y5BRGZ&lid=LSTSARHZRUJB5Y5BRGZB2DJMK&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.SARHZRUJB5Y5BRGZ.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.193557",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Georgette fabric"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Baby Girls Above Knee Casual Dress",
+      "price": 295,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/n/r/q/2-4-years-bgd-babypink-004-ruhicloset-original-imahzxhhzckwndbv.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/ruhicloset-indi-baby-girls-above-knee-casual-dress/p/itm8d1eff36c26b6?pid=KDEHZXHHYVXEMJZZ&lid=LSTKDEHZXHHYVXEMJZZK3M1HU&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.KDEHZXHHYVXEMJZZ.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.193747",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable Price",
+          "Cute Design"
+        ],
+        "top_con": "Size Issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Boys Regular Fit Solid Casual Shirt",
+      "price": 450,
+      "category": "Fashion",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-shirt/n/j/p/13-14-years-shirt-2-trendy-indo-original-imahzxgqvhbuftrg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/thelazzolica-boys-solid-casual-light-blue-shirt/p/itm3e35eeec06ea0?pid=SHTHZXH3DUHKBXCF&lid=LSTSHTHZXH3DUHKBXCF4GNWCN&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=70087225-5032-4328-9bf2-934fc54be376.SHTHZXH3DUHKBXCF.SEARCH&ppt=None&ppn=None&ssid=oozb82fj9s0000001783179966869&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:09.193936",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Good Quality",
+          "Affordable Price"
+        ],
+        "top_con": "Size Issues",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "KESOL 100 PCS Air Fryer Basket Liners Disposable Parchm...",
+      "price": null,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/o/u/s/100-pcs-air-fryer-basket-liners-disposable-parchment-paper-tesot-original-imahzgp6f9h3gvzg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kesol-100-pcs-air-fryer-basket-liners-disposable-parchment-paper-airfryer-tray/p/itma53659d962bf0?pid=AFTHZGW8YYP6CQFU&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZGW8YYP6CQFU.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.414562",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Disposable liners"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Tesot Air Fryer Paper Liners Square Disposable Baking P...",
+      "price": 167,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/k/5/j/air-fryer-paper-liners-square-disposable-baking-paper-sheets-100-original-imahzgp6t2ztfast.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/tesot-air-fryer-paper-liners-square-disposable-baking-sheets-100-pcs-airfryer-tray/p/itm2113e7dfda9b0?pid=AFTHZGP6B59XCBGT&lid=LSTAFTHZGP6B59XCBGTQWJYZI&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZGP6B59XCBGT.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.414775",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Disposable convenience"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Tesot 100 PCS Air Fryer Paper Liners Non Stick Easy Cle...",
+      "price": 167,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/s/b/j/100-pcs-air-fryer-paper-liners-non-stick-easy-clean-tesot-2-original-imahzgpegqyumcuy.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/tesot-100-pcs-air-fryer-paper-liners-non-stick-easy-clean-airfryer-tray/p/itm11fb0f6b81cf0?pid=AFTHZGPEBEDEF5U3&lid=LSTAFTHZGPEBEDEF5U3HCRP0W&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZGPEBEDEF5U3.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.414983",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Non Stick",
+          "Easy Clean"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Tesot 100 PCS Square Air Fryer Paper Liners Heat Resist...",
+      "price": 167,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/c/u/3/premium-air-fryer-square-liners-100-pcs-oil-proof-disposable-original-imahjjx3thybf7n9.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/tesot-100-pcs-square-air-fryer-paper-liners-heat-resistant-airfryer-tray/p/itmcc0c0c75981e1?pid=AFTHZGPYKVPZ49ZB&lid=LSTAFTHZGPYKVPZ49ZBHQHQSM&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZGPYKVPZ49ZB.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.415194",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Heat Resistant",
+          "Easy Cleaning"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Tesot 100 PCS Air Fryer Basket Paper Sheets Heat Resist...",
+      "price": 167,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/q/v/2/100-pcs-air-fryer-basket-paper-sheets-heat-resistant-tesot-2-original-imahzgpxfztsy4ha.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/tesot-100-pcs-air-fryer-basket-paper-sheets-heat-resistant-airfryer-tray/p/itm277bee77dff7b?pid=AFTHZGPXBX86Z2JZ&lid=LSTAFTHZGPXBX86Z2JZ2DUAKQ&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZGPXBX86Z2JZ.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.415423",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Heat Resistant",
+          "Easy Cleanup"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Tesot 100 PCS Air Fryer Oil Proof Paper Liners Square B...",
+      "price": 167,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/f/g/h/100-pcs-air-fryer-oil-proof-paper-liners-square-basket-tesot-2-original-imahzgp6ngqdvevd.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/tesot-100-pcs-air-fryer-oil-proof-paper-liners-square-basket-airfryer-tray/p/itmbd6b3155d6c57?pid=AFTHZGP8MGD2GUGH&lid=LSTAFTHZGP8MGD2GUGHASTSM2&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZGP8MGD2GUGH.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.415629",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Oil proof"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Tesot Air Fryer Basket Paper Sheets Disposable Grease P...",
+      "price": 167,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/s/h/f/air-fryer-basket-paper-sheets-disposable-grease-proof-100-pcs-original-imahzgpcs5qwtyu3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/tesot-air-fryer-basket-paper-sheets-disposable-grease-proof-100-pcs-airfryer-tray/p/itm479ea20e9a1b2?pid=AFTHZGPCPYDKAWFD&lid=LSTAFTHZGPCPYDKAWFD7B5WEO&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZGPCPYDKAWFD.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.415827",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Grease proof"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "KESOL Disposable Air Fryer Paper Liners 8 Inch Square, ...",
+      "price": 151,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/e/d/m/disposable-air-fryer-paper-liners-8-inch-square-100-count-non-original-imahzfknwswwpjhe.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kesol-disposable-air-fryer-paper-liners-8-inch-square-100-count-non-stick-airfryer-tray/p/itm669d6e7a0ea8e?pid=AFTHZFKN8WGZKNYX&lid=LSTAFTHZFKN8WGZKNYXS8BJRE&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZFKN8WGZKNYX.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.416052",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Non-Stick Surface",
+          "Easy Cleanup"
+        ],
+        "top_con": "Limited Size",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "KESOL Air Fryer Paper Liners Disposable Square Non Stic...",
+      "price": null,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/i/l/a/air-fryer-paper-liners-disposable-square-non-stick-parchment-original-imahzgp4n2pmjn3n.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kesol-air-fryer-paper-liners-disposable-square-non-stick-parchment-100-pcs-airfryer-tray/p/itm56fe5c2c0e72c?pid=AFTHZGW8HFUPAK53&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.AFTHZGW8HFUPAK53.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.416381",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Non Stick",
+          "Easy Clean"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Thunderex Wireless Air Mouse Wireless Air Mouse with Vo...",
+      "price": 410,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/h/s/b/wireless-air-mouse-with-voice-command-motion-sensing-with-usb-original-imahzdd4r6ygunfm.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/thunderex-wireless-air-mouse-voice-command-motion-sensing-usb-receiver-g10-2-4ghz-remote-controller/p/itm99a07c6b478b8?pid=REMHZDBRPED5VHZC&lid=LSTREMHZDBRPED5VHZCDUHF6O&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=c6910594-9f03-41aa-a490-2e78f9715e5a.REMHZDBRPED5VHZC.SEARCH&ppt=None&ppn=None&ssid=5cvt193rvk0000001783179973434&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-04T15:46:15.416584",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Voice Command",
+          "Motion Sensing"
+        ],
+        "top_con": "No reviews",
         "quick_verdict": "Worth checking"
       }
     }

@@ -1,15 +1,15 @@
 {
   "hot_categories": [
     {
+      "category": "Sports",
+      "count": 12
+    },
+    {
       "category": "Home_Kitchen",
-      "count": 13
+      "count": 12
     },
     {
       "category": "Beauty",
-      "count": 13
-    },
-    {
-      "category": "Sports",
       "count": 10
     },
     {
@@ -21,11 +21,11 @@
       "count": 10
     },
     {
-      "category": "TVs",
+      "category": "Laptops",
       "count": 10
     },
     {
-      "category": "Laptops",
+      "category": "TVs",
       "count": 10
     },
     {
@@ -35,16 +35,12 @@
   ],
   "declining_categories": [
     {
-      "category": "TVs",
-      "avg_sentiment": 81.5
-    },
-    {
       "category": "Beauty",
-      "avg_sentiment": 80.4
+      "avg_sentiment": 81.0
     },
     {
       "category": "Home_Kitchen",
-      "avg_sentiment": 80.0
+      "avg_sentiment": 80.8
     },
     {
       "category": "Laptops",
@@ -55,96 +51,100 @@
       "avg_sentiment": 80.0
     },
     {
-      "category": "Women_Fashion",
-      "avg_sentiment": 80.0
+      "category": "Sports",
+      "avg_sentiment": 79.9
     },
     {
-      "category": "Mobiles",
+      "category": "Women_Fashion",
       "avg_sentiment": 77.0
     },
     {
-      "category": "Sports",
-      "avg_sentiment": 72.0
+      "category": "TVs",
+      "avg_sentiment": 74.0
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 64.0
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "fast",
-      "mentions": 20
+      "keyword": "affordable",
+      "mentions": 13
     },
     {
-      "keyword": "affordable",
-      "mentions": 17
+      "keyword": "fast",
+      "mentions": 12
     },
     {
       "keyword": "design",
       "mentions": 11
     },
     {
-      "keyword": "display",
+      "keyword": "performance",
       "mentions": 11
     },
     {
-      "keyword": "performance",
+      "keyword": "easy",
       "mentions": 10
     },
     {
-      "keyword": "skin",
-      "mentions": 9
+      "keyword": "effective",
+      "mentions": 10
     },
     {
-      "keyword": "silk",
-      "mentions": 9
+      "keyword": "comfortable",
+      "mentions": 10
     },
     {
-      "keyword": "easy",
-      "mentions": 8
+      "keyword": "display",
+      "mentions": 9
     }
   ],
   "price_movements": [
     {
+      "category": "Sports",
+      "avg_price": 448
+    },
+    {
       "category": "Home_Kitchen",
-      "avg_price": 20624
+      "avg_price": 7574
     },
     {
       "category": "Beauty",
-      "avg_price": 800
-    },
-    {
-      "category": "Sports",
-      "avg_price": 746
+      "avg_price": 230
     },
     {
       "category": "Women_Fashion",
-      "avg_price": 798
+      "avg_price": 845
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 798
-    },
-    {
-      "category": "TVs",
-      "avg_price": 13207
+      "avg_price": 723
     },
     {
       "category": "Laptops",
-      "avg_price": 87790
+      "avg_price": 51790
+    },
+    {
+      "category": "TVs",
+      "avg_price": 28977
     },
     {
       "category": "Mobiles",
-      "avg_price": 25188
+      "avg_price": 24559
     }
   ],
   "best_deal": {
     "name": "LIEBESGEWAND",
-    "price": 305,
-    "original_price": 250087,
-    "discount_percent": 87,
+    "price": 288,
+    "original_price": 250088,
+    "discount_percent": 88,
     "category": "Women_Fashion",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/liebesgewand-printed-daily-wear-cotton-linen-saree/p/itm9b87ff93019bf?pid=SARHKJC3CCDHGZSJ&lid=LSTSARHKJC3CCDHGZSJHYSZMN&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&spotlightTagId=default_BestsellerId_clo%2F8on%2Fzpd%2F9og&srno=s_1_9&otracker=search&fm=organic&iid=928c8323-62b5-400f-904e-ff22b60662ac.SARHKJC3CCDHGZSJ.SEARCH&ppt=None&ppn=None&ssid=a5ai716ky80000001782586657277&qH=9312319821db7ffa&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/liebesgewand-printed-daily-wear-cotton-linen-saree/p/itm9b87ff93019bf?pid=SARHKJC3CCDHGZSJ&lid=LSTSARHKJC3CCDHGZSJTZT5VI&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&spotlightTagId=default_BestsellerId_clo%2F8on%2Fzpd%2F9og&srno=s_1_3&otracker=search&fm=organic&iid=c140f341-6ad9-4c1c-bfa3-96c27d248e65.SARHKJC3CCDHGZSJ.SEARCH&ppt=None&ppn=None&ssid=fhztvllk8w0000001783190727567&qH=9312319821db7ffa&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-06-27T19:07:35.839063"
+  "generated_at": "2026-07-04T18:55:43.174859"
 }

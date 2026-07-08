@@ -1,327 +1,225 @@
 {
-  "date": "2026-07-07T17:03:13Z",
-  "total_products": 90,
+  "date": "2026-07-08T07:48:34Z",
+  "total_products": 20,
   "products": [
     {
-      "name": "Omsnord SF-400 High Precision Kitchen Weighing Scale 10...",
-      "price": 300,
+      "name": "THIRD DIMENSION AN-MR600, AN-MR650, AN-MR18, AN-MR19, A...",
+      "price": 200,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/weighing-scale/a/l/w/sf-400-high-precision-kitchen-weighing-scale-10kg-with-abs-body-original-imahzygqe2k2azux.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/omsnord-sf-400-high-precision-kitchen-weighing-scale-10kg-abs-body-home/p/itmbc5f0c8efcc3d?pid=WSLHZYGQMPNXZCYE&lid=LSTWSLHZYGQMPNXZCYENCBC8G&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.WSLHZYGQMPNXZCYE.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.716890",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/q/2/z/flat-scroll-wheel-replacement-kit-compatible-with-lg-magic-original-imahzvzdxapwgm2m.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/third-dimension-an-mr600-an-mr650-an-mr18-an-mr19-an-mr20-flat-scroll-wheel-replacement-kit-compatible-magic-remote-lg-controller/p/itm2e6abdc0232e6?pid=REMHZVZD26WCTUGC&lid=LSTREMHZVZD26WCTUGC8BDRIH&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.REMHZVZD26WCTUGC.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.710158",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "High Precision",
-          "Affordable Price"
+          "Easy Installation",
+          "Cost Effective"
+        ],
+        "top_con": "Limited Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "THIRD DIMENSION LG Magic Remote ROUND Scroll Wheel Repl...",
+      "price": 200,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/w/c/c/round-scroll-wheel-replacement-kit-comaptible-for-model-mr21-original-imahzw2egyhzuqh5.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/third-dimension-lg-magic-remote-round-scroll-wheel-replacement-kit-comaptible-model-mr21-mr22-mr23-mr24-controller/p/itm872f098d91882?pid=REMHZW2EDZZWCGJC&lid=LSTREMHZW2EDZZWCGJCTZ3YYV&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.REMHZW2EDZZWCGJC.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.710413",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy Replacement",
+          "Cost Effective"
+        ],
+        "top_con": "Compatibility Issue",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "CONTROLER REALME ANDROID LED TV REMOTE NON VOICE REALME...",
+      "price": 323,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/x/8/m/realme-android-led-tv-remote-controler-original-imahztdgfnbu3n3e.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/controler-realme-android-led-tv-remote-non-voice-compatible-controller/p/itmd5d5960afde69?pid=REMHZTDGHGH57S62&lid=LSTREMHZTDGHGH57S62QMNQHH&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.REMHZTDGHGH57S62.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.710646",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Affordable price"
+        ],
+        "top_con": "No voice control",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "SKYNEU HAIERLED TV HAIERLED HAIERREMOTE Remote Controll...",
+      "price": 289,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/m/m/w/haierled-skyneu-original-imahzqyshmkmk5r9.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/skyneu-haierled-tv-haierremote-remote-controller/p/itm751235889d5bb?pid=REMHZSSVMCHYV2VF&lid=LSTREMHZSSVMCHYV2VFJBDDOA&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.REMHZSSVMCHYV2VF.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.710906",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Easy control"
         ],
         "top_con": "No reviews",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "ZMS Micro Jar Compatible with Mixer Grinder Mixer Juice...",
-      "price": 1000,
+      "name": "SKYNEU Compatible for LED/LCD TV Sansui Remote Controll...",
+      "price": 267,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-juicer-jar/v/q/r/micro-jar-compatible-with-bosch-mixer-grinder-zms-250-original-imahpf8agzj2wztv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/zms-micro-jar-compatible-mixer-grinder-juicer/p/itm716831146192b?pid=MJJHPF8A6ZVXKHPV&lid=LSTMJJHPF8A6ZVXKHPV0EPFET&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.MJJHPF8A6ZVXKHPV.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.717145",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/x/y/f/compatible-for-led-lcd-tv-sansui-remote-controller-skyneu-original-imahzr3kzqc2fvxh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/skyneu-compatible-led-lcd-tv-sansui-remote-controller/p/itm1ae190e2f01c7?pid=REMHZR3KHWTZZ259&lid=LSTREMHZR3KHWTZZ2598Q8I7W&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.REMHZR3KHWTZZ259.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.711161",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Compatible design",
-          "Affordable price"
+          "Affordable price",
+          "Easy replacement"
         ],
         "top_con": "Quality concerns",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "Omsnord SF-400 High Precision Kitchen Weighing Scale 10...",
-      "price": 300,
+      "name": "SKYNEU Compatible FoxSky HD Ready LED Smart Android TV ...",
+      "price": 403,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/weighing-scale/2/n/s/sf-400-high-precision-kitchen-weighing-scale-10kg-with-abs-body-original-imahzygmdz23rczp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/omsnord-sf-400-high-precision-kitchen-weighing-scale-10kg-abs-body-cooking/p/itme1d25f7923458?pid=WSLHZYGNZFFNZBJG&lid=LSTWSLHZYGNZFFNZBJGXUOTNG&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.WSLHZYGNZFFNZBJG.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.717378",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/q/8/h/compatible-foxsky-hd-ready-led-smart-android-tv-skyneu-original-imahzuazgyu4hss6.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/skyneu-compatible-foxsky-hd-ready-led-smart-android-tv-tv-please-match-old-remote-controller/p/itma1d96bafed0ba?pid=REMHZUAZCCZP7YCK&lid=LSTREMHZUAZCCZP7YCKDNRRG0&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.REMHZUAZCCZP7YCK.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.711385",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "High Precision",
+          "Affordable Price",
+          "Smart Android TV"
+        ],
+        "top_con": "Remote Compatibility",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "SKYNEU Compatible for Fox-SKYHD Ready LED Smart Android...",
+      "price": 389,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/y/y/h/compatible-for-fox-skyhd-ready-led-smart-android-tv-skyneu-original-imahzucytfqfzwzv.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/skyneu-compatible-fox-skyhd-ready-led-smart-android-tv-foxsky-haier-exactly-same-remote-only-work-controller/p/itmde609de42813e?pid=REMHZUCYPUZRSHMW&lid=LSTREMHZUCYPUZRSHMWVNKZYR&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.REMHZUCYPUZRSHMW.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.711603",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Exact Remote Match",
           "Affordable Price"
         ],
-        "top_con": "No reviews",
+        "top_con": "Compatibility Issues",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "Darwin Grey-Dry-Iron60 1000 W Dry Iron",
-      "price": 650,
+      "name": "Kpdp voice remote compliance for Haier Smart Android TV...",
+      "price": 898,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/iron/0/v/v/grey-dry-iron60-welcome-home-original-imahz9zrmgf6nbzh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/darwin-grey-dry-iron60-1000-w-dry-iron/p/itm9a2133471ed9c?pid=IRNHZYGNTXWHJJNA&lid=LSTIRNHZYGNTXWHJJNAKUM7VQ&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.IRNHZYGNTXWHJJNA.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.717657",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/1/6/r/for-haier-smart-android-tv-htr-u31-voice-control-kpdp-original-imahzucema3rnvgu.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kpdp-voice-remote-compliance-haier-smart-android-tv-htr-u31-control-4k-uhd-qled-led-tvs-google-assistant-bluetooth-pairing-required-controller/p/itm883faa15812e6?pid=REMHZUCEGZZEUBQD&lid=LSTREMHZUCEGZZEUBQDEL346V&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.REMHZUCEGZZEUBQD.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.711858",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Good price",
-          "Easy use"
+          "Voice Control",
+          "Google Assistant"
         ],
-        "top_con": "No steam",
+        "top_con": "Pairing Issues",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "LFO Chutny jar 300ml Mixer Juicer Jar",
-      "price": null,
+      "name": "acsrystor Silicone Round Air Fryer Tray – Reusable, Non...",
+      "price": 170,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-juicer-jar/w/i/u/mixer-grinder-jar-lfo-300-original-imahzwdvnmg3evtz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/lfo-chutny-jar-300ml-mixer-juicer/p/itm0dbc49ac3b957?pid=MJJHP2QGAKWDRB4F&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.MJJHP2QGAKWDRB4F.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.717970",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/h/k/y/silicone-round-air-fryer-tray-reusable-non-stick-bpa-free-original-imahzr7qzu5g7hqy.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/acsrystor-silicone-round-air-fryer-tray-reusable-non-stick-bpa-free-airfryer/p/itmd9053a028bb2e?pid=AFTHZR7QRVYABNGC&lid=LSTAFTHZR7QRVYABNGCMOTXEN&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.AFTHZR7QRVYABNGC.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.712093",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Easy to use",
-          "Good quality"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Omsnord SF-400 Digital Kitchen Weighing Scale 10kg with...",
-      "price": 300,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/weighing-scale/k/y/a/sf-400-digital-kitchen-weighing-scale-10kg-with-multi-unit-for-original-imahzygemgadbzff.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/omsnord-sf-400-digital-kitchen-weighing-scale-10kg-multi-unit-cooking/p/itm892c80d46e9d1?pid=WSLHZYGERGG6FV7H&lid=LSTWSLHZYGERGG6FV7HFQVRXB&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.WSLHZYGERGG6FV7H.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.718188",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Accurate Weighing",
-          "Multi Unit"
+          "Reusable",
+          "Non-Stick"
         ],
         "top_con": "No reviews",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "Omsnord SF-400 High Precision Kitchen Weighing Scale 10...",
+      "name": "Ujarak Air Fryer Silicone Kitchen Basket Pack of 2 Mult...",
+      "price": 165,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/7/d/1/air-fryer-silicone-kitchen-basket-pack-of-2-multicolor-non-stick-original-imahzsy8zkabbvxe.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/ujarak-air-fryer-silicone-kitchen-basket-pack-2-multicolor-non-stick-tray-airfryer/p/itm1950b67e40b16?pid=AFTHZSY8BYZAVY5B&lid=LSTAFTHZSY8BYZAVY5B3SMNAK&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=58671a8d-e0a0-4e2d-90f8-667649fd8560.AFTHZSY8BYZAVY5B.SEARCH&ppt=None&ppn=None&ssid=xwhhbzp6o00000001783496749250&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:50.712307",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Non Stick Tray",
+          "Multicolor Options"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "FLORERO Berry Matte Crayon Lipstick Non Transfer",
       "price": null,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/weighing-scale/r/1/k/sf-400-high-precision-kitchen-weighing-scale-10kg-with-lcd-original-imahzygjxszvwdfe.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/omsnord-sf-400-high-precision-kitchen-weighing-scale-10kg-lcd-display-diet/p/itme982bd76a490d?pid=WSLHZYGJVCU8GVJQ&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.WSLHZYGJVCU8GVJQ.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.718489",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "High Precision",
-          "LCD Display"
-        ],
-        "top_con": "New Seller",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "RG ENTERPRISES RG-350-MF-YGP BLDC Motor, Energy Saving,...",
-      "price": null,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/fan/1/h/s/rg-350-mf-ygp-basic-5-1-bldc-table-fan-120-rg-enterprises-original-imahpfxwxzsvtdwg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/rg-enterprises-rg-350-mf-ygp-bldc-motor-energy-saving-high-air-delivery-silent-operation-120-mm-table-fan/p/itm3fb18fad519ce?pid=FANHPFZMJ7YHN9SQ&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.FANHPFZMJ7YHN9SQ.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.718891",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Energy Saving",
-          "Silent Operation"
-        ],
-        "top_con": "New Seller",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "brahmani Ice Face Roller for Skin Tightening, Puffiness...",
-      "price": 91,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/ice-maker/k/8/u/0-ice-face-roller-for-skin-tightening-puffiness-reduction-and-original-imahp2pscgp2hhjy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/brahmani-ice-face-roller-skin-tightening-puffiness-reduction-facial-rejuvenation-maker/p/itm536024b7fa515?pid=IEMHNVP3KWPZ9ERU&lid=LSTIEMHNVP3KWPZ9ERUSKTHAG&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.IEMHNVP3KWPZ9ERU.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.719106",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Skin Tightening",
-          "Puffiness Reduction"
-        ],
-        "top_con": "New Seller",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Darwin Grey-Dry-Iron36 1000 W Dry Iron",
-      "price": 650,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/iron/w/g/w/grey-dry-iron36-welcome-home-original-imahz9z9qrz6jva3.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/darwin-grey-dry-iron36-1000-w-dry-iron/p/itm266bc95e506f6?pid=IRNHZYGPGTB5RTRT&lid=LSTIRNHZYGPGTB5RTRTDEDAQV&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=8b277d7c-58ca-4509-9233-d453d9d91c84.IRNHZYGPGTB5RTRT.SEARCH&ppt=None&ppn=None&ssid=i8j3yhdlts0000001783414281975&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:05.719343",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Easy Use"
-        ],
-        "top_con": "No Steam",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "mkldsrh SUNISHA Face Long Wear Makeup Buildable Full Co...",
-      "price": 270,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/foundation/3/m/u/20-sunisha-face-long-wear-makeup-buildable-full-coverage-original-imahp23u9vrbrhs7.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mkldsrh-sunisha-face-long-wear-makeup-buildable-full-coverage-lightweight-natural-finish-foundation/p/itm8ce6f0f6f73dd?pid=FNDHP23VHHYG9DHB&lid=LSTFNDHP23VHHYG9DHB3ODIOU&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.FNDHP23VHHYG9DHB.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.091078",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/o/s/u/3-8-long-lasting-berry-crayon-lipstick-non-transfer-sizllik-original-imahp2y776py42kz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/florero-berry-matte-crayon-lipstick-non-transfer/p/itmfe1a71f1e58c8?pid=LSKHP3USKNHKHDDF&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.LSKHP3USKNHKHDDF.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.398969",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Long Lasting",
-          "Natural Finish"
+          "Matte Finish",
+          "Non Transfer"
         ],
         "top_con": "Limited Reviews",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "Jiwoo Long Lasting Waterproof Lip Gloss1 FRUIT",
+      "name": "huda.bb Loose Powder Waterproof Banana Face Powder With...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-balm/r/r/v/6-long-lasting-waterproof-lip-gloss1-1-jiwoo-original-imahp2q7abnmdd78.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/jiwoo-long-lasting-waterproof-lip-gloss1-fruit/p/itmba8d5f954129e?pid=LPBHP2Q7MDEAVE3B&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.LPBHP2Q7MDEAVE3B.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.091451",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact/v/a/h/30-loose-powder-waterproof-banana-face-powder-with-brush-29-huda-original-imahp3rhuaupdyuj.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/huda-bb-loose-powder-waterproof-banana-face-brush-29-compact/p/itmd2e037dfcf663?pid=CMPHP3RHMNHVNHFY&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.CMPHP3RHMNHVNHFY.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.399295",
       "quick_analysis": {
-        "quick_score": 80,
+        "quick_score": 70,
         "top_pros": [
-          "Long Lasting",
-          "Waterproof"
-        ],
-        "top_con": "Limited info",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Onfroi Super Stay WaterProof Longlasting Sensational Li...",
-      "price": 88,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-lipstick/m/i/i/12-super-stay-waterproof-longlasting-sensational-liquid-lipstick-original-imahzxgydahwpgtu.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/onfroi-super-stay-waterproof-longlasting-sensational-liquid-lipstick-20/p/itm1eb5f4fe60d07?pid=LSKHZY8EHDAYFVPQ&lid=LSTLSKHZY8EHDAYFVPQDWAUFO&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.LSKHZY8EHDAYFVPQ.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.091695",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long Lasting",
-          "Water Proof"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "KONSTHYA 12 IN 1 MATTE OIL CONTROL COMPACT POWDER |HD F...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact/q/a/g/15-12-in-1-matte-oil-control-compact-powder-hd-finish-compact-original-imahp2mwgh9jgmpm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/konsthya-12-1-matte-oil-control-compact-powder-hd-finish/p/itmcec39e7e5f3a7?pid=CMPHP2MWHP8V47HG&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.CMPHP2MWHP8V47HG.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.092010",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Matte Finish",
-          "Oil Control"
+          "Waterproof",
+          "Easy Apply"
         ],
         "top_con": "Limited Shades",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "CHIWA Anti Paronychia Relief Oil | for nail comfort and...",
-      "price": 135,
+      "name": "NADJA Best Long-lasting Black Crayon Kajal 24 Hr Long S...",
+      "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-filer/n/d/y/2-anti-paronychia-relief-oil-for-nail-comfort-and-healthy-original-imahnyxbshbknnqy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/chiwa-anti-paronychia-relief-oil-nail-comfort-healthy-appearance-support/p/itmb566435e161db?pid=NFLHNYXFAXMWUGUA&lid=LSTNFLHNYXFAXMWUGUAKF3KXY&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.NFLHNYXFAXMWUGUA.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.092231",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kajal/k/b/f/1-5-best-long-lasting-black-crayon-kajal-24-hr-long-stay-kajal-original-imahp3utsf3yzxcn.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/nadja-best-long-lasting-black-crayon-kajal-24-hr-long-stay/p/itmd7a95896ae9e8?pid=KJLHP3UTGHTGZ9DT&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.KJLHP3UTGHTGZ9DT.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.399601",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Nail comfort",
-          "Healthy appearance"
+          "Long Lasting",
+          "Easy Apply"
         ],
-        "top_con": "No returns",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "KRUPANIDHI FASHION Size 4 mm Forehead Bindis (Oval,Roun...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/bindi/k/b/1/size-4mm-forehead-bindis-oval-round-004-velvet-bindis-plain-original-imahpfjyfm7drdbq.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/krupanidhi-fashion-size-4-mm-forehead-bindis-oval-round-women-girls-4-mm-red-maroon/p/itmed8e884de3e00?pid=BINHP2ZJPK6H5VAK&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.BINHP2ZJPK6H5VAK.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.092555",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good quality",
-          "Affordable price"
-        ],
-        "top_con": "Limited colors",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "SABKA STORE NO. 888",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/s/d/y/no-888-8-888-sabka-store-original-imahp2qzwqbvfq3g.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sabka-store-no-888/p/itmef3ed2068666b?pid=BARHP2QZCQGHDUFB&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.BARHP2QZCQGHDUFB.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.092851",
-      "quick_analysis": {
-        "quick_score": 50,
-        "top_pros": [
-          "New Seller",
-          "Light Blue"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "KGBTREADS Best Quality Pro. Face Pack and Facial Bleach...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/n/5/g/best-quality-pro-face-pack-and-facial-bleach-brush-3-face-pack-original-imahpfx9wx3rytd7.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kgbtreads-best-quality-pro-face-pack-facial-bleach-brush/p/itmeeddfd7aadae2?pid=BARHPFX9GBP74EP4&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.BARHPFX9GBP74EP4.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.093152",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Quality",
-          "Easy Use"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Swastha Hygiene Soft White Facial Tissue Paper, Gentle ...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/facial-tissue/8/f/t/soft-white-facial-tissue-paper-gentle-absorbent-1-ply-pack-of-original-imahzygknzgg5gkp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/swastha-hygiene-soft-white-facial-tissue-paper-gentle-absorbent-2-ply-pack-100-sheets/p/itmb666e52487dc5?pid=FLTHZYGKAAKVQAHM&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.FLTHZYGKAAKVQAHM.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.093449",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Gentle on skin",
-          "Highly absorbent"
-        ],
-        "top_con": "Limited reviews",
+        "top_con": "Not Waterproof",
         "quick_verdict": "Worth checking"
       }
     },
@@ -329,9 +227,111 @@
       "name": "MISS BELLA Full Coverage Cream Concealer Palette for Da...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/concealer/y/g/a/30-full-coverage-cream-concealer-palette-for-dark-circles-original-imahp2q34jk57utj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/miss-bella-full-coverage-cream-concealer-palette-dark-circles-blemishes-makeup-r4/p/itmaf6a4186f5039?pid=CLRHP2Q3FQFNBPPU&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=6cffec67-73d9-4075-9cb4-5ab3bcb75fb0.CLRHP2Q3FQFNBPPU.SEARCH&ppt=None&ppn=None&ssid=0w1ir0h4tc0000001783414341386&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T08:52:50.093763",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/concealer/n/b/z/100-full-coverage-cream-concealer-palette-for-dark-circles-original-imahp3s2bchbwgbx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/miss-bella-full-coverage-cream-concealer-palette-dark-circles-blemishes-makeup-r6/p/itmeea3b1ee9ed56?pid=CLRHP3S2PUQEE2BC&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.CLRHP3S2PUQEE2BC.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.399961",
+      "quick_analysis": {
+        "quick_score": 70,
+        "top_pros": [
+          "Full Coverage",
+          "Conceals Blemishes"
+        ],
+        "top_con": "New Seller",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Givni Mart Travel Mini Foldable Compact Square Design B...",
+      "price": 256,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact-mirror/f/r/v/2-foldable-compact-beauty-makeup-pocket-mirror-square-sqr-original-imahjhnrrupzhttk.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/givni-mart-travel-mini-foldable-compact-square-design-beauty-makeup-pocket-mirror/p/itmd6a680c717e84?pid=CTMHJNRMTRE57THH&lid=LSTCTMHJNRMTRE57THH0C4QLW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.CTMHJNRMTRE57THH.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.400189",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Compact Design",
+          "Portable"
+        ],
+        "top_con": "Limited Zoom",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "huda.bb Loose Powder Waterproof Banana Face Powder With...",
+      "price": null,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact/v/x/z/30-loose-powder-waterproof-banana-face-powder-with-brush-43-huda-original-imahp3rhgswg6qrd.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/huda-bb-loose-powder-waterproof-banana-face-brush-43-compact/p/itmc7a2bd7e87551?pid=CMPHP3RH6HDEWJXP&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.CMPHP3RH6HDEWJXP.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.400509",
+      "quick_analysis": {
+        "quick_score": 70,
+        "top_pros": [
+          "Waterproof",
+          "Good shade"
+        ],
+        "top_con": "Limited reviews",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "huda.bb Loose Powder Waterproof Banana Face Powder With...",
+      "price": null,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact/s/e/f/30-loose-powder-waterproof-banana-face-powder-with-brush-45-huda-original-imahp3rhrnfpgbhh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/huda-bb-loose-powder-waterproof-banana-face-brush-45-compact/p/itmcfd31efccce40?pid=CMPHP3RH4APGQ9HS&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.CMPHP3RH4APGQ9HS.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.400836",
+      "quick_analysis": {
+        "quick_score": 70,
+        "top_pros": [
+          "Waterproof",
+          "Easy Apply"
+        ],
+        "top_con": "Limited Shades",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "Dwitifashion Daily Use Serving Tray Combo Pack of 6 Rec...",
+      "price": null,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/vanity-box/m/v/1/daily-use-serving-tray-combo-pack-of-6-rectangle-size-14-x-10-original-imahp3v7yh7d8yzn.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/dwitifashion-daily-use-serving-tray-combo-pack-6-rectangle-size-14-x-10-jewelry-shops-boutiques-vanity-box/p/itm9b20cb47a5732?pid=VANHP3V8EHTYZSTK&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.VANHP3V8EHTYZSTK.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.401161",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Stylish Design",
+          "Good Quality"
+        ],
+        "top_con": "Limited Info",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "huda.bb Loose Powder Waterproof Banana Face Powder With...",
+      "price": null,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact/6/e/5/30-loose-powder-waterproof-banana-face-powder-with-brush-18-huda-original-imahp3rhw9ykrfmw.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/huda-bb-loose-powder-waterproof-banana-face-brush-18-compact/p/itm56fb593a49496?pid=CMPHP3RHWWXJKU99&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.CMPHP3RHWWXJKU99.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.401466",
+      "quick_analysis": {
+        "quick_score": 70,
+        "top_pros": [
+          "Waterproof",
+          "Includes Brush"
+        ],
+        "top_con": "Limited Shades",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "MISS BELLA Full Coverage Cream Concealer Palette for Da...",
+      "price": null,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/concealer/6/l/h/100-full-coverage-cream-concealer-palette-for-dark-circles-original-imahp3r9uytvjaqx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/miss-bella-full-coverage-cream-concealer-palette-dark-circles-blemishes-makeup-r5/p/itm65356431838d5?pid=CLRHP3R9TJ9MQPKH&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=fe6083c5-f9d7-4fe2-926d-7310ee622275.CLRHP3R9TJ9MQPKH.SEARCH&ppt=None&ppn=None&ssid=g2im7e30r40000001783496753895&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-08T07:45:55.401772",
       "quick_analysis": {
         "quick_score": 70,
         "top_pros": [
@@ -340,1193 +340,6 @@
         ],
         "top_con": "New Seller",
         "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Vivo T4 Lite 5G (Titanium Gold 2026) (4GB 64GB)",
-      "price": 14999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-titanium-gold-2026-4gb-64gb/p/itm49fb53d099f3c?pid=MOBHNCRK44PF7QEN&lid=LSTMOBHNCRK44PF7QENJQHGI9&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHNCRK44PF7QEN.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.075823",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Samsung Galaxy F70e 5G (Limelight Green, 128 GB)",
-      "price": 12999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/p/o/-original-imahmz2gwjzykfgp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-f70e-5g-limelight-green-128-gb/p/itmf26a013c841a6?pid=MOBHMGHQ7MHMMHJZ&lid=LSTMOBHMGHQ7MHMMHJZ6Y5PNV&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHMGHQ7MHMMHJZ.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.076007",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Performance",
-          "5G Support"
-        ],
-        "top_con": "High Price",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Ai+ Nova 2 Neo 5G (Orange, 128 GB)",
-      "price": 15999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/r/m/-original-imahzm49jv8azeqn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ai-nova-2-neo-5g-orange-128-gb/p/itm18a0594b2692d?pid=MOBHZ8ZMHPWQ96CE&lid=LSTMOBHZ8ZMHPWQ96CEBTZKSD&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHZ8ZMHPWQ96CE.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.076194",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Fast 5G"
-        ],
-        "top_con": "RAM Limited",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "realme P4 Lite (Beach Gold, 64 GB)",
-      "price": 11999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/a/a/-original-imahmx82vachdh9z.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-beach-gold-64-gb/p/itm029fbc88fdc91?pid=MOBHMX7KF4XYHTDM&lid=LSTMOBHMX7KF4XYHTDMBW6TWC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHMX7KF4XYHTDM.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.076353",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Decent RAM"
-        ],
-        "top_con": "Out of stock",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Vivo T4 Lite 5G (Titanium Gold 2026) (4GB 128GB)",
-      "price": 16999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-titanium-gold-2026-4gb-128gb/p/itm49fb53d099f3c?pid=MOBHNCRKN8ZBGAJR&lid=LSTMOBHNCRKN8ZBGAJREUTFV0&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHNCRKN8ZBGAJR.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.076510",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Battery",
-          "Fast Charging"
-        ],
-        "top_con": "Limited Storage",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "XOME XM17 PRO MAXX (Orange, 128 GB)",
-      "price": 11999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/k/y/xm-17-pro-max-xm-17-pro-max-xome-original-imahzbhrfsnrxg5v.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/xome-xm17-pro-maxx-orange-128-gb/p/itm6be0c1fcdd4ac?pid=MOBHZBZSVHGQCKHZ&lid=LSTMOBHZBZSVHGQCKHZ5QIWHX&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHZBZSVHGQCKHZ.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.076669",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "High Storage"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Vivo T4 Lite 5G (Prism Blue 2026) ( 4GB 64GB)",
-      "price": 14999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/r/i/-original-imahnq7mcqxru4nv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-prism-blue-2026-4gb-64gb/p/itm49fb53d099f3c?pid=MOBHNCRKA4XQFSRM&lid=LSTMOBHNCRKA4XQFSRMKUYMUR&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHNCRKA4XQFSRM.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.076832",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good battery",
-          "Fast charging"
-        ],
-        "top_con": "Out of stock",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "MOTOROLA g37 power (PANTONE Nautical Blue, 128 GB)",
-      "price": 15999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/g/r/-original-imahng2y4zgbb6ej.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/motorola-g37-power-pantone-nautical-blue-128-gb/p/itmf752f4981d932?pid=MOBHHVFYGN57RYAH&lid=LSTMOBHHVFYGN57RYAHB2DF12&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHHVFYGN57RYAH.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.076996",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long battery",
-          "Sharp display"
-        ],
-        "top_con": "Limited storage",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "vivo T5 Pro 5G (Cosmic Black, 256 GB)",
-      "price": 36999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/k/5/-original-imahmhjagd7f3wuh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t5-pro-5g-cosmic-black-256-gb/p/itma21e2e09d4493?pid=MOBHM4FZRMHBQHP5&lid=LSTMOBHM4FZRMHBQHP59ZOVA8&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHM4FZRMHBQHP5.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.077182",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Fast Performance",
-          "Good Camera"
-        ],
-        "top_con": "High Price",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "MOTOROLA g37 (PANTONE Capri, 64 GB)",
-      "price": 13999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/8/1/-original-imahnfsxhvhmqhby.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/motorola-g37-pantone-capri-64-gb/p/itm54f0e687c7b29?pid=MOBHHWB6U3Q3RYFD&lid=LSTMOBHHWB6U3Q3RYFDYGJVNO&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=5417db88-b0f3-4a3f-92e4-89f7a175ac56.MOBHHWB6U3Q3RYFD.SEARCH&ppt=None&ppn=None&ssid=uo5d0jyumo0000001783429459692&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:04:45.077366",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Decent RAM"
-        ],
-        "top_con": "No Exchange",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Women Gown Pink Maxi/Full Length Dress",
-      "price": 313,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/gown/n/a/d/na-l-3-4-sleeve-stitched-gw-g9-mala-creations-na-original-imahnhnpeefhhqzu.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mala-creations-women-gown-pink-maxi-full-length-dress/p/itm1d769f54dde34?pid=DREHP2B74SUVFAYB&lid=LSTDREHP2B74SUVFAYBP520E7&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.DREHP2B74SUVFAYB.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.968068",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Maxi design"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Silk Blend Embroidered Purple Women Dupatta",
-      "price": 450,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/y/j/a/2-5-meters-1-pc-113-ssm-trendz-original-imahzzk3hnysgrgh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/her-highness-fashion-silk-blend-embroidered-women-dupatta/p/itm839c1d192eb24?pid=DUPHZZPK44GUVJPZ&lid=LSTDUPHZZPK44GUVJPZSQVLYJ&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.DUPHZZPK44GUVJPZ.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.968305",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Silk Blend",
-          "Embroidered Design"
-        ],
-        "top_con": "Price Concern",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Woven Banarasi Silk Blend Saree",
-      "price": 885,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/e/x/n/free-new-vw-2a-ohira-fashion-unstitched-original-imahnhhh64sydfv4.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/saanvi-woven-banarasi-silk-blend-saree/p/itm051466ed7bdcb?pid=SARHZPKYDKGPKMXW&lid=LSTSARHZPKYDKGPKMXW7UNEJI&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.SARHZPKYDKGPKMXW.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.968506",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Silk Blend Quality",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Satin Blend Embellished, Embroidered, Solid Pink Women ...",
-      "price": 383,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/o/p/d/2-5-meters-1-3001-rani-sareespark-original-imahzwauh2htkyzw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sareespark-satin-blend-embellished-embroidered-solid-women-dupatta/p/itmab0a4c97d2b6c?pid=DUPHZWAU4BW5JSWU&lid=LSTDUPHZWAU4BW5JSWUIKEFGL&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.DUPHZWAU4BW5JSWU.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.968700",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Embellished design",
-          "Affordable price"
-        ],
-        "top_con": "Size options",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pure Cotton Embellished, Printed, Self Design Yellow Wo...",
-      "price": 315,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/c/r/m/2-meters-1-ap-leheriya-dup-1002-yellow-igel-original-imahzzgezjvcvqgn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/igel-pure-cotton-embellished-printed-self-design-women-dupatta/p/itmcbbe17c80f951?pid=DUPHZZGE7A8C8MYZ&lid=LSTDUPHZZGE7A8C8MYZLHI6IJ&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.DUPHZZGE7A8C8MYZ.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.968887",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Men Regular Fit Self Design Casual Shirt",
-      "price": 301,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/w/u/l/m-shirt-men-00486-sh-fashion-original-imahgk76v7vszhnj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kk-stiching-men-self-design-casual-multicolor-shirt/p/itm1126067d04bcf?pid=SHTHZYD8VXZKZHEF&lid=LSTSHTHZYD8VXZKZHEF3IDDZP&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.SHTHZYD8VXZKZHEF.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.969079",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Quality",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Men & Women Ankle Length",
-      "price": 115,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sock/y/5/b/free-4-sock-black-fj561ra-t409d-egoist-original-imahpfqenaaefzbs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/style-n-stylish-men-women-ankle-length/p/itmff7ea2daff5f1?pid=SOCHP2NMRBYGS4GH&lid=LSTSOCHP2NMRBYGS4GHSQXZUW&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.SOCHP2NMRBYGS4GH.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.969304",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Good Quality"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Men & Women Low Cut",
-      "price": 115,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sock/l/n/8/free-4-sock-blackra-rl404-egoist-original-imahpfqfg3zspgfp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/style-n-stylish-men-women-low-cut/p/itm277f64115b30b?pid=SOCHP2NMFNVBR96W&lid=LSTSOCHP2NMFNVBR96W0KII77&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.SOCHP2NMFNVBR96W.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.969511",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Good Quality"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Embroidered Bollywood Silk Blend, Satin Saree",
-      "price": 586,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/h/m/a/free-madhubala-drizomiz-unstitched-original-imahnjdgjcs8cymr.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/drizomiz-embroidered-bollywood-silk-blend-satin-saree/p/itmb13a34a6a12e9?pid=SARHNJDGBSPCGHFK&lid=LSTSARHNJDGBSPCGHFKMDMTPQ&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.SARHNJDGBSPCGHFK.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.969709",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Silk Blend Quality",
-          "Affordable Price"
-        ],
-        "top_con": "Out of stock",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Temple Border Paithani Pure Silk Saree",
-      "price": 719,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/w/h/k/free-richbutti024-loomveda-unstitched-original-imahpfxscvwdsxwa.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/winklecart-temple-border-paithani-pure-silk-saree/p/itme167faa98704e?pid=SARHP2Z3FPUCRCGB&lid=LSTSARHP2Z3FPUCRCGBMKCBZQ&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=c7e8d799-3239-4bf1-8383-00bf02ed004f.SARHP2Z3FPUCRCGB.SEARCH&ppt=None&ppn=None&ssid=1jvdhqbvxs0000001783429490567&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:05:57.969908",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Silk",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Ordershock Botanical Mandala Mehndi Stencil Sticker Col...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/tattoo/i/d/h/6-6-v-ms-1734-1740-voorkoms-11-original-imahzwaktgzf8p8f.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ordershock-botanical-mandala-mehndi-stencil-sticker-collection/p/itmc7a52e047ba01?pid=TTTHP2ZHVQBXJFPK&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.TTTHP2ZHVQBXJFPK.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.027561",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Easy to use",
-          "Mehndi designs"
-        ],
-        "top_con": "Limited details",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "NYKAA Upto 16HNo-Transfer Proof Longsay Lipstick",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/h/k/t/2-upto-16hno-transfer-proof-longsay-lipstick-nykaa-original-imahp2yvxnwupyd6.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nykaa-upto-16hno-transfer-proof-longsay-lipstick/p/itmbc0879c07e4a9?pid=LSKHP2YVH27NFENE&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.LSKHP2YVH27NFENE.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.027881",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long Lasting",
-          "Transfer Proof"
-        ],
-        "top_con": "Limited Shades",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Ordershock Professional Floral Circle Mehndi Stencil St...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/tattoo/u/h/3/6-6-v-ms-1735-1736-voorkoms-11-original-imahzwabdbrhbrum.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ordershock-professional-floral-circle-mehndi-stencil-sticker-set/p/itmc297a0c1d25c0?pid=TTTHP2ZPPGX44HUA&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.TTTHP2ZPPGX44HUA.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.028216",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Easy to use",
-          "Floral designs"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "FRAILENO Long Lasting Smudge Proof Eyeliner for Precise...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-liner/x/i/u/10-long-lasting-smudge-proof-eyeliner-for-precise-eye-definition-original-imahp2zgyfqm5hr9.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/fraileno-long-lasting-smudge-proof-eyeliner-precise-eye-definition-10-g/p/itmd6e54935c174b?pid=ELRHP2ZGSYDHTZFB&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.ELRHP2ZGSYDHTZFB.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.028534",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Smudge Proof",
-          "Long Lasting"
-        ],
-        "top_con": "Not Waterproof",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Givni Mart Travel Mini Foldable Compact Square Design B...",
-      "price": 256,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact-mirror/f/r/v/2-foldable-compact-beauty-makeup-pocket-mirror-square-sqr-original-imahjhnrrupzhttk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/givni-mart-travel-mini-foldable-compact-square-design-beauty-makeup-pocket-mirror/p/itmd6a680c717e84?pid=CTMHJNRMTRE57THH&lid=LSTCTMHJNRMTRE57THH0C4QLW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.CTMHJNRMTRE57THH.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.028748",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Compact Design",
-          "Portable Mirror"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "AFARAXIA Highlighter Baked Waterproof Long Lasting High...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/highlighter/e/4/3/13-highlighter-baked-waterproof-long-lasting-afaraxia-original-imahp2yzz8jgph7d.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/afaraxia-highlighter-baked-waterproof-long-lasting/p/itmea83e03b559dc?pid=HGLHP2YZGP6GMTUH&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.HGLHP2YZGP6GMTUH.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.029044",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long Lasting",
-          "Waterproof"
-        ],
-        "top_con": "Low Rating",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "GULGLOW99 Women One Stroke Nail Paint (Rose gold glitte...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-polish/5/s/b/10-women-one-stroke-nail-paint-rose-gold-glitter-gulglow99-original-imahp2zmgpmadtfq.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/gulglow99-women-one-stroke-nail-paint-rose-gold-glitter-rose-glitter/p/itmb1dba04d83e08?pid=NLPHP2ZNXAYR6RYP&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.NLPHP2ZNXAYR6RYP.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.029345",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Glossy finish",
-          "Rose gold"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "THTC Best Lightweight, Highly Pigmented, Long Wear Matt...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/0/2/c/8-best-lightweight-highly-pigmented-long-wear-matte-lipstick-original-imahp2zutjkkhhgu.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/thtc-best-lightweight-highly-pigmented-long-wear-matte-lipstick/p/itm4d87e6de5aab2?pid=LSKHP2ZUY3NJNDPX&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.LSKHP2ZUY3NJNDPX.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.029647",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Highly Pigmented",
-          "Long Wear"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "AFARAXIA Lipsticks Full Coverage Matte Lip Crayon",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/e/1/y/3-6-long-lasting-lip-shape-lipstick-waterproof-matte-gabbu-original-imahpfsmaq9ttytw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/afaraxia-lipsticks-full-coverage-matte-lip-crayon/p/itm3e7845a723ddf?pid=LSKHP2ZGH6UGZHKF&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.LSKHP2ZGH6UGZHKF.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.029943",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Full Coverage",
-          "Matte Finish"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "FLORERO Shimmer Liquid Highlighter & Long Lasting  High...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/highlighter/z/p/i/8-shimmer-liquid-highlighter-long-lasting-highlighter-florero-original-imahp2y3zskeexju.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/florero-shimmer-liquid-highlighter-long-lasting/p/itmcdd71ef52a965?pid=HGLHP2Y3AD8FYA2N&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=38e0d49f-f1d6-425c-95d3-1adc3fcb93ed.HGLHP2Y3AD8FYA2N.SEARCH&ppt=None&ppn=None&ssid=w8hn405bnk0000001783429568268&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T13:06:10.030252",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long Lasting",
-          "Shimmer Effect"
-        ],
-        "top_con": "Skin Type Limit",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Samsung Galaxy F70e 5G (Limelight Green, 128 GB)",
-      "price": 12999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/p/o/-original-imahmz2gwjzykfgp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/samsung-galaxy-f70e-5g-limelight-green-128-gb/p/itmf26a013c841a6?pid=MOBHMGHQ7MHMMHJZ&lid=LSTMOBHMGHQ7MHMMHJZ6Y5PNV&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHMGHQ7MHMMHJZ.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.888175",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Display",
-          "Fast Charging"
-        ],
-        "top_con": "High Price",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Vivo T4 Lite 5G (Titanium Gold 2026) (4GB 64GB)",
-      "price": 14999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/i/5/-original-imahnq7mvm2mpymg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-titanium-gold-2026-4gb-64gb/p/itm49fb53d099f3c?pid=MOBHNCRK44PF7QEN&lid=LSTMOBHNCRK44PF7QENBDEBI7&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHNCRK44PF7QEN.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.888366",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Fast 5G"
-        ],
-        "top_con": "Low Storage",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Ai+ Nova 2 Neo 5G (Orange, 128 GB)",
-      "price": 15999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/r/m/-original-imahzm49jv8azeqn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ai-nova-2-neo-5g-orange-128-gb/p/itm18a0594b2692d?pid=MOBHZ8ZMHPWQ96CE&lid=LSTMOBHZ8ZMHPWQ96CEBTZKSD&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHZ8ZMHPWQ96CE.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.888530",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Fast 5G"
-        ],
-        "top_con": "Low RAM",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "realme P4 Lite (Beach Gold, 64 GB)",
-      "price": 11999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/a/a/-original-imahmx82vachdh9z.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/realme-p4-lite-beach-gold-64-gb/p/itm029fbc88fdc91?pid=MOBHMX7KF4XYHTDM&lid=LSTMOBHMX7KF4XYHTDMBW6TWC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHMX7KF4XYHTDM.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.888691",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "Decent RAM"
-        ],
-        "top_con": "Out of stock",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Vivo T4 Lite 5G (Prism Blue 2026) ( 4GB 64GB)",
-      "price": 14999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/r/i/-original-imahnq7mcqxru4nv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t4-lite-5g-prism-blue-2026-4gb-64gb/p/itm49fb53d099f3c?pid=MOBHNCRKA4XQFSRM&lid=LSTMOBHNCRKA4XQFSRMKUYMUR&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHNCRKA4XQFSRM.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.888849",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Battery",
-          "Fast 5G"
-        ],
-        "top_con": "Out of stock",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "XOME XM17 PRO MAXX (Orange, 128 GB)",
-      "price": 11999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/k/y/xm-17-pro-max-xm-17-pro-max-xome-original-imahzbhrfsnrxg5v.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/xome-xm17-pro-maxx-orange-128-gb/p/itm6be0c1fcdd4ac?pid=MOBHZBZSVHGQCKHZ&lid=LSTMOBHZBZSVHGQCKHZ5QIWHX&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHZBZSVHGQCKHZ.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.889037",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "High Storage"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "vivo T5 Pro 5G (Cosmic Black, 256 GB)",
-      "price": 36999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/k/5/-original-imahmhjagd7f3wuh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t5-pro-5g-cosmic-black-256-gb/p/itma21e2e09d4493?pid=MOBHM4FZRMHBQHP5&lid=LSTMOBHM4FZRMHBQHP59ZOVA8&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHM4FZRMHBQHP5.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.889196",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Fast Performance",
-          "Good Camera"
-        ],
-        "top_con": "High Price",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "MOTOROLA g37 power (PANTONE Nautical Blue, 128 GB)",
-      "price": 15999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/g/r/-original-imahng2y4zgbb6ej.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/motorola-g37-power-pantone-nautical-blue-128-gb/p/itmf752f4981d932?pid=MOBHHVFYGN57RYAH&lid=LSTMOBHHVFYGN57RYAH8U08EM&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHHVFYGN57RYAH.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.889363",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Battery",
-          "Fast Charging"
-        ],
-        "top_con": "Limited Storage",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "MOTOROLA g37 (PANTONE Capri, 64 GB)",
-      "price": 13999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/8/1/-original-imahnfsxhvhmqhby.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/motorola-g37-pantone-capri-64-gb/p/itm54f0e687c7b29?pid=MOBHHWB6U3Q3RYFD&lid=LSTMOBHHWB6U3Q3RYFDYGJVNO&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHHWB6U3Q3RYFD.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.889524",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good battery",
-          "Affordable price"
-        ],
-        "top_con": "Out of stock",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "XOME XM17 PRO MAXX (Orange, 64 GB)",
-      "price": 9999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/e/v/xm17-pro-maxx-xm-17-pro-max-xome-original-imahzbhzbtcggbhh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/xome-xm17-pro-maxx-orange-64-gb/p/itm4a84ac4de91b0?pid=MOBHZBQBHTG6ZYX8&lid=LSTMOBHZBQBHTG6ZYX8ODCOU1&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=ece9a38b-f8aa-4df7-bd15-3245c11b31e9.MOBHZBQBHTG6ZYX8.SEARCH&ppt=None&ppn=None&ssid=t6coewv6000000001783443452592&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:33.889680",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Price",
-          "High Storage"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Men Regular Fit Self Design Casual Shirt",
-      "price": 301,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/w/u/l/m-shirt-men-00486-sh-fashion-original-imahgk76v7vszhnj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kk-stiching-men-self-design-casual-multicolor-shirt/p/itm1126067d04bcf?pid=SHTHZYD8VXZKZHEF&lid=LSTSHTHZYD8VXZKZHEF3IDDZP&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.SHTHZYD8VXZKZHEF.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.995699",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Quality",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Embellished Daily Wear Silk Blend Saree",
-      "price": 732,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/g/n/q/free-dri-moos-buti-gajri-01-saanvi-unstitched-original-imahzpkyg2phgrgj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/saanvi-embellished-daily-wear-silk-blend-saree/p/itm2cb2440fde69c?pid=SARHZPH2D49PMUYW&lid=LSTSARHZPH2D49PMUYWF6T9YK&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.SARHZPH2D49PMUYW.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.995938",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Silk Blend",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Woven Banarasi Silk Blend Saree",
-      "price": 885,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/e/x/n/free-new-vw-2a-ohira-fashion-unstitched-original-imahnhhh64sydfv4.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/saanvi-woven-banarasi-silk-blend-saree/p/itm051466ed7bdcb?pid=SARHZPKYDKGPKMXW&lid=LSTSARHZPKYDKGPKMXW7UNEJI&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.SARHZPKYDKGPKMXW.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.996148",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Silk Blend Quality",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Silk Blend Embroidered Purple Women Dupatta",
-      "price": 450,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/y/j/a/2-5-meters-1-pc-113-ssm-trendz-original-imahzzk3hnysgrgh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/her-highness-fashion-silk-blend-embroidered-women-dupatta/p/itm839c1d192eb24?pid=DUPHZZPK44GUVJPZ&lid=LSTDUPHZZPK44GUVJPZSQVLYJ&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.DUPHZZPK44GUVJPZ.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.996358",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Silk Blend Quality",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Embroidered Bollywood Silk Blend, Satin Saree",
-      "price": 586,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/h/m/a/free-madhubala-drizomiz-unstitched-original-imahnjdgjcs8cymr.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/drizomiz-embroidered-bollywood-silk-blend-satin-saree/p/itmb13a34a6a12e9?pid=SARHNJDGBSPCGHFK&lid=LSTSARHNJDGBSPCGHFKMDMTPQ&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.SARHNJDGBSPCGHFK.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.996566",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Silk Blend",
-          "Bollywood Style"
-        ],
-        "top_con": "Out of stock",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Solid Men Green Chino Shorts",
-      "price": 448,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/short/x/q/i/26-klpt1-klpt-original-imahzfag7hcunxkh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nmiyd-solid-men-green-chino-shorts/p/itmc7ca7d54c99ff?pid=SRTHP2HMWURKYAYT&lid=LSTSRTHP2HMWURKYAYT1EET3A&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.SRTHP2HMWURKYAYT.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.996763",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Quality",
-          "Affordable Price"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Solid Men Grey Chino Shorts",
-      "price": 448,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/short/z/e/u/32-klpt1-klpt-original-imahzfagtut4f9mt.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nmiyd-solid-men-grey-chino-shorts/p/itmac83a940d2727?pid=SRTHP2HHAAAQ8GKG&lid=LSTSRTHP2HHAAAQ8GKGA3NZQT&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.SRTHP2HHAAAQ8GKG.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.996988",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good quality",
-          "Affordable price"
-        ],
-        "top_con": "Size issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Tie-Dye, Embroidered Leheria Georgette Saree",
-      "price": 448,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/b/g/0/free-yellow-vastrapooja-unstitched-original-imahp2h8mnhgtnej.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vastrapooja-tie-dye-embroidered-leheria-georgette-saree/p/itmc7b057f41d122?pid=SARHP2H8ZQGN8GRB&lid=LSTSARHP2H8ZQGN8GRBUBBJV0&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.SARHP2H8ZQGN8GRB.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.997204",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Unique design"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Pure Cotton Embellished, Printed, Self Design Yellow Wo...",
-      "price": 315,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/dupatta/c/r/m/2-meters-1-ap-leheriya-dup-1002-yellow-igel-original-imahzzgezjvcvqgn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/igel-pure-cotton-embellished-printed-self-design-women-dupatta/p/itmcbbe17c80f951?pid=DUPHZZGE7A8C8MYZ&lid=LSTDUPHZZGE7A8C8MYZLHI6IJ&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.DUPHZZGE7A8C8MYZ.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.997415",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Pure Cotton",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Baby Girls Calf Length Party Dress",
-      "price": 270,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/6/5/e/6-12-months-1040-ssfashionbazar-original-imahp29gtyrbgwv2.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ss-fashion-bazar-baby-girls-calf-length-party-dress/p/itmdd73a2eb44f3c?pid=KDEHP29GZVSUZJ92&lid=LSTKDEHP29GZVSUZJ92ZVVVJB&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=ba512c3f-1b33-4883-a15b-fc3c38c94c90.KDEHP29GZVSUZJ92.SEARCH&ppt=None&ppn=None&ssid=1x7l3uk2qo0000001783443458054&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:39.997614",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Cute Design"
-        ],
-        "top_con": "Size Issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "powerprime ExtBlFan_069 225 mm Exhaust Fan",
-      "price": 1067,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/o/f/i/extblfan-069-225-powerprime-original-imahp3yedtyefabz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/powerprime-extblfan-069-225-mm-exhaust-fan/p/itm57bb2e00b7a7f?pid=EXFHP3YEYZFBG5GY&lid=LSTEXFHP3YEYZFBG5GY9F2FQX&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3YEYZFBG5GY.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.041941",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Good Airflow",
-          "Easy Install"
-        ],
-        "top_con": "Noise Level",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "powerprime ExtBlFan_027 225 mm Exhaust Fan",
-      "price": 1063,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/h/c/5/extblfan-027-225-powerprime-original-imahp3ydyvcvq4vw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/powerprime-extblfan-027-225-mm-exhaust-fan/p/itm8c2068d593981?pid=EXFHP3YD6MYXFN5E&lid=LSTEXFHP3YD6MYXFN5ERGEPXH&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3YD6MYXFN5E.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.042183",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Good Airflow",
-          "Low Noise"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "powerprime ExtBlFan_067 225 mm Exhaust Fan",
-      "price": 1063,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/d/o/r/extblfan-067-225-powerprime-original-imahp3ydfyhvhyxr.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/powerprime-extblfan-067-225-mm-exhaust-fan/p/itmae5aeb2103275?pid=EXFHP3YEUHNNJBZG&lid=LSTEXFHP3YEUHNNJBZG3J4QVB&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3YEUHNNJBZG.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.042412",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Airflow",
-          "Easy Install"
-        ],
-        "top_con": "Noise Level",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Kaal Exhust_Fan9Inch_40 225 mm Exhaust Fan",
-      "price": 998,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/v/k/3/exhust-fan9inch-40-225-kaal-original-imahp3fyshznqbb5.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kaal-exhust-fan9inch-40-225-mm-exhaust-fan/p/itm97deb48279493?pid=EXFHP3FFWSMP8YND&lid=LSTEXFHP3FFWSMP8YND6IYDJT&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3FFWSMP8YND.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.042637",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Air Flow",
-          "Easy Installation"
-        ],
-        "top_con": "Noise Level",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "powerprime ExtBlFan_003 225 mm Exhaust Fan",
-      "price": 1056,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/v/h/n/extblfan-003-225-powerprime-original-imahp3ydzeuaepqu.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/powerprime-extblfan-003-225-mm-exhaust-fan/p/itm3a3add6b71a7e?pid=EXFHP3YD66GBR6AF&lid=LSTEXFHP3YD66GBR6AFJLPQNK&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3YD66GBR6AF.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.042860",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Airflow",
-          "Low Noise"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "powerprime ExtBlFan_022 225 mm Exhaust Fan",
-      "price": 1054,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/2/m/s/extblfan-022-225-powerprime-original-imahp3ydfynyft4k.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/powerprime-extblfan-022-225-mm-exhaust-fan/p/itm9f8e67a17ea8b?pid=EXFHP3YDRJNEYSHY&lid=LSTEXFHP3YDRJNEYSHYSXSUMU&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3YDRJNEYSHY.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.043111",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Good Air Flow",
-          "Low Noise"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "powerprime ExtBlFan_036 225 mm Exhaust Fan",
-      "price": 1060,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/y/l/b/extblfan-036-225-powerprime-original-imahp3ydkmzvrrzz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/powerprime-extblfan-036-225-mm-exhaust-fan/p/itm5e476e3d9e25f?pid=EXFHP3YEUAHF6QTN&lid=LSTEXFHP3YEUAHF6QTNM3CUFT&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3YEUAHF6QTN.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.043336",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Air Flow",
-          "Low Noise"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Kaal Exhust_Fan9Inch_7 225 mm Exhaust Fan",
-      "price": 998,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/7/9/w/exhust-fan9inch-7-225-kaal-original-imahp3yzwqah5y8y.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kaal-exhust-fan9inch-7-225-mm-exhaust-fan/p/itm03524130e72ee?pid=EXFHP3YZHFSHTF7C&lid=LSTEXFHP3YZHFSHTF7CRB4AEZ&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3YZHFSHTF7C.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.043593",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Airflow",
-          "Low Noise"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Kaal Exhust_Fan12Inch_33 225 mm Exhaust Fan",
-      "price": 1299,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/x/d/u/exhust-fan12inch-33-225-kaal-original-imahp3f33zuhrcz9.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kaal-exhust-fan12inch-33-225-mm-exhaust-fan/p/itm51cc941fb8cd1?pid=EXFHP3F4FXCEAGET&lid=LSTEXFHP3F4FXCEAGETSG2ACK&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3F4FXCEAGET.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.043821",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Airflow",
-          "Easy Install"
-        ],
-        "top_con": "Noise Level",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Kaal Exhust_Fan9Inch_34 225 mm Exhaust Fan",
-      "price": 998,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/exhaust-fan/g/j/p/exhust-fan9inch-34-225-kaal-original-imahp3yz8mnnkgzq.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kaal-exhust-fan9inch-34-225-mm-exhaust-fan/p/itmc3073722e890f?pid=EXFHP3FFQPGS5XGN&lid=LSTEXFHP3FFQPGS5XGNGKPEBO&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=4721c34d-41e8-40e9-9229-46680696301d.EXFHP3FFQPGS5XGN.SEARCH&ppt=None&ppn=None&ssid=aihrzbfb740000001783443462290&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:44.044069",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Airflow",
-          "Low Noise"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "FRAILENO Professional Eye Makeup Eyeliner Pen with Wing...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-liner/r/r/w/10-professional-eye-makeup-eyeliner-pen-with-wing-stamp-fraileno-original-imahp2yt5c6yzhvg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/fraileno-professional-eye-makeup-eyeliner-pen-wing-stamp-10-g/p/itm9122fc1a6c10d?pid=ELRHP2YUBGZNFREH&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.ELRHP2YUBGZNFREH.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.394393",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Easy to use",
-          "Precise lines"
-        ],
-        "top_con": "Ink flow issues",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "DARYUE Rose Shimmer Liquid Eyeshadow 10 ml",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-shadow/p/i/c/10-rose-shimmer-liquid-eyeshadow-daryue-original-imahp2ymttftda2g.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/daryue-rose-shimmer-liquid-eyeshadow-10-ml/p/itm1f61fb109f25a?pid=ESDHP2YHUXGHUBJ2&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.ESDHP2YHUXGHUBJ2.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.394704",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Shimmer finish",
-          "Rose gold"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "EVERERIN SMUDE PROOF BURGENDI LONG-LASTING EYE PENCIL K...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kajal/f/u/c/8-burgendi-long-lasting-eye-pencil-kajal-for-dramatic-eyes-original-imahp2yvg3dy54x6.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/evererin-smude-proof-burgendi-long-lasting-eye-pencil-kajal-dramatic-eyes/p/itm8801c8c15e182?pid=KJLHP2Z3G3FY34ZP&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.KJLHP2Z3G3FY34ZP.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.395030",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long Lasting",
-          "Smudge Proof"
-        ],
-        "top_con": "Color Variation",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Oilanic Mini Makeup Brush | For A Flawless Contour Make...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/j/j/9/mini-makeup-brush-for-a-flawless-contour-makeup-set-for-women-5-original-imahna7ysjvhfwfm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/oilanic-mini-makeup-brush-flawless-contour-set-women/p/itm1a2101f8da219?pid=BARHNA7YRHBN32SZ&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.BARHNA7YRHBN32SZ.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.395348",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Flawless Contour",
-          "Mini Design"
-        ],
-        "top_con": "Limited Details",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "CHIWA Anti Paronychia Relief Oil | for cuticle care and...",
-      "price": 135,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-filer/5/c/x/2-anti-paronychia-relief-oil-for-cuticle-care-and-protection-original-imahnyx4h2yuzg3x.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/chiwa-anti-paronychia-relief-oil-cuticle-care-protection/p/itmf8686b0701780?pid=NFLHNYX4T698VNZE&lid=LSTNFLHNYX4T698VNZEUCOXU2&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.NFLHNYX4T698VNZE.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.395575",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Cuticle care",
-          "Fast relief"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "BIFRRUTANT Lipstick Waterproof | Cracking Or Flaky Text...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/8/d/r/24-lipstick-waterproof-cracking-or-flaky-texture-for-maintaining-original-imahp2u7hnwrpnqs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/bifrrutant-lipstick-waterproof-cracking-flaky-texture-maintaining-soft-1/p/itm41e8e69fa6c81?pid=LSKHP2VCGMXCH7WT&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.LSKHP2VCGMXCH7WT.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.395873",
-      "quick_analysis": {
-        "quick_score": 60,
-        "top_pros": [
-          "Waterproof",
-          "Soft texture"
-        ],
-        "top_con": "Flaky texture",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "SIZLLIK Waterproof Glitter Eyeshadow Metallic Eye Pigme...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-shadow/c/q/y/10-waterproof-glitter-eyeshadow-metallic-eye-pigment-sizllik-original-imahp2ypx8yjjx8h.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sizllik-waterproof-glitter-eyeshadow-metallic-eye-pigment-10-ml/p/itm447d46182438c?pid=ESDHP2YPUTPWEJ5M&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.ESDHP2YPUTPWEJ5M.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.396193",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Waterproof",
-          "Glittery"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "EVERERIN WATERPROOF BURGENDI LONG-LASTING EYE PENCIL KA...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kajal/v/l/o/8-burgendi-long-lasting-eye-pencil-kajal-for-dramatic-eyes-original-imahp2yvyukg5mhp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/evererin-waterproof-burgendi-long-lasting-eye-pencil-kajal-dramatic-eyes/p/itm7c8188e5d5bdd?pid=KJLHP2Z4ABWZUSPN&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.KJLHP2Z4ABWZUSPN.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.396502",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Waterproof",
-          "Long-lasting"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "negri-fit 100 Pcs Clear Artificial Nail Tips with Nail ...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/artificial-nail/m/h/o/100-pcs-clear-artificial-nail-tips-with-nail-glue-for-womens-a1-original-imahp2wue7qhztwg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/negri-fit-100-pcs-clear-artificial-nail-tips-glue-womens-a1-multi/p/itm68aa2ed106c38?pid=ALNHP2WUYEH776FZ&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.ALNHP2WUYEH776FZ.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.396805",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good quality",
-          "Easy apply"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "BIFRRUTANT Liquid Matte Lipstick Combo | Helps Maintain...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/g/u/0/24-liquid-matte-lipstick-combo-helps-maintain-smooth-helps-original-imahp2u8mxqsyvxd.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/bifrrutant-liquid-matte-lipstick-combo-helps-maintain-smooth-provide-rich-1/p/itm1a6ce6a128232?pid=LSKHP2VTNHQGERYH&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=7f64f168-a79f-4993-a8a6-3c49bf6fca71.LSKHP2VTNHQGERYH.SEARCH&ppt=None&ppn=None&ssid=bqie12814g0000001783443466583&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-07T16:57:48.397124",
-      "quick_analysis": {
-        "quick_score": 60,
-        "top_pros": [
-          "Smooth Finish",
-          "Rich Color"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Wait for more data"
       }
     }
   ]

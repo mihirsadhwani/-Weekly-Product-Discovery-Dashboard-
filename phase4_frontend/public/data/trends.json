@@ -1,19 +1,19 @@
 {
   "hot_categories": [
     {
+      "category": "Home_Kitchen",
+      "count": 14
+    },
+    {
       "category": "Sports",
       "count": 12
     },
     {
-      "category": "Home_Kitchen",
-      "count": 12
-    },
-    {
-      "category": "Beauty",
+      "category": "TVs",
       "count": 10
     },
     {
-      "category": "Women_Fashion",
+      "category": "Beauty",
       "count": 10
     },
     {
@@ -21,11 +21,11 @@
       "count": 10
     },
     {
-      "category": "Laptops",
+      "category": "Women_Fashion",
       "count": 10
     },
     {
-      "category": "TVs",
+      "category": "Laptops",
       "count": 10
     },
     {
@@ -35,45 +35,57 @@
   ],
   "declining_categories": [
     {
-      "category": "Beauty",
-      "avg_sentiment": 81.0
+      "category": "TVs",
+      "avg_sentiment": 82.0
     },
     {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 80.8
+      "category": "Beauty",
+      "avg_sentiment": 80.5
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_sentiment": 80.3
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 80.2
     },
     {
       "category": "Laptops",
       "avg_sentiment": 80.0
     },
     {
-      "category": "Men_Fashion",
+      "category": "Mobiles",
       "avg_sentiment": 80.0
     },
     {
-      "category": "Sports",
-      "avg_sentiment": 79.9
+      "category": "Home_Kitchen",
+      "avg_sentiment": 79.8
     },
     {
       "category": "Women_Fashion",
-      "avg_sentiment": 77.0
-    },
-    {
-      "category": "TVs",
-      "avg_sentiment": 74.0
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 64.0
+      "avg_sentiment": 78.2
     }
   ],
   "emerging_keywords": [
     {
+      "keyword": "fast",
+      "mentions": 18
+    },
+    {
       "keyword": "affordable",
+      "mentions": 14
+    },
+    {
+      "keyword": "easy",
       "mentions": 13
     },
     {
-      "keyword": "fast",
+      "keyword": "performance",
+      "mentions": 13
+    },
+    {
+      "keyword": "display",
       "mentions": 12
     },
     {
@@ -81,70 +93,58 @@
       "mentions": 11
     },
     {
-      "keyword": "performance",
-      "mentions": 11
-    },
-    {
-      "keyword": "easy",
-      "mentions": 10
-    },
-    {
       "keyword": "effective",
-      "mentions": 10
+      "mentions": 8
     },
     {
-      "keyword": "comfortable",
-      "mentions": 10
-    },
-    {
-      "keyword": "display",
-      "mentions": 9
+      "keyword": "silk",
+      "mentions": 6
     }
   ],
   "price_movements": [
     {
       "category": "Sports",
-      "avg_price": 448
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_price": 7574
-    },
-    {
-      "category": "Beauty",
-      "avg_price": 230
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_price": 845
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_price": 723
-    },
-    {
-      "category": "Laptops",
-      "avg_price": 51790
+      "avg_price": 567
     },
     {
       "category": "TVs",
-      "avg_price": 28977
+      "avg_price": 33718
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_price": 7577
+    },
+    {
+      "category": "Beauty",
+      "avg_price": 234
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_price": 621
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 707
+    },
+    {
+      "category": "Laptops",
+      "avg_price": 76990
     },
     {
       "category": "Mobiles",
-      "avg_price": 24559
+      "avg_price": 50958
     }
   ],
   "best_deal": {
-    "name": "LIEBESGEWAND",
-    "price": 288,
-    "original_price": 250088,
-    "discount_percent": 88,
-    "category": "Women_Fashion",
-    "score": 80,
-    "flipkart_url": "https://www.flipkart.com/liebesgewand-printed-daily-wear-cotton-linen-saree/p/itm9b87ff93019bf?pid=SARHKJC3CCDHGZSJ&lid=LSTSARHKJC3CCDHGZSJTZT5VI&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&spotlightTagId=default_BestsellerId_clo%2F8on%2Fzpd%2F9og&srno=s_1_3&otracker=search&fm=organic&iid=c140f341-6ad9-4c1c-bfa3-96c27d248e65.SARHKJC3CCDHGZSJ.SEARCH&ppt=None&ppn=None&ssid=fhztvllk8w0000001783190727567&qH=9312319821db7ffa&ov_redirect=true"
+    "name": "Men Silk Blend Sherwani Churidar Set",
+    "price": 430,
+    "original_price": 279084,
+    "discount_percent": 84,
+    "category": "Men_Fashion",
+    "score": 87,
+    "flipkart_url": "https://www.flipkart.com/over-crowd-men-sherwani-churidar-set/p/itmfdywfgrnhqrhx?pid=ETHFDYJSN6TEWNZS&lid=LSTETHFDYJSN6TEWNZSHRKGED&marketplace=FLIPKART&q=men+sherwani+kurta+set+ethnic&store=clo%2Fcfv%2Fitg%2Fpme&srno=s_1_36&otracker=search&fm=organic&iid=7d98e787-ef39-49bb-a558-a87a918b71a6.ETHFDYJSN6TEWNZS.SEARCH&ppt=None&ppn=None&ssid=jwja74k3v40000001783794661556&qH=a9e54449e15b8c19&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-07-04T18:55:43.174859"
+  "generated_at": "2026-07-11T18:44:57.295184"
 }

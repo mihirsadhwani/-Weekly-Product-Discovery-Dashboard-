@@ -1,21 +1,140 @@
 {
-  "date": "2026-07-13T17:02:22Z",
-  "total_products": 50,
+  "date": "2026-07-14T07:28:04Z",
+  "total_products": 20,
   "products": [
     {
-      "name": "Ujarak Air Fryer Silicone Baking Tray Pack of 2 Multico...",
-      "price": 165,
+      "name": "THIRD DIMENSION LG Magic Remote ROUND Scroll Wheel Repl...",
+      "price": 191,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/c/z/h/air-fryer-silicone-baking-tray-pack-of-2-multicolor-food-grade-original-imahzsy8mg5gy5dv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ujarak-air-fryer-silicone-baking-tray-pack-2-multicolor-food-grade-basket-airfryer/p/itmbddba4453ada2?pid=AFTHZSY8FGVANGGD&lid=LSTAFTHZSY8FGVANGGDQNXBVB&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.AFTHZSY8FGVANGGD.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.183835",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/w/c/c/round-scroll-wheel-replacement-kit-comaptible-for-model-mr21-original-imahzw2egyhzuqh5.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/third-dimension-lg-magic-remote-round-scroll-wheel-replacement-kit-comaptible-model-mr21-mr22-mr23-mr24-controller/p/itm872f098d91882?pid=REMHZW2EDZZWCGJC&lid=LSTREMHZW2EDZZWCGJCTZ3YYV&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.REMHZW2EDZZWCGJC.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.518296",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Food Grade",
-          "Multicolor Options"
+          "Easy Replacement",
+          "Cost Effective"
         ],
         "top_con": "No Reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "SKYNEU Compatible for LED/LCD TV Sansui Remote Controll...",
+      "price": 267,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/x/y/f/compatible-for-led-lcd-tv-sansui-remote-controller-skyneu-original-imahzr3kzqc2fvxh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/skyneu-compatible-led-lcd-tv-sansui-remote-controller/p/itm1ae190e2f01c7?pid=REMHZR3KHWTZZ259&lid=LSTREMHZR3KHWTZZ2598Q8I7W&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.REMHZR3KHWTZZ259.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.518592",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Affordable price",
+          "Easy control"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "KESOL 100 PCS Air Fryer Basket Liners Disposable Parchm...",
+      "price": 160,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/o/u/s/100-pcs-air-fryer-basket-liners-disposable-parchment-paper-tesot-original-imahzgp6f9h3gvzg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kesol-100-pcs-air-fryer-basket-liners-disposable-parchment-paper-airfryer-tray/p/itma53659d962bf0?pid=AFTHZGW8YYP6CQFU&lid=LSTAFTHZGW8YYP6CQFUWU1WQR&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.AFTHZGW8YYP6CQFU.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.518836",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Convenient"
+        ],
+        "top_con": "Pricey option",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "KESOL Air Fryer Paper Liners Disposable Square Non Stic...",
+      "price": 160,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/i/l/a/air-fryer-paper-liners-disposable-square-non-stick-parchment-original-imahzgp4n2pmjn3n.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kesol-air-fryer-paper-liners-disposable-square-non-stick-parchment-100-pcs-airfryer-tray/p/itm56fe5c2c0e72c?pid=AFTHZGW8HFUPAK53&lid=LSTAFTHZGW8HFUPAK53D8DJG1&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.AFTHZGW8HFUPAK53.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.519082",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Non-stick surface",
+          "Easy cleaning"
+        ],
+        "top_con": "Paper quality",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "KESOL Disposable Air Fryer Paper Liners 8 Inch Square, ...",
+      "price": 160,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/e/d/m/disposable-air-fryer-paper-liners-8-inch-square-100-count-non-original-imahzfknwswwpjhe.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/kesol-disposable-air-fryer-paper-liners-8-inch-square-100-count-non-stick-airfryer-tray/p/itm669d6e7a0ea8e?pid=AFTHZFKN8WGZKNYX&lid=LSTAFTHZFKN8WGZKNYXTJ7ZAI&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.AFTHZFKN8WGZKNYX.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.519316",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Non-Stick",
+          "Easy Clean"
+        ],
+        "top_con": "Limited Size",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "RM Fire Stick 3rd Gen (Voice Command) FIRESTICK Remote ...",
+      "price": 453,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/e/l/7/amazon-firestick-3rd-gen-remote-voice-command-rm-original-imahz7unawqehmrs.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/rm-fire-stick-3rd-gen-voice-command-firestick-remote-controller/p/itm3c380e71d2c30?pid=REMHZ7UNS2H3EVMZ&lid=LSTREMHZ7UNS2H3EVMZV69OK9&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.REMHZ7UNS2H3EVMZ.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.519566",
+      "quick_analysis": {
+        "quick_score": 90,
+        "top_pros": [
+          "Voice Command",
+          "Affordable Price"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "SKYNEU Compatible Remote Control For VW Pro Series HD R...",
+      "price": 353,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/j/5/e/compatible-remote-control-for-vw-pro-series-hd-ready-smart-qled-original-imahzwmbznvzhjjs.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/skyneu-compatible-remote-control-vw-pro-series-hd-ready-smart-qled-google-tv-vw32gq1-led-controller/p/itmb778554fa67f1?pid=REMHZWMB5NGHWDDM&lid=LSTREMHZWMB5NGHWDDMPFBN3Q&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.REMHZWMB5NGHWDDM.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.519798",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Good price"
+        ],
+        "top_con": "No reviews",
+        "quick_verdict": "Worth checking"
+      }
+    },
+    {
+      "name": "SKYNEU SH4010 TV Compatible For LED LCD TV Remote Contr...",
+      "price": 317,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/j/v/c/sh4010-tv-compatible-for-led-lcd-tv-remote-control-skyneu-original-imahzqypzhqkyx98.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/skyneu-sh4010-tv-compatible-led-lcd-remote-control-intex-controller/p/itmf7f6fd6462e3e?pid=REMHZQYPDWTJWPGA&lid=LSTREMHZQYPDWTJWPGAJSH2H2&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.REMHZQYPDWTJWPGA.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.520030",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Easy to use",
+          "Good price"
+        ],
+        "top_con": "No reviews",
         "quick_verdict": "Worth checking"
       }
     },
@@ -24,8 +143,8 @@
       "price": 165,
       "category": "Home_Kitchen",
       "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/t/3/l/air-fryer-silicone-liner-basket-pack-of-2-multicolor-heat-original-imahzsy8ganz7hn6.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ujarak-air-fryer-silicone-liner-basket-pack-2-multicolor-heat-resistant-pot-airfryer-tray/p/itm171b4b7d3fed0?pid=AFTHZSY8DBXGMFFS&lid=LSTAFTHZSY8DBXGMFFS1XTY4C&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.AFTHZSY8DBXGMFFS.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.184155",
+      "flipkart_url": "https://www.flipkart.com/ujarak-air-fryer-silicone-liner-basket-pack-2-multicolor-heat-resistant-pot-airfryer-tray/p/itm171b4b7d3fed0?pid=AFTHZSY8DBXGMFFS&lid=LSTAFTHZSY8DBXGMFFS1XTY4C&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.AFTHZSY8DBXGMFFS.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.520247",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
@@ -41,811 +160,185 @@
       "price": 165,
       "category": "Home_Kitchen",
       "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/airfryer-tray/o/k/x/reusable-air-fryer-pot-pack-of-2-multicolor-silicone-baking-original-imahzsy8ckh9tucc.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ujarak-reusable-air-fryer-pot-pack-2-multicolor-silicone-baking-liner-tray-airfryer/p/itme03308649c997?pid=AFTHZSY83MNMB9F9&lid=LSTAFTHZSY83MNMB9F9DYAD94&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.AFTHZSY83MNMB9F9.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.184390",
+      "flipkart_url": "https://www.flipkart.com/ujarak-reusable-air-fryer-pot-pack-2-multicolor-silicone-baking-liner-tray-airfryer/p/itme03308649c997?pid=AFTHZSY83MNMB9F9&lid=LSTAFTHZSY83MNMB9F9DYAD94&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=313d1bfe-b01a-4126-9049-26f9c6c905cb.AFTHZSY83MNMB9F9.SEARCH&ppt=None&ppn=None&ssid=4rx53chze80000001784013913024&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:14.520465",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
           "Easy to use",
-          "Multicolor options"
+          "Reusable"
         ],
         "top_con": "No reviews",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "HME Jio Fiber Voice remote in Original Quality with voi...",
-      "price": 469,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/l/r/6/jio-fiber-voice-remote-in-original-quality-with-voice-control-original-imahpygj5bdmar9f.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-jio-fiber-voice-remote-original-quality-control-controller/p/itm133f344fa9888?pid=REMHPYGJ2PFSHPHX&lid=LSTREMHPYGJ2PFSHPHXJUGN4Q&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.REMHPYGJ2PFSHPHX.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.184631",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Original Quality",
-          "Voice Control"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HME LG 4K,QLED,ONED,NANOCELL Lg Magic Remote withoutVoi...",
-      "price": 500,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/f/g/r/lg-magic-remote-withoutvoice-control-and-scroller-and-with-all-original-imahpyfr9k9fbp8h.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-lg-4k-qled-oned-nanocell-magic-remote-withoutvoice-control-scroller-all-key-features-controller/p/itm9c8320497cfeb?pid=REMHPYFRGKMK9YUZ&lid=LSTREMHPYFRGKMK9YUZNHBEDG&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.REMHPYFRGKMK9YUZ.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.184905",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Key Features"
-        ],
-        "top_con": "No Voice Control",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HME IFB Split AC Ifb Split Ac Remote in Orignal Quality...",
-      "price": 450,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/e/v/k/ifb-split-ac-remote-in-orignal-quality-with-all-key-features-hme-original-imahpygdhxhrdcm8.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-ifb-split-ac-remote-orignal-quality-all-key-features-controller/p/itm53e958370d242?pid=REMHPYGDAFFC6QTC&lid=LSTREMHPYGDAFFC6QTCGCXSLT&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.REMHPYGDAFFC6QTC.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.185133",
-      "quick_analysis": {
-        "quick_score": 90,
-        "top_pros": [
-          "Original Quality",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HME LLOYED 1ton,1.2 ton,model 125 Lloyed AC REMOTE IN O...",
-      "price": 430,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/o/4/l/lloyed-ac-remote-in-original-quality-hme-original-imahpyg945czk2qt.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-lloyed-1ton-1-2-ton-model-125-ac-remote-original-quality-controller/p/itmd79ef2f1ff515?pid=REMHPYG9SX4BQ7EE&lid=LSTREMHPYG9SX4BQ7EELUJG2U&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.REMHPYG9SX4BQ7EE.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.185349",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Original Quality",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HME Sony Bravia 4K & OLED Sony smart tv remote without ...",
-      "price": 403,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/w/y/1/sony-smart-tv-remote-without-voice-control-with-all-key-features-original-imahpygjsjeq7ve2.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-sony-bravia-4k-oled-smart-tv-remote-without-voice-control-all-key-features-controller/p/itm9bb4b860c9c30?pid=REMHPYGJAJFHMDKH&lid=LSTREMHPYGJAJFHMDKHQNPIOO&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.REMHPYGJAJFHMDKH.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.185578",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "All key features"
-        ],
-        "top_con": "No voice control",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HME Xiaomi smart tv  Smart tv Voice remote in best qual...",
-      "price": 451,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/o/t/2/xiaomi-smart-tv-voice-remote-in-best-quality-with-all-key-original-imahpyfvhcg7mg2t.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-xiaomi-smart-tv-voice-remote-best-quality-all-key-features-controller/p/itmf0b3efeedf9d8?pid=REMHPYFZJUAZYYGZ&lid=LSTREMHPYFZJUAZYYGZKJBWUJ&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.REMHPYFZJUAZYYGZ.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.185797",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good quality",
-          "Voice remote"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Solid TATA SKY & TATA PLAY Remote with 2 Free AAA Batte...",
-      "price": 209,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/f/n/w/tata-sky-tata-play-remote-with-2-free-aaa-batteries-ready-to-use-original-imahpyh3xz5xnfp6.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/solid-tata-sky-play-remote-2-free-aaa-batteries-ready-use-combo-pack-controller/p/itm0b53bdaf53476?pid=REMHPYH3RRGDKRMM&lid=LSTREMHPYH3RRGDKRMMU0RSFV&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=add3d046-e1c8-4f7b-8435-f94b4223bf85.REMHPYH3RRGDKRMM.SEARCH&ppt=None&ppn=None&ssid=j2rl8c5udc0000001783931501447&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:43.186039",
-      "quick_analysis": {
-        "quick_score": 90,
-        "top_pros": [
-          "Ready to use",
-          "Free batteries"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Rudvya Butterfly Colors Multi Shade Eyeshadow Palette F...",
+      "name": "Oilanic Jelly Blush | Natural Jelly Tint Creates Look W...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-shadow/f/y/e/12-butterfly-colors-multi-shade-eyeshadow-palette-for-stunning-original-imahp8gkccte4rh4.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/rudvya-butterfly-colors-multi-shade-eyeshadow-palette-stunning-12-g/p/itm34bdab050be17?pid=ESDHP9FEYCBTQ5YX&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.ESDHP9FEYCBTQ5YX.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.303945",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/blush/x/n/h/5-5-jelly-blush-natural-jelly-tint-creates-look-with-long-original-imahpahfpbaztguh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/oilanic-jelly-blush-natural-tint-creates-look-long-lasting-finish/p/itmf119185e82dfb?pid=BLUHPAHFAGWGJG7N&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.BLUHPAHFAGWGJG7N.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.354349",
       "quick_analysis": {
-        "quick_score": 75,
+        "quick_score": 80,
         "top_pros": [
-          "Vibrant Colors",
-          "Easy Apply"
+          "Natural Look",
+          "Long Lasting"
         ],
-        "top_con": "Limited Shades",
+        "top_con": "Limited Color",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "CATERINACHIARA Long Lasting & Highly Pigmented | Lightw...",
+      "name": "Colorstock Jelly Blush | Natural Makeup Tint Gives Glow...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/v/m/x/4-long-lasting-highly-pigmented-lightweight-lipstick-for-women-original-imahp9gdvyg2nafh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/caterinachiara-long-lasting-highly-pigmented-lightweight-lipstick-women/p/itm43187d0f4de0e?pid=LSKHP9GE29YNQPDR&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.LSKHP9GE29YNQPDR.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.304261",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/blush/k/9/l/5-5-jelly-blush-natural-makeup-tint-gives-glow-for-seamless-original-imahpagmsxdd8fpu.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/colorstock-jelly-blush-natural-makeup-tint-gives-glow-seamless-blend/p/itmb4f56f99828e7?pid=BLUHPAGMZSEQMNNN&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.BLUHPAGMZSEQMNNN.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.354694",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Long Lasting",
-          "Highly Pigmented"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "MISS BELLA 6IN1+BRUSH Concealer Palette Shade Concealer...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/concealer/m/o/l/30-6in1-brush-concealer-palette-shade-concealer-conceal-contour-original-imahp9fhjtzhyd9c.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/miss-bella-6in1-brush-concealer-palette-shade-conceal-contour-corect-rx13/p/itm3ed99dde5b9e2?pid=CLRHP9FHHTKSJMEE&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.CLRHP9FHHTKSJMEE.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.304568",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good coverage",
-          "Easy blend"
-        ],
-        "top_con": "Limited shades",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Jiwoo New 5 pc 2 Way Dotting Pen Tool Nail Art Tip Dot ...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-art/u/f/p/5-pcs-dotting-pen-tool-dot-paint-manicure-kit-muliti-colour-original-imahbv722gzdxxbp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/jiwoo-new-5-pc-2-way-dotting-pen-tool-nail-art-tip-dot-paint/p/itm4e644b2cff702?pid=NLAHP9EXP4BYPED7&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.NLAHP9EXP4BYPED7.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.304908",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Easy to use",
-          "Multi color"
-        ],
-        "top_con": "Quality concern",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Givni Mart Travel Mini Foldable Compact Square Design B...",
-      "price": 256,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact-mirror/f/r/v/2-foldable-compact-beauty-makeup-pocket-mirror-square-sqr-original-imahjhnrrupzhttk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/givni-mart-travel-mini-foldable-compact-square-design-beauty-makeup-pocket-mirror/p/itmd6a680c717e84?pid=CTMHJNRMTRE57THH&lid=LSTCTMHJNRMTRE57THH0C4QLW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.CTMHJNRMTRE57THH.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.305141",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Compact Design",
-          "Portable Mirror"
+          "Natural Glow",
+          "Seamless Blend"
         ],
         "top_con": "Limited Reviews",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "Dwitifashion Heavy Duty Plastic Serving Tray Set of 4 f...",
+      "name": "LA'CONDE Jelly Blush | To Natural Cheek Lip Color Creat...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/vanity-box/n/p/e/heavy-duty-plastic-serving-tray-set-of-4-for-home-daily-use-size-original-imahp9fz6ef4pewe.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/dwitifashion-heavy-duty-plastic-serving-tray-set-4-home-daily-use-size-14-10-jewelry-shops-boutiques-vanity-box/p/itm52d529d97275f?pid=VANHP9FZEYGZ85YK&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.VANHP9FZEYGZ85YK.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.305455",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Durable Material",
-          "Compact Design"
-        ],
-        "top_con": "Incorrect Description",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "FRIPPE Honey Petal Soft Velvet Lipstick Finish",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-lipstick/q/t/2/12-honey-petal-soft-velvet-lipstick-finish-frippe-original-imahp9bedthzkh4h.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/frippe-honey-petal-soft-velvet-lipstick-finish/p/itm6f69b29baf369?pid=LSKHP9E4SEYZ9BSD&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.LSKHP9E4SEYZ9BSD.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.305754",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/blush/u/o/y/5-5-jelly-blush-to-natural-cheek-lip-color-creates-flush-for-original-imahpahyzqvhynvh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/la-conde-jelly-blush-natural-cheek-lip-color-creates-flush-korean-style-glow/p/itmd530014bcc685?pid=BLUHPAHYD2WSBTA5&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.BLUHPAHYD2WSBTA5.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.355003",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Soft Velvet Finish",
-          "Glossy Look"
+          "Natural Glow",
+          "Matte Finish"
         ],
-        "top_con": "Limited Color Options",
+        "top_con": "Limited Quantity",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "komstec Floral Symphony Mehndi Stencil Sticker Pack – D...",
+      "name": "Saanwe Super matte nail polish Multiple",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/tattoo/6/7/c/6-6-v-ms-1705-1708-voorkoms-11-original-imahzv6tg3dygstq.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/komstec-floral-symphony-mehndi-stencil-sticker-pack-designer-full-hand/p/itm775d5d3f94019?pid=TTTHP9FM7ZT38ZGG&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.TTTHP9FM7ZT38ZGG.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.306143",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-polish/c/n/2/6-super-matte-nail-polish-saanwe-original-imahpafrunmkfpdx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/saanwe-super-matte-nail-polish-multiple/p/itmedee4c6a446d0?pid=NLPHPAFSQR5UBDGE&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.NLPHPAFSQR5UBDGE.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.355308",
+      "quick_analysis": {
+        "quick_score": 80,
+        "top_pros": [
+          "Matte Finish",
+          "Multiple Shades"
+        ],
+        "top_con": "No Reviews",
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "MEHENDIAURA Henna Tattoo Mehandi Stencil For Female han...",
+      "price": 113,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/tattoo/t/3/a/1-18-ram-b146-mehendiaura-20-original-imahzxjc9guxashh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/mehendiaura-henna-tattoo-mehandi-stencil-female-hands-bridal-mehendi-design-sticker/p/itmf65f03a73c14f?pid=TTTHZXJCRBXHAJGY&lid=LSTTTTHZXJCRBXHAJGYXNCRU0&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.TTTHZXJCRBXHAJGY.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.355552",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
           "Easy to apply",
-          "Nice designs"
+          "Bridal design"
         ],
-        "top_con": "Limited durability",
+        "top_con": "Limited reviews",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "FRIPPE Pure Blossom Lightweight Matte Lipstick Finish",
+      "name": "Plenzo 4 in 1 Travel Makeup Brush Set with Ultra Soft B...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-lipstick/q/u/m/6-pure-blossom-lightweight-matte-lipstick-finish-frippe-original-imahp9bemgnzzuuy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/frippe-pure-blossom-lightweight-matte-lipstick-finish/p/itm73e617c9ded4a?pid=LSKHP9E4EQYJFFPQ&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.LSKHP9E4EQYJFFPQ.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.306446",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/f/a/9/4-in-1-twist-open-travel-makeup-brush-with-ultra-soft-bristles-1-original-imahp88kxytta3fc.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/plenzo-4-1-travel-makeup-brush-set-ultra-soft-bristles-dual-ended-brushes/p/itm5d4c75ec7c44b?pid=BARHPAFNW85HQPUE&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.BARHPAFNW85HQPUE.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.355864",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Lightweight feel",
-          "Matte finish"
+          "Ultra Soft Bristles",
+          "Dual Ended"
         ],
-        "top_con": "Color inconsistency",
+        "top_con": "Limited Reviews",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "K3NTERPRISES rosegold and nude eyeshadow 52 36 g",
+      "name": "Colorstock Jelly Blush | To Natural Cheek Lip Color Kee...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-shadow/a/f/h/36-rosegold-and-nude-eyeshadow-52-k3nterprises-original-imahp9e82kmkqwz2.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/k3nterprises-rosegold-nude-eyeshadow-52-36-g/p/itm92068a4642a16?pid=ESDHP9E9YH25ZW8Q&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=c9005b50-0a44-4ee2-8994-756972be6e35.ESDHP9E9YH25ZW8Q.SEARCH&ppt=None&ppn=None&ssid=dz4uvcqokg0000001783931505721&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T08:31:47.306747",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/blush/i/8/i/5-5-jelly-blush-to-natural-cheek-lip-color-keeps-look-with-long-original-imahpagvvyutauk7.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/colorstock-jelly-blush-natural-cheek-lip-color-keeps-look-long-lasting-finish/p/itm001404bcfd73b?pid=BLUHPAGW2UR7F6UH&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.BLUHPAGW2UR7F6UH.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.356166",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Nice shades",
-          "Good quality"
+          "Natural Look",
+          "Long Lasting"
         ],
-        "top_con": "Limited info",
+        "top_con": "Limited Color",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "THTC Professional Baked Highlighter with Pearl Shimmer ...",
-      "price": 315,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/highlighter/f/e/d/12-professional-baked-highlighter-with-pearl-shimmer-golden-glow-original-imahp9g2pzfp7asc.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/thtc-professional-baked-highlighter-pearl-shimmer-golden-glow/p/itmff7b719406c10?pid=HGLHP9G26GWAMY6V&lid=LSTHGLHP9G26GWAMY6VHIH5RU&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.HGLHP9G26GWAMY6V.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.605798",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "ADJD Matte Lip & Eye Pencil turquoise green",
-      "price": 270,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-liner/5/q/w/matte-lip-eye-pencil-turquoise-green-adjd-original-imahp9fh4gqennju.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/adjd-matte-lip-eye-pencil-turquoise-green/p/itm9344e8f76ed1c?pid=LLIHP9FHH6VGFYHW&lid=LSTLLIHP9FHH6VGFYHWMN23XK&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.LLIHP9FHH6VGFYHW.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.606055",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Vibrant color",
-          "Affordable price"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Aylily New Long-lasting | Smudge Proof Black Eye Makeup...",
+      "name": "VONGEE Matte Liquid Lipstick Set 3 Shades Transfer Proo...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kajal/x/2/l/2-new-long-lasting-smudge-proof-black-eye-makeup-pencil-kajal-original-imahp9fmqfgtwbqa.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/aylily-new-long-lasting-smudge-proof-black-eye-makeup-pencil-kajal/p/itm9ce6d42cbcc9d?pid=KJLHP9FNZKKPHGM8&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.KJLHP9FNZKKPHGM8.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.606389",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long-lasting",
-          "Smudge Proof"
-        ],
-        "top_con": "Not reviewed",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "QWLEZ Pink Matte Liquid Lipstick Long Wear Formula",
-      "price": 257,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/z/w/t/4-pink-matte-liquid-lipstick-long-wear-formula-qwlez-original-imahp9gbg6hghxgr.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/qwlez-pink-matte-liquid-lipstick-long-wear-formula/p/itm916dc0976ac66?pid=LSKHP9G8VGJ2GNCE&lid=LSTLSKHP9G8VGJ2GNCEOGBGUU&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.LSKHP9G8VGJ2GNCE.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.606617",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/9/z/u/3-5-matte-liquid-lipstick-set-3-shades-transfer-proof-soft-original-imahpafz5qgyfcu9.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vongee-matte-liquid-lipstick-set-3-shades-transfer-proof-soft-velvet-long-wear/p/itmce6b1cefe843e?pid=LSKHPAFPJEZ79E2A&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.LSKHPAFPJEZ79E2A.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.356467",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
           "Long Lasting",
           "Matte Finish"
         ],
-        "top_con": "Limited Reviews",
+        "top_con": "Transfer Proof",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "Givni Mart Travel Mini Foldable Compact Square Design B...",
-      "price": 256,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact-mirror/f/r/v/2-foldable-compact-beauty-makeup-pocket-mirror-square-sqr-original-imahjhnrrupzhttk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/givni-mart-travel-mini-foldable-compact-square-design-beauty-makeup-pocket-mirror/p/itmd6a680c717e84?pid=CTMHJNRMTRE57THH&lid=LSTCTMHJNRMTRE57THH0C4QLW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.CTMHJNRMTRE57THH.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.606840",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Compact Design",
-          "Portable Mirror"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Aylily Professional Highlighter Powder for Face Eyes Li...",
-      "price": 248,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/highlighter/g/q/e/15-professional-highlighter-powder-for-face-eyes-lips-hair-body-original-imahp9fzubdh2dgz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/aylily-professional-highlighter-powder-face-eyes-lips-hair-body-glow-makeup/p/itm917a3dfa2cde3?pid=HGLHP9FZ9YDXTTEG&lid=LSTHGLHP9FZ9YDXTTEGIILQIZ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.HGLHP9FZ9YDXTTEG.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.607059",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Glow",
-          "Easy Apply"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "GABBU Perfect Stay Long Lasting Face Makeup Highlighter...",
+      "name": "Oilanic Jelly Blush | To Natural Blush Stick Delivers C...",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/makeup-kit/o/f/s/3-in-1-highlighter-blush-palette-for-women-shimmer-glow-original-imahp8kapgrayhft.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/gabbu-perfect-stay-long-lasting-face-makeup-highlighter-palette/p/itm980bd278fcb58?pid=HGLHP9GNYG4MXABC&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.HGLHP9GNYG4MXABC.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.607390",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/blush/k/s/w/5-5-jelly-blush-to-natural-blush-stick-delivers-color-for-original-imahpahf6tzufb2k.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/oilanic-jelly-blush-natural-stick-delivers-color-seamless-blend/p/itm4b1a14625f742?pid=BLUHPAHFS2W9CXYP&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.BLUHPAHFS2W9CXYP.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.356785",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
-          "Long Lasting",
-          "Easy Apply"
+          "Natural Look",
+          "Seamless Blend"
         ],
-        "top_con": "Limited Shades",
+        "top_con": "Limited Color",
         "quick_verdict": "Worth checking"
       }
     },
     {
-      "name": "K3NTERPRISES helokitty . Nude eyeshadow 36h 42",
+      "name": "K.Y.L.Plus Eyebrow Pencil LB-101 Black and BrownPack 2",
       "price": null,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-shadow/e/5/y/36-rosegold-and-nude-eyeshadow-55-k3nterprises-original-imahp9e8znersgyj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/k3nterprises-helokitty-nude-eyeshadow-36h-42/p/itm9cbb1d03dd261?pid=CBKHP9HHZGZSP5JR&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.CBKHP9HHZGZSP5JR.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.607705",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Long lasting",
-          "Nude shades"
-        ],
-        "top_con": "New seller",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "FLORERO Hydrating Liquid Lip And Cheek Tint Lip Stain",
-      "price": 252,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-stain/o/j/i/12-5-hydrating-liquid-lip-and-cheek-tint-florero-original-imahp9gfzhtvzp7y.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/florero-hydrating-liquid-lip-cheek-tint-stain/p/itm612874e8c8cad?pid=LSQHP9G2HRC24SZ9&lid=LSTLSQHP9G2HRC24SZ9ZV0IMY&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.LSQHP9G2HRC24SZ9.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.607921",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Hydrating formula",
-          "Easy application"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Dwitifashion Multipurpose Plastic Serving Tray Set of 6...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/vanity-box/p/7/o/multipurpose-plastic-serving-tray-set-of-6-with-easy-grip-original-imahp9cxeghsujqy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/dwitifashion-multipurpose-plastic-serving-tray-set-6-easy-grip-handles-size-14-10-jewelry-shops-boutiques-vanity-box/p/itm909ddd3f21726?pid=VANHP9CX37P8ZAYE&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=b95f7a80-1f3a-4091-a5cf-4e449a4a4aa9.VANHP9CX37P8ZAYE.SEARCH&ppt=None&ppn=None&ssid=atg0tn1kts0000001783947873579&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T13:04:34.608219",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Easy Grip Handles",
-          "Multipurpose Use"
-        ],
-        "top_con": "Material Quality",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Samruddhi sales SmartControl STV-NG100 Universal Compat...",
-      "price": 289,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/n/k/m/smartcontrol-stv-ng100-universal-compatible-smart-led-tv-remote-original-imahp3xgqmjckgpg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-smartcontrol-stv-ng100-universal-compatible-smart-led-tv-remote-controller-tvs/p/itm5dce7b98f6170?pid=REMHP3XG9C4ZJFVG&lid=LSTREMHP3XG9C4ZJFVGG6VMTL&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHP3XG9C4ZJFVG.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.883950",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Universal Compatibility",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Samruddhi sales SmartControl BTR-LCD200 Compatible LED ...",
-      "price": 239,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/c/o/u/smartcontrol-btr-lcd200-compatible-led-lcd-tv-remote-controller-original-imahp3x7bnwpfzfk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-smartcontrol-btr-lcd200-compatible-led-lcd-tv-remote-controller-tvs/p/itmfdb629257cece?pid=REMHP3X7FXWFWMXD&lid=LSTREMHP3X7FXWFWMXDKMPXVF&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHP3X7FXWFWMXD.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.884094",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Easy control"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Samruddhi sales Smart Android LED TV Compatible Non-Voi...",
-      "price": 248,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/4/m/w/smart-android-led-tv-compatible-non-voice-remote-controller-original-imahp3w22cdqqy4w.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-smart-android-led-tv-compatible-non-voice-remote-controller-tvs-controller/p/itm0c966fdc857dc?pid=REMHP3W2FYGF5CZH&lid=LSTREMHP3W2FYGF5CZHZ90GC5&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHP3W2FYGF5CZH.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.884236",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable price",
-          "Easy to use"
-        ],
-        "top_con": "No voice control",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Samruddhi sales SmartControl HMR-500 Compatible Smart L...",
-      "price": 248,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/e/p/2/smartcontrol-hmr-500-compatible-smart-led-tv-remote-controller-original-imahp3xp5hag4wry.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-smartcontrol-hmr-500-compatible-smart-led-tv-remote-controller-tvs/p/itma8c4ff7fa31ff?pid=REMHP3XP4RKZJPFD&lid=LSTREMHP3XP4RKZJPFDHXCXQ1&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHP3XP4RKZJPFD.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.884363",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Smart Control"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Samruddhi sales Smart Control Compatible Remote for San...",
-      "price": 241,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/m/n/z/smartcontrol-compatible-remote-for-sansui-smart-led-lcd-tv-original-imahp2t7h9q2k6yn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-smart-control-compatible-remote-sansui-led-lcd-tv-remote-no-542-controller/p/itm315fd262758e9?pid=REMHP2T7GZWZXTB7&lid=LSTREMHP2T7GZWZXTB7CVPHOK&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHP2T7GZWZXTB7.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.884485",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Affordable Price",
-          "Smart Control"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Samruddhi sales SmartControl Compatible  LED/LCD TV Rem...",
-      "price": 319,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/c/z/b/smartcontrol-compatible-thomson-led-lcd-tv-remote-controller-original-imahp2szgmewtwky.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/samruddhi-sales-smartcontrol-compatible-led-lcd-tv-remote-controller-thomson-controller/p/itm6d6ca96ce0d58?pid=REMHP2SZFTPZZ5KA&lid=LSTREMHP2SZFTPZZ5KAHS3BB1&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHP2SZFTPZZ5KA.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.884605",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyebrow-pencil/p/w/9/eyebrow-pencil-lb-101-black-and-brownpack-2-k-y-l-plus-original-imahpafn54xmv2rf.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/k-y-l-plus-eyebrow-pencil-lb-101-black-brownpack-2/p/itmf88a9d13e38f1?pid=EBPHPAFNHQNWWP5G&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=5a5d226b-2295-475d-bcfe-8bade4d5330d.EBPHPAFNHQNWWP5G.SEARCH&ppt=None&ppn=None&ssid=qbmvzcslcw0000001784013916730&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-07-14T07:25:18.357085",
       "quick_analysis": {
         "quick_score": 80,
         "top_pros": [
           "Easy to use",
-          "Good price"
+          "Good color"
         ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HME Xiaomi smart tv  Smart tv Voice remote in best qual...",
-      "price": 451,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/o/t/2/xiaomi-smart-tv-voice-remote-in-best-quality-with-all-key-original-imahpyfvhcg7mg2t.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-xiaomi-smart-tv-voice-remote-best-quality-all-key-features-controller/p/itmf0b3efeedf9d8?pid=REMHPYFZJUAZYYGZ&lid=LSTREMHPYFZJUAZYYGZKJBWUJ&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHPYFZJUAZYYGZ.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.884725",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Good Quality",
-          "Voice Remote"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HME Jio Fiber Voice remote in Original Quality with voi...",
-      "price": 469,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/l/r/6/jio-fiber-voice-remote-in-original-quality-with-voice-control-original-imahpygj5bdmar9f.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-jio-fiber-voice-remote-original-quality-control-controller/p/itm133f344fa9888?pid=REMHPYGJ2PFSHPHX&lid=LSTREMHPYGJ2PFSHPHXJUGN4Q&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHPYGJ2PFSHPHX.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.884847",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Original Quality",
-          "Voice Control"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "HME LLOYED 1ton,1.2 ton,model 125 Lloyed AC REMOTE IN O...",
-      "price": 430,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/o/4/l/lloyed-ac-remote-in-original-quality-hme-original-imahpyg945czk2qt.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hme-lloyed-1ton-1-2-ton-model-125-ac-remote-original-quality-controller/p/itmd79ef2f1ff515?pid=REMHPYG9SX4BQ7EE&lid=LSTREMHPYG9SX4BQ7EELUJG2U&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHPYG9SX4BQ7EE.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.884967",
-      "quick_analysis": {
-        "quick_score": 90,
-        "top_pros": [
-          "Original Quality",
-          "Affordable Price"
-        ],
-        "top_con": "No Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Solid TATA SKY & TATA PLAY Remote with 2 Free AAA Batte...",
-      "price": 209,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/f/n/w/tata-sky-tata-play-remote-with-2-free-aaa-batteries-ready-to-use-original-imahpyh3xz5xnfp6.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/solid-tata-sky-play-remote-2-free-aaa-batteries-ready-use-combo-pack-controller/p/itm0b53bdaf53476?pid=REMHPYH3RRGDKRMM&lid=LSTREMHPYH3RRGDKRMMU0RSFV&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=2483c7ee-4653-491a-8716-d1d1cca18cab.REMHPYH3RRGDKRMM.SEARCH&ppt=None&ppn=None&ssid=ytxp57kn340000001783961956776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:17.885089",
-      "quick_analysis": {
-        "quick_score": 90,
-        "top_pros": [
-          "Ready to use",
-          "Free batteries"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Ascommunica ClearLock Multi-Purpose Transparent Storage...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/vanity-box/z/4/0/clearlock-multi-purpose-transparent-storage-box-pvb-wbb-02-original-imahp9hfdk5jpsyj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ascommunica-clearlock-multi-purpose-transparent-storage-box-jewellery-vanity/p/itm466340815b923?pid=VANHP9HFBZYMCHKP&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.VANHP9HFBZYMCHKP.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.103954",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Transparent Storage",
-          "Multi Purpose"
-        ],
-        "top_con": "Plastic Material",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Luzimaisa Pink Lips Color Changing Lip balm For Women f...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-balm/x/k/j/3-6-pink-lips-color-changing-lip-balm-for-women-1-luzimaisa-original-imahp9gnxfwnyzga.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/luzimaisa-pink-lips-color-changing-lip-balm-women-fruit/p/itm2a1c3c85485e1?pid=LPBHP9GN8RGF9KYG&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.LPBHP9GN8RGF9KYG.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.104153",
-      "quick_analysis": {
-        "quick_score": 60,
-        "top_pros": [
-          "Color Changing",
-          "Fruity Flavor"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "ADJD Matte Lip & Eye Pencil matellic blue",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-liner/z/0/s/matte-lip-eye-pencil-matellic-blue-adjd-original-imahp9fkjbrtkequ.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/adjd-matte-lip-eye-pencil-matellic-blue/p/itm09cef8966c222?pid=LLIHP9FHMKMVCUFK&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.LLIHP9FHMKMVCUFK.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.104328",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Waterproof",
-          "Smudge-free"
-        ],
-        "top_con": "No reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "K3NTERPRISES rosegold and nude eyeshadow 78 36 g",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-shadow/u/r/e/36-rosegold-and-nude-eyeshadow-78-k3nterprises-original-imahp9d2xbzzg3mv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/k3nterprises-rosegold-nude-eyeshadow-78-36-g/p/itm2908a964bac10?pid=ESDHP9D2XUKPATJZ&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.ESDHP9D2XUKPATJZ.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.104511",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Nice shades",
-          "Good quality"
-        ],
-        "top_con": "New seller",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Givni Mart Travel Mini Foldable Compact Square Design B...",
-      "price": 256,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact-mirror/f/r/v/2-foldable-compact-beauty-makeup-pocket-mirror-square-sqr-original-imahjhnrrupzhttk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/givni-mart-travel-mini-foldable-compact-square-design-beauty-makeup-pocket-mirror/p/itmd6a680c717e84?pid=CTMHJNRMTRE57THH&lid=LSTCTMHJNRMTRE57THH0C4QLW&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.CTMHJNRMTRE57THH.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.104637",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Compact Design",
-          "Portable Mirror"
-        ],
-        "top_con": "Limited Reviews",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "Luzimaisa Nail 5 Double Side Point Drill Dotting Pen",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-art/y/v/f/nail-5-double-side-point-drill-dotting-pen-multicolour-luzimaisa-original-imahp9m46nughhdy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/luzimaisa-nail-5-double-side-point-drill-dotting-pen/p/itm2ee03ede0ffa1?pid=NLAHP9M83SKYZGXF&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.NLAHP9M83SKYZGXF.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.104807",
-      "quick_analysis": {
-        "quick_score": 60,
-        "top_pros": [
-          "Easy to use",
-          "Multicolour option"
-        ],
-        "top_con": "Limited reviews",
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "SIZLLIK Shimmer Long Lasting Waterproof Silver Liquid E...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-liner/a/3/g/6-shimmer-long-lasting-waterproof-silver-liquid-eyeliner-sizllik-original-imahp9k8ahw2js5k.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sizllik-shimmer-long-lasting-waterproof-silver-liquid-eyeliner-6-ml/p/itm117836e72a7c0?pid=ELRHP9KE3Z9APKHU&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.ELRHP9KE3Z9APKHU.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.104974",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Long Lasting",
-          "Waterproof"
-        ],
-        "top_con": "Limited info",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "K3NTERPRISES rosegold and nude eyeshadow 57 36 g",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-shadow/3/e/b/36-rosegold-and-nude-eyeshadow-57-k3nterprises-original-imahp9e8jmexbzqd.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/k3nterprises-rosegold-nude-eyeshadow-57-36-g/p/itm161d4a001aa01?pid=ESDHP9E8U6UAJKNH&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.ESDHP9E8U6UAJKNH.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.105164",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Nice shades",
-          "Good quality"
-        ],
-        "top_con": "New seller",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "K3NTERPRISES helokitty . Nude eyeshadow 36h 57",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-shadow/a/e/z/36-rosegold-and-nude-eyeshadow-60-k3nterprises-original-imahp9e3qpphyub7.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/k3nterprises-helokitty-nude-eyeshadow-36h-57/p/itm0aadd929d59a3?pid=CBKHP9HM5TRCHVQE&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.CBKHP9HM5TRCHVQE.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.105334",
-      "quick_analysis": {
-        "quick_score": 70,
-        "top_pros": [
-          "Long lasting",
-          "Nude shades"
-        ],
-        "top_con": "New seller",
-        "quick_verdict": "Worth checking"
-      }
-    },
-    {
-      "name": "SIZLLIK Bold Blue Waterproof Eyeliner with Shimmer Fini...",
-      "price": null,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eye-liner/6/3/v/6-shimmer-long-lasting-waterproof-blue-liquid-eyeliner-sizllik-original-imahp9gxt3ydhyxf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sizllik-bold-blue-waterproof-eyeliner-shimmer-finish-6-ml/p/itm03ad61298ae0a?pid=ELRHP9GZHHZPFXBG&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=2193dfdf-a66d-4820-89f1-9eccce10430b.ELRHP9GZHHZPFXBG.SEARCH&ppt=None&ppn=None&ssid=45060zo01s0000001783961960776&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-07-13T16:59:22.105500",
-      "quick_analysis": {
-        "quick_score": 80,
-        "top_pros": [
-          "Waterproof",
-          "Long Lasting"
-        ],
-        "top_con": "No reviews",
+        "top_con": "Limited shades",
         "quick_verdict": "Worth checking"
       }
     }

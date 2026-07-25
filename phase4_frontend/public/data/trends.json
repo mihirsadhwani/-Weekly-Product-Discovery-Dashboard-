@@ -1,23 +1,23 @@
 {
   "hot_categories": [
     {
-      "category": "Sports",
-      "count": 10
+      "category": "Home_Kitchen",
+      "count": 14
     },
     {
-      "category": "Home_Kitchen",
-      "count": 10
+      "category": "Sports",
+      "count": 11
     },
     {
       "category": "Beauty",
+      "count": 11
+    },
+    {
+      "category": "Men_Fashion",
       "count": 10
     },
     {
       "category": "Women_Fashion",
-      "count": 10
-    },
-    {
-      "category": "Men_Fashion",
       "count": 10
     },
     {
@@ -36,103 +36,103 @@
   "declining_categories": [
     {
       "category": "TVs",
-      "avg_sentiment": 82.5
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 80.5
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 80.5
-    },
-    {
-      "category": "Sports",
-      "avg_sentiment": 80.2
+      "avg_sentiment": 82.0
     },
     {
       "category": "Beauty",
       "avg_sentiment": 80.0
     },
     {
-      "category": "Laptops",
+      "category": "Mobiles",
       "avg_sentiment": 80.0
     },
     {
       "category": "Women_Fashion",
-      "avg_sentiment": 79.1
+      "avg_sentiment": 78.9
+    },
+    {
+      "category": "Laptops",
+      "avg_sentiment": 78.5
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_sentiment": 74.6
     },
     {
       "category": "Men_Fashion",
-      "avg_sentiment": 78.9
+      "avg_sentiment": 72.3
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 65.5
     }
   ],
   "emerging_keywords": [
     {
       "keyword": "performance",
-      "mentions": 14
+      "mentions": 17
     },
     {
       "keyword": "affordable",
-      "mentions": 12
+      "mentions": 16
     },
     {
       "keyword": "design",
-      "mentions": 11
+      "mentions": 12
+    },
+    {
+      "keyword": "display",
+      "mentions": 12
+    },
+    {
+      "keyword": "fast",
+      "mentions": 10
+    },
+    {
+      "keyword": "effective",
+      "mentions": 9
     },
     {
       "keyword": "easy",
       "mentions": 9
     },
     {
-      "keyword": "fast",
-      "mentions": 9
-    },
-    {
-      "keyword": "display",
-      "mentions": 8
-    },
-    {
-      "keyword": "effective",
-      "mentions": 6
-    },
-    {
-      "keyword": "workout",
-      "mentions": 6
+      "keyword": "silk",
+      "mentions": 7
     }
   ],
   "price_movements": [
     {
-      "category": "Sports",
-      "avg_price": 533
+      "category": "Home_Kitchen",
+      "avg_price": 9837
     },
     {
-      "category": "Home_Kitchen",
-      "avg_price": 3561
+      "category": "Sports",
+      "avg_price": 739
     },
     {
       "category": "Beauty",
-      "avg_price": 273
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_price": 695
+      "avg_price": 242
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 712
+      "avg_price": 799
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 759
     },
     {
       "category": "TVs",
-      "avg_price": 38704
+      "avg_price": 24945
     },
     {
       "category": "Laptops",
-      "avg_price": 48602
+      "avg_price": 63761
     },
     {
       "category": "Mobiles",
-      "avg_price": 47839
+      "avg_price": 60130
     }
   ],
   "best_deal": {
@@ -146,5 +146,5 @@
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-07-18T18:50:30.581503"
+  "generated_at": "2026-07-25T18:49:14.251325"
 }

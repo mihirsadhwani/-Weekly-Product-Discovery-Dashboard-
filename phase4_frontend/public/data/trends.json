@@ -2,15 +2,19 @@
   "hot_categories": [
     {
       "category": "Home_Kitchen",
-      "count": 14
-    },
-    {
-      "category": "Sports",
-      "count": 11
+      "count": 12
     },
     {
       "category": "Beauty",
       "count": 11
+    },
+    {
+      "category": "Sports",
+      "count": 10
+    },
+    {
+      "category": "TVs",
+      "count": 10
     },
     {
       "category": "Men_Fashion",
@@ -21,25 +25,25 @@
       "count": 10
     },
     {
-      "category": "TVs",
+      "category": "Mobiles",
       "count": 10
     },
     {
       "category": "Laptops",
-      "count": 10
-    },
-    {
-      "category": "Mobiles",
       "count": 10
     }
   ],
   "declining_categories": [
     {
       "category": "TVs",
-      "avg_sentiment": 82.0
+      "avg_sentiment": 81.5
     },
     {
       "category": "Beauty",
+      "avg_sentiment": 80.5
+    },
+    {
+      "category": "Home_Kitchen",
       "avg_sentiment": 80.0
     },
     {
@@ -47,104 +51,100 @@
       "avg_sentiment": 80.0
     },
     {
+      "category": "Sports",
+      "avg_sentiment": 80.0
+    },
+    {
       "category": "Women_Fashion",
-      "avg_sentiment": 78.9
-    },
-    {
-      "category": "Laptops",
-      "avg_sentiment": 78.5
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 74.6
+      "avg_sentiment": 79.6
     },
     {
       "category": "Men_Fashion",
-      "avg_sentiment": 72.3
+      "avg_sentiment": 78.6
     },
     {
-      "category": "Sports",
-      "avg_sentiment": 65.5
+      "category": "Laptops",
+      "avg_sentiment": 77.0
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "performance",
-      "mentions": 17
+      "keyword": "affordable",
+      "mentions": 21
     },
     {
-      "keyword": "affordable",
+      "keyword": "performance",
       "mentions": 16
     },
     {
-      "keyword": "design",
-      "mentions": 12
-    },
-    {
       "keyword": "display",
-      "mentions": 12
-    },
-    {
-      "keyword": "fast",
-      "mentions": 10
+      "mentions": 13
     },
     {
       "keyword": "effective",
-      "mentions": 9
-    },
-    {
-      "keyword": "easy",
-      "mentions": 9
+      "mentions": 12
     },
     {
       "keyword": "silk",
+      "mentions": 10
+    },
+    {
+      "keyword": "fast",
+      "mentions": 9
+    },
+    {
+      "keyword": "blend",
+      "mentions": 7
+    },
+    {
+      "keyword": "design",
       "mentions": 7
     }
   ],
   "price_movements": [
     {
-      "category": "Home_Kitchen",
-      "avg_price": 9837
+      "category": "Sports",
+      "avg_price": 475
     },
     {
-      "category": "Sports",
-      "avg_price": 739
+      "category": "Home_Kitchen",
+      "avg_price": 5510
     },
     {
       "category": "Beauty",
-      "avg_price": 242
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_price": 799
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_price": 759
+      "avg_price": 179
     },
     {
       "category": "TVs",
-      "avg_price": 24945
+      "avg_price": 20338
     },
     {
-      "category": "Laptops",
-      "avg_price": 63761
+      "category": "Men_Fashion",
+      "avg_price": 873
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 967
     },
     {
       "category": "Mobiles",
-      "avg_price": 60130
+      "avg_price": 47921
+    },
+    {
+      "category": "Laptops",
+      "avg_price": 54826
     }
   ],
   "best_deal": {
-    "name": "Woven Kasavu Silk Blend Saree",
-    "price": 262,
-    "original_price": 297091,
-    "discount_percent": 91,
-    "category": "Women_Fashion",
+    "name": "Men Silk Blend Sherwani Churidar Set",
+    "price": 430,
+    "original_price": 279084,
+    "discount_percent": 84,
+    "category": "Men_Fashion",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/omsaiarts-woven-kasavu-silk-blend-saree/p/itma238cea88d4af?pid=SARGTHYEGJ6WZJGW&lid=LSTSARGTHYEGJ6WZJGWSDS2YC&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&srno=s_2_43&otracker=search&fm=organic&iid=419b6ab3-907c-495d-8721-b9cbfc3dc077.SARGTHYEGJ6WZJGW.SEARCH&ppt=sp&ppn=sp&ssid=fc7qld94sw0000001784400092694&qH=9312319821db7ffa&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/over-crowd-men-sherwani-churidar-set/p/itmfdywfgrnhqrhx?pid=ETHFDYJSN6TEWNZS&lid=LSTETHFDYJSN6TEWNZSHRKGED&marketplace=FLIPKART&q=men+sherwani+kurta+set+ethnic&store=clo%2Fcfv%2Fitg%2Fpme&srno=s_1_20&otracker=search&fm=organic&iid=0aeedd7d-d22e-403c-be4a-1ea2c875149d.ETHFDYJSN6TEWNZS.SEARCH&ppt=None&ppn=None&ssid=7yrv4rl9vk0000001785004286979&qH=a9e54449e15b8c19&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-07-25T18:49:14.251325"
+  "generated_at": "2026-08-01T18:51:37.655454"
 }

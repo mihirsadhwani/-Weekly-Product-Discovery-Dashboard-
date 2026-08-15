@@ -1,19 +1,15 @@
 {
   "hot_categories": [
     {
-      "category": "Women_Fashion",
-      "count": 11
-    },
-    {
-      "category": "Beauty",
-      "count": 10
-    },
-    {
-      "category": "Men_Fashion",
-      "count": 10
+      "category": "Home_Kitchen",
+      "count": 14
     },
     {
       "category": "Sports",
+      "count": 10
+    },
+    {
+      "category": "Beauty",
       "count": 10
     },
     {
@@ -21,7 +17,11 @@
       "count": 10
     },
     {
-      "category": "Home_Kitchen",
+      "category": "Women_Fashion",
+      "count": 10
+    },
+    {
+      "category": "Men_Fashion",
       "count": 10
     },
     {
@@ -36,115 +36,115 @@
   "declining_categories": [
     {
       "category": "TVs",
-      "avg_sentiment": 81.5
+      "avg_sentiment": 83.0
     },
     {
-      "category": "Laptops",
-      "avg_sentiment": 80.5
+      "category": "Home_Kitchen",
+      "avg_sentiment": 80.4
+    },
+    {
+      "category": "Beauty",
+      "avg_sentiment": 80.0
     },
     {
       "category": "Men_Fashion",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 80.0
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 79.5
+    },
+    {
+      "category": "Laptops",
       "avg_sentiment": 79.0
     },
     {
       "category": "Women_Fashion",
-      "avg_sentiment": 78.2
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 77.0
-    },
-    {
-      "category": "Sports",
-      "avg_sentiment": 63.6
-    },
-    {
-      "category": "Beauty",
-      "avg_sentiment": 32.0
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 0.0
+      "avg_sentiment": 78.0
     }
   ],
   "emerging_keywords": [
     {
       "keyword": "affordable",
-      "mentions": 15
-    },
-    {
-      "keyword": "fast",
-      "mentions": 12
-    },
-    {
-      "keyword": "silk",
-      "mentions": 11
-    },
-    {
-      "keyword": "blend",
-      "mentions": 10
-    },
-    {
-      "keyword": "design",
-      "mentions": 7
-    },
-    {
-      "keyword": "performance",
-      "mentions": 7
+      "mentions": 22
     },
     {
       "keyword": "effective",
-      "mentions": 6
+      "mentions": 12
     },
     {
-      "keyword": "thin",
-      "mentions": 6
+      "keyword": "design",
+      "mentions": 10
+    },
+    {
+      "keyword": "fast",
+      "mentions": 10
+    },
+    {
+      "keyword": "performance",
+      "mentions": 9
+    },
+    {
+      "keyword": "display",
+      "mentions": 7
+    },
+    {
+      "keyword": "silk",
+      "mentions": 7
+    },
+    {
+      "keyword": "blend",
+      "mentions": 7
     }
   ],
   "price_movements": [
     {
-      "category": "Beauty",
-      "avg_price": 222
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_price": 616
-    },
-    {
       "category": "Sports",
-      "avg_price": 849
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_price": 1029
-    },
-    {
-      "category": "TVs",
-      "avg_price": 37855
+      "avg_price": 891
     },
     {
       "category": "Home_Kitchen",
-      "avg_price": 5024
+      "avg_price": 14314
+    },
+    {
+      "category": "Beauty",
+      "avg_price": 236
+    },
+    {
+      "category": "TVs",
+      "avg_price": 36163
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 600
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_price": 620
     },
     {
       "category": "Laptops",
-      "avg_price": 62390
+      "avg_price": 61858
     },
     {
       "category": "Mobiles",
-      "avg_price": 22548
+      "avg_price": 25149
     }
   ],
   "best_deal": {
-    "name": "Men Silk Blend Sherwani Dhoti Pant Set",
-    "price": 528,
-    "original_price": 279081,
-    "discount_percent": 81,
-    "category": "Men_Fashion",
+    "name": "Nisi ethnic sarees",
+    "price": 385,
+    "original_price": 350089,
+    "discount_percent": 89,
+    "category": "Women_Fashion",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/over-crowd-men-sherwani-dhoti-pant-set/p/itmfe23dw8fpwymu?pid=ETHFEFVF2FVKGCGZ&lid=LSTETHFEFVF2FVKGCGZFVXTO8&marketplace=FLIPKART&q=men+sherwani+kurta+set+ethnic&store=clo%2Fcfv%2Fitg%2Fpme&srno=s_2_76&otracker=search&fm=organic&iid=7c352500-bdac-4b71-8cde-6c9b3e298548.ETHFEFVF2FVKGCGZ.SEARCH&ppt=sp&ppn=sp&ssid=hsi61wfvls0000001786212157127&qH=a9e54449e15b8c19&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/nisi-ethnic-sarees-woven-banarasi-organza-saree/p/itmf687f6f703049?pid=SARHPJXHNBHMHYHX&lid=LSTSARHPJXHNBHMHYHXDPZSVF&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&srno=s_2_70&otracker=search&fm=organic&iid=701f29d3-f090-4dee-8e87-1fe6eb6778b8.SARHPJXHNBHMHYHX.SEARCH&ppt=sp&ppn=sp&ssid=652kjonmyo0000001786816851492&qH=9312319821db7ffa&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-08-08T18:23:04.873108"
+  "generated_at": "2026-08-15T18:08:44.962773"
 }

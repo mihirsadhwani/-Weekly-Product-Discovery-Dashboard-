@@ -13,15 +13,15 @@
       "count": 10
     },
     {
-      "category": "TVs",
-      "count": 10
-    },
-    {
       "category": "Women_Fashion",
       "count": 10
     },
     {
       "category": "Men_Fashion",
+      "count": 10
+    },
+    {
+      "category": "TVs",
       "count": 10
     },
     {
@@ -35,116 +35,96 @@
   ],
   "declining_categories": [
     {
-      "category": "TVs",
-      "avg_sentiment": 83.0
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 80.4
+      "category": "Men_Fashion",
+      "avg_sentiment": 32.0
     },
     {
       "category": "Beauty",
-      "avg_sentiment": 80.0
+      "avg_sentiment": 0.0
     },
     {
-      "category": "Men_Fashion",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Sports",
-      "avg_sentiment": 80.0
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 79.5
+      "category": "Home_Kitchen",
+      "avg_sentiment": 0.0
     },
     {
       "category": "Laptops",
-      "avg_sentiment": 79.0
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "TVs",
+      "avg_sentiment": 0.0
     },
     {
       "category": "Women_Fashion",
-      "avg_sentiment": 78.0
+      "avg_sentiment": 0.0
     }
   ],
   "emerging_keywords": [
     {
-      "keyword": "affordable",
-      "mentions": 22
-    },
-    {
-      "keyword": "effective",
-      "mentions": 12
-    },
-    {
-      "keyword": "design",
-      "mentions": 10
-    },
-    {
-      "keyword": "fast",
-      "mentions": 10
-    },
-    {
-      "keyword": "performance",
-      "mentions": 9
-    },
-    {
-      "keyword": "display",
-      "mentions": 7
-    },
-    {
       "keyword": "silk",
-      "mentions": 7
+      "mentions": 4
     },
     {
       "keyword": "blend",
-      "mentions": 7
+      "mentions": 4
+    },
+    {
+      "keyword": "affordable",
+      "mentions": 3
     }
   ],
   "price_movements": [
     {
-      "category": "Sports",
-      "avg_price": 891
+      "category": "Home_Kitchen",
+      "avg_price": 9746
     },
     {
-      "category": "Home_Kitchen",
-      "avg_price": 14314
+      "category": "Sports",
+      "avg_price": 439
     },
     {
       "category": "Beauty",
-      "avg_price": 236
-    },
-    {
-      "category": "TVs",
-      "avg_price": 36163
+      "avg_price": 625
     },
     {
       "category": "Women_Fashion",
-      "avg_price": 600
+      "avg_price": 933
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 620
+      "avg_price": 599
+    },
+    {
+      "category": "TVs",
+      "avg_price": 23835
     },
     {
       "category": "Laptops",
-      "avg_price": 61858
+      "avg_price": 70281
     },
     {
       "category": "Mobiles",
-      "avg_price": 25149
+      "avg_price": 26429
     }
   ],
   "best_deal": {
-    "name": "Nisi ethnic sarees",
-    "price": 385,
-    "original_price": 350089,
-    "discount_percent": 89,
-    "category": "Women_Fashion",
+    "name": "Men Silk Blend Sherwani Pyjama Set",
+    "price": 527,
+    "original_price": 279081,
+    "discount_percent": 81,
+    "category": "Men_Fashion",
     "score": 80,
-    "flipkart_url": "https://www.flipkart.com/nisi-ethnic-sarees-woven-banarasi-organza-saree/p/itmf687f6f703049?pid=SARHPJXHNBHMHYHX&lid=LSTSARHPJXHNBHMHYHXDPZSVF&marketplace=FLIPKART&q=women+ethnic+wear+saree&store=clo%2F8on%2Fzpd%2F9og&srno=s_2_70&otracker=search&fm=organic&iid=701f29d3-f090-4dee-8e87-1fe6eb6778b8.SARHPJXHNBHMHYHX.SEARCH&ppt=sp&ppn=sp&ssid=652kjonmyo0000001786816851492&qH=9312319821db7ffa&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/over-crowd-men-sherwani-pyjama-set/p/itme07616e6e6fb8?pid=ETHFDYJSQA46NMGZ&lid=LSTETHFDYJSQA46NMGZ6RQ9AV&marketplace=FLIPKART&q=men+sherwani+kurta+set+ethnic&store=clo%2Fcfv%2Fitg%2Fpme&srno=s_2_54&otracker=search&fm=organic&iid=ff9fab98-f14b-4ac3-9c5e-b218399d5606.ETHFDYJSQA46NMGZ.SEARCH&ppt=sp&ppn=sp&ssid=orqwehz17k0000001786816271568&qH=a9e54449e15b8c19&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-08-15T18:08:44.962773"
+  "generated_at": "2026-08-22T18:09:08.566072"
 }

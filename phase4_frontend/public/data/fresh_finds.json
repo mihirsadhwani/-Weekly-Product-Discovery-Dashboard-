@@ -1,28 +1,14 @@
 {
-  "date": "2026-10-13T20:25:01Z",
-  "total_products": 120,
+  "date": "2026-10-14T10:28:58Z",
+  "total_products": 40,
   "products": [
-    {
-      "name": "HMD Vibe2 5G (Wine Red, 128 GB)",
-      "price": 13499,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/m/s/-original-imahrqhauzpjt3vb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-5g-wine-red-128-gb/p/itm71c3ae6df2a26?pid=MOBHQTF5UXRYMYRU&lid=LSTMOBHQTF5UXRYMYRUPRUHMJ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHQTF5UXRYMYRU.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.448496",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
     {
       "name": "Apple iPhone 17 (Black, 256 GB)",
       "price": 86999,
       "category": "Electronics",
       "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/p/o/-original-imahqvad9pbyujab.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-black-256-gb/p/itmc61b40459dd98?pid=MOBHQV9YCUG4ZQZK&lid=LSTMOBHQV9YCUG4ZQZKUTWGGY&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHQV9YCUG4ZQZK.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.448632",
+      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-black-256-gb/p/itmc61b40459dd98?pid=MOBHQV9YCUG4ZQZK&lid=LSTMOBHQV9YCUG4ZQZKUTWGGY&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHQV9YCUG4ZQZK.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.605942",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -31,12 +17,26 @@
       }
     },
     {
-      "name": "Ai+ Pulse 2 FE (Green, 64 GB)",
-      "price": 8999,
+      "name": "HMD Vibe2 Pro 5G (Aqua Green, 128 GB)",
+      "price": 16999,
       "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/k/e/-original-imahrnfzre3kukgg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ai-pulse-2-fe-green-64-gb/p/itm289efc141f9c5?pid=MOBHQZVXKQGYH5HZ&lid=LSTMOBHQZVXKQGYH5HZDUN8HC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHQZVXKQGYH5HZ.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.448741",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/b/m/-original-imahrme5gqrntdzv.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-pro-5g-aqua-green-128-gb/p/itmd425c7e495e6d?pid=MOBHQZZ85MVV5GMX&lid=LSTMOBHQZZ85MVV5GMXKFFOT7&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHQZZ85MVV5GMX.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.606133",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "vivo T5x 5G (Cosmic Green, 128 GB)",
+      "price": 27499,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/s/p/t5x-5g-v2545-vivo-original-imahp9qdvzgnzy8c.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vivo-t5x-5g-cosmic-green-128-gb/p/itm7da8aa253e72b?pid=MOBHQC8ZMRCP62TS&lid=LSTMOBHQC8ZMRCP62TSTXXKV0&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHQC8ZMRCP62TS.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.606306",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -49,8 +49,8 @@
       "price": 799,
       "category": "Electronics",
       "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/p/e/mini-mini-jmax-original-imahr49ryz4k8cmm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/jmax-mini/p/itm0069c81679445?pid=MOBHPYUMCU7EZJKT&lid=LSTMOBHPYUMCU7EZJKT7OH3MZ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHPYUMCU7EZJKT.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.448850",
+      "flipkart_url": "https://www.flipkart.com/jmax-mini/p/itm0069c81679445?pid=MOBHPYUMCU7EZJKT&lid=LSTMOBHPYUMCU7EZJKT7OH3MZ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHPYUMCU7EZJKT.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.606470",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -59,12 +59,12 @@
       }
     },
     {
-      "name": "vivo T5 Lite 44W 5G (Wave Blue, 128 GB)",
-      "price": 22499,
+      "name": "Ai+ Pulse 2 FE (Green, 64 GB)",
+      "price": 8999,
       "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/s/8/-resized-original-imahpdsc5rjnucdy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t5-lite-44w-5g-wave-blue-128-gb/p/itm5420c578ec2df?pid=MOBHNDTD57UJUK9Q&lid=LSTMOBHNDTD57UJUK9QMGWRRW&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHNDTD57UJUK9Q.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.448961",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/k/e/-original-imahrnfzre3kukgg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/ai-pulse-2-fe-green-64-gb/p/itm289efc141f9c5?pid=MOBHQZVXKQGYH5HZ&lid=LSTMOBHQZVXKQGYH5HZDUN8HC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHQZVXKQGYH5HZ.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.606623",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -73,12 +73,12 @@
       }
     },
     {
-      "name": "Mivi One 5G (Blue, 128 GB)",
-      "price": 12999,
+      "name": "Mivi One 5G (Green, 128 GB)",
+      "price": 15999,
       "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/g/z/-original-imahrgb9whbkdauw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mivi-one-5g-blue-128-gb/p/itmde179056e0187?pid=MOBHR3ZP5ZJG8EXR&lid=LSTMOBHR3ZP5ZJG8EXR1KOC6G&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHR3ZP5ZJG8EXR.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.449065",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/r/c/-original-imahrgb9phze6sm3.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/mivi-one-5g-green-128-gb/p/itm7c374475b93cf?pid=MOBHR3ZP7PRKEXUP&lid=LSTMOBHR3ZP7PRKEXUPKQQIR0&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHR3ZP7PRKEXUP.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.606804",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -91,36 +91,8 @@
       "price": 899,
       "category": "Electronics",
       "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/g/r/g9-c-g9-c-g-five-original-imahr4cmbbkxfygh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/g-five-g9-c/p/itm416706e443008?pid=MOBHR4CNTEDUHYFM&lid=LSTMOBHR4CNTEDUHYFMUD41Y1&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHR4CNTEDUHYFM.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.449166",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "mobdeal bharat V4",
-      "price": 875,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/w/2/v4-jbv191m2-mobdeal-original-imahns4fgmzzpthe.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mobdeal-bharat-v4/p/itmf0e001bb193c6?pid=MOBHZM67PGZT3CJM&lid=LSTMOBHZM67PGZT3CJMX0ZM6J&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHZM67PGZT3CJM.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.449282",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "OPPO K14 Plus 5G (Star White, 256 GB)",
-      "price": 35999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/0/v/-original-imahrnf4dqhzzn74.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/oppo-k14-plus-5g-star-white-256-gb/p/itm6b2b1016fd57a?pid=MOBHR3ZYWSBGR9GT&lid=LSTMOBHR3ZYWSBGR9GTRHKET9&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHR3ZYWSBGR9GT.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.449389",
+      "flipkart_url": "https://www.flipkart.com/g-five-g9-c/p/itm416706e443008?pid=MOBHR4CNTEDUHYFM&lid=LSTMOBHR4CNTEDUHYFMUD41Y1&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHR4CNTEDUHYFM.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.606962",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -133,8 +105,8 @@
       "price": 1370,
       "category": "Electronics",
       "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/4/5/moto-a300-2026-a300-2026-motorola-original-imahh8v2bqazzayf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/motorola-a300-2026/p/itm9d98e42efcbaf?pid=MOBHQY3HZQK4EUY5&lid=LSTMOBHQY3HZQK4EUY5AW1ZPS&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=db70368d-6f0e-478b-ab5a-644eb7a90980.MOBHQY3HZQK4EUY5.SEARCH&ppt=None&ppn=None&ssid=duyfkujn400000001791895809326&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:10.449497",
+      "flipkart_url": "https://www.flipkart.com/motorola-a300-2026/p/itm9d98e42efcbaf?pid=MOBHQY3HZQK4EUY5&lid=LSTMOBHQY3HZQK4EUY5AW1ZPS&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHQY3HZQK4EUY5.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.607125",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -143,12 +115,40 @@
       }
     },
     {
-      "name": "Striped, Woven Bhagalpuri Cotton Linen Saree",
-      "price": 539,
+      "name": "Apple iPhone 17 (White, 256 GB)",
+      "price": 86999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/x/x/-original-imahqvadj2sps3vz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-white-256-gb/p/itm68ad8410784c7?pid=MOBHQV9YAZYYWY8A&lid=LSTMOBHQV9YAZYYWY8A6D2THC&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHQV9YAZYYWY8A.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.607289",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Apple iPhone 17 (Lavender, 256 GB)",
+      "price": 86999,
+      "category": "Electronics",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/0/a/f/-original-imahqvadmn9uydqz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-lavender-256-gb/p/itm5c650337c09ee?pid=MOBHQV9YDG7CGRAM&lid=LSTMOBHQV9YDG7CGRAMOQWOKL&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=6129ad34-153a-41a6-9b01-2c0160921ab4.MOBHQV9YDG7CGRAM.SEARCH&ppt=None&ppn=None&ssid=ex83nj7z5s0000001791973435370&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:55.607454",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Men Self Design Polo Neck Polyester Brown T-Shirt",
+      "price": 599,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/p/t/y/free-cs3-handloom-fab-unstitched-original-imahs2xzfgeazehd.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/handloomfab-striped-woven-bhagalpuri-cotton-linen-saree/p/itm841f924dcd234?pid=SARHS2XZPXZ5HQJE&lid=LSTSARHS2XZPXZ5HQJELHBCOE&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.SARHS2XZPXZ5HQJE.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.075052",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/0/w/1/l-sub-br1-subline-original-imahsyn3gkwrddtp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/subline-self-design-men-polo-neck-brown-t-shirt/p/itm74d03128b97c3?pid=TSHHSYN3GVB5TMZH&lid=LSTTSHHSYN3GVB5TMZHEOPRYB&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.TSHHSYN3GVB5TMZH.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.978693",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -157,12 +157,12 @@
       }
     },
     {
-      "name": "Men Colorblock Casual Jacket",
-      "price": 596,
+      "name": "Women Pyjama",
+      "price": 382,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/z/k/b/xxl-1-no-tf-mf-x3-95-black-mia-fashion-original-imahryfeuytzspzj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mia-fashion-full-sleeve-colorblock-men-jacket/p/itm4b1cbd8d0f526?pid=JCKHRYFEKPPGFC7Q&lid=LSTJCKHRYFEKPPGFC7Q7XOGFR&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.JCKHRYFEKPPGFC7Q.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.075193",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/track-pant/a/9/r/30-vs14f326b-open-bottom-gr-dockstreet-original-imahhjay9hx9xeqz.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/trufflegum-women-pyjama/p/itm157b881a86ddf?pid=PYJHS468ZAT5GZAK&lid=LSTPYJHS468ZAT5GZAKFGOF9N&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.PYJHS468ZAT5GZAK.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.978926",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -171,12 +171,12 @@
       }
     },
     {
-      "name": "Men Applique Casual Jacket",
-      "price": 973,
+      "name": "Women Relaxed Dark Green Cotton Blend Trousers",
+      "price": 338,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/t/o/s/m-1-no-quilted-org-p22-futse-peno-original-imahrsverwsxqum5.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/futse-peno-full-sleeve-applique-men-jacket/p/itmc8d63104d710e?pid=JCKHRSVEXWBE6YKF&lid=LSTJCKHRSVEXWBE6YKFYMAVNK&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.JCKHRSVEXWBE6YKF.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.075324",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/track-pant/w/z/n/36-vs24a226d-open-bottom-ol-dockstreet-original-imahhyfawf6zy434.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/daphne-maurier-relaxed-women-dark-green-trousers/p/itm16199f3579414?pid=TROHS45XTBG75KBT&lid=LSTTROHS45XTBG75KBTAGQICC&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.TROHS45XTBG75KBT.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.979130",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -185,12 +185,12 @@
       }
     },
     {
-      "name": "Top - Pyjama Set Thermal For Baby Girls",
+      "name": "Lingerie Robe Set Self Design Grey Lingerie Set",
       "price": 346,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-thermal/b/j/r/6-12-months-3-thermal-set24-trendfashiions-original-imahs2ztaz8hzev8.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/trendfashiions-top-pyjama-set-baby-girls/p/itm2d4a1123a0e31?pid=KTEHS2ZTC6AJ6MTS&lid=LSTKTEHS2ZTC6AJ6MTSVJ4QZS&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.KTEHS2ZTC6AJ6MTS.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.075469",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lingerie-set/g/0/b/free-silver-satin-nw-0101-vanshi-fashion-original-imahs4yynvjwuqgs.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vanshi-fashion-lingerie-set/p/itm1317a1710a864?pid=LINHS4YYZXAFEGSY&lid=LSTLINHS4YYZXAFEGSYZPPLYX&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.LINHS4YYZXAFEGSY.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.979329",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -199,12 +199,12 @@
       }
     },
     {
-      "name": "Women Loose Fit Dark Blue Pure Cotton Trousers",
-      "price": 499,
+      "name": "Self Design Bollywood Net Saree",
+      "price": 351,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/m/o/0/m-navy-blue-trs-radhefashion-original-imahs3yx3nauvgyz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/radhe-fashion-loose-fit-women-dark-blue-trousers/p/itm2a4924a6528e8?pid=TROHS3YXVZZ7BPZQ&lid=LSTTROHS3YXVZZ7BPZQGQ8PH7&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.TROHS3YXVZZ7BPZQ.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.075594",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/x/j/5/free-women-premium-pearl-work-net-saree-vidula-fashion-original-imahr4buu3gszypu.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/vidula-fashion-self-design-bollywood-net-saree/p/itm41269475617eb?pid=SARHR4BUHBHSNFXZ&lid=LSTSARHR4BUHBHSNFXZCDRG2F&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.SARHR4BUHBHSNFXZ.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.979522",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -213,12 +213,12 @@
       }
     },
     {
-      "name": "Women Self Design V Neck Maroon Sweater",
-      "price": 1398,
+      "name": "SHYNU Maroon Floral Embroidered Palazzo Suit with Dupat...",
+      "price": 1199,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sweater/0/r/3/xl-pv-508-maroon-pivl-original-imahs3dqvzchkvhb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/pivl-self-design-v-neck-casual-women-maroon-sweater/p/itmf136b5d3b109f?pid=SWTHS3DQ6SFYX3HT&lid=LSTSWTHS3DQ6SFYX3HTTB4JHI&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.SWTHS3DQ6SFYX3HT.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.075726",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/salwar-kurta-dupatta/d/x/m/l-sam-shynu-original-imahs3zps7ytuhbk.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/shynu-embroidered-kurta-palazzo-dupatta-set/p/itm2670d0a2805ac?pid=SWDHS3ZPTMEZMVFK&lid=LSTSWDHS3ZPTMEZMVFK8EXZ9L&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.SWDHS3ZPTMEZMVFK.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.979724",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -227,12 +227,12 @@
       }
     },
     {
-      "name": "Men Solid Casual Jacket",
-      "price": 556,
+      "name": "Girls Geometric Print Ankle Length",
+      "price": 174,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/f/x/v/m-1-no-cr-91-grey-caraba-original-imahrycvsdk8nckh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/caraba-full-sleeve-solid-men-jacket/p/itm6c1bf10b0b76e?pid=JCKHRYCWAABHGQNX&lid=LSTJCKHRYCWAABHGQNX91CP8M&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.JCKHRYCWAABHGQNX.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.075846",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sock/h/u/w/free-1-spa-gel-shocks-for-foot-12-radhe-original-imahs447xrbpezx8.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/radhe-girls-geometric-print-ankle-length/p/itm0805fee56ba2e?pid=SOCHS447PQ6AA5DS&lid=LSTSOCHS447PQ6AA5DSN8VBEF&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.SOCHS447PQ6AA5DS.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.979980",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -241,12 +241,12 @@
       }
     },
     {
-      "name": "Girls Casual Top Pant",
-      "price": 172,
+      "name": "Women Printed Calf Length",
+      "price": 305,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/o/3/8/3-4-years-white-cherry-1-sp-salman-dresses-original-imahs39gmdzcndfy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sp-salman-dresses-girls-casual-top-pant/p/itmf43d2dbf606be?pid=KPBHS39GFRNHGYYJ&lid=LSTKPBHS39GFRNHGYYJOXEA2C&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.KPBHS39GFRNHGYYJ.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.075984",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sock/n/u/t/free-7-socks-winter-30081-canvik-original-imahs47kerzrsvkd.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/elvara-women-printed-calf-length/p/itm22f5be656cc86?pid=SOCHS483UCM7YF54&lid=LSTSOCHS483UCM7YF54T9IJAV&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.SOCHS483UCM7YF54.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.980189",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -255,12 +255,12 @@
       }
     },
     {
-      "name": "Men Applique Bomber Jacket",
-      "price": 973,
+      "name": "Self Design Bhagalpuri Cotton Linen Saree",
+      "price": 617,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/jacket/g/l/v/l-1-no-quilted-org-p21-futse-peno-original-imahrsvehju64vvh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/futse-peno-full-sleeve-applique-men-jacket/p/itma4fa954fc2a82?pid=JCKHRSVE6GYDZFKT&lid=LSTJCKHRSVE6GYDZFKTZIGWXR&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.JCKHRSVE6GYDZFKT.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.076113",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/c/h/c/free-k259-60-61-62-63-wasid-handloom-unstitched-original-imahr38hgszfryqq.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/wasid-handloom-self-design-bhagalpuri-cotton-linen-saree/p/itmb075a264e0f04?pid=SARHR38HGBZUQA2D&lid=LSTSARHR38HGBZUQA2DDN2EO1&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.SARHR38HGBZUQA2D.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.980384",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -269,12 +269,12 @@
       }
     },
     {
-      "name": "Boys Regular Fit Graphic Print Spread Collar Casual Shi...",
-      "price": 354,
+      "name": "Women Relaxed Dark Green Cotton Blend Trousers",
+      "price": 338,
       "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/v/m/u/2-3-years-maroons-skyc-costal-trends-original-imahryawkw2azj2z.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/costal-trends-boys-graphic-print-casual-multicolor-shirt/p/itm8474684eed196?pid=SHTHRYAXKHAJMZY6&lid=LSTSHTHRYAXKHAJMZY6DUCVZW&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=60f5633e-2661-4d6a-b326-5fee2e898ef9.SHTHRYAXKHAJMZY6.SEARCH&ppt=None&ppn=None&ssid=lm6kx60aio0000001791895814571&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:15.076238",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/track-pant/e/e/w/38-vs25b226a-open-bottom-ol-dockstreet-original-imahhf4durw52wdg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/warcourt-relaxed-women-dark-green-trousers/p/itm266b9f45aca1a?pid=TROHS46Q4T8A8PUC&lid=LSTTROHS46Q4T8A8PUCNFJRXQ&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=3887bb89-e810-496f-b122-e0936a4cb0c9.TROHS46Q4T8A8PUC.SEARCH&ppt=None&ppn=None&ssid=9gllr21e680000001791973437690&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:23:57.980571",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -283,12 +283,12 @@
       }
     },
     {
-      "name": "KENNGO BY JIATEK Immersion Rod_new5 1500 W Shock Proof ...",
-      "price": 500,
+      "name": "NEWSHAH VC129 V-2BG LED LCD TV Compatible with LED LCD ...",
+      "price": 361,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/x/q/c/1500-immersion-rod-new5-kenngo-by-jiatek-original-imahs3kz2cpyyxdx.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kenngo-jiatek-immersion-rod-new5-1500-w-shock-proof-heater-rod/p/itm0a332f8f2ff19?pid=IMMHS3KZGZXXQY55&lid=LSTIMMHS3KZGZXXQY555NX79I&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.IMMHS3KZGZXXQY55.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.791841",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/t/v/i/vc129-v-2bg-led-lcd-tv-compatible-with-led-lcd-tv-mj-plus-original-imahgpepygtvgcrx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/newshah-vc129-v-2bg-led-lcd-tv-compatible-videocon-remote-controller/p/itm767a7954583b4?pid=REMHS4JTGKMAA8X8&lid=LSTREMHS4JTGKMAA8X8TX7C7H&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.REMHS4JTGKMAA8X8.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.576082",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -297,26 +297,12 @@
       }
     },
     {
-      "name": "Veevara Pink Personal Fruit Juice Maker Bottle Mixer Bl...",
-      "price": 448,
+      "name": "QYEXE Portable USB Rechargeable Juicer Blender Mini Smo...",
+      "price": 498,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-blender-blade/u/u/b/6-pink-personal-fruit-juice-maker-bottle-veevara-original-imahs3nkhkmzscrz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/veevara-pink-personal-fruit-juice-maker-bottle-mixer-blender-blade/p/itm3955cb4fd7d47?pid=MBBHS3NKZRJY2RZT&lid=LSTMBBHS3NKZRJY2RZTPMRPNR&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.MBBHS3NKZRJY2RZT.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.791995",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "RESORB Voice Remote Control Compatible with Sony Bravia...",
-      "price": 998,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/5/k/t/voice-remote-control-compatible-with-sony-bravia-smart-tv-resorb-original-imahs3mnyzapqggn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/resorb-voice-remote-control-compatible-sony-bravia-smart-tv-rmt-tx100u-4k-uhd-compatible-led-lcd-support-controller/p/itmde08c59a672ef?pid=REMHS3MZDMQECFAU&lid=LSTREMHS3MZDMQECFAUDJU9IU&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.REMHS3MZDMQECFAU.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.792133",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/i/s/d/multi-purpose-fruit-blender-with-easy-sip-travel-lid-grantox-original-imahznanwvwxh2cg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/qyexe-portable-usb-rechargeable-juicer-blender-mini-smoothie-maker-bottle-105-w-mixer-grinder/p/itm9067c176e8d5b?pid=MIXHS4PDHYR6UNY4&lid=LSTMIXHS4PDHYR6UNY4KKUYVM&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.MIXHS4PDHYR6UNY4.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.576342",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -329,8 +315,22 @@
       "price": 289,
       "category": "Home_Kitchen",
       "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/g/l/d/2000-immersionrod-616-homelexi-original-imahsyjhuahyenkh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-616-2000-w-shock-proof-immersion-heater-rod/p/itm6f690cc53d234?pid=IMMHSYJHC5CPBNRM&lid=LSTIMMHSYJHC5CPBNRMQGVFLW&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.IMMHSYJHC5CPBNRM.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.792289",
+      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-616-2000-w-shock-proof-immersion-heater-rod/p/itm6f690cc53d234?pid=IMMHSYJHC5CPBNRM&lid=LSTIMMHSYJHC5CPBNRMQGVFLW&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.IMMHSYJHC5CPBNRM.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.576568",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "homelexi ImmersionRod_550 2000 W Shock Proof Immersion ...",
+      "price": 289,
+      "category": "Home_Kitchen",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/0/0/w/2000-immersionrod-550-homelexi-original-imahsyjhhm8ahkbk.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-550-2000-w-shock-proof-immersion-heater-rod/p/itm9afc8265828be?pid=IMMHSYJHYMZYECHB&lid=LSTIMMHSYJHYMZYECHBDAVC8A&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.IMMHSYJHYMZYECHB.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.576824",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -343,8 +343,8 @@
       "price": 289,
       "category": "Home_Kitchen",
       "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/0/b/4/2000-immersionrod-484-homelexi-original-imahsyjhbtkxgjxa.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-484-2000-w-shock-proof-immersion-heater-rod/p/itm903571ff38d67?pid=IMMHSYJH8ZA2ZSHC&lid=LSTIMMHSYJH8ZA2ZSHCO3YZXJ&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.IMMHSYJH8ZA2ZSHC.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.792432",
+      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-484-2000-w-shock-proof-immersion-heater-rod/p/itm903571ff38d67?pid=IMMHSYJH8ZA2ZSHC&lid=LSTIMMHSYJH8ZA2ZSHCO3YZXJ&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.IMMHSYJH8ZA2ZSHC.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.577058",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -353,26 +353,12 @@
       }
     },
     {
-      "name": "KENNGO BY JIATEK Room_Heater_new0020 Quartz Room Heater",
-      "price": 900,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/room-heater/l/s/c/room-heater-new01-kenngo-by-jiatek-800-original-imahs3jsde3cf6fx.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kenngo-jiatek-room-heater-new0020-quartz-room-heater/p/itmb1c2e4559a244?pid=ROHHS3HM3DHWG9CV&lid=LSTROHHS3HM3DHWG9CVXRZ7Z4&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.ROHHS3HM3DHWG9CV.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.792585",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "homelexi ImmersionRod_550 2000 W Shock Proof Immersion ...",
+      "name": "homelexi ImmersionRod_630 2000 W Shock Proof Immersion ...",
       "price": 289,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/0/0/w/2000-immersionrod-550-homelexi-original-imahsyjhhm8ahkbk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-550-2000-w-shock-proof-immersion-heater-rod/p/itm9afc8265828be?pid=IMMHSYJHYMZYECHB&lid=LSTIMMHSYJHYMZYECHBDAVC8A&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.IMMHSYJHYMZYECHB.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.792725",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/n/x/q/2000-immersionrod-630-homelexi-original-imahsyjhanaz7hqh.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-630-2000-w-shock-proof-immersion-heater-rod/p/itm79be34e7eac4f?pid=IMMHSYJH8ADZCZV8&lid=LSTIMMHSYJH8ADZCZV8HEEIUY&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.IMMHSYJH8ADZCZV8.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.577284",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -381,12 +367,12 @@
       }
     },
     {
-      "name": "Shiv Enterprise Heavy Duty Puri Press Stainless Steel M...",
-      "price": 480,
+      "name": "NEWSHAH 2400 EPROLLOY Led LCD Smart TV HDTV Remote Cont...",
+      "price": 361,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/roti-khakra-maker/c/u/s/0-heavy-duty-puri-press-stainless-steel-manual-maker-shiv-original-imahs3j4jymbdzyf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/shiv-enterprise-heavy-duty-puri-press-stainless-steel-manual-maker-roti-khakra/p/itmb3f4826e36c19?pid=RKMHS3J4ZAAFYFMQ&lid=LSTRKMHS3J4ZAAFYFMQRXIGTD&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.RKMHS3J4ZAAFYFMQ.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.792868",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/7/k/y/2400-eprolloy-led-lcd-smart-tv-hdtv-mj-plus-original-imahgpepbd2p93px.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/newshah-2400-eprolloy-led-lcd-smart-tv-hdtv-remote-control-compatible-lloyd-controller/p/itm485e9b0a16e26?pid=REMHS4JTYA9KFHZN&lid=LSTREMHS4JTYA9KFHZNP5GFRU&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.REMHS4JTYA9KFHZN.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.577510",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -395,1020 +381,12 @@
       }
     },
     {
-      "name": "kenofix Personal Juicer Cup 105 W Juicer",
-      "price": 495,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/f/y/p/portable-blender-electric-juicers-fruit-mixers-usb-rechargeable-original-imahreacphthzcgs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kenofix-personal-juicer-cup-105-w/p/itmc5112d1a0df34?pid=MIXHS3PGCRG9GBVG&lid=LSTMIXHS3PGCRG9GBVGH5UP7E&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.MIXHS3PGCRG9GBVG.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.793033",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "KNYFIFE Stainless Steel Manual Puri Press for Home Use ...",
-      "price": 480,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/roti-khakra-maker/e/f/7/0-stainless-steel-manual-puri-press-for-home-use-knyfife-original-imahs3jhfnq8zfsp.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/knyfife-stainless-steel-manual-puri-press-home-use-roti-khakra-maker/p/itmd68961debe0bb?pid=RKMHS3JHUZRAEWZC&lid=LSTRKMHS3JHUZRAEWZCJHAZTL&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=f5cc06db-8cd6-4086-837d-15a891eb8d6e.RKMHS3JHUZRAEWZC.SEARCH&ppt=None&ppn=None&ssid=qjwhrz44a80000001791895816577&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:16.793173",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "SOSHIOTSUKI Facial Blackhead Remover Tool with Curved H...",
-      "price": 145,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/tweezer-plucker/m/v/s/blackhead-remover-tools-black-head-remover-for-face-and-nose-original-imahznayqsgqzyjb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/soshiotsuki-facial-blackhead-remover-tool-curved-handle/p/itm221a6c00d4bca?pid=TPRHS3N7XEU5VTF6&lid=LSTTPRHS3N7XEU5VTF6EU5KO7&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.TPRHS3N7XEU5VTF6.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.693558",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "TajEmporium pack of 2 heart shape box with cube keyring",
-      "price": 126,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/cotton-ball-pad-bud/9/8/b/1-cotton-ear-buds-200-pcs-heart-shape-box-pack-of-2-with-cube-original-imahrg3tdhvzjpwy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/tajemporium-pack-2-heart-shape-box-cube-keyring/p/itm7e342132a830e?pid=CPBHS3MXCGTAHBZ7&lid=LSTCPBHS3MXCGTAHBZ7KSVJ8T&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.CPBHS3MXCGTAHBZ7.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.693729",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Erimaynails Light Pink and Golden Glitter Artificial Pr...",
-      "price": 135,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/artificial-nail/d/q/6/light-pink-and-golden-glitter-artificial-press-on-nails-for-original-imahs3mxuhgez3j3.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/erimaynails-light-pink-golden-glitter-artificial-press-on-nails-women/p/itm567e85c970876?pid=ALNHS3MXFYAUUZ8T&lid=LSTALNHS3MXFYAUUZ8TZZEHZ0&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.ALNHS3MXFYAUUZ8T.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.693878",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Fwelov Smudge Resistant Maroon Lip Liner for All Day We...",
-      "price": 224,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-liner/r/m/g/deep-maroon-precision-lip-liner-with-rich-pigment-long-lasting-original-imahmuwdgzn7zpmw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/fwelov-smudge-resistant-maroon-lip-liner-all-day-wear/p/itm5f283c3d8e087?pid=LLIHS3NMAP8ZERQZ&lid=LSTLLIHS3NMAP8ZERQZFDNIK3&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.LLIHS3NMAP8ZERQZ.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.694024",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "SAKARIO 6Shade Concealer Palette With 2 Makeup Brush.GQ...",
-      "price": 143,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/concealer/n/d/h/15-6shade-concealer-palette-with-2-makeup-brush-gq563-sakario-original-imahs3te6gppnwhg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sakario-6shade-concealer-palette-2-makeup-brush-gq563/p/itmff737e07f9a51?pid=CLRHS3TEDMWRG4A6&lid=LSTCLRHS3TEDMWRG4A63UXZEQ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.CLRHS3TEDMWRG4A6.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.694162",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "RenVin Eyebrow Shaping Stencil with Eyeliner Wing Guide...",
-      "price": 178,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyebrow-stencil/e/h/x/1-eyebrow-shaping-stencil-with-eyeliner-wing-guide-tool-1-pack-original-imahrz4gbhnfkggj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/renvin-eyebrow-shaping-stencil-eyeliner-wing-guide-tool-1-pack/p/itm914bebbcd3321?pid=EYXHRZ4GEMBUMX7S&lid=LSTEYXHRZ4GEMBUMX7SWFAU6N&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.EYXHRZ4GEMBUMX7S.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.694297",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "JehranLehran New Compact Powder Matte & Poreless Compac...",
-      "price": 260,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/compact/c/7/t/30-new-compact-powder-matte-poreless-compact-smooth-finish-original-imahs3n95mkmhzzv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/jehranlehran-new-compact-powder-matte-poreless-smooth-finish/p/itm8dc41bc80a2d1?pid=CMPHS3N9Z4AGCCBJ&lid=LSTCMPHS3N9Z4AGCCBJLE3BRC&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.CMPHS3N9Z4AGCCBJ.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.694441",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "SAKARIO 6Shade Concealer Palette With 2 Makeup Brush.GQ...",
-      "price": 139,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/concealer/g/t/c/15-6shade-concealer-palette-with-2-makeup-brush-gq2162-sakario-original-imahs3tfr5qw7zsz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sakario-6shade-concealer-palette-2-makeup-brush-gq2162/p/itm8a1d0cea763d0?pid=CLRHS3TGYTAZAE7Z&lid=LSTCLRHS3TGYTAZAE7ZNFRXEB&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.CLRHS3TGYTAZAE7Z.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.694600",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "neze Smooth Glossy Finish Nail polish combo Green Green",
-      "price": 135,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-polish/4/m/s/7-smooth-glossy-finish-nail-polish-combo-green-neze-original-imahs3nxyggd7dqg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/neze-smooth-glossy-finish-nail-polish-combo-green/p/itm094de1429b22b?pid=NLPHS3NXAHPKP7BQ&lid=LSTNLPHS3NXAHPKP7BQOOABKZ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.NLPHS3NXAHPKP7BQ.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.694748",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "neze Smooth Glossy Finish Nail polish combo Pink Pink",
-      "price": 135,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-polish/b/p/y/7-0-smooth-glossy-finish-nail-polish-combo-pink-neze-original-imahs3nxcazvydnf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/neze-smooth-glossy-finish-nail-polish-combo-pink/p/itm055c2e4065a70?pid=NLPHS3NXQFH9KHU5&lid=LSTNLPHS3NXQFH9KHU5KZKCN1&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=62b98c4f-4688-4d5f-a61c-f18163eb3a44.NLPHS3NXQFH9KHU5.SEARCH&ppt=None&ppn=None&ssid=csa1kica7k0000001791895818487&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T12:50:18.694893",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Apple iPhone 17 (Black, 256 GB)",
-      "price": 86999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/p/o/-original-imahqvad9pbyujab.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-black-256-gb/p/itmc61b40459dd98?pid=MOBHQV9YCUG4ZQZK&lid=LSTMOBHQV9YCUG4ZQZKUTWGGY&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHQV9YCUG4ZQZK.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.452731",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "HMD Vibe2 5G (Wine Red, 128 GB)",
-      "price": 13499,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/m/s/-original-imahrqhauzpjt3vb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-5g-wine-red-128-gb/p/itm71c3ae6df2a26?pid=MOBHQTF5UXRYMYRU&lid=LSTMOBHQTF5UXRYMYRUPRUHMJ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHQTF5UXRYMYRU.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.452913",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Jmax MINI",
-      "price": 799,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/p/e/mini-mini-jmax-original-imahr49ryz4k8cmm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/jmax-mini/p/itm0069c81679445?pid=MOBHPYUMCU7EZJKT&lid=LSTMOBHPYUMCU7EZJKT7OH3MZ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHPYUMCU7EZJKT.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.453071",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Ai+ Pulse 2 FE (Green, 64 GB)",
-      "price": 8999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/k/e/-original-imahrnfzre3kukgg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ai-pulse-2-fe-green-64-gb/p/itm289efc141f9c5?pid=MOBHQZVXKQGYH5HZ&lid=LSTMOBHQZVXKQGYH5HZDUN8HC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHQZVXKQGYH5HZ.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.453222",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "vivo T5 Lite 44W 5G (Wave Blue, 128 GB)",
-      "price": 22499,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/s/8/-resized-original-imahpdsc5rjnucdy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t5-lite-44w-5g-wave-blue-128-gb/p/itm5420c578ec2df?pid=MOBHNDTD57UJUK9Q&lid=LSTMOBHNDTD57UJUK9QMGWRRW&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHNDTD57UJUK9Q.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.453374",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "G'Five G9-C",
-      "price": 899,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/g/r/g9-c-g9-c-g-five-original-imahr4cmbbkxfygh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/g-five-g9-c/p/itm416706e443008?pid=MOBHR4CNTEDUHYFM&lid=LSTMOBHR4CNTEDUHYFMUD41Y1&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHR4CNTEDUHYFM.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.453521",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "HMD Vibe2 Pro 5G (Aqua Green, 128 GB)",
-      "price": 16999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/b/m/-original-imahrme5gqrntdzv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-pro-5g-aqua-green-128-gb/p/itmd425c7e495e6d?pid=MOBHQZZ85MVV5GMX&lid=LSTMOBHQZZ85MVV5GMXKFFOT7&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHQZZ85MVV5GMX.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.453690",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Apple iPhone 17 (White, 256 GB)",
-      "price": 86999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/x/x/-original-imahqvadj2sps3vz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-white-256-gb/p/itm68ad8410784c7?pid=MOBHQV9YAZYYWY8A&lid=LSTMOBHQV9YAZYYWY8A6D2THC&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHQV9YAZYYWY8A.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.453854",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Apple iPhone 17 (Sage, 256 GB)",
-      "price": 86999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/0/q/-original-imahqvadhcgcadge.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-sage-256-gb/p/itm410e85a5f1745?pid=MOBHQV9YZPQXFFGM&lid=LSTMOBHQV9YZPQXFFGMNN24WH&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHQV9YZPQXFFGM.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.454009",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Mivi One 5G (Blue, 128 GB)",
-      "price": 13999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/g/z/-original-imahrgb9whbkdauw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mivi-one-5g-blue-128-gb/p/itmde179056e0187?pid=MOBHR3ZP5ZJG8EXR&lid=LSTMOBHR3ZP5ZJG8EXR1KOC6G&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=9bca6d1c-0665-4c5d-9676-60bec4792365.MOBHR3ZP5ZJG8EXR.SEARCH&ppt=None&ppn=None&ssid=patdm4hr8g0000001791913594130&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:34.454157",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Men Cargos",
-      "price": 524,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/cargo/m/m/y/30-d3-chain-lightgrey-nayram-fashion-original-imahrfys4fjrhb8m.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sutriva-fashion-men-cargos/p/itm5ad84c5c52be6?pid=CRGHS3N8GH5PXUF3&lid=LSTCRGHS3N8GH5PXUF3Z5OGUE&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.CRGHS3N8GH5PXUF3.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.046829",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Geometric Print Winter Men Gloves",
-      "price": 198,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/glove/i/f/0/free-new25-sffsgd-1706-premium-febric-hoc-original-imahhrsjptnfvydx.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/laptaa-geometric-print-winter-men-gloves/p/itm070548b1fa083?pid=GVEHS3MTUGYRVSBB&lid=LSTGVEHS3MTUGYRVSBB0YRDDS&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.GVEHS3MTUGYRVSBB.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.047036",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Zeenzi HUB-Maroon_Solid_Lycra_M_5182977 Lycra Blend Pet...",
-      "price": 252,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/petticoat/k/b/s/xs-1-maroon-sales-solid-lycra-women-petticoat-5182977-original-imahqzxzg2gzvtnq.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/zeenzi-hub-maroon-solid-lycra-m-5182977-lycra-blend-petticoat/p/itm42888c98a5bb3?pid=PIAHS3PB6FKKYNUZ&lid=LSTPIAHS3PB6FKKYNUZYSE0DB&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.PIAHS3PB6FKKYNUZ.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.047234",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Embroidered, Woven, Solid Winter Men Gloves",
-      "price": 489,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/glove/w/p/j/free-sffsgd-13411013-premium-febric-desoria-original-imahhby2zceypqpb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sfabz-embroidered-woven-solid-winter-men-gloves/p/itm3b046e0dbf632?pid=GVEHS3MHE2ZQUNMB&lid=LSTGVEHS3MHE2ZQUNMBTJUDWR&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.GVEHS3MHE2ZQUNMB.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.047435",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Round Neck Women Blouse",
-      "price": 340,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/blouse/p/o/p/30-bw-bl-jari-border-2-pc-black-navy-blue-30-scube-designs-original-imahsyjv5kbejyfs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/scube-designs-round-neck-women-blouse/p/itmb92d49b62daee?pid=BLOHSYJWZ4ZRAGWV&lid=LSTBLOHSYJWZ4ZRAGWVGT5MJX&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.BLOHSYJWZ4ZRAGWV.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.047638",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Men Solid Round Neck Polyester White T-Shirt",
-      "price": 280,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/t/n/v/xxl-1092026bp58xxl-hamsamart-com-original-imahrzftckkhv6mf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hamsamart-com-solid-men-round-neck-white-t-shirt/p/itmd42005622e96a?pid=TSHHRZFVYQUNEJXV&lid=LSTTSHHRZFVYQUNEJXVSLXSGA&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.TSHHRZFVYQUNEJXV.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.047840",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Girls Casual Sweatshirt Sweatpant",
-      "price": 445,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-apparel-combo/m/e/s/3-4-years-fcf-kwikk-original-imahrzjz45hv9fze.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kwikk-girls-casual-sweatshirt-sweatpant/p/itmb9aa7e6d913c6?pid=KPBHRZJZYM93GDTH&lid=LSTKPBHRZJZYM93GDTHENWHQG&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.KPBHRZJZYM93GDTH.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.048038",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "HUBfashion HUB-Maroon_Solid_Lycra_XXL_7778637 Lycra Ble...",
-      "price": 252,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/petticoat/u/h/t/xs-1-maroon-sales-solid-lycra-women-petticoat-7778637-original-imahqzy3bfwfrg3h.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hubfashion-hub-maroon-solid-lycra-xxl-7778637-lycra-blend-petticoat/p/itm27146b73aafd0?pid=PIAHS3PF67HVBJCX&lid=LSTPIAHS3PF67HVBJCXEZNHQ3&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.PIAHS3PF67HVBJCX.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.048227",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Men Solid Round Neck Polyester White T-Shirt",
-      "price": 280,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/k/e/1/m-1092026bp27m-hamsamart-com-original-imahrzftg3srjxtz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hamsamart-com-solid-men-round-neck-white-t-shirt/p/itme15a7d76d9ed6?pid=TSHHRZFTEDSWZYQ5&lid=LSTTSHHRZFTEDSWZYQ5KLCWTO&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.TSHHRZFTEDSWZYQ5.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.048422",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Men Geometric Print V Neck Grey Sweater",
-      "price": 1999,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/sweater/p/k/2/m-pv-6520-grey-pivl-original-imahs3pgsysb5mhr.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/pivl-geometric-print-v-neck-casual-men-grey-sweater/p/itm41afb7429f7d0?pid=SWTHS3PG3ADHF4DG&lid=LSTSWTHS3PG3ADHF4DGTTZJG8&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=ca31cc1b-f351-4148-9d52-19ebdcf24f3f.SWTHS3PG3ADHF4DG.SEARCH&ppt=None&ppn=None&ssid=yxy9nfliqo0000001791913596549&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:37.048627",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "HOMEPAK Antique Pieces Electrin Room Heater -60 Degree ...",
-      "price": 1640,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/room-heater/h/8/3/antique-pieces-electrin-fan-room-heater-60-degree-work-able-original-imahs3xz5rhww6yz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/homepak-antique-pieces-electrin-room-heater-60-degree-work-able-1000w-2000w-40-fan/p/itmfef6aa6d1b554?pid=ROHHS3XSGESHXKXD&lid=LSTROHHS3XSGESHXKXDMKAV4V&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.ROHHS3XSGESHXKXD.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.313919",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "mohann  SMART REMOTE NON VOICE SAMSUNG Remote Controlle...",
-      "price": 749,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/v/k/z/4k-sam25-vasap-electronics-original-imahpdwnrpwn7rgu.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mohann-smart-remote-non-voice-samsung-controller/p/itmd1adfb64c122d?pid=REMHS3Y9GNV67D6F&lid=LSTREMHS3Y9GNV67D6FGBEXSP&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.REMHS3Y9GNV67D6F.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.314145",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Saibaba Insulators Immersion_Rod-53 1500 W Shock Proof ...",
-      "price": 380,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/e/v/m/1500-immersion-rod-53-saibaba-insulators-original-imahs3y4b4cztpjf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/saibaba-insulators-immersion-rod-53-1500-w-shock-proof-immersion-heater-rod/p/itmbd3229817bb3d?pid=IMMHS3Y4UFD9TGBD&lid=LSTIMMHS3Y4UFD9TGBDP43N9P&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.IMMHS3Y4UFD9TGBD.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.314363",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Saibaba Insulators Immersion_Rod-93 1500 W Shock Proof ...",
-      "price": 380,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/1/9/j/1500-immersion-rod-93-saibaba-insulators-original-imahs3y4rf7c5fku.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/saibaba-insulators-immersion-rod-93-1500-w-shock-proof-immersion-heater-rod/p/itm7dca1adb24694?pid=IMMHS3Y4Q8FGRFW7&lid=LSTIMMHS3Y4Q8FGRFW7A70CNM&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.IMMHS3Y4Q8FGRFW7.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.314587",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "homelexi ImmersionRod_550 2000 W Shock Proof Immersion ...",
-      "price": 289,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/0/0/w/2000-immersionrod-550-homelexi-original-imahsyjhhm8ahkbk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-550-2000-w-shock-proof-immersion-heater-rod/p/itm9afc8265828be?pid=IMMHSYJHYMZYECHB&lid=LSTIMMHSYJHYMZYECHBDAVC8A&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.IMMHSYJHYMZYECHB.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.314825",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Anjaneya Bullet Jar 07 Mixer Juicer Jar",
-      "price": 399,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-juicer-jar/p/3/9/bullet-jar-07-anjaneya-2-5-original-imahs3vu3dmr7yxk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/anjaneya-bullet-jar-07-mixer-juicer/p/itmd815c0a70d7c6?pid=MJJHS3VU2RYWMAD3&lid=LSTMJJHS3VU2RYWMAD3UKER1W&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.MJJHS3VU2RYWMAD3.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.315041",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Saibaba Insulators Immersion_Rod-57 1500 W Shock Proof ...",
-      "price": 380,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/y/f/z/1500-immersion-rod-57-saibaba-insulators-original-imahs3y3vpuevdxx.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/saibaba-insulators-immersion-rod-57-1500-w-shock-proof-immersion-heater-rod/p/itm85bd56535d396?pid=IMMHS3Y4KYGXNGG9&lid=LSTIMMHS3Y4KYGXNGG9CPLNSL&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.IMMHS3Y4KYGXNGG9.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.315257",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Saibaba Insulators Immersion_Rod-66 1500 W Shock Proof ...",
-      "price": 380,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/f/a/4/1500-immersion-rod-69-saibaba-insulators-original-imahs3y4ggvymeft.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/saibaba-insulators-immersion-rod-66-1500-w-shock-proof-immersion-heater-rod/p/itm5b04205dd533e?pid=IMMHS3Y4W8ZFYW4U&lid=LSTIMMHS3Y4W8ZFYW4U7THIWY&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.IMMHS3Y4W8ZFYW4U.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.315476",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "homelexi ImmersionRod_638 2000 W Shock Proof Immersion ...",
-      "price": 289,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/s/e/3/2000-immersionrod-638-homelexi-original-imahsyjhgafj4fss.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-638-2000-w-shock-proof-immersion-heater-rod/p/itm5626710cd7a1a?pid=IMMHSYJHKWSBYCZN&lid=LSTIMMHSYJHKWSBYCZNO1NI0L&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.IMMHSYJHKWSBYCZN.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.315710",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "kenofix Personal Juicer Cup 105 W Juicer",
-      "price": 495,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/f/y/p/portable-blender-electric-juicers-fruit-mixers-usb-rechargeable-original-imahreacphthzcgs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/kenofix-personal-juicer-cup-105-w/p/itmc5112d1a0df34?pid=MIXHS3PGCRG9GBVG&lid=LSTMIXHS3PGCRG9GBVGH5UP7E&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=45705e80-eab0-4993-bd93-075a70efe01f.MIXHS3PGCRG9GBVG.SEARCH&ppt=None&ppn=None&ssid=7s227iko7k0000001791913599048&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:39.315945",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "KONSTHYA 2IN1 HD | Waterproof Matte Finish Makeup for W...",
-      "price": 350,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/foundation/1/1/t/60-2in1-hd-waterproof-matte-finish-makeup-for-women-makeup-base-original-imahsykz6m7ebgxz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/konsthya-2in1-hd-waterproof-matte-finish-makeup-women-makeup-base-foundation/p/itm72fcba82b65e2?pid=FNDHSYKZUQC666FB&lid=LSTFNDHSYKZUQC666FBFV3XLJ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.FNDHSYKZUQC666FB.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.663884",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "RenVin Eyebrow Shaping Stencil with Eyeliner Wing Guide...",
-      "price": 178,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyebrow-stencil/e/h/x/1-eyebrow-shaping-stencil-with-eyeliner-wing-guide-tool-1-pack-original-imahrz4gbhnfkggj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/renvin-eyebrow-shaping-stencil-eyeliner-wing-guide-tool-1-pack/p/itm914bebbcd3321?pid=EYXHRZ4GEMBUMX7S&lid=LSTEYXHRZ4GEMBUMX7SWFAU6N&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.EYXHRZ4GEMBUMX7S.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.664104",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "beeba naturals Ice cream lip gloss for women pack of 2 ...",
-      "price": 134,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-gloss/q/t/d/10-ice-cream-lip-gloss-for-women-pack-of-2-multicolor-beeba-original-imahs42bzzjfexbe.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/beeba-naturals-ice-cream-lip-gloss-women-pack-2-multicolor/p/itm4dbf7a7202e12?pid=LGSHS42BTSDEB3JG&lid=LSTLGSHS42BTSDEB3JGNAZB0U&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.LGSHS42BTSDEB3JG.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.664312",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Temyati HD BROWN EYEBROW PENCIL WITH BRUSH",
-      "price": 207,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyebrow-pencil/5/a/v/hd-brown-eyebrow-pencil-with-brush-felicechiara-original-imahzt77689jmsar.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/temyati-hd-brown-eyebrow-pencil-brush/p/itm226bd78b07a17?pid=EBPHS4Y8KDNFZMGK&lid=LSTEBPHS4Y8KDNFZMGKVYHNGG&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.EBPHS4Y8KDNFZMGK.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.664524",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Temyati 3D Brown Mascara with Buildable Volume, Precisi...",
-      "price": 251,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mascara/p/h/e/10-3d-brown-mascara-with-buildable-volume-precision-lash-enhance-original-imahptqbf39tmqss.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/temyati-3d-brown-mascara-buildable-volume-precision-lash-enhance-10-ml/p/itm06416588924ee?pid=MCRHS3YHC6YZYAU9&lid=LSTMCRHS3YHC6YZYAU9455G0V&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.MCRHS3YHC6YZYAU9.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.664797",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Temyati 3D eyebrow pencil for perfectly defined black a...",
-      "price": 247,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyebrow-pencil/l/j/y/3d-eyebrow-pencil-for-perfectly-defined-black-and-lite-brown-original-imahzt6gshnzzx3p.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/temyati-3d-eyebrow-pencil-perfectly-defined-black-lite-brown/p/itm03fc87d3d7ce9?pid=EBPHS4Y7MHQNPZCK&lid=LSTEBPHS4Y7MHQNPZCKGSBIDG&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.EBPHS4Y7MHQNPZCK.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.665010",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Temyati Perfect Weightless of up to 24 Hours ,Smudge-Pr...",
-      "price": 234,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mascara/3/b/o/10-perfect-weightless-of-up-to-24-hours-smudge-proof-longlasting-original-imahptqg7mxhpez9.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/temyati-perfect-weightless-up-24-hours-smudge-proof-longlasting-10-ml/p/itm1434b3227fe4d?pid=MCRHS3YHCCKZM2KV&lid=LSTMCRHS3YHCCKZM2KVBRQO9V&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.MCRHS3YHCCKZM2KV.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.665223",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "A.B.R.ENTERPRISES Maroon Almond Shimmer Glitter Nails E...",
-      "price": 117,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/artificial-nail/w/y/j/maroon-almond-shimmer-glitter-nails-elegant-premium-mps-005-a-b-original-imahrwxgwh2bgvfx.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/a-b-r-enterprises-maroon-almond-shimmer-glitter-nails-elegant-premium/p/itm80708b8880405?pid=ALNHRWXGBHZWPBVZ&lid=LSTALNHRWXGBHZWPBVZ0LVIX7&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.ALNHRWXGBHZWPBVZ.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.665445",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "RenVin 4-in-1 Eyebrow Stencil and Eyeliner Guide Makeup...",
-      "price": 143,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyebrow-stencil/f/u/b/1-4-in-1-eyebrow-stencil-and-eyeliner-guide-makeup-tool-1-pc-original-imahrz4ewzwdjuzc.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/renvin-4-in-1-eyebrow-stencil-eyeliner-guide-makeup-tool-1-pc/p/itm87af21d0cd5b2?pid=EYXHRZ4ESMSHSRGE&lid=LSTEYXHRZ4ESMSHSRGE5O3S8R&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.EYXHRZ4ESMSHSRGE.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.665671",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Temyati PROFESSIONAL WATERPROOF BROWN MASKARA LONGLASTI...",
-      "price": 247,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mascara/n/r/y/10-professional-waterproof-brown-maskara-longlasting-matte-original-imahptqef3g4paxn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/temyati-professional-waterproof-brown-maskara-longlasting-matte-finish-mascara-10-ml/p/itm2bcf46c66f162?pid=MCRHS3YGNH4NPWV6&lid=LSTMCRHS3YGNH4NPWV6FJURTG&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=eb8e1077-2c86-4502-944a-c4da959526e6.MCRHS3YGNH4NPWV6.SEARCH&ppt=None&ppn=None&ssid=g3laujzuf40000001791913601417&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T17:46:41.665884",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Apple iPhone 17 (Black, 256 GB)",
-      "price": 86999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/p/o/-original-imahqvad9pbyujab.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-black-256-gb/p/itmc61b40459dd98?pid=MOBHQV9YCUG4ZQZK&lid=LSTMOBHQV9YCUG4ZQZKUTWGGY&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_1&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHQV9YCUG4ZQZK.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.197961",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "HMD Vibe2 5G (Wine Red, 128 GB)",
-      "price": 13499,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/x/m/s/-original-imahrqhauzpjt3vb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-5g-wine-red-128-gb/p/itm71c3ae6df2a26?pid=MOBHQTF5UXRYMYRU&lid=LSTMOBHQTF5UXRYMYRUPRUHMJ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_2&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHQTF5UXRYMYRU.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198089",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Ai+ Pulse 2 FE (Green, 64 GB)",
-      "price": 8999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/k/e/-original-imahrnfzre3kukgg.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/ai-pulse-2-fe-green-64-gb/p/itm289efc141f9c5?pid=MOBHQZVXKQGYH5HZ&lid=LSTMOBHQZVXKQGYH5HZDUN8HC&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHQZVXKQGYH5HZ.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198191",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Jmax MINI",
-      "price": 799,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/p/e/mini-mini-jmax-original-imahr49ryz4k8cmm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/jmax-mini/p/itm0069c81679445?pid=MOBHPYUMCU7EZJKT&lid=LSTMOBHPYUMCU7EZJKT7OH3MZ&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_4&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHPYUMCU7EZJKT.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198308",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "vivo T5 Lite 44W 5G (Wave Blue, 128 GB)",
-      "price": 22499,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/i/s/8/-resized-original-imahpdsc5rjnucdy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/vivo-t5-lite-44w-5g-wave-blue-128-gb/p/itm5420c578ec2df?pid=MOBHNDTD57UJUK9Q&lid=LSTMOBHNDTD57UJUK9QMGWRRW&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_5&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHNDTD57UJUK9Q.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198411",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "G'Five G9-C",
-      "price": 899,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/2/g/r/g9-c-g9-c-g-five-original-imahr4cmbbkxfygh.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/g-five-g9-c/p/itm416706e443008?pid=MOBHR4CNTEDUHYFM&lid=LSTMOBHR4CNTEDUHYFMUD41Y1&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_6&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHR4CNTEDUHYFM.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198511",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "HMD Vibe2 Pro 5G (Aqua Green, 128 GB)",
-      "price": 16999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/b/m/-original-imahrme5gqrntdzv.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/hmd-vibe2-pro-5g-aqua-green-128-gb/p/itmd425c7e495e6d?pid=MOBHQZZ85MVV5GMX&lid=LSTMOBHQZZ85MVV5GMXKFFOT7&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_7&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHQZZ85MVV5GMX.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198609",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Apple iPhone 17 (White, 256 GB)",
-      "price": 86999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/q/x/x/-original-imahqvadj2sps3vz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-white-256-gb/p/itm68ad8410784c7?pid=MOBHQV9YAZYYWY8A&lid=LSTMOBHQV9YAZYYWY8A6D2THC&marketplace=FLIPKART&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=b_1_8&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHQV9YAZYYWY8A.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198718",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Apple iPhone 17 (Sage, 256 GB)",
-      "price": 86999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/0/q/-original-imahqvadhcgcadge.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/apple-iphone-17-sage-256-gb/p/itm410e85a5f1745?pid=MOBHQV9YZPQXFFGM&lid=LSTMOBHQV9YZPQXFFGMNN24WH&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_9&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHQV9YZPQXFFGM.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198817",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Mivi One 5G (Blue, 128 GB)",
-      "price": 13999,
-      "category": "Electronics",
-      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/g/z/-original-imahrgb9whbkdauw.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mivi-one-5g-blue-128-gb/p/itmde179056e0187?pid=MOBHR3ZP5ZJG8EXR&lid=LSTMOBHR3ZP5ZJG8EXR1KOC6G&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_10&otracker=browse&fm=organic&iid=d11506fb-6a61-4a59-bf81-a026787fc199.MOBHR3ZP5ZJG8EXR.SEARCH&ppt=None&ppn=None&ssid=f2whbi5gfk0000001791922790994&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:51.198913",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Self Design Winter Men Gloves",
-      "price": 298,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/glove/x/n/w/free-sffsgd-16621222-sfabz-original-imahs3mjgyqxxary.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/lapta-self-design-winter-men-gloves/p/itm07360b078189a?pid=GVEHS3MMHFZGTJPB&lid=LSTGVEHS3MMHFZGTJPBHQS25X&marketplace=FLIPKART&store=clo&srno=b_1_1&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.GVEHS3MMHFZGTJPB.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.521073",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Self Design Winter Men Gloves",
-      "price": 489,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/glove/h/y/v/free-sffsgd-11991695-sfabz-original-imahs3mkbyg9uxbn.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sfabz-self-design-winter-men-gloves/p/itm3c1528b946ae5?pid=GVEHS3MK9AK7E3NA&lid=LSTGVEHS3MK9AK7E3NAYBZ7QG&marketplace=FLIPKART&store=clo&srno=b_1_2&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.GVEHS3MK9AK7E3NA.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.521211",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Men Graphic Print, Typography Round Neck Polyester Whit...",
-      "price": 228,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/9/o/s/s-a0651-mm-enterpises-original-imahs3mzwjcvnhf6.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/mm-enterpises-graphic-print-typography-men-round-neck-white-t-shirt/p/itm1e0f9c7af05e0?pid=TSHHS3NYGRCPXJDV&lid=LSTTSHHS3NYGRCPXJDVQPMPPJ&marketplace=FLIPKART&store=clo&srno=b_1_3&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.TSHHS3NYGRCPXJDV.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.521354",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Casual Regular Sleeves Printed Women Black Top",
+      "name": "adsales 1.5L Transparent Juicer Jar with White Handle M...",
       "price": 599,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/top/c/t/i/xl-1-vd-2073018-400-v-mart-original-imahs3mwpyzfsdse.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/v-mart-casual-printed-women-black-top/p/itm4f10b1b48405a?pid=TOPHS3MW5MZXT2HW&lid=LSTTOPHS3MW5MZXT2HWLIQKRC&marketplace=FLIPKART&store=clo&srno=b_1_4&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.TOPHS3MW5MZXT2HW.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.521472",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Women Straight 3/4th Sleeve White Shrug",
-      "price": 305,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/h/a/y/xxl-1-shot-w-000xxl-nasfa-fashion-original-imahr3fpuucgmhea.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nasfa-fashion-women-shrug/p/itmdf1c5fe2b6c8e?pid=RUGHR3FP2AZWKVFS&lid=LSTRUGHR3FP2AZWKVFST7D0UH&marketplace=FLIPKART&store=clo&srno=b_1_5&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.RUGHR3FP2AZWKVFS.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.521601",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Rvfashionn Women Top Thermal",
-      "price": 530,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/thermal/j/v/s/34-1-new-thermaltop75-orenzy-original-imahghexchgfyyqb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/rvfashionn-women-top-thermal/p/itm32d499b187550?pid=TMLHS3M2HFAFDYEY&lid=LSTTMLHS3M2HFAFDYEYZVF3ZQ&marketplace=FLIPKART&store=clo&srno=b_1_6&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.TMLHS3M2HFAFDYEY.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.521717",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Solid, Self Design Winter Men Gloves",
-      "price": 489,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/glove/v/7/6/free-new25-sffsgd-1686-premium-febric-hoc-original-imahhrsgvgzzwpeb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sfabz-solid-self-design-winter-men-gloves/p/itm362f56aa6021f?pid=GVEHS3MJA8ETDEBM&lid=LSTGVEHS3MJA8ETDEBMAF62AX&marketplace=FLIPKART&store=clo&srno=b_1_7&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.GVEHS3MJA8ETDEBM.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.521839",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Self Design, Embellished Winter Men Gloves",
-      "price": 298,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/glove/h/j/5/free-new25-sffsgd-1659-hoc-original-imahhrsk3tzvrh8z.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/lapta-self-design-embellished-winter-men-gloves/p/itm42cd84b563673?pid=GVEHS3MMXFAF8QDV&lid=LSTGVEHS3MMXFAF8QDVPYJME4&marketplace=FLIPKART&store=clo&srno=b_1_8&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.GVEHS3MMXFAF8QDV.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.521969",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Women Straight 3/4th Sleeve White Shrug",
-      "price": 312,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/shrug/h/a/y/xxl-1-shot-w-000xxl-nasfa-fashion-original-imahr3fpuucgmhea.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/nasfa-fashion-women-shrug/p/itm35529ed9f255f?pid=RUGHR3FPDYMGCHBK&lid=LSTRUGHR3FPDYMGCHBKJ2DDJ9&marketplace=FLIPKART&store=clo&srno=b_1_9&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.RUGHR3FPDYMGCHBK.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.522095",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Striped, Self Design, Printed Winter Men Gloves",
-      "price": 489,
-      "category": "Fashion",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/glove/q/l/z/free-new25-sffsgd-5260403-premium-febric-hoc-original-imahhrsjqujfgfh5.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/sfabz-striped-self-design-printed-winter-men-gloves/p/itm372ce00751d19?pid=GVEHS3MMXQU2RF7H&lid=LSTGVEHS3MMXQU2RF7H11E5WS&marketplace=FLIPKART&store=clo&srno=b_1_10&otracker=browse&fm=organic&iid=54b5dd37-3eb4-4e05-ab8f-a53b2e28986e.GVEHS3MMXQU2RF7H.SEARCH&ppt=None&ppn=None&ssid=px0t3b61a80000001791922794220&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:54.522218",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Divine Era Herbal 300ml Desk Cool Mist Humidifier + 1 E...",
-      "price": 449,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/air-purifier/w/r/t/2-7-12-300ml-desk-cool-mist-humidifier-1-extra-filter-stick-for-original-imahs46djkgz7tm5.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/divine-era-herbal-300ml-desk-cool-mist-humidifier-1-extra-filter-stick-room-office-grey-portable-air-purifier/p/itmea59cd93950e3?pid=APFHS46DXD6DSHGV&lid=LSTAPFHS46DXD6DSHGV5POYGM&marketplace=FLIPKART&store=j9e&srno=b_1_1&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.APFHS46DXD6DSHGV.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.172545",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-juicer-jar/t/e/x/1-5l-transparent-juicer-jar-with-white-handle-ad-sales-1-5-original-imahs4q4kvjdgzgq.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/adsales-1-5l-transparent-juicer-jar-white-handle-mixer/p/itm6981faa7846ce?pid=MJJHS4PPJNCWKGGF&lid=LSTMJJHS4PPJNCWKGGF8ZWU1R&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.MJJHS4PPJNCWKGGF.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.577750",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1417,12 +395,12 @@
       }
     },
     {
-      "name": "WAACHAM Electronic Digital Kitchen Weighing Scale / Foo...",
-      "price": 349,
+      "name": "GOCARTSY PORTABLE_JUICER02 50 W Juicer Mixer Grinder",
+      "price": 630,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/weighing-scale/2/d/k/electronic-digital-kitchen-weighing-scale-food-scale-wtng-scale-original-imahs43xjngahhaf.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/waacham-electronic-digital-kitchen-weighing-scale-food/p/itmd26dbae4756c5?pid=WSLHS43XCVGCQSQS&lid=LSTWSLHS43XCVGCQSQSDF3QJA&marketplace=FLIPKART&store=j9e&srno=b_1_2&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.WSLHS43XCVGCQSQS.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.172706",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-grinder-juicer/i/t/d/mc-mixer-grinder-juicer-25-momu-commerce-original-imahqrsbe3qzzaft.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/gocartsy-portable-juicer02-50-w-juicer-mixer-grinder/p/itm09cbbbea95cbb?pid=MIXHS4P8UMS43ZUH&lid=LSTMIXHS4P8UMS43ZUHHHL5GA&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.MIXHS4P8UMS43ZUH.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.578041",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1431,12 +409,12 @@
       }
     },
     {
-      "name": "WAACHAM Electronic Digital Kitchen Weighing Scale / Foo...",
-      "price": 349,
+      "name": "Rudrakshandco St15 Vacuum Maintenance Kit",
+      "price": 186,
       "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/weighing-scale/g/b/4/electronic-digital-kitchen-weighing-scale-food-scale-wtng-scale-original-imahs44mwgzbbggj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/waacham-electronic-digital-kitchen-weighing-scale-food/p/itm3230c7e625d2c?pid=WSLHS44MGQXZRY4Q&lid=LSTWSLHS44MGQXZRY4QY3ECLN&marketplace=FLIPKART&store=j9e&srno=b_1_3&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.WSLHS44MGQXZRY4Q.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.172850",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/vacuum-maintenance-kit/m/c/t/st15-rudrakshandco-original-imahs4gcjefe2hrg.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/rudrakshandco-st15-vacuum-maintenance-kit/p/itm74fbe7b1c9be9?pid=VMKHS4GCC5ADXCZT&lid=LSTVMKHS4GCC5ADXCZTE75B3I&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=190c798e-33cb-471f-a56d-075ef81b425f.VMKHS4GCC5ADXCZT.SEARCH&ppt=None&ppn=None&ssid=4evnm3d1c00000001791973440338&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:00.578252",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1445,110 +423,12 @@
       }
     },
     {
-      "name": "Fit Zone FZ Heat pro G-Coil electric cooking stove/chul...",
-      "price": 2569,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-cooking-heater/f/2/h/14-fz-heat-pro-g-coil-electric-cooking-stove-chulha-fit-zone-3-original-imahs48etehucxx6.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/fit-zone-fz-heat-pro-g-coil-electric-cooking-stove-chulha-heater/p/itm660b9b8eb98e8?pid=ECCHS48EG9XBK9PZ&lid=LSTECCHS48EG9XBK9PZ90EEWS&marketplace=FLIPKART&store=j9e&srno=b_1_4&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.ECCHS48EG9XBK9PZ.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.172999",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "grindify Mixer Grinder Jar Combo Set 1.2L Blending, 0.8...",
-      "price": 699,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/mixer-juicer-jar/j/n/d/mixer-grinder-jar-combo-set-1-2l-blending-0-8l-grinding-0-4l-original-imahs43kttdzz5hr.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/grindify-mixer-grinder-jar-combo-set-1-2l-blending-0-8l-grinding-0-4l-chutney-juicer/p/itm81afa67c02373?pid=MJJHS43KCU6SCARF&lid=LSTMJJHS43KCU6SCARF6UH4SF&marketplace=FLIPKART&store=j9e&srno=b_1_5&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.MJJHS43KCU6SCARF.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.173142",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "WAACHAM Electronic Digital Kitchen Weighing Scale / Foo...",
-      "price": 349,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/weighing-scale/9/v/y/electronic-digital-kitchen-weighing-scale-food-scale-wtng-scale-original-imahs44hpyb5vghs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/waacham-electronic-digital-kitchen-weighing-scale-food/p/itm5aef5a3fdaee0?pid=WSLHS44HYFFZ93XC&lid=LSTWSLHS44HYFFZ93XC77TH0E&marketplace=FLIPKART&store=j9e&srno=b_1_6&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.WSLHS44HYFFZ93XC.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.173288",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "WAACHAM Electronic Digital Kitchen Weighing Scale / Foo...",
-      "price": 349,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/weighing-scale/t/x/h/electronic-digital-kitchen-weighing-scale-food-scale-wtng-scale-original-imahs447brwcajz8.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/waacham-electronic-digital-kitchen-weighing-scale-food/p/itm71339b3068ef3?pid=WSLHS447HAPY78WW&lid=LSTWSLHS447HAPY78WWYZWJCP&marketplace=FLIPKART&store=j9e&srno=b_1_7&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.WSLHS447HAPY78WW.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.173433",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "SARAGARA Voltas AC Remote Control (Model H-1).  AC H1 c...",
-      "price": 450,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/remote-controller/t/i/n/compatible-with-voltas-ac-h1-saragara-original-imahs3zsvjaghvbc.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/saragara-voltas-ac-remote-control-model-h-1-h1-compatible-controller/p/itm5ebd95baea8c4?pid=REMHS3ZSMSVYK4FE&lid=LSTREMHS3ZSMSVYK4FEF4IWQR&marketplace=FLIPKART&store=j9e&srno=b_1_8&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.REMHS3ZSMSVYK4FE.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.173580",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "USHA EI 2102 1000 W Dry Iron",
-      "price": 998,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/iron/k/o/s/ei-2102-usha-original-imahs447khye3aaq.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/usha-ei-2102-1000-w-dry-iron/p/itmb80d4ecb6ca27?pid=IRNHS447G5TBCHHR&lid=LSTIRNHS447G5TBCHHRWBYQNJ&marketplace=FLIPKART&store=j9e&srno=b_1_9&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.IRNHS447G5TBCHHR.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.173738",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "homelexi ImmersionRod_550 2000 W Shock Proof Immersion ...",
-      "price": 289,
-      "category": "Home_Kitchen",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/immersion-rod/0/0/w/2000-immersionrod-550-homelexi-original-imahsyjhhm8ahkbk.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/homelexi-immersionrod-550-2000-w-shock-proof-immersion-heater-rod/p/itm9afc8265828be?pid=IMMHSYJHYMZYECHB&lid=LSTIMMHSYJHYMZYECHBDAVC8A&marketplace=FLIPKART&store=j9e&srno=b_1_10&otracker=browse&fm=organic&iid=57cf5f9e-6f14-4cf3-abfc-d2b6adc18b87.IMMHSYJHYMZYECHB.SEARCH&ppt=None&ppn=None&ssid=v6he4vd5hc0000001791922796918&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:19:57.173880",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "Temyati NEW AMAZING BROWN EYEBROW PENCIL",
-      "price": 216,
+      "name": "FRIPPE Highly Pigmented Liquid Lipstick Everyday Makeup...",
+      "price": 98,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyebrow-pencil/6/z/j/new-amazing-brown-eyebrow-pencil-felicechiara-original-imahzt77sy4gckbe.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/temyati-new-amazing-brown-eyebrow-pencil/p/itm4de5f3ca3f062?pid=EBPHS4Y7NKDQEWT8&lid=LSTEBPHS4Y7NKDQEWT8T4ALBN&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.EBPHS4Y7NKDQEWT8.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.374853",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/2/6/z/4-highly-pigmented-liquid-lipstick-everyday-makeup-essential-original-imahs4z2khhxv3py.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/frippe-highly-pigmented-liquid-lipstick-everyday-makeup-essential/p/itmac10e1c384ae7?pid=LSKHS4Z2ZZ9QW7SN&lid=LSTLSKHS4Z2ZZ9QW7SNKCWP77&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_1&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.LSKHS4Z2ZZ9QW7SN.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.101128",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1557,12 +437,12 @@
       }
     },
     {
-      "name": "beautine Glossy Pink Lip Color, Floral Design Lipstick,...",
-      "price": 160,
+      "name": "MYEONG NAIL POLISH WATER PROOF NAIL POLISH TRANSPAREN T...",
+      "price": 297,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/t/z/v/19-glossy-pink-lip-color-floral-design-lipstick-pink-shine-original-imahs45nruezpvpy.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/beautine-glossy-pink-lip-color-floral-design-lipstick-shine-lipstick/p/itm3fe0d280c574f?pid=LSKHS45NZBGYMKDZ&lid=LSTLSKHS45NZBGYMKDZTOSAZN&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.LSKHS45NZBGYMKDZ.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.375017",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-polish/b/m/v/12-shine-base-top-coat-transparent-nail-polish-yawi-original-imahs3szdhrd9zap.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/myeong-nail-polish-water-proof-transparen-transparent/p/itmffc2d74d5dd9c?pid=NLPHS4ZDV4Z7CG8Y&lid=LSTNLPHS4ZDV4Z7CG8YELHJSZ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_2&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.NLPHS4ZDV4Z7CG8Y.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.101412",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1571,12 +451,12 @@
       }
     },
     {
-      "name": "KONSTHYA 2IN1 HD | Waterproof Matte Finish Makeup for W...",
-      "price": 350,
+      "name": "blussfrom lip balm lipstick waterproof",
+      "price": 165,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/foundation/1/1/t/60-2in1-hd-waterproof-matte-finish-makeup-for-women-makeup-base-original-imahsykz6m7ebgxz.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/konsthya-2in1-hd-waterproof-matte-finish-makeup-women-makeup-base-foundation/p/itm72fcba82b65e2?pid=FNDHSYKZUQC666FB&lid=LSTFNDHSYKZUQC666FBFV3XLJ&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.FNDHSYKZUQC666FB.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.375160",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/s/c/x/6-lip-balm-lipstick-waterproof-blussfrom-original-imahs4ftjqurj3tw.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/blussfrom-lip-balm-lipstick-waterproof/p/itm9c36d809e55e5?pid=LSKHS4FTRBHX8HKW&lid=LSTLSKHS4FTRBHX8HKWHR6NMI&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_3&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.LSKHS4FTRBHX8HKW.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.101636",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1585,12 +465,40 @@
       }
     },
     {
-      "name": "Satvik Creations BRUSH002",
+      "name": "FRIPPE Soft Matte Lipstick Lightweight Creamy Texture B...",
+      "price": 128,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/z/t/z/6-soft-matte-lipstick-lightweight-creamy-texture-beauty-frippe-original-imahs4z2rt7vrazp.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/frippe-soft-matte-lipstick-lightweight-creamy-texture-beauty/p/itme1d963873ff52?pid=LSKHS4Z2NUJPAEWK&lid=LSTLSKHS4Z2NUJPAEWKM2JV4X&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.LSKHS4Z2NUJPAEWK.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.101905",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "toroka NEW MAKEUP SET FOR GIRLS1",
+      "price": 540,
+      "category": "Beauty",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/makeup-kit/c/f/i/new-makeup-set-for-girls1-toroka-original-imahrhhg2ggnzmqx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/toroka-new-makeup-set-girls1/p/itmd953d90288e18?pid=MKTHRHH9WVAE7BGQ&lid=LSTMKTHRHH9WVAE7BGQYJ1CZH&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.MKTHRHH9WVAE7BGQ.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.102121",
+      "quick_analysis": {
+        "quick_score": 0,
+        "top_pros": [],
+        "top_con": null,
+        "quick_verdict": "Wait for more data"
+      }
+    },
+    {
+      "name": "Hezruck Color changing Waterproof Aloevera Lipstick",
       "price": 130,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/i/z/k/brush002-1-brush002-satvik-creations-original-imahs45ffhudk8bm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/satvik-creations-brush002/p/itm0915b17d2f34f?pid=BARHS45FT2WNM7MZ&lid=LSTBARHS45FT2WNM7MZRFJE5I&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_4&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.BARHS45FT2WNM7MZ.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.375320",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lipstick/b/j/a/16-color-changing-waterproof-aloevera-lipstick-hezruck-original-imahs4kssvxfhjad.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hezruck-color-changing-waterproof-aloevera-lipstick/p/itma12c572eb3578?pid=LSKHS4KSFYWNB8GH&lid=LSTLSKHS4KSFYWNB8GHONQYBE&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.LSKHS4KSFYWNB8GH.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.102346",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1599,12 +507,12 @@
       }
     },
     {
-      "name": "MISS BELLA Concealer & Corrector Palette Combo with 2 M...",
-      "price": 166,
+      "name": "FRAILENO lip liner and gloss combo (1 Items in the set)",
+      "price": 198,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/concealer/k/o/s/15-concealer-corrector-palette-combo-with-2-makeup-brushes-l978-original-imahrfsfhdzgjgvb.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/miss-bella-concealer-corrector-palette-combo-2-makeup-brushes-l978/p/itm2e0b9f8eb7129?pid=CLRHRGKKKH3BGUYG&lid=LSTCLRHRGKKKH3BGUYGXVYLD1&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_5&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.CLRHRGKKKH3BGUYG.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.375462",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/combo-kit/v/p/r/lip-liner-and-gloss-combo-1-items-in-the-set-3-kchakg-60118-original-imahs4zzsnhv5tpw.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/fraileno-lip-liner-gloss-combo-1-items-set/p/itme6ed44233bf25?pid=CBKHS4ZZRYP6PYXK&lid=LSTCBKHS4ZZRYP6PYXKYNN58N&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.CBKHS4ZZRYP6PYXK.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.102570",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1613,12 +521,12 @@
       }
     },
     {
-      "name": "RenVin Eyebrow Shaping Stencil with Eyeliner Wing Guide...",
-      "price": 178,
+      "name": "Careio 1 Piece Professional Grooming & Shaping Plucker ...",
+      "price": 100,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/eyebrow-stencil/e/h/x/1-eyebrow-shaping-stencil-with-eyeliner-wing-guide-tool-1-pack-original-imahrz4gbhnfkggj.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/renvin-eyebrow-shaping-stencil-eyeliner-wing-guide-tool-1-pack/p/itm914bebbcd3321?pid=EYXHRZ4GEMBUMX7S&lid=LSTEYXHRZ4GEMBUMX7SWFAU6N&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_6&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.EYXHRZ4GEMBUMX7S.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.375597",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/tweezer-plucker/z/l/z/1-piece-professional-grooming-shaping-plucker-unisex-1-piece-original-imahs4njgdwggzzw.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/careio-1-piece-professional-grooming-shaping-plucker-unisex/p/itm0393b82bbbb57?pid=TPRHS4NJGHDGPPX2&lid=LSTTPRHS4NJGHDGPPX2POCIV8&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.TPRHS4NJGHDGPPX2.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.102815",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1627,12 +535,12 @@
       }
     },
     {
-      "name": "DIVA4EVR Ultimate Nail Styling & Glitter Decoration Kit",
-      "price": 339,
+      "name": "GULGLOW99 Classic Red Nail Paint for Women | Smooth Fin...",
+      "price": 286,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-art/e/g/z/all-in-one-nail-art-manicure-accessory-kit-multicolor-diva4evr-original-imahs4f56e9vqtrt.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/diva4evr-ultimate-nail-styling-glitter-decoration-kit/p/itm3f3e5aa38c9cf?pid=NLAHS4F9CQ2U8DJ2&lid=LSTNLAHS4F9CQ2U8DJ2EKLSTU&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_7&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.NLAHS4F9CQ2U8DJ2.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.375728",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/nail-polish/9/u/w/12-high-gloss-quick-dry-nail-polish-for-bridals-yawi-original-imahs3tym2fznyhx.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/gulglow99-classic-red-nail-paint-women-smooth-finish-polish-daily-wear/p/itm5a4c65b22d2d3?pid=NLPHS4M9YVXUZEUZ&lid=LSTNLPHS4M9YVXUZEUZ3HOJBM&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.NLPHS4M9YVXUZEUZ.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.103035",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],
@@ -1641,40 +549,12 @@
       }
     },
     {
-      "name": "pamelo HD Cream High Coverage Water proof Base with SPF...",
-      "price": 179,
+      "name": "Hari Mini Makeup Brush Set with Case",
+      "price": 139,
       "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/foundation/i/6/a/45-makeup-hd-foundation-cream-pack-of-1-blust-famme-original-imahczd6bnqgehvs.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/pamelo-hd-cream-high-coverage-water-proof-base-spf-lightweight-pack-1-foundation/p/itm214c6e946ed60?pid=FNDHS45FVFRY3FQH&lid=LSTFNDHS45FVFRY3FQHFT5WQC&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_8&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.FNDHS45FVFRY3FQH.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.375873",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "beeba naturals Ice cream lip gloss for women pack of 2 ...",
-      "price": 134,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/lip-gloss/q/t/d/10-ice-cream-lip-gloss-for-women-pack-of-2-multicolor-beeba-original-imahs42bzzjfexbe.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/beeba-naturals-ice-cream-lip-gloss-women-pack-2-multicolor/p/itm4dbf7a7202e12?pid=LGSHS42BTSDEB3JG&lid=LSTLGSHS42BTSDEB3JGNAZB0U&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_9&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.LGSHS42BTSDEB3JG.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.376012",
-      "quick_analysis": {
-        "quick_score": 0,
-        "top_pros": [],
-        "top_con": null,
-        "quick_verdict": "Wait for more data"
-      }
-    },
-    {
-      "name": "ALVITA MAKEOVER PUFFKREAN2",
-      "price": 81,
-      "category": "Beauty",
-      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/puff-sponge/o/4/o/puffkrean2-0-2-pfkrn-alvita-makeover-original-imahs4ym9cczm6xm.jpeg?q=70",
-      "flipkart_url": "https://www.flipkart.com/alvita-makeover-puffkrean2/p/itm29875e416b1e3?pid=PFSHS4YMSZYZ8JFK&lid=LSTPFSHS4YMSZYZ8JFKADDZJL&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=6f5a1536-6414-4c9d-9241-c51f1695ae07.PFSHS4YMSZYZ8JFK.SEARCH&ppt=None&ppn=None&ssid=ga059xp0dc0000001791922799262&ov_redirect=true&ov_redirect=true",
-      "scraped_at": "2026-10-13T20:20:00.376143",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/brush-applicator/z/w/2/hello-kitty-mini-makeup-brush-7-hlo-kitty-01-hari-original-imahs4g4xwaardb8.jpeg?q=70",
+      "flipkart_url": "https://www.flipkart.com/hari-mini-makeup-brush-set-case/p/itmeddaba37ba734?pid=BARHS4HQGVUFBQDM&lid=LSTBARHS4HQGVUFBQDMCOIC6D&marketplace=FLIPKART&store=g9b%2Fffi&srno=b_1_10&otracker=browse&fm=organic&iid=074bc57f-eeee-4f4f-8c02-fe97e007e8dc.BARHS4HQGVUFBQDM.SEARCH&ppt=None&ppn=None&ssid=f5be8ojhkg0000001791973443851&ov_redirect=true&ov_redirect=true",
+      "scraped_at": "2026-10-14T10:24:04.103244",
       "quick_analysis": {
         "quick_score": 0,
         "top_pros": [],

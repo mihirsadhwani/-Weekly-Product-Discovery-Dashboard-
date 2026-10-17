@@ -2,7 +2,7 @@
   "hot_categories": [
     {
       "category": "Home_Kitchen",
-      "count": 14
+      "count": 11
     },
     {
       "category": "Sports",
@@ -13,11 +13,11 @@
       "count": 10
     },
     {
-      "category": "Women_Fashion",
+      "category": "Men_Fashion",
       "count": 10
     },
     {
-      "category": "Men_Fashion",
+      "category": "Women_Fashion",
       "count": 10
     },
     {
@@ -35,10 +35,6 @@
   ],
   "declining_categories": [
     {
-      "category": "Men_Fashion",
-      "avg_sentiment": 32.0
-    },
-    {
       "category": "Beauty",
       "avg_sentiment": 0.0
     },
@@ -48,6 +44,10 @@
     },
     {
       "category": "Laptops",
+      "avg_sentiment": 0.0
+    },
+    {
+      "category": "Men_Fashion",
       "avg_sentiment": 0.0
     },
     {
@@ -67,64 +67,51 @@
       "avg_sentiment": 0.0
     }
   ],
-  "emerging_keywords": [
-    {
-      "keyword": "silk",
-      "mentions": 4
-    },
-    {
-      "keyword": "blend",
-      "mentions": 4
-    },
-    {
-      "keyword": "affordable",
-      "mentions": 3
-    }
-  ],
+  "emerging_keywords": [],
   "price_movements": [
     {
-      "category": "Home_Kitchen",
-      "avg_price": 9746
-    },
-    {
       "category": "Sports",
-      "avg_price": 439
+      "avg_price": 867
     },
     {
       "category": "Beauty",
-      "avg_price": 625
+      "avg_price": 380
     },
     {
-      "category": "Women_Fashion",
-      "avg_price": 933
+      "category": "Home_Kitchen",
+      "avg_price": 4947
     },
     {
       "category": "Men_Fashion",
-      "avg_price": 599
+      "avg_price": 1090
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 923
     },
     {
       "category": "TVs",
-      "avg_price": 23835
+      "avg_price": 19748
     },
     {
       "category": "Laptops",
-      "avg_price": 70281
+      "avg_price": 59890
     },
     {
       "category": "Mobiles",
-      "avg_price": 26429
+      "avg_price": 50386
     }
   ],
   "best_deal": {
-    "name": "Men Silk Blend Sherwani Pyjama Set",
-    "price": 527,
-    "original_price": 279081,
-    "discount_percent": 81,
-    "category": "Men_Fashion",
-    "score": 80,
-    "flipkart_url": "https://www.flipkart.com/over-crowd-men-sherwani-pyjama-set/p/itme07616e6e6fb8?pid=ETHFDYJSQA46NMGZ&lid=LSTETHFDYJSQA46NMGZ6RQ9AV&marketplace=FLIPKART&q=men+sherwani+kurta+set+ethnic&store=clo%2Fcfv%2Fitg%2Fpme&srno=s_2_54&otracker=search&fm=organic&iid=ff9fab98-f14b-4ac3-9c5e-b218399d5606.ETHFDYJSQA46NMGZ.SEARCH&ppt=sp&ppn=sp&ssid=orqwehz17k0000001786816271568&qH=a9e54449e15b8c19&ov_redirect=true"
+    "name": "PRO365 Double Toning & Counter Hand Grip for Full Body ...",
+    "price": 229,
+    "original_price": 140083,
+    "discount_percent": 83,
+    "category": "Sports",
+    "score": 0,
+    "flipkart_url": "https://www.flipkart.com/pro365-double-toning-counter-hand-grip-full-body-workout-equipment-combo-fitness-accessory-kit/p/itma73b36a3d85a3?pid=KITHYN26PDMJPGBH&lid=LSTKITHYN26PDMJPGBH4PRXYQ&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_8&otracker=search&fm=organic&iid=en_e4t-YRy-B0amhr1AKNUgIA2OiwhXQH7dSA3k956IbMDKQeIP7tIXxvuGgy2U_MKE-XHKzPeO3Fm4cB0phfxMNGVp_Lz8lAAaTwUyboYo0YL7VQreGh9qqtPs5iHr1kbc&ppt=None&ppn=None&ssid=hhsm9qxwyo0000001792266180820&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-08-22T18:09:08.566072"
+  "generated_at": "2026-10-17T19:53:56.613882"
 }

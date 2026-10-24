@@ -1,15 +1,19 @@
 {
   "hot_categories": [
     {
-      "category": "Home_Kitchen",
-      "count": 11
-    },
-    {
       "category": "Sports",
-      "count": 10
+      "count": 17
     },
     {
       "category": "Beauty",
+      "count": 10
+    },
+    {
+      "category": "Home_Kitchen",
+      "count": 10
+    },
+    {
+      "category": "TVs",
       "count": 10
     },
     {
@@ -18,10 +22,6 @@
     },
     {
       "category": "Women_Fashion",
-      "count": 10
-    },
-    {
-      "category": "TVs",
       "count": 10
     },
     {
@@ -71,47 +71,47 @@
   "price_movements": [
     {
       "category": "Sports",
-      "avg_price": 867
+      "avg_price": 1060
     },
     {
       "category": "Beauty",
-      "avg_price": 380
+      "avg_price": 445
     },
     {
       "category": "Home_Kitchen",
-      "avg_price": 4947
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_price": 1090
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_price": 923
+      "avg_price": 6974
     },
     {
       "category": "TVs",
-      "avg_price": 19748
+      "avg_price": 22177
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_price": 1205
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 994
     },
     {
       "category": "Laptops",
-      "avg_price": 59890
+      "avg_price": 56540
     },
     {
       "category": "Mobiles",
-      "avg_price": 50386
+      "avg_price": 74886
     }
   ],
   "best_deal": {
-    "name": "PRO365 Double Toning & Counter Hand Grip for Full Body ...",
-    "price": 229,
-    "original_price": 140083,
-    "discount_percent": 83,
-    "category": "Sports",
+    "name": "Men Silk Blend Sherwani Pyjama Set",
+    "price": 499,
+    "original_price": 279082,
+    "discount_percent": 82,
+    "category": "Men_Fashion",
     "score": 0,
-    "flipkart_url": "https://www.flipkart.com/pro365-double-toning-counter-hand-grip-full-body-workout-equipment-combo-fitness-accessory-kit/p/itma73b36a3d85a3?pid=KITHYN26PDMJPGBH&lid=LSTKITHYN26PDMJPGBH4PRXYQ&marketplace=FLIPKART&q=gym+fitness+equipment&store=qoc%2Famf&srno=s_1_8&otracker=search&fm=organic&iid=en_e4t-YRy-B0amhr1AKNUgIA2OiwhXQH7dSA3k956IbMDKQeIP7tIXxvuGgy2U_MKE-XHKzPeO3Fm4cB0phfxMNGVp_Lz8lAAaTwUyboYo0YL7VQreGh9qqtPs5iHr1kbc&ppt=None&ppn=None&ssid=hhsm9qxwyo0000001792266180820&qH=ff2254c0fd3a5330&ov_redirect=true&ov_redirect=true"
+    "flipkart_url": "https://www.flipkart.com/over-crowd-men-sherwani-pyjama-set/p/itme07616e6e6fb8?pid=ETHFDYJSQA46NMGZ&lid=LSTETHFDYJSQA46NMGZ6RQ9AV&marketplace=FLIPKART&q=men+sherwani+kurta+set+ethnic&store=clo%2Fcfv%2Fitg%2Fpme&srno=s_2_58&otracker=search&fm=organic&iid=dc91b0a8-297e-46d0-9262-acbdb175e0a1.ETHFDYJSQA46NMGZ.SEARCH&ppt=None&ppn=None&ssid=6j88v6a5ww0000001792871075652&qH=a9e54449e15b8c19&ov_redirect=true"
   },
   "has_history": false,
   "week_number": 1,
-  "generated_at": "2026-10-17T19:53:56.613882"
+  "generated_at": "2026-10-24T20:04:38.268114"
 }

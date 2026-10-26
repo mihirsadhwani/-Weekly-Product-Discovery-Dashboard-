@@ -25,15 +25,15 @@ export default function ProductCard({ product, isInCompare, onToggleCompare }: P
   const analysed = analysis.quality_score > 0
 
   return (
-    <div className="group relative flex flex-col bg-card p-4 transition-shadow hover:z-10 hover:shadow-md">
+    <div className="group relative flex flex-col bg-card p-4 transition-shadow hover:z-10 hover:shadow-[0_4px_16px_rgba(0,0,0,0.15)]">
       <button
         type="button"
         onClick={() => onToggleCompare(product)}
         aria-pressed={isInCompare}
-        className="absolute right-3 top-3 z-10 flex items-center gap-1 rounded-md border bg-card px-1.5 py-1 text-[11px] font-medium text-muted-foreground opacity-0 transition-opacity hover:text-primary focus-visible:opacity-100 group-hover:opacity-100 data-[on=true]:opacity-100"
+        className="absolute right-3 top-3 z-10 flex items-center gap-1 rounded-sm border bg-card px-1.5 py-1 text-[11px] font-medium text-muted-foreground opacity-0 transition-opacity hover:text-[#2874f0] focus-visible:opacity-100 group-hover:opacity-100 data-[on=true]:opacity-100"
         data-on={isInCompare}
       >
-        {isInCompare ? <Check className="h-3 w-3 text-primary" /> : <GitCompareArrows className="h-3 w-3" />}
+        {isInCompare ? <Check className="h-3 w-3 text-[#2874f0]" /> : <GitCompareArrows className="h-3 w-3" />}
         {isInCompare ? 'Added' : 'Compare'}
       </button>
 
@@ -48,13 +48,13 @@ export default function ProductCard({ product, isInCompare, onToggleCompare }: P
 
       <div className="mt-3 flex flex-1 flex-col gap-1.5">
         <p className="flex items-center gap-1.5 text-xs text-muted-foreground"><meta.icon className="h-3 w-3" />{meta.label}</p>
-        <Link href={`/product/${product.id}`} className="line-clamp-2 text-sm font-medium leading-snug hover:text-primary">
+        <Link href={`/product/${product.id}`} className="line-clamp-2 text-sm font-medium leading-snug hover:text-[#2874f0]">
           {product.name}
         </Link>
 
         <div className="flex items-center gap-2">
           {product.rating ? (
-            <span className="inline-flex items-center gap-0.5 rounded-md bg-success/10 px-1.5 py-0.5 text-xs font-semibold text-success">
+            <span className="inline-flex items-center gap-0.5 rounded-sm bg-[#388e3c] px-1.5 py-0.5 text-xs font-semibold text-white">
               {product.rating} <Star className="h-3 w-3 fill-current" />
             </span>
           ) : null}
@@ -75,7 +75,7 @@ export default function ProductCard({ product, isInCompare, onToggleCompare }: P
           href={product.flipkart_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-2 flex h-9 items-center justify-center rounded-md border border-input bg-background text-sm font-medium transition-colors hover:bg-secondary"
+          className="mt-2 flex h-9 items-center justify-center rounded-sm bg-[#fb641b] text-sm font-semibold text-white transition-colors hover:bg-[#e8570f]"
         >
           View on Flipkart
         </a>

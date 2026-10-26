@@ -2,9 +2,7 @@ name: Product Pipeline
 
 on:
   schedule:
-    - cron: '30 5 * * *'    # Daily attempt 1 - 11:00 AM IST
-    - cron: '30 10 * * *'   # Daily attempt 2 - 4:00 PM IST
-    - cron: '30 14 * * *'   # Daily attempt 3 - 8:00 PM IST
+    # Daily run has no schedule: start it manually via Actions > Run workflow > mode: daily
     - cron: '30 17 * * 6'   # Weekly - Saturday 11:00 PM IST
   workflow_dispatch:
     inputs:

@@ -3,7 +3,7 @@ Daily Light Scraper with Quick AI Analysis.
 
 Phase A — listing pages: requests + BeautifulSoup (no browser, reliable).
 Phase B — review pages:  Playwright (JS-rendered, browser required).
-Phase C — AI analysis:   Groq quick_analysis per product.
+Phase C — AI analysis:   batched Gemini quick analysis (cached per product).
 
 Output: ../output/fresh_finds.json
 """
@@ -21,7 +21,7 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).parent.parent / 'phase2_analysis'))
-from quick_analyzer import quick_analysis
+from quick_analyzer import analyze_products, load_cached_analyses
 
 from config import CATEGORY_URLS, DELAY_MIN, DELAY_MAX, USER_AGENTS
 
@@ -356,23 +356,14 @@ def scrape_light() -> list[dict]:
 
         browser.close()
 
-    # Phase C: quick AI analysis
-    print(f'\nRunning quick AI analysis...')
-    analyzed = 0
-    for i, product in enumerate(products, 1):
-        reviews = product.pop('_reviews', [])
-        try:
-            qa = quick_analysis(product['name'], reviews)
-            product['quick_analysis'] = qa
-            if reviews:
-                print(f'  [{i}/{len(products)}] score={qa.get("quick_score", 0)} | {product["name"][:35]}')
-                analyzed += 1
-                time.sleep(2)
-            else:
-                product['quick_analysis'] = qa  # fallback dict, no API call made
-        except Exception as e:
-            print(f'  [{i}/{len(products)}] analysis error: {e}')
-            product['quick_analysis'] = None
+    # Phase C: quick AI analysis — batched, and skipped for products analysed on earlier runs
+    print('\nRunning quick AI analysis...')
+    cache = load_cached_analyses(Path(__file__).parent.parent / 'output' / 'fresh_finds.json')
+    results, hits, sent = analyze_products(products, cache)
+    for product, qa in zip(products, results):
+        product['quick_analysis'] = qa
+    analyzed = sum(1 for qa in results if (qa or {}).get('quick_score', 0) > 0)
+    print(f'  {hits} reused from earlier runs | {sent} sent to AI | {analyzed} scored')
 
     output_dir = Path(__file__).parent.parent / 'output'
     output_dir.mkdir(exist_ok=True)

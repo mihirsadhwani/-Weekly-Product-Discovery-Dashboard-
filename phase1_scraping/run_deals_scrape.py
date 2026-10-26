@@ -6,7 +6,7 @@ Extracts discount %, rating, review count — products must have a real discount
 
 Phase A — listing pages: requests + BeautifulSoup + Tor fallback
 Phase B — review pages:  Playwright (JS-rendered)
-Phase C — AI analysis:   Groq quick_analysis per product
+Phase C — AI analysis:   batched Gemini quick analysis (cached per product)
 Phase D — output:        output/deals_finds.json + output/products.json
 
 Unlike the daily scraper (new launches), this targets popular discounted products.
@@ -26,7 +26,7 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 sys.path.insert(0, str(Path(__file__).parent.parent / 'phase2_analysis'))
-from quick_analyzer import quick_analysis
+from quick_analyzer import analyze_products, load_cached_analyses
 
 sys.path.insert(0, str(Path(__file__).parent.parent / 'phase3_final_output'))
 from trend_analyzer import analyze_trends
@@ -803,26 +803,17 @@ def scrape_deals() -> list[dict]:
     if before_b != len(products):
         print(f'Post-Phase-B filter removed {before_b - len(products)} products')
 
-    # Phase C: AI analysis
+    # Phase C: AI analysis — batched, and skipped for products analysed on earlier runs
     print('\nRunning AI analysis...')
-    analyzed = 0
-    for i, product in enumerate(products, 1):
-        reviews = product.pop('_reviews', [])
-        if reviews:
-            try:
-                qa = quick_analysis(product['name'], reviews)
-                product['quick_analysis'] = qa
-                product['analysis'] = _map_analysis(qa)
-                print(f'  [{i}/{len(products)}] score={qa.get("quick_score", 0)} | {product["name"][:35]}')
-                analyzed += 1
-            except Exception as e:
-                print(f'  [{i}/{len(products)}] analysis error: {e}')
-                product['quick_analysis'] = None
-                product['analysis'] = _map_analysis(None)
-            time.sleep(2)
-        else:
-            product['quick_analysis'] = None
-            product['analysis'] = _map_analysis(None)
+    out_dir = Path(__file__).parent.parent / 'output'
+    cache = load_cached_analyses(out_dir / 'deals_backup.json', out_dir / 'products.json', out_dir / 'fresh_finds.json')
+    results, hits, sent = analyze_products(products, cache)
+    for product, qa in zip(products, results):
+        has_score = (qa or {}).get('quick_score', 0) > 0
+        product['quick_analysis'] = qa if has_score else None
+        product['analysis'] = _map_analysis(qa if has_score else None)
+    analyzed = sum(1 for qa in results if (qa or {}).get('quick_score', 0) > 0)
+    print(f'  {hits} reused from earlier runs | {sent} sent to AI | {analyzed} scored')
 
     # Phase D: sort by deal quality (discount × score), output files
     def deal_score(p: dict) -> float:

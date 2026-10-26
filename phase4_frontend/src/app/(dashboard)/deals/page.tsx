@@ -1,5 +1,5 @@
+import { Suspense } from 'react'
 import { getProductsData } from '@/lib/products'
-import PageHeader from '@/components/PageHeader'
 import DealsExplorer from '@/components/DealsExplorer'
 
 export const metadata = { title: 'Deals — Weekly Product Discovery' }
@@ -8,9 +8,9 @@ export default function DealsPage() {
   const { products } = getProductsData()
 
   return (
-    <>
-      <PageHeader title="Deals" description="Discounted picks across categories. Filter, sort and compare any two products." />
+    // useSearchParams in DealsExplorer requires a Suspense boundary for static rendering
+    <Suspense fallback={<div className="h-96 animate-pulse bg-card" />}>
       <DealsExplorer products={products} />
-    </>
+    </Suspense>
   )
 }

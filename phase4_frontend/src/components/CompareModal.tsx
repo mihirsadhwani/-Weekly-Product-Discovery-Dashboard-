@@ -1,231 +1,108 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import { Loader2, Package, Sparkles } from 'lucide-react'
 import type { Product } from '@/types/product'
-import { formatPrice } from '@/lib/utils'
+import { Badge } from '@/components/ui/badge'
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog'
+import { formatINR } from '@/lib/format'
 
 interface Props {
+  open: boolean
+  onOpenChange: (open: boolean) => void
   productA: Product
   productB: Product
-  onClose: () => void
 }
 
-function ScoreBadge({ score }: { score: number }) {
-  const color = score >= 80 ? 'text-emerald-600 bg-emerald-50' : score >= 60 ? 'text-amber-600 bg-amber-50' : 'text-rose-600 bg-rose-50'
-  return (
-    <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-sm font-bold ${color}`}>
-      {score}<span className="text-xs font-normal opacity-70">/100</span>
-    </span>
-  )
-}
+const REC_VARIANT = { Buy: 'success', Wait: 'warning', Skip: 'destructive' } as const
 
-function RecBadge({ rec }: { rec: string }) {
-  const styles: Record<string, string> = {
-    Buy:  'bg-emerald-500 text-white',
-    Wait: 'bg-amber-400 text-white',
-    Skip: 'bg-rose-500 text-white',
-  }
-  return (
-    <span className={`px-3 py-1 rounded-full text-xs font-bold ${styles[rec] ?? styles.Wait}`}>
-      {rec}
-    </span>
-  )
-}
-
-function ProductColumn({ product, label }: { product: Product; label: string }) {
+function Column({ product, label }: { product: Product; label: string }) {
   const { analysis } = product
+  const analysed = analysis.quality_score > 0
   return (
-    <div className="flex flex-col gap-3">
-      <div className="text-xs font-bold text-slate-400 uppercase tracking-widest text-center">{label}</div>
-
-      {/* Image */}
-      <div className="h-40 bg-slate-50 rounded-xl flex items-center justify-center overflow-hidden">
+    <div className="space-y-3">
+      <p className="text-center text-xs font-semibold uppercase tracking-widest text-muted-foreground">{label}</p>
+      <div className="flex h-36 items-center justify-center rounded-lg bg-muted/50">
         {product.image_url ? (
+          // eslint-disable-next-line @next/next/no-img-element
           <img src={product.image_url} alt={product.name} className="h-full w-full object-contain p-3" />
         ) : (
-          <span className="text-5xl">📦</span>
+          <Package className="h-8 w-8 text-muted-foreground" />
         )}
       </div>
-
-      {/* Name */}
-      <h3 className="text-sm font-bold text-slate-900 leading-snug line-clamp-3 min-h-[3.5rem]">
-        {product.name}
-      </h3>
-
-      {/* Price row */}
-      <div className="flex flex-wrap items-baseline gap-2">
-        <span className="text-xl font-extrabold text-emerald-600">{formatPrice(product.price)}</span>
-        {product.original_price && product.original_price > (product.price ?? 0) && (
-          <span className="text-sm text-slate-400 line-through">{formatPrice(product.original_price)}</span>
-        )}
-        {product.discount_percent ? (
-          <span className="text-xs font-bold text-red-500 bg-red-50 px-2 py-0.5 rounded-full">
-            {product.discount_percent}% off
-          </span>
-        ) : null}
+      <h3 className="line-clamp-3 min-h-[3.75rem] text-sm font-semibold leading-snug">{product.name}</h3>
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="text-xl font-bold">{formatINR(product.price)}</span>
+        {product.discount_percent ? <Badge variant="destructive">{product.discount_percent}% off</Badge> : null}
       </div>
-
-      {/* Badges */}
-      <div className="flex items-center gap-2 flex-wrap">
-        <RecBadge rec={analysis.recommendation} />
-        <ScoreBadge score={analysis.quality_score} />
-      </div>
-
-      {/* Stats */}
-      <div className="grid grid-cols-2 gap-2 text-xs">
-        <div className="bg-slate-50 rounded-lg p-2 text-center">
-          <div className="font-bold text-slate-700">{product.rating ?? '—'}</div>
-          <div className="text-slate-400">Rating</div>
+      <dl className="grid grid-cols-3 gap-2 text-center text-xs">
+        <div className="rounded-md bg-muted/60 p-2">
+          <dd className="font-semibold">{product.rating ?? '–'}</dd>
+          <dt className="text-muted-foreground">Rating</dt>
         </div>
-        <div className="bg-slate-50 rounded-lg p-2 text-center">
-          <div className="font-bold text-slate-700">
-            {product.review_count ? product.review_count.toLocaleString('en-IN') : '—'}
-          </div>
-          <div className="text-slate-400">Reviews</div>
+        <div className="rounded-md bg-muted/60 p-2">
+          <dd className="font-semibold">{analysed ? analysis.quality_score : '–'}</dd>
+          <dt className="text-muted-foreground">AI score</dt>
         </div>
-      </div>
-
-      {/* Pros */}
-      {analysis.pros.length > 0 && (
-        <div>
-          <div className="text-xs font-semibold text-slate-500 mb-1.5">Pros</div>
-          <ul className="space-y-1">
-            {analysis.pros.slice(0, 3).map((pro, i) => (
-              <li key={i} className="flex items-start gap-1.5 text-xs text-slate-700">
-                <span className="text-emerald-500 font-bold shrink-0 mt-0.5">✓</span>
-                <span className="line-clamp-2">{pro.replace(/\s*\(\d+[^)]*\)/g, '').trim()}</span>
-              </li>
-            ))}
-          </ul>
+        <div className="rounded-md bg-muted/60 p-2">
+          <dd>{analysed ? <Badge variant={REC_VARIANT[analysis.recommendation]}>{analysis.recommendation}</Badge> : '–'}</dd>
+          <dt className="mt-1 text-muted-foreground">Verdict</dt>
         </div>
-      )}
-
-      {/* Cons */}
-      {analysis.cons.length > 0 && (
-        <div>
-          <div className="text-xs font-semibold text-slate-500 mb-1.5">Cons</div>
-          <ul className="space-y-1">
-            {analysis.cons.slice(0, 2).map((con, i) => (
-              <li key={i} className="flex items-start gap-1.5 text-xs text-slate-700">
-                <span className="text-rose-400 font-bold shrink-0 mt-0.5">✗</span>
-                <span className="line-clamp-2">{con}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {/* View on Flipkart */}
-      <a
-        href={product.flipkart_url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-auto text-center text-xs font-semibold text-indigo-600 hover:text-indigo-800 underline underline-offset-2"
-      >
-        View on Flipkart →
-      </a>
+      </dl>
     </div>
   )
 }
 
-export default function CompareModal({ productA, productB, onClose }: Props) {
+export default function CompareModal({ open, onOpenChange, productA, productB }: Props) {
   const [verdict, setVerdict] = useState<string | null>(null)
-  const [loading, setLoading] = useState(false)
-  const [tried, setTried] = useState(false)
+  const [state, setState] = useState<'idle' | 'loading' | 'error'>('idle')
 
-  // Close on Escape key
   useEffect(() => {
-    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose() }
-    window.addEventListener('keydown', handler)
-    return () => window.removeEventListener('keydown', handler)
-  }, [onClose])
+    if (!open) return
+    const controller = new AbortController()
+    setState('loading')
+    setVerdict(null)
 
-  async function fetchVerdict() {
-    setLoading(true)
-    setTried(true)
-    try {
-      const res = await fetch('/api/compare', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ productA, productB }),
+    fetch('/api/compare', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ productA, productB }),
+      signal: controller.signal,
+    })
+      .then(r => r.json())
+      .then(d => {
+        setVerdict(d.verdict ?? null)
+        setState(d.verdict ? 'idle' : 'error')
       })
-      const data = await res.json()
-      setVerdict(data.verdict ?? null)
-    } catch {
-      setVerdict(null)
-    } finally {
-      setLoading(false)
-    }
-  }
+      .catch(e => { if (e.name !== 'AbortError') setState('error') })
+
+    return () => controller.abort()
+  }, [open, productA, productB])
 
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm"
-      onClick={onClose}
-    >
-      <div
-        className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[90vh] overflow-y-auto"
-        onClick={e => e.stopPropagation()}
-      >
-        {/* Header */}
-        <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 sticky top-0 bg-white z-10">
-          <h2 className="text-lg font-extrabold text-slate-900">Side-by-Side Compare</h2>
-          <button
-            onClick={onClose}
-            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-slate-100 text-slate-500 hover:text-slate-800 transition-colors text-lg font-bold"
-          >
-            ✕
-          </button>
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent>
+        <DialogTitle className="text-lg font-semibold">Compare products</DialogTitle>
+        <DialogDescription className="sr-only">Side-by-side comparison with an AI verdict.</DialogDescription>
+
+        <div className="grid gap-6 sm:grid-cols-2">
+          <Column product={productA} label="Product A" />
+          <Column product={productB} label="Product B" />
         </div>
 
-        {/* Comparison grid */}
-        <div className="p-6 grid grid-cols-2 gap-6 divide-x divide-slate-100">
-          <ProductColumn product={productA} label="Product A" />
-          <div className="pl-6">
-            <ProductColumn product={productB} label="Product B" />
-          </div>
+        <div className="rounded-lg border bg-muted/40 p-4">
+          <p className="mb-2 flex items-center gap-2 text-sm font-semibold">
+            <Sparkles className="h-4 w-4 text-primary" /> AI verdict
+          </p>
+          {state === 'loading' && (
+            <p className="flex items-center gap-2 text-sm text-muted-foreground">
+              <Loader2 className="h-4 w-4 animate-spin" /> Comparing with Gemini...
+            </p>
+          )}
+          {state === 'error' && <p className="text-sm text-muted-foreground">AI verdict is unavailable right now.</p>}
+          {verdict && <p className="text-sm leading-relaxed">{verdict}</p>}
         </div>
-
-        {/* AI Verdict */}
-        <div className="px-6 pb-6">
-          <div className="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-4 border border-indigo-100">
-            <div className="flex items-center justify-between mb-3">
-              <div className="flex items-center gap-2">
-                <span className="text-lg">🤖</span>
-                <span className="font-bold text-slate-800">AI Verdict</span>
-              </div>
-              {!tried && (
-                <button
-                  onClick={fetchVerdict}
-                  disabled={loading}
-                  className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold rounded-full transition-colors disabled:opacity-60"
-                >
-                  Get AI Verdict
-                </button>
-              )}
-            </div>
-
-            {loading && (
-              <div className="flex items-center gap-2 text-sm text-slate-500">
-                <span className="inline-block w-4 h-4 border-2 border-indigo-300 border-t-indigo-600 rounded-full animate-spin" />
-                Analyzing both products…
-              </div>
-            )}
-
-            {!loading && verdict && (
-              <p className="text-sm text-slate-700 leading-relaxed">{verdict}</p>
-            )}
-
-            {!loading && tried && !verdict && (
-              <p className="text-sm text-slate-400 italic">AI verdict unavailable — check GROQ_API_KEY on your deployment.</p>
-            )}
-
-            {!tried && (
-              <p className="text-xs text-slate-400 italic">Click "Get AI Verdict" for a personalized comparison powered by Llama 3.</p>
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
+      </DialogContent>
+    </Dialog>
   )
 }

@@ -89,20 +89,6 @@ export interface ProductsData {
   products: Product[]
 }
 
-export const CATEGORY_CONFIG: Record<string, { label: string; emoji: string }> = {
-  vfm:           { label: 'Value for Money',  emoji: '💰' },
-  Electronics:   { label: 'Electronics',      emoji: '📱' },
-  Mobiles:       { label: 'Mobiles',           emoji: '📱' },
-  Laptops:       { label: 'Laptops',           emoji: '💻' },
-  TVs:           { label: 'TVs',               emoji: '📺' },
-  Fashion:       { label: 'Fashion',           emoji: '👕' },
-  Men_Fashion:   { label: "Men's Fashion",     emoji: '👔' },
-  Women_Fashion: { label: "Women's Fashion",   emoji: '👗' },
-  Home_Kitchen:  { label: 'Home & Kitchen',    emoji: '🏠' },
-  Beauty:        { label: 'Beauty & Care',     emoji: '🧴' },
-  Sports:        { label: 'Sports & Fitness',  emoji: '🏋️' },
-}
-
 export interface NewTodayProduct {
   name: string
   price: number | null
@@ -144,6 +130,6 @@ export interface FreshFindsData {
 export const SORT_OPTIONS = [
   { value: 'quality_score', label: 'Top Rated'    },
   { value: 'reviews',       label: 'Most Reviews' },
-  { value: 'price_asc',     label: 'Price: Low → High' },
-  { value: 'price_desc',    label: 'Price: High → Low' },
+  { value: 'price_asc',     label: 'Price: Low to High' },
+  { value: 'price_desc',    label: 'Price: High to Low' },
 ]

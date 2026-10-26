@@ -1,10 +1,10 @@
 'use client'
 
-import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
 import { categoryMeta } from '@/lib/categories'
 
 export default function TrendsChart({ data }: { data: { category: string; count: number }[] }) {
-  const rows = data.map(d => ({ ...d, label: categoryMeta(d.category).label, color: categoryMeta(d.category).color }))
+  const rows = data.map(d => ({ ...d, label: categoryMeta(d.category).label }))
 
   return (
     <div className="h-72">
@@ -18,9 +18,7 @@ export default function TrendsChart({ data }: { data: { category: string; count:
             contentStyle={{ backgroundColor: 'hsl(var(--popover))', border: '1px solid hsl(var(--border))', borderRadius: 8, fontSize: 12 }}
             formatter={(v) => [`${v} listings`, 'Count']}
           />
-          <Bar dataKey="count" radius={[4, 4, 0, 0]}>
-            {rows.map(r => <Cell key={r.category} fill={r.color} />)}
-          </Bar>
+          <Bar dataKey="count" fill="hsl(var(--primary))" radius={[4, 4, 0, 0]} maxBarSize={48} />
         </BarChart>
       </ResponsiveContainer>
     </div>

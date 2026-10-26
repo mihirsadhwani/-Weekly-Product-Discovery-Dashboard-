@@ -15,6 +15,10 @@ export interface CategoryStat {
   avgPrice: number
 }
 
+// One accent for bar charts; a blue-to-slate ramp for the donut so slices stay distinguishable.
+const ACCENT = 'hsl(var(--primary))'
+const RAMP = ['#1d4ed8', '#2563eb', '#3b82f6', '#60a5fa', '#93c5fd', '#475569', '#94a3b8', '#cbd5e1']
+
 const tooltipStyle = {
   backgroundColor: 'hsl(var(--popover))',
   border: '1px solid hsl(var(--border))',
@@ -34,7 +38,7 @@ function ChartCard({
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="flex items-center gap-2 text-base">
+        <CardTitle className="flex items-center gap-2 text-sm font-medium">
           <Icon className="h-4 w-4 text-muted-foreground" />
           {title}
         </CardTitle>
@@ -46,7 +50,7 @@ function ChartCard({
 }
 
 export default function OverviewCharts({ stats, total }: { stats: CategoryStat[]; total: number }) {
-  const data = stats.map(s => ({ ...s, label: categoryMeta(s.category).label, color: categoryMeta(s.category).color }))
+  const data = stats.map((s, i) => ({ ...s, label: categoryMeta(s.category).label, color: RAMP[i % RAMP.length] }))
 
   return (
     <div className="grid gap-6 lg:grid-cols-2">
@@ -69,7 +73,7 @@ export default function OverviewCharts({ stats, total }: { stats: CategoryStat[]
           <ul className="space-y-2 text-sm">
             {data.map(d => (
               <li key={d.category} className="flex items-center gap-2">
-                <span className="h-2.5 w-2.5 shrink-0 rounded-sm" style={{ backgroundColor: d.color }} />
+                <span className="h-2.5 w-2.5 shrink-0 rounded-md" style={{ backgroundColor: d.color }} />
                 <span className="flex-1 truncate">{d.label}</span>
                 <span className="tabular-nums text-muted-foreground">{Math.round((d.count / total) * 100)}%</span>
               </li>
@@ -86,9 +90,7 @@ export default function OverviewCharts({ stats, total }: { stats: CategoryStat[]
               <XAxis type="number" unit="%" tick={{ fontSize: 11, fill: 'hsl(var(--muted-foreground))' }} axisLine={false} tickLine={false} />
               <YAxis type="category" dataKey="label" width={110} tick={{ fontSize: 11, fill: 'hsl(var(--muted-foreground))' }} axisLine={false} tickLine={false} />
               <Tooltip contentStyle={tooltipStyle} cursor={{ fill: 'hsl(var(--muted))' }} formatter={(v) => [`${v}%`, 'Avg discount']} />
-              <Bar dataKey="avgDiscount" radius={[0, 4, 4, 0]}>
-                {data.map(d => <Cell key={d.category} fill={d.color} />)}
-              </Bar>
+              <Bar dataKey="avgDiscount" fill={ACCENT} radius={[0, 4, 4, 0]} barSize={14} />
             </BarChart>
           </ResponsiveContainer>
         </div>
@@ -103,9 +105,7 @@ export default function OverviewCharts({ stats, total }: { stats: CategoryStat[]
                 <XAxis dataKey="label" tick={{ fontSize: 11, fill: 'hsl(var(--muted-foreground))' }} axisLine={false} tickLine={false} interval={0} />
                 <YAxis tickFormatter={formatINRCompact} tick={{ fontSize: 11, fill: 'hsl(var(--muted-foreground))' }} axisLine={false} tickLine={false} width={56} />
                 <Tooltip contentStyle={tooltipStyle} cursor={{ fill: 'hsl(var(--muted))' }} formatter={(v) => [formatINRCompact(Number(v)), 'Avg price']} />
-                <Bar dataKey="avgPrice" radius={[4, 4, 0, 0]}>
-                  {data.map(d => <Cell key={d.category} fill={d.color} />)}
-                </Bar>
+                <Bar dataKey="avgPrice" fill={ACCENT} radius={[4, 4, 0, 0]} maxBarSize={48} />
               </BarChart>
             </ResponsiveContainer>
           </div>

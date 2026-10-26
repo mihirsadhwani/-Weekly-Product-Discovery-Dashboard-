@@ -79,20 +79,20 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
       <aside className="h-fit bg-card shadow-sm lg:sticky lg:top-36">
         <div className="flex items-center justify-between border-b px-4 py-3">
           <h2 className="text-base font-semibold">Filters</h2>
-          {filtersActive && <button onClick={reset} className="text-xs font-semibold uppercase text-[#2874f0]">Clear all</button>}
+          {filtersActive && <button onClick={reset} className="text-xs font-semibold uppercase text-primary">Clear all</button>}
         </div>
 
         <section className="border-b px-4 py-3">
           <h3 className="mb-2 text-xs font-semibold uppercase text-muted-foreground">Categories</h3>
           <ul className="space-y-1 text-sm">
             <li>
-              <button onClick={() => setCategory('all')} className={cn('w-full py-1 text-left', category === 'all' ? 'font-semibold text-[#2874f0]' : 'hover:text-[#2874f0]')}>
+              <button onClick={() => setCategory('all')} className={cn('w-full py-1 text-left', category === 'all' ? 'font-semibold text-primary' : 'hover:text-primary')}>
                 All categories ({products.length})
               </button>
             </li>
             {categories.map(([c, n]) => (
               <li key={c}>
-                <button onClick={() => setCategory(c)} className={cn('flex w-full items-center justify-between py-1 text-left', category === c ? 'font-semibold text-[#2874f0]' : 'hover:text-[#2874f0]')}>
+                <button onClick={() => setCategory(c)} className={cn('flex w-full items-center justify-between py-1 text-left', category === c ? 'font-semibold text-primary' : 'hover:text-primary')}>
                   <span>{categoryMeta(c).label}</span>
                   <span className="text-xs text-muted-foreground">{n}</span>
                 </button>
@@ -116,7 +116,7 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
             {DISCOUNT_STEPS.map(d => (
               <li key={d}>
                 <label className="flex cursor-pointer items-center gap-2 py-0.5">
-                  <input type="radio" name="discount" checked={minDiscount === d} onChange={() => setMinDiscount(d)} className="accent-[#2874f0]" />
+                  <input type="radio" name="discount" checked={minDiscount === d} onChange={() => setMinDiscount(d)} className="accent-primary" />
                   {d === 0 ? 'Any' : `${d}% or more`}
                 </label>
               </li>
@@ -140,7 +140,7 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
                 onClick={() => setSort(s.value)}
                 className={cn(
                   'shrink-0 border-b-2 px-3 py-2 transition-colors',
-                  sort === s.value ? 'border-[#2874f0] font-semibold text-[#2874f0]' : 'border-transparent text-muted-foreground hover:text-foreground'
+                  sort === s.value ? 'border-primary font-semibold text-primary' : 'border-transparent text-muted-foreground hover:text-foreground'
                 )}
               >
                 {s.label}
@@ -175,7 +175,7 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
               </span>
             ))}
           </div>
-          <Button size="sm" className="rounded-sm bg-[#fb641b] hover:bg-[#e8570f]" disabled={compare.length < 2} onClick={() => setShowCompare(true)}>
+          <Button size="sm" className="bg-primary hover:bg-primary/90" disabled={compare.length < 2} onClick={() => setShowCompare(true)}>
             {compare.length < 2 ? 'Pick one more' : 'Compare'}
           </Button>
           <Button size="sm" variant="ghost" onClick={() => setCompare([])}>Clear</Button>

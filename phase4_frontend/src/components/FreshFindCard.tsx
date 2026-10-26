@@ -9,8 +9,8 @@ export default function FreshFindCard({ product }: { product: FreshFind }) {
   const scored = !!qa && qa.quick_score > 0
 
   return (
-    <div className="group relative flex flex-col bg-card p-4 transition-shadow hover:z-10 hover:shadow-[0_4px_16px_rgba(0,0,0,0.15)]">
-      <span className="absolute left-3 top-3 z-10 inline-flex items-center gap-1 rounded-sm bg-[#ffe500] px-1.5 py-0.5 text-[11px] font-bold text-gray-900">
+    <div className="group relative flex flex-col bg-card p-4 transition-shadow hover:z-10 hover:shadow-md">
+      <span className="absolute left-3 top-3 z-10 inline-flex items-center gap-1 rounded-md bg-primary/10 px-1.5 py-0.5 text-[11px] font-semibold text-primary">
         <Zap className="h-3 w-3" /> NEW
       </span>
 
@@ -27,10 +27,10 @@ export default function FreshFindCard({ product }: { product: FreshFind }) {
         <p className="flex items-center gap-1.5 text-xs text-muted-foreground"><meta.icon className="h-3 w-3" />{meta.label}</p>
         <p className="line-clamp-2 text-sm font-medium leading-snug">{product.name}</p>
 
-        {qa && (
+        {qa && (scored || qa.quick_verdict === 'Worth checking') && (
           <div className="flex items-center gap-2 text-xs">
             {scored && (
-              <span className="inline-flex rounded-sm bg-[#388e3c] px-1.5 py-0.5 font-semibold text-white">{qa.quick_score}/100</span>
+              <span className="inline-flex rounded-md bg-success/10 px-1.5 py-0.5 font-semibold text-success">{qa.quick_score}/100</span>
             )}
             <span className={qa.quick_verdict === 'Worth checking' ? 'font-semibold text-success' : 'text-muted-foreground'}>
               {qa.quick_verdict}
@@ -44,7 +44,7 @@ export default function FreshFindCard({ product }: { product: FreshFind }) {
           href={product.flipkart_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-2 flex h-9 items-center justify-center rounded-sm bg-[#fb641b] text-sm font-semibold text-white transition-colors hover:bg-[#e8570f]"
+          className="mt-2 flex h-9 items-center justify-center rounded-md border border-input bg-background text-sm font-medium transition-colors hover:bg-secondary"
         >
           View on Flipkart
         </a>

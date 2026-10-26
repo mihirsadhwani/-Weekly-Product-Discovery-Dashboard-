@@ -18,7 +18,7 @@ export default function FreshGrid({ products }: { products: FreshFind[] }) {
       onClick={() => setCategory(value)}
       className={cn(
         'flex shrink-0 items-center gap-1.5 border-b-2 px-4 py-2.5 text-sm transition-colors',
-        category === value ? 'border-[#2874f0] font-semibold text-[#2874f0]' : 'border-transparent text-muted-foreground hover:text-foreground'
+        category === value ? 'border-primary font-semibold text-primary' : 'border-transparent text-muted-foreground hover:text-foreground'
       )}
     >
       {Icon && <Icon className="h-4 w-4" />}

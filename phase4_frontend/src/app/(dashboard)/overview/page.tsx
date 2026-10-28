@@ -9,9 +9,9 @@ import OverviewCharts, { type CategoryStat } from '@/components/charts/OverviewC
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
-export default function OverviewPage() {
-  const { products } = getProductsData()
-  const fresh = getFreshFindsData()
+export default async function OverviewPage() {
+  const { products } = await getProductsData()
+  const fresh = await getFreshFindsData()
 
   const groups = new Map<string, typeof products>()
   for (const p of products) groups.set(p.category, [...(groups.get(p.category) ?? []), p])

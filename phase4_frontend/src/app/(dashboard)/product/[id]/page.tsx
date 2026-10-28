@@ -10,11 +10,11 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 export async function generateStaticParams() {
-  return getProductsData().products.map(p => ({ id: p.id }))
+  return (await getProductsData()).products.map(p => ({ id: p.id }))
 }
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
-  const product = getProductById(params.id)
+  const product = await getProductById(params.id)
   if (!product) return { title: 'Product not found' }
   return {
     title: `${product.name} — Weekly Product Discovery`,
@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: { params: { id: string } }) {
 const REC_VARIANT = { Buy: 'success', Wait: 'warning', Skip: 'destructive' } as const
 const clean = (s: string) => s.replace(/\s*\(\d+\s*mentions?\)/i, '')
 
-export default function ProductDetailPage({ params }: { params: { id: string } }) {
-  const product = getProductById(params.id)
+export default async function ProductDetailPage({ params }: { params: { id: string } }) {
+  const product = await getProductById(params.id)
   if (!product) notFound()
 
   const { analysis } = product

@@ -7,45 +7,46 @@ import type { Product, ProductsData, NewTodayData, TrendsData, FreshFindsData } 
 // GitHub Actions copies output/*.json → phase4_frontend/public/data/ after each run.
 const DATA_DIR = path.join(process.cwd(), 'public', 'data')
 
-export function getProductsData(): ProductsData {
+// Latest published data is read from the repo's main branch so the pipeline's commits show up
+// without a redeploy. Cached for an hour and purged by the Refresh button (tag 'data');
+// falls back to the bundled copy when GitHub is unreachable.
+export const DATA_TAG = 'data'
+const REMOTE_BASE =
+  process.env.DATA_BASE_URL ??
+  'https://raw.githubusercontent.com/mihirsadhwani/-Weekly-Product-Discovery-Dashboard-/main/phase4_frontend/public/data'
+
+async function readJson<T>(file: string): Promise<T | null> {
   try {
-    const raw = fs.readFileSync(path.join(DATA_DIR, 'products.json'), 'utf-8')
-    const data = JSON.parse(raw) as Omit<ProductsData, 'products'> & {
-      products: Omit<Product, 'id'>[]
-    }
-    const products: Product[] = data.products.map((p, i) => ({ ...p, id: String(i) }))
-    return { ...data, products }
+    const res = await fetch(`${REMOTE_BASE}/${file}`, { next: { revalidate: 3600, tags: [DATA_TAG] } })
+    if (res.ok) return (await res.json()) as T
+  } catch { /* fall through to bundled copy */ }
+  try {
+    return JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf-8')) as T
   } catch {
-    return { last_updated: null, total_products: 0, products: [] }
+    return null
   }
 }
 
-export function getProductById(id: string): Product | null {
-  const { products } = getProductsData()
+export async function getProductsData(): Promise<ProductsData> {
+  const data = await readJson<Omit<ProductsData, 'products'> & { products: Omit<Product, 'id'>[] }>('products.json')
+  if (!data) return { last_updated: null, total_products: 0, products: [] }
+  const products: Product[] = data.products.map((p, i) => ({ ...p, id: String(i) }))
+  return { ...data, products }
+}
+
+export async function getProductById(id: string): Promise<Product | null> {
+  const { products } = await getProductsData()
   return products.find(p => p.id === id) ?? null
 }
 
-export function getTrendsData(): TrendsData | null {
-  try {
-    return JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'trends.json'), 'utf-8')) as TrendsData
-  } catch {
-    return null
-  }
+export function getTrendsData(): Promise<TrendsData | null> {
+  return readJson<TrendsData>('trends.json')
 }
 
-export function getNewTodayData(): NewTodayData {
-  try {
-    const raw = fs.readFileSync(path.join(DATA_DIR, 'new_today.json'), 'utf-8')
-    return JSON.parse(raw) as NewTodayData
-  } catch {
-    return { date: '', total_products: 0, products: [] }
-  }
+export async function getNewTodayData(): Promise<NewTodayData> {
+  return (await readJson<NewTodayData>('new_today.json')) ?? { date: '', total_products: 0, products: [] }
 }
 
-export function getFreshFindsData(): FreshFindsData | null {
-  try {
-    return JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'fresh_finds.json'), 'utf-8')) as FreshFindsData
-  } catch {
-    return null
-  }
+export function getFreshFindsData(): Promise<FreshFindsData | null> {
+  return readJson<FreshFindsData>('fresh_finds.json')
 }

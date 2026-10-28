@@ -22,8 +22,8 @@ function Delta({ value, suffix = '' }: { value: number; suffix?: string }) {
   )
 }
 
-export default function TrendsPage() {
-  const trends = getTrendsData()
+export default async function TrendsPage() {
+  const trends = await getTrendsData()
 
   if (!trends) {
     return (

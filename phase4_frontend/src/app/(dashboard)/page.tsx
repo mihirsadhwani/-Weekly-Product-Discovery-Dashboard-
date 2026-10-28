@@ -5,8 +5,8 @@ import FreshGrid from '@/components/FreshGrid'
 
 export const metadata = { title: 'Fresh Finds — Weekly Product Discovery' }
 
-export default function HomePage() {
-  const fresh = getFreshFindsData()
+export default async function HomePage() {
+  const fresh = await getFreshFindsData()
 
   return (
     <>

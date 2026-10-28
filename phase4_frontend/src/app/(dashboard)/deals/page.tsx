@@ -4,8 +4,8 @@ import DealsExplorer from '@/components/DealsExplorer'
 
 export const metadata = { title: 'Deals — Weekly Product Discovery' }
 
-export default function DealsPage() {
-  const { products } = getProductsData()
+export default async function DealsPage() {
+  const { products } = await getProductsData()
 
   return (
     // useSearchParams in DealsExplorer requires a Suspense boundary for static rendering

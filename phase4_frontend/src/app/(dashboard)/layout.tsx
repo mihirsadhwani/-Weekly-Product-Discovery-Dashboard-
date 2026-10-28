@@ -1,8 +1,8 @@
 import StoreHeader from '@/components/shell/StoreHeader'
 import { getProductsData } from '@/lib/products'
 
-export default function DashboardLayout({ children }: { children: React.ReactNode }) {
-  const categories = Array.from(new Set(getProductsData().products.map(p => p.category)))
+export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
+  const categories = Array.from(new Set((await getProductsData()).products.map(p => p.category)))
 
   return (
     <div className="min-h-screen bg-background">

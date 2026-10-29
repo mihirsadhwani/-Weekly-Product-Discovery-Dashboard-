@@ -2,261 +2,193 @@
 
 ## What This Project Does
 
-An automated pipeline that scrapes Flipkart's newly launched products, analyzes customer reviews with AI, and displays results in a clean, filterable web dashboard. Runs two pipelines: a **daily light scrape** (quick Groq AI) and a **weekly full scrape** (deep Gemini AI analysis).
+Scrapes Flipkart for new launches and discounted products, runs a quick AI review analysis on each product with Google Gemini, and shows the results in a Flipkart-style dashboard hosted on **Vercel**. There is no database: the pipeline writes JSON files, commits them to GitHub, and the website reads them.
+
+Two pipelines feed the site:
+
+| Pipeline | Entry point | Data it produces | Shown on |
+|----------|------------|------------------|----------|
+| **Daily "Fresh Finds"** (new launches) | `phase1_scraping/run_light_scrape.py` | `fresh_finds.json` | `/` (home), `/overview` |
+| **Weekly "Deals"** (popular discounted products) | `phase1_scraping/run_deals_scrape.py` | `products.json`, `deals_finds.json`, `deals_backup.json`, `trends.json` | `/deals`, `/overview`, `/trends`, `/product/[id]` |
 
 ---
 
-## Dual Pipeline Overview
+## System Overview (Vercel hosting)
 
 ```
-DAILY (3× per day — 9 AM, 1 PM, 5 PM IST)
-──────────────────────────────────────────
-[GitHub Actions + Tor proxy]
-         │
-         ▼
-┌─────────────────────────┐
-│  run_light_scrape.py    │  Playwright scrapes listing pages
-│  (phase1_scraping/)     │  + visits product pages for reviews
-│                         │  + quick Groq AI analysis per product
-└────────────┬────────────┘
-             │  output/fresh_finds.json
-             ▼
-    Merge with today's existing
-    fresh_finds (accumulate unique
-    products across 3 daily runs)
-             │
-             ▼
-    phase4_frontend/public/data/
-    fresh_finds.json  →  Vercel redeploys  →  "Fresh Finds" section
+GitHub Actions (ubuntu runner + Tor + Playwright)
+  .github/workflows/weekly_scrape.yml
+        │  python phase5_automation/scheduler.py --mode daily|weekly
+        ▼
+  output/*.json  ──copy──►  phase4_frontend/public/data/*.json
+        │
+        ▼  git commit + push to main ("data: daily|weekly update …")
+   GitHub (main)
+        │
+        ├──► Vercel auto-deploys on every push (bundled copy of the data)
+        │
+        └──► raw.githubusercontent.com  ◄── site fetches latest JSON at runtime
+                                              (cached 1 h, tag "data")
 
-
-WEEKLY (Saturday 11 PM IST)
-────────────────────────────
-[GitHub Actions + Tor proxy]
-         │
-         ▼
-┌─────────────────────┐
-│  Phase 1: Scraper   │  Playwright paginates listing pages (up to 4 pages/category)
-│  scraper.py         │  Targets 60 products total with full reviews
-└────────┬────────────┘
-         │  scraped_YYYY-MM-DD.json
-         ▼
-┌─────────────────────┐
-│  Phase 2: Analyzer  │  Sends reviews to Google Gemini API
-│  analyzer.py        │  Gets: pros, cons, score, recommendation, quote
-└────────┬────────────┘
-         │  analyzed_YYYY-MM-DD.json
-         ▼
-┌─────────────────────┐
-│  Phase 3: Output    │  Sorts by quality score, writes products.json
-│  prepare_final.py   │
-└────────┬────────────┘
-         │  output/products.json
-         ▼
-    phase4_frontend/public/data/
-    products.json  →  Vercel redeploys  →  "This Week's Best" section
+ Browser ──► Vercel (Next.js 14)
+              ├─ pages read data via src/lib/products.ts
+              ├─ "Refresh data" button  ──► server action ──► GitHub API
+              │                              1. purges the data cache (new data shows at once)
+              │                              2. starts the daily workflow (live Flipkart scrape)
+              └─ /api/compare           ──► Gemini API (AI product comparison)
 ```
+
+Scraping cannot run on Vercel. Flipkart blocks datacenter IPs, so the scrape needs Tor and a headless browser, which only the GitHub Actions runner has. Vercel only serves the site and triggers the runner.
 
 ---
 
-## Phase Details
+## What Gets Scraped
 
-### Phase 1 — Scraping
-**Folder:** `phase1_scraping/`
+### Daily — Fresh Finds (`run_light_scrape.py`)
 
-| File | Purpose |
+Targets Flipkart's newest launches (recency-sorted) in 4 categories, about 10 products each (about 40 total):
+
+| Category | Source URL (`config.py` → `CATEGORY_URLS`) |
+|----------|-------------------------------------------|
+| Electronics | mobiles, `sid=tyy,4io`, `sort=recency_desc` |
+| Fashion | clothing, `sid=clo` |
+| Home_Kitchen | home-kitchen, `sid=j9e` |
+| Beauty | beauty-grooming, `sid=g9b,ffi` |
+
+Per product it collects: name, price, category, image URL, Flipkart URL, scrape time, plus the AI `quick_analysis`.
+
+Steps:
+1. **Listings** — `requests` + BeautifulSoup. If blocked, retry through Tor (up to 5 exit nodes, rotating the circuit) and then ScraperAPI (`SCRAPERAPI_KEY`).
+2. **Reviews** — Playwright opens each product page and reads about 10 reviews.
+3. **AI** — one batched Gemini call per 10 products (`quick_analyzer.py`, model `gemini-3.5-flash-lite` by default, override with `GEMINI_MODEL`). Products that already have a real analysis are reused from the previous `fresh_finds.json`, so they are never paid for twice.
+4. Writes `output/fresh_finds.json`.
+
+### Weekly — Deals (`run_deals_scrape.py`)
+
+Targets popular, genuinely discounted products in 8 categories, about 10 per category (87 in the latest run):
+
+Mobiles · Laptops · TVs · Men_Fashion · Women_Fashion · Home_Kitchen · Beauty · Sports
+
+- Listings are sorted by discount or popularity. Only products with a visible discount are kept (minimum 5%; Mobiles and the ethnic-wear search allow no badge). Fallback search URLs run for any category that ends up under 10 products.
+- Reviews are fetched with Playwright (about 5 per product), then analysed with the same batched Gemini call.
+- Outputs: `products.json` (weekly pool shown on the site), `deals_finds.json`, `deals_backup.json` (reserve pool used to top up short categories), `trends.json` (hot and declining categories, price movement, best deal).
+- Computed per product: `discount_percent`, `is_vfm`, `vfm_score`, `price_prediction`, `comparisons`.
+
+### Politeness and anti-blocking
+Random 2–5 s delays, rotated user-agents, 3 retries per page, Tor proxy in CI (`USE_TOR=1`). Tor is unreliable (some exit nodes are geo-redirected or blocked), so a failed daily scrape exits 0 and the previous data stays in place.
+
+---
+
+## Frontend (`phase4_frontend/`) — Next.js 14, Tailwind, shadcn/ui
+
+| Route | Page | Data |
+|-------|------|------|
+| `/` | Fresh Finds (home) | `fresh_finds.json` |
+| `/deals` | Filterable deals explorer, compare two products | `products.json` |
+| `/overview` | Category stats and charts | `products.json`, `fresh_finds.json` |
+| `/trends` | Trends | `trends.json` |
+| `/product/[id]` | Product detail | `products.json` |
+| `/api/compare` | AI comparison of two products (server route) | Gemini |
+
+Key code:
+- `src/lib/products.ts` — reads each JSON from `raw.githubusercontent.com/.../main/phase4_frontend/public/data/` with a 1-hour cache and the tag `data`. Falls back to the copy bundled in the deployment when GitHub is unreachable. `DATA_BASE_URL` overrides the source.
+- `src/app/actions.ts` — `refreshData()` server action behind the **Refresh data** button (see below).
+- `src/components/RefreshButton.tsx`, `PageHeader.tsx` (shows "Last run" and the button).
+
+### Refresh data button
+1. Purges the cached data so anything the pipeline already committed shows immediately.
+2. If `GITHUB_DISPATCH_TOKEN` is set, starts the **daily** workflow through the GitHub API (`workflow_dispatch`, `mode: daily`).
+3. Does not start a run if one is already in progress or one started in the last 30 minutes (`COOLDOWN_MS`), because every run spends scrape and AI quota and the button is public.
+4. A run takes a few minutes; click Refresh again afterwards to load the new prices.
+
+---
+
+## Automation (`.github/workflows/weekly_scrape.yml`)
+
+| Trigger | When | Mode |
+|---------|------|------|
+| Weekly cron | Saturday 17:30 UTC (11:00 PM IST) | `weekly` |
+| Manual (`workflow_dispatch`) | Actions tab, or the site's Refresh button | `daily` or `weekly` |
+
+The daily schedule was removed on purpose: daily runs only start manually or from the button.
+
+Steps: checkout → Python 3.11 → install `playwright`, `google-genai`, `beautifulsoup4`, `requests[socks]`, `groq` → install Tor and start it → copy existing `fresh_finds.json` and `deals_backup.json` into `output/` → `scheduler.py --mode …` → copy results into `phase4_frontend/public/data/` (a file is only copied if it is non-empty, so a failed scrape never overwrites good data) → commit and push to `main` → Vercel redeploys.
+
+---
+
+## Environment Variables
+
+**Vercel** (Project → Settings → Environment Variables; Production and Preview)
+
+| Name | Purpose |
 |------|---------|
-| `config.py` | `CATEGORY_URLS`, `TARGET_COUNTS`, delays, `MAX_LISTING_PAGES=4`, user-agent pool |
-| `scraper.py` | Weekly async Playwright scraper — paginates up to 4 listing pages per category to collect 2× target stubs, then visits product pages for full reviews |
-| `run_scraper.py` | Entry point for weekly full scrape |
-| `run_light_scrape.py` | Daily light scraper — sync Playwright, quick review fetch, inline Groq AI analysis, saves `fresh_finds.json` |
+| `GEMINI_API_KEY` | `/api/compare` AI comparison |
+| `GITHUB_DISPATCH_TOKEN` | Fine-grained GitHub token, this repo only, **Actions: Read and write**. Lets the Refresh button start the workflow. Without it the button only reloads published data |
+| `GITHUB_REPO` | Optional, `owner/repo` (defaults to this repo) |
+| `DATA_BASE_URL` | Optional, overrides where data JSON is fetched from |
+| `GEMINI_MODEL` | Optional, overrides the compare model |
 
-**Category targets (weekly, 60 products total):**
-| Category | Target |
-|----------|--------|
-| Electronics | 25 |
-| Fashion | 15 |
-| Home_Kitchen | 10 |
-| Beauty | 10 |
+**GitHub Actions secrets** (Repo → Settings → Secrets and variables → Actions)
 
-**Key behaviours:**
-- Listing page pagination: scraper collects stubs across up to 4 pages per category until 2× target stubs are gathered — prevents stopping short of the target
-- `MIN_REVIEWS_PER_PRODUCT = 10` — products with fewer reviews are skipped
-- `MAX_REVIEWS_PER_PRODUCT = 50` — cap per product
-- Tor proxy: `USE_TOR=1` env var routes Playwright through `socks5://127.0.0.1:9050` in CI to bypass Flipkart's datacenter IP block
-- Random delays (2–5s), rotated user-agents, 3 retries per page
-
----
-
-### Phase 2 — AI Analysis
-**Folder:** `phase2_analysis/`
-
-| File | Purpose |
+| Name | Purpose |
 |------|---------|
-| `analyzer.py` | Weekly deep analysis — calls Gemini `gemini-1.5-flash`, returns pros/cons/score/recommendation |
-| `quick_analyzer.py` | Daily quick analysis — calls Groq API (`llama3-8b-8192`), returns `quick_score`, `top_pros`, `top_con`, `quick_verdict` |
-| `run_analysis.py` | Entry point for weekly analysis phase |
+| `GEMINI_API_KEY` | Quick review analysis in the daily and weekly pipelines |
+| `SCRAPERAPI_KEY` | Optional last-resort listing fetch |
+| `GROQ_API_KEY` | Only used by the old per-product Groq path, when no Gemini key is set |
+| `GITHUB_TOKEN` | Provided automatically; used to push data back to `main` |
 
-**Weekly analysis output per product:**
-```json
-{
-  "analysis": {
-    "pros": ["Great battery (18 mentions)", "Fast charging (12 mentions)"],
-    "cons": ["Weak camera in low light (11 mentions)"],
-    "top_quote": "Honestly the best phone under 15k.",
-    "sentiment_score": 78,
-    "recommendation": "Buy",
-    "quality_score": 84.5
-  }
-}
-```
-
-**Daily quick analysis output per product:**
-```json
-{
-  "quick_analysis": {
-    "quick_score": 80,
-    "top_pros": ["Good build quality", "Fast delivery"],
-    "top_con": "Battery could be better",
-    "quick_verdict": "Worth checking"
-  }
-}
-```
+**Local** — `phase2_analysis/.env` (gitignored) holds `GEMINI_API_KEY`. Never commit keys.
 
 ---
 
-### Phase 3 — Final Output
-**Folder:** `phase3_final_output/`
-
-Reads the latest weekly analyzed JSON, sorts by `quality_score`, and writes `output/products.json` for the frontend. No database — static JSON file read at build/request time by Next.js.
-
----
-
-### Phase 4 — Frontend
-**Folder:** `phase4_frontend/`
-**Deployed at:** Vercel (auto-deploys on every push to `main`)
-
-**Key files:**
-```
-src/
-├── app/
-│   ├── page.tsx                  ← Homepage: picks most recent lastUpdated
-│   │                               from products.json vs fresh_finds.json
-│   └── product/[id]/page.tsx     ← Product detail page
-├── components/
-│   ├── ProductCard.tsx           ← Full weekly analysis card
-│   ├── FreshFindCard.tsx         ← Daily quick-analysis card
-│   ├── SimpleProductCard.tsx     ← Fallback card (no analysis)
-│   ├── FreshnessBanner.tsx       ← "Updated X hours ago"
-│   ├── Header.tsx
-│   ├── TrendsSection.tsx
-│   ├── CategoryTabs.tsx
-│   └── FilterBar.tsx
-└── lib/
-    ├── products.ts               ← Reads products.json + fresh_finds.json
-    └── utils.ts                  ← getRelativeTime(), formatPrice(), etc.
-```
-
-**Dashboard sections:**
-| Section | Data source | Card type |
-|---------|------------|-----------|
-| ⚡ Fresh Finds | `fresh_finds.json` (daily) | `FreshFindCard` — quick_score, top_pros |
-| 💰 Best Value for Money | `products.json` (weekly) | `ProductCard` — computed VFM score |
-| This Week's Best | `products.json` (weekly) | `ProductCard` — full analysis |
-
-**"Last updated" banner** reads the most recent date between `products.json.last_updated` and `fresh_finds.json.date` so it always reflects the latest data source.
-
----
-
-### Phase 5 — Automation
-**Folder:** `phase5_automation/`
-**File:** `.github/workflows/weekly_scrape.yml`
-
-**Cron schedule:**
-| Trigger | Time (IST) | Mode |
-|---------|-----------|------|
-| Daily attempt 1 | 9:00 AM | daily |
-| Daily attempt 2 | 1:00 PM | daily (Tor retry) |
-| Daily attempt 3 | 5:00 PM | daily (Tor retry) |
-| Weekly | Saturday 11:00 PM | weekly |
-
-**Workflow steps:**
-1. Checkout repo
-2. Setup Python 3.11
-3. Install dependencies (`playwright`, `groq`, `google-genai`)
-4. Install Chromium + Tor (`sudo apt-get install tor`)
-5. Start Tor and verify circuit
-6. Run pipeline (`scheduler.py --mode daily|weekly`)
-7. **Merge step (daily only):** If new fresh_finds has today's date and > 0 products, merge with existing `phase4_frontend/public/data/fresh_finds.json` — adds unique products from earlier runs, accumulating throughout the day
-8. **Guard:** Only copy `fresh_finds.json` if `total_products > 0` — prevents overwriting good data with empty results when Tor fails
-9. Commit + push updated data files
-10. Vercel auto-deploys on push
-
-**Tor reliability:** ~50% per attempt. With 3 daily attempts, probability of all failing = ~12.5%. Guard ensures the last successful scrape is never overwritten.
-
-**Environment variables (GitHub Secrets):**
-| Variable | Used by |
-|----------|---------|
-| `GROQ_API_KEY` | Daily quick analyzer (Groq API) |
-| `GITHUB_TOKEN` | Auto-provided — for committing data back to repo |
-
----
-
-## Current Folder Structure
+## Folder Structure
 
 ```
-Weekly-Product-Discovery-Dashboard/
 ├── ARCHITECTURE.md
-├── setup_oracle_vm.sh           ← Ubuntu ARM VM setup script (unused — Oracle needs credit card)
-│
+├── .github/workflows/weekly_scrape.yml
 ├── phase1_scraping/
-│   ├── config.py                ← CATEGORY_URLS, TARGET_COUNTS, MAX_LISTING_PAGES=4
-│   ├── scraper.py               ← Weekly async scraper with listing page pagination
-│   ├── run_scraper.py           ← Weekly entry point
-│   ├── run_light_scrape.py      ← Daily light scraper + quick Groq analysis
-│   └── output/
-│       └── scraped_YYYY-MM-DD.json
-│
+│   ├── config.py               ← CATEGORY_URLS (daily), delays, user-agents
+│   ├── run_light_scrape.py     ← DAILY entry point (fresh_finds.json)
+│   ├── run_deals_scrape.py     ← WEEKLY entry point (products.json, deals, trends)
+│   ├── scraper.py, run_scraper.py   ← OLD weekly scraper, not used by the workflow
+│   └── debug_selectors.py      ← dev helper
 ├── phase2_analysis/
-│   ├── analyzer.py              ← Gemini deep analysis (weekly)
-│   ├── quick_analyzer.py        ← Groq quick analysis (daily)
-│   ├── run_analysis.py
-│   ├── .env                     ← GROQ_API_KEY (gitignored)
-│   └── output/
-│       └── analyzed_YYYY-MM-DD.json
-│
+│   ├── quick_analyzer.py       ← batched Gemini analysis + per-product cache (used)
+│   ├── analyzer.py, run_analysis.py, prompts.py   ← OLD deep analysis, not used
+│   └── .env                    ← local only
 ├── phase3_final_output/
-│   ├── prepare_final.py
-│   └── run_prepare.py
-│
-├── output/
-│   ├── products.json            ← Weekly: consumed by frontend
-│   └── fresh_finds.json         ← Daily: consumed by frontend
-│
-├── phase4_frontend/
-│   ├── public/data/
-│   │   ├── products.json        ← Copied here by GitHub Actions (weekly)
-│   │   └── fresh_finds.json     ← Copied here by GitHub Actions (daily, accumulated)
-│   └── src/
-│       ├── app/page.tsx         ← lastUpdated = max(products.json, fresh_finds.json)
-│       ├── components/
-│       └── lib/
-│
-├── phase5_automation/
-│   └── scheduler.py             ← Runs daily or weekly pipeline
-│
-└── .github/workflows/
-    └── weekly_scrape.yml        ← 3× daily + 1× weekly cron, Tor proxy, merge + guard logic
+│   ├── trend_analyzer.py       ← used by the weekly deals scrape
+│   ├── comparison_generator.py
+│   └── prepare_final.py, run_prepare.py   ← OLD flow, not used
+├── phase4_frontend/            ← Next.js app deployed to Vercel
+│   ├── public/data/            ← JSON the site reads (committed by the pipeline)
+│   └── src/ (app, components, lib)
+└── phase5_automation/
+    ├── scheduler.py            ← --mode daily | weekly
+    └── merge_fresh_finds.py, merge_weekly_pool.py   ← not called by the scheduler
 ```
 
 ---
 
-## Status
+## Current State (checked 29 Oct 2026)
 
-| Phase | Name | Status |
-|-------|------|--------|
-| 1 | Scraping (weekly + daily) | ✅ Complete |
-| 2 | AI Analysis (Gemini + Groq) | ✅ Complete |
-| 3 | Final Output | ✅ Complete |
-| 4 | Frontend (Next.js + Vercel) | ✅ Live |
-| 5 | Automation (GitHub Actions) | ✅ Running |
+| Area | Status |
+|------|--------|
+| Site on Vercel, builds and deploys from `main` | ✅ Working |
+| Pages `/`, `/deals`, `/overview`, `/trends`, `/product/[id]` | ✅ Working |
+| AI Compare (`/api/compare`) with the new Gemini key | ✅ Working (live test returned a verdict) |
+| Refresh button → purge cache + start workflow | ✅ Working (token now has Actions write; a run was started from it) |
+| Scheduled weekly run and earlier daily runs | ✅ Ran green up to 27 Oct |
+| Latest data | Fresh Finds 27 Oct (40 products), weekly deals 24 Oct (87 products) |
+| **AI review analysis** | ❌ Empty in the committed data: all 40 fresh finds and all 87 weekly products show score 0 / "Wait for more data" |
+| Ratings and review counts | ❌ Fresh Finds have none; weekly has a rating on only 20 of 87 and no review count on any |
+| Price sanity | ⚠️ At least one bad MRP (a ₹1,497 fan with original price ₹489,069) |
+| Trends | ⚠️ `has_history: false`, so "declining" and price-movement views have no history yet |
+| `new_today.json` | ⚠️ Stale (May 2026), not produced by the current pipeline |
+| Old Phase 2/3 code and the two merge scripts | ⚠️ Not used by the workflow; candidates to delete |
+
+### Likely causes and next steps
+1. **Empty AI analysis.** The analyzer returns "Wait for more data" when a product has fewer than 2 scraped reviews or when Gemini returns nothing. The GitHub Actions secret `GEMINI_API_KEY` may be missing or an old key; update it with the working key, then check the Actions log of a run for "Gemini batch failed" lines. If the logs show no key errors, the review scraping selectors have stopped matching Flipkart's current pages (`REVIEW_SELECTORS` in both scrapers) and need updating.
+2. **Missing ratings and review counts.** The listing parsers do not capture them reliably; fix in `_fetch_listing` and `_parse_listing_html`.
+3. **Bad MRPs.** Add a sanity check (original price must be at most a few times the current price) before computing `discount_percent`.
+4. Rotate every token and key that has been pasted into chat and set an expiry date on the GitHub token.

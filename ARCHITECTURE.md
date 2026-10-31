@@ -187,8 +187,9 @@ Steps: checkout → Python 3.11 → install `playwright`, `google-genai`, `beaut
 | `new_today.json` | ⚠️ Stale (May 2026), not produced by the current pipeline |
 | Old Phase 2/3 code and the two merge scripts | ⚠️ Not used by the workflow; candidates to delete |
 
-### Likely causes and next steps
-1. **Empty AI analysis.** The analyzer returns "Wait for more data" when a product has fewer than 2 scraped reviews or when Gemini returns nothing. The GitHub Actions secret `GEMINI_API_KEY` may be missing or an old key; update it with the working key, then check the Actions log of a run for "Gemini batch failed" lines. If the logs show no key errors, the review scraping selectors have stopped matching Flipkart's current pages (`REVIEW_SELECTORS` in both scrapers) and need updating.
-2. **Missing ratings and review counts.** The listing parsers do not capture them reliably; fix in `_fetch_listing` and `_parse_listing_html`.
-3. **Bad MRPs.** Add a sanity check (original price must be at most a few times the current price) before computing `discount_percent`.
-4. Rotate every token and key that has been pasted into chat and set an expiry date on the GitHub token.
+### Root causes found (run of 29 Oct) and next steps
+1. **Live scrape returns 0 products.** Flipkart blocks GitHub's IPs, so the direct request fails. Tor was not ready (the workflow only slept 35 s and the check timed out), and every Tor circuit then timed out. `SCRAPERAPI_KEY` is empty, so the last fallback never ran. With 0 products the pipeline exits 0 and keeps the old data, so the run looks green but nothing changes. The workflow now waits up to 2 minutes for Tor. For reliable scraping, add a `SCRAPERAPI_KEY` secret.
+2. **Empty AI analysis.** The `GEMINI_API_KEY` GitHub secret is empty (the log shows it blank), so no analysis runs and products keep score 0 / "Wait for more data". Add the secret.
+3. **Missing ratings and review counts.** The listing parsers do not capture them reliably; fix in `_fetch_listing` and `_parse_listing_html`.
+4. **Bad MRPs.** Add a sanity check (original price must be at most a few times the current price) before computing `discount_percent`.
+5. Rotate every token and key that has been pasted into chat and set an expiry date on the GitHub token.

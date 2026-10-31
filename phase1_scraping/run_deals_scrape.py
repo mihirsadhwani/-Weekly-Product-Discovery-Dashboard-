@@ -107,6 +107,21 @@ def _load_backup_pool() -> dict[str, list[dict]]:
         return {}
 
 
+def _sane_original_price(price, original_price, discount_percent):
+    """Drop an MRP that contradicts the price and the discount badge (e.g. digits glued together)."""
+    if not (price and original_price):
+        return original_price
+    if original_price <= price:
+        return None
+    if discount_percent and 0 < discount_percent < 100:
+        expected = price / (1 - discount_percent / 100)
+        if not 0.8 * expected <= original_price <= 1.25 * expected:
+            return None
+    elif original_price > 20 * price:
+        return None
+    return original_price
+
+
 def _rotate_tor_circuit() -> bool:
     import socket
     try:
@@ -193,6 +208,8 @@ def _parse_listing_html(html: str, category: str) -> list[dict]:
                     discount_percent = int(digits)
             if discount_percent is None and price and original_price and original_price > price:
                 discount_percent = round((original_price - price) / original_price * 100)
+
+            original_price = _sane_original_price(price, original_price, discount_percent)
 
             if not discount_percent or discount_percent < 5:
                 continue
@@ -452,7 +469,7 @@ def _fetch_deals_listing_playwright(url: str, category: str, context) -> list[di
             products.append({
                 'name': p['name'],
                 'price': p['price'],
-                'original_price': p.get('orig_price'),
+                'original_price': _sane_original_price(p['price'], p.get('orig_price'), p.get('disc_pct')),
                 'discount_percent': p.get('disc_pct'),
                 'rating': p.get('rating'),
                 'review_count': None,

@@ -2,8 +2,8 @@ name: Product Pipeline
 
 on:
   schedule:
-    # Daily run has no schedule: start it manually via Actions > Run workflow > mode: daily
-    - cron: '30 17 * * 6'   # Weekly - Saturday 11:00 PM IST
+    - cron: '30 2 * * *'    # Daily - 8:00 AM IST (Fresh Finds)
+    - cron: '30 17 * * 6'   # Weekly - Saturday 11:00 PM IST (Full Deals + BA Intelligence)
   workflow_dispatch:
     inputs:
       mode:

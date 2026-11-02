@@ -16,6 +16,12 @@ const REMOTE_BASE =
   'https://raw.githubusercontent.com/mihirsadhwani/-Weekly-Product-Discovery-Dashboard-/main/phase4_frontend/public/data'
 
 async function readJson<T>(file: string): Promise<T | null> {
+  // In local development, prefer local public/data/*.json so local pipeline updates show immediately
+  if (process.env.NODE_ENV === 'development' && !process.env.DATA_BASE_URL) {
+    try {
+      return JSON.parse(fs.readFileSync(path.join(DATA_DIR, file), 'utf-8')) as T
+    } catch { /* fall through to remote */ }
+  }
   try {
     const res = await fetch(`${REMOTE_BASE}/${file}`, { next: { revalidate: 3600, tags: [DATA_TAG] } })
     if (res.ok) return (await res.json()) as T
@@ -31,6 +37,13 @@ export async function getProductsData(): Promise<ProductsData> {
   const data = await readJson<Omit<ProductsData, 'products'> & { products: Omit<Product, 'id'>[] }>('products.json')
   if (!data) return { last_updated: null, total_products: 0, products: [] }
   const products: Product[] = data.products.map((p, i) => ({ ...p, id: String(i) }))
+  return { ...data, products }
+}
+
+export async function getDealsPoolData(): Promise<{ date?: string; total_products: number; products: Product[] }> {
+  const data = await readJson<{ date?: string; total_products: number; products: Omit<Product, 'id'>[] }>('deals_finds.json')
+  if (!data) return { total_products: 0, products: [] }
+  const products: Product[] = data.products.map((p, i) => ({ ...p, id: `pool-${i}` }))
   return { ...data, products }
 }
 

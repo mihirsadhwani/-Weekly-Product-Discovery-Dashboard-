@@ -1,117 +1,193 @@
 {
   "hot_categories": [
     {
-      "category": "Sports",
-      "count": 17
-    },
-    {
       "category": "Beauty",
-      "count": 10
-    },
-    {
-      "category": "Home_Kitchen",
-      "count": 10
-    },
-    {
-      "category": "TVs",
-      "count": 10
-    },
-    {
-      "category": "Men_Fashion",
-      "count": 10
-    },
-    {
-      "category": "Women_Fashion",
-      "count": 10
+      "count": 40,
+      "last_count": 11,
+      "growth_pct": 263.6
     },
     {
       "category": "Laptops",
-      "count": 10
+      "count": 22,
+      "last_count": 10,
+      "growth_pct": 120.0
+    },
+    {
+      "category": "TVs",
+      "count": 13,
+      "last_count": 10,
+      "growth_pct": 30.0
+    },
+    {
+      "category": "Women_Fashion",
+      "count": 11,
+      "last_count": 10,
+      "growth_pct": 10.0
+    },
+    {
+      "category": "Home_Kitchen",
+      "count": 16,
+      "last_count": 15,
+      "growth_pct": 6.7
+    },
+    {
+      "category": "Sports",
+      "count": 40,
+      "last_count": 39
+    },
+    {
+      "category": "Men_Fashion",
+      "count": 9,
+      "last_count": 10
     },
     {
       "category": "Mobiles",
-      "count": 10
+      "count": 4,
+      "last_count": 10
     }
   ],
   "declining_categories": [
     {
-      "category": "Beauty",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Laptops",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Mobiles",
-      "avg_sentiment": 0.0
-    },
-    {
-      "category": "Sports",
-      "avg_sentiment": 0.0
+      "category": "Women_Fashion",
+      "avg_sentiment": 74.7,
+      "last_sentiment": 76.7,
+      "drop_points": 2.0
     },
     {
       "category": "TVs",
-      "avg_sentiment": 0.0
+      "avg_sentiment": 76.9,
+      "last_sentiment": 78.9,
+      "drop_points": 2.0
     },
     {
-      "category": "Women_Fashion",
-      "avg_sentiment": 0.0
+      "category": "Laptops",
+      "avg_sentiment": 79.4,
+      "last_sentiment": 81.4,
+      "drop_points": 2.0
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_sentiment": 81.8,
+      "last_sentiment": 83.8,
+      "drop_points": 2.0
+    },
+    {
+      "category": "Mobiles",
+      "avg_sentiment": 82.0,
+      "last_sentiment": 84.0,
+      "drop_points": 2.0
+    },
+    {
+      "category": "Beauty",
+      "avg_sentiment": 80.5,
+      "last_sentiment": 82.0,
+      "drop_points": 1.5
+    },
+    {
+      "category": "Sports",
+      "avg_sentiment": 77.0,
+      "last_sentiment": 76.7
+    },
+    {
+      "category": "Home_Kitchen",
+      "avg_sentiment": 79.3,
+      "last_sentiment": 79.3
     }
   ],
-  "emerging_keywords": [],
+  "emerging_keywords": [
+    {
+      "keyword": "attractive",
+      "mentions": 8
+    },
+    {
+      "keyword": "build",
+      "mentions": 6
+    },
+    {
+      "keyword": "festive",
+      "mentions": 6
+    },
+    {
+      "keyword": "design",
+      "mentions": 6
+    },
+    {
+      "keyword": "storage",
+      "mentions": 6
+    },
+    {
+      "keyword": "compact",
+      "mentions": 5
+    },
+    {
+      "keyword": "rating",
+      "mentions": 5
+    },
+    {
+      "keyword": "performance",
+      "mentions": 5
+    }
+  ],
   "price_movements": [
     {
-      "category": "Sports",
-      "avg_price": 1060
-    },
-    {
-      "category": "Beauty",
-      "avg_price": 445
-    },
-    {
-      "category": "Home_Kitchen",
-      "avg_price": 6974
+      "category": "Mobiles",
+      "avg_price": 74886,
+      "last_avg_price": 80868,
+      "delta": -5982
     },
     {
       "category": "TVs",
-      "avg_price": 22177
-    },
-    {
-      "category": "Men_Fashion",
-      "avg_price": 1205
-    },
-    {
-      "category": "Women_Fashion",
-      "avg_price": 994
+      "avg_price": 22177,
+      "last_avg_price": 24278,
+      "delta": -2101
     },
     {
       "category": "Laptops",
-      "avg_price": 56540
+      "avg_price": 56540,
+      "last_avg_price": 57838,
+      "delta": -1298
     },
     {
-      "category": "Mobiles",
-      "avg_price": 74886
+      "category": "Home_Kitchen",
+      "avg_price": 6974,
+      "last_avg_price": 7880,
+      "delta": -906
+    },
+    {
+      "category": "Sports",
+      "avg_price": 1060,
+      "last_avg_price": 617,
+      "delta": 444
+    },
+    {
+      "category": "Men_Fashion",
+      "avg_price": 1205,
+      "last_avg_price": 1329,
+      "delta": -124
+    },
+    {
+      "category": "Women_Fashion",
+      "avg_price": 994,
+      "last_avg_price": 1038,
+      "delta": -44
+    },
+    {
+      "category": "Beauty",
+      "avg_price": 445,
+      "last_avg_price": 469,
+      "delta": -24
     }
   ],
   "best_deal": {
-    "name": "Men Silk Blend Sherwani Pyjama Set",
-    "price": 499,
-    "original_price": 279082,
-    "discount_percent": 82,
+    "name": "Men Silk Blend Sherwani Dhoti Pant Set",
+    "price": 553,
+    "original_price": 2790,
+    "discount_percent": 80,
     "category": "Men_Fashion",
-    "score": 0,
-    "flipkart_url": "https://www.flipkart.com/over-crowd-men-sherwani-pyjama-set/p/itme07616e6e6fb8?pid=ETHFDYJSQA46NMGZ&lid=LSTETHFDYJSQA46NMGZ6RQ9AV&marketplace=FLIPKART&q=men+sherwani+kurta+set+ethnic&store=clo%2Fcfv%2Fitg%2Fpme&srno=s_2_58&otracker=search&fm=organic&iid=dc91b0a8-297e-46d0-9262-acbdb175e0a1.ETHFDYJSQA46NMGZ.SEARCH&ppt=None&ppn=None&ssid=6j88v6a5ww0000001792871075652&qH=a9e54449e15b8c19&ov_redirect=true"
+    "score": 92,
+    "flipkart_url": "https://www.flipkart.com/over-crowd-men-sherwani-dhoti-pant-set/p/itmfe23dxhzkcqde?pid=ETHFEFVFYN7YM7NQ&lid=LSTETHFEFVFYN7YM7NQ85G2HG&marketplace=FLIPKART&q=men+sherwani+kurta+set+ethnic&store=clo%2Fcfv%2Fitg%2Fpme&srno=s_2_44&otracker=search&fm=organic&iid=810e442a-3033-45c1-8f3d-d9d8bd4631a7.ETHFEFVFYN7YM7NQ.SEARCH&ppt=sp&ppn=sp&ssid=f93vuyi1rk0000001792266064927&qH=a9e54449e15b8c19&ov_redirect=true"
   },
-  "has_history": false,
-  "week_number": 1,
-  "generated_at": "2026-10-24T20:04:38.268114"
+  "has_history": true,
+  "week_number": 2,
+  "generated_at": "2026-11-02T16:49:57.690457"
 }

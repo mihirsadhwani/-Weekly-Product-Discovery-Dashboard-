@@ -14,6 +14,12 @@ export interface PricePrediction {
   timeframe: string
 }
 
+export interface PriceHistoryPoint {
+  week: string
+  price: number
+  mrp?: number
+}
+
 export interface ProductComparison {
   better_at: string[]
   weaker_at: string[]
@@ -68,6 +74,12 @@ export interface Product {
   name: string
   price: number | null
   original_price?: number | null
+  previous_price?: number | null
+  price_change?: number | null
+  price_change_pct?: number | null
+  lowest_price_6w?: number | null
+  highest_price_6w?: number | null
+  price_history?: PriceHistoryPoint[]
   discount_percent?: number | null
   image_url: string | null
   category: string

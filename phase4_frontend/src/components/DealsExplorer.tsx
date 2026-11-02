@@ -13,11 +13,13 @@ import ProductCard from './ProductCard'
 import CompareModal from './CompareModal'
 
 const SORTS = [
-  { value: 'relevance',  label: 'Relevance' },
-  { value: 'price_asc',  label: 'Price: Low to High' },
+  { value: 'relevance', label: 'AI Quality' },
+  { value: 'vfm', label: 'VFM Score' },
+  { value: 'price_drop', label: 'Price Drop (Pehle vs Aaj)' },
+  { value: 'discount', label: 'MRP Discount %' },
+  { value: 'price_asc', label: 'Price: Low to High' },
   { value: 'price_desc', label: 'Price: High to Low' },
-  { value: 'discount',   label: 'Discount' },
-  { value: 'rating',     label: 'Rating' },
+  { value: 'rating', label: 'Rating' },
 ]
 
 const DISCOUNT_STEPS = [0, 30, 50, 70]
@@ -34,11 +36,14 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
   const [sort, setSort] = useState('relevance')
   const [price, setPrice] = useState<[number, number]>([0, MAX_PRICE])
   const [minDiscount, setMinDiscount] = useState(0)
+  const [onlyPriceDrops, setOnlyPriceDrops] = useState(false)
+  const [onlyVfm, setOnlyVfm] = useState(false)
   const [compare, setCompare] = useState<Product[]>([])
   const [showCompare, setShowCompare] = useState(false)
 
-  // The header's category strip navigates with ?category=..., so follow the URL.
-  useEffect(() => { setCategory(params.get('category') ?? 'all') }, [params])
+  useEffect(() => {
+    setCategory(params.get('category') ?? 'all')
+  }, [params])
 
   const toggleCompare = useCallback((p: Product) => {
     setCompare(prev => {
@@ -56,22 +61,53 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
   const visible = useMemo(() => {
     return products
       .filter(p => category === 'all' || p.category === category)
-      .filter(p => !query || p.name.toLowerCase().includes(query) || categoryMeta(p.category).label.toLowerCase().includes(query))
+      .filter(
+        p =>
+          !query ||
+          p.name.toLowerCase().includes(query) ||
+          categoryMeta(p.category).label.toLowerCase().includes(query)
+      )
       .filter(p => (p.price ?? 0) >= price[0] && (p.price ?? 0) <= price[1])
       .filter(p => (p.discount_percent ?? 0) >= minDiscount)
+      .filter(p => !onlyPriceDrops || (p.price_change ?? 0) < 0)
+      .filter(p => !onlyVfm || Boolean(p.is_vfm))
       .sort((a, b) => {
         switch (sort) {
-          case 'price_asc':  return (a.price ?? 0) - (b.price ?? 0)
-          case 'price_desc': return (b.price ?? 0) - (a.price ?? 0)
-          case 'discount':   return (b.discount_percent ?? 0) - (a.discount_percent ?? 0)
-          case 'rating':     return (b.rating ?? 0) - (a.rating ?? 0)
-          default:           return b.analysis.quality_score - a.analysis.quality_score || (b.discount_percent ?? 0) - (a.discount_percent ?? 0)
+          case 'vfm':
+            return (b.vfm_score ?? 0) - (a.vfm_score ?? 0)
+          case 'price_drop':
+            return (a.price_change_pct ?? 0) - (b.price_change_pct ?? 0)
+          case 'price_asc':
+            return (a.price ?? 0) - (b.price ?? 0)
+          case 'price_desc':
+            return (b.price ?? 0) - (a.price ?? 0)
+          case 'discount':
+            return (b.discount_percent ?? 0) - (a.discount_percent ?? 0)
+          case 'rating':
+            return (b.rating ?? 0) - (a.rating ?? 0)
+          default:
+            return (
+              b.analysis.quality_score - a.analysis.quality_score ||
+              (b.discount_percent ?? 0) - (a.discount_percent ?? 0)
+            )
         }
       })
-  }, [products, category, query, price, minDiscount, sort])
+  }, [products, category, query, price, minDiscount, onlyPriceDrops, onlyVfm, sort])
 
-  const filtersActive = category !== 'all' || price[0] > 0 || price[1] < MAX_PRICE || minDiscount > 0
-  const reset = () => { setCategory('all'); setPrice([0, MAX_PRICE]); setMinDiscount(0) }
+  const filtersActive =
+    category !== 'all' ||
+    price[0] > 0 ||
+    price[1] < MAX_PRICE ||
+    minDiscount > 0 ||
+    onlyPriceDrops ||
+    onlyVfm
+  const reset = () => {
+    setCategory('all')
+    setPrice([0, MAX_PRICE])
+    setMinDiscount(0)
+    setOnlyPriceDrops(false)
+    setOnlyVfm(false)
+  }
 
   return (
     <div className="grid gap-4 lg:grid-cols-[17rem_1fr]">
@@ -79,20 +115,60 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
       <aside className="h-fit bg-card shadow-sm lg:sticky lg:top-36">
         <div className="flex items-center justify-between border-b px-4 py-3">
           <h2 className="text-base font-semibold">Filters</h2>
-          {filtersActive && <button onClick={reset} className="text-xs font-semibold uppercase text-primary">Clear all</button>}
+          {filtersActive && (
+            <button onClick={reset} className="text-xs font-semibold uppercase text-primary">
+              Clear all
+            </button>
+          )}
         </div>
+
+        <section className="border-b px-4 py-3">
+          <h3 className="mb-2 text-xs font-semibold uppercase text-muted-foreground">Smart Signals</h3>
+          <div className="space-y-1.5 text-sm">
+            <label className="flex cursor-pointer items-center gap-2">
+              <input
+                type="checkbox"
+                checked={onlyPriceDrops}
+                onChange={e => setOnlyPriceDrops(e.target.checked)}
+                className="accent-primary"
+              />
+              <span>Price Dropped (Pehle &gt; Aaj)</span>
+            </label>
+            <label className="flex cursor-pointer items-center gap-2">
+              <input
+                type="checkbox"
+                checked={onlyVfm}
+                onChange={e => setOnlyVfm(e.target.checked)}
+                className="accent-primary"
+              />
+              <span>Certified VFM Picks Only</span>
+            </label>
+          </div>
+        </section>
 
         <section className="border-b px-4 py-3">
           <h3 className="mb-2 text-xs font-semibold uppercase text-muted-foreground">Categories</h3>
           <ul className="space-y-1 text-sm">
             <li>
-              <button onClick={() => setCategory('all')} className={cn('w-full py-1 text-left', category === 'all' ? 'font-semibold text-primary' : 'hover:text-primary')}>
+              <button
+                onClick={() => setCategory('all')}
+                className={cn(
+                  'w-full py-1 text-left',
+                  category === 'all' ? 'font-semibold text-primary' : 'hover:text-primary'
+                )}
+              >
                 All categories ({products.length})
               </button>
             </li>
             {categories.map(([c, n]) => (
               <li key={c}>
-                <button onClick={() => setCategory(c)} className={cn('flex w-full items-center justify-between py-1 text-left', category === c ? 'font-semibold text-primary' : 'hover:text-primary')}>
+                <button
+                  onClick={() => setCategory(c)}
+                  className={cn(
+                    'flex w-full items-center justify-between py-1 text-left',
+                    category === c ? 'font-semibold text-primary' : 'hover:text-primary'
+                  )}
+                >
                   <span>{categoryMeta(c).label}</span>
                   <span className="text-xs text-muted-foreground">{n}</span>
                 </button>
@@ -103,7 +179,13 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
 
         <section className="border-b px-4 py-3">
           <h3 className="mb-3 text-xs font-semibold uppercase text-muted-foreground">Price</h3>
-          <Slider min={0} max={MAX_PRICE} step={Math.max(100, Math.round(MAX_PRICE / 200))} value={price} onValueChange={v => setPrice([v[0], v[1]])} />
+          <Slider
+            min={0}
+            max={MAX_PRICE}
+            step={Math.max(100, Math.round(MAX_PRICE / 200))}
+            value={price}
+            onValueChange={v => setPrice([v[0], v[1]])}
+          />
           <div className="mt-3 flex justify-between text-xs font-medium">
             <span>{formatINR(price[0])}</span>
             <span>{price[1] >= MAX_PRICE ? `${formatINR(MAX_PRICE)}+` : formatINR(price[1])}</span>
@@ -116,7 +198,13 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
             {DISCOUNT_STEPS.map(d => (
               <li key={d}>
                 <label className="flex cursor-pointer items-center gap-2 py-0.5">
-                  <input type="radio" name="discount" checked={minDiscount === d} onChange={() => setMinDiscount(d)} className="accent-primary" />
+                  <input
+                    type="radio"
+                    name="discount"
+                    checked={minDiscount === d}
+                    onChange={() => setMinDiscount(d)}
+                    className="accent-primary"
+                  />
                   {d === 0 ? 'Any' : `${d}% or more`}
                 </label>
               </li>
@@ -129,7 +217,13 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
       <div className="min-w-0 bg-card shadow-sm">
         <div className="border-b px-4 pt-3">
           <p className="text-sm">
-            <span className="font-semibold">{query ? `Showing results for "${params.get('q')}"` : category === 'all' ? 'All deals' : categoryMeta(category).label}</span>
+            <span className="font-semibold">
+              {query
+                ? `Showing results for "${params.get('q')}"`
+                : category === 'all'
+                  ? 'All deals'
+                  : categoryMeta(category).label}
+            </span>
             <span className="ml-2 text-xs text-muted-foreground">({visible.length} products)</span>
           </p>
           <div className="mt-2 flex items-center gap-1 overflow-x-auto text-sm">
@@ -140,7 +234,9 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
                 onClick={() => setSort(s.value)}
                 className={cn(
                   'shrink-0 border-b-2 px-3 py-2 transition-colors',
-                  sort === s.value ? 'border-primary font-semibold text-primary' : 'border-transparent text-muted-foreground hover:text-foreground'
+                  sort === s.value
+                    ? 'border-primary font-semibold text-primary'
+                    : 'border-transparent text-muted-foreground hover:text-foreground'
                 )}
               >
                 {s.label}
@@ -153,12 +249,21 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
           <div className="flex flex-col items-center gap-3 py-24 text-center text-muted-foreground">
             <SearchX className="h-10 w-10" />
             <p className="text-sm">Sorry, no results found. Try changing your filters or search.</p>
-            {filtersActive && <Button variant="outline" size="sm" onClick={reset}>Clear filters</Button>}
+            {filtersActive && (
+              <Button variant="outline" size="sm" onClick={reset}>
+                Clear filters
+              </Button>
+            )}
           </div>
         ) : (
           <div className="grid grid-cols-1 gap-px bg-border sm:grid-cols-2 xl:grid-cols-3 [&>*]:bg-card">
             {visible.map(p => (
-              <ProductCard key={p.id} product={p} isInCompare={compare.some(x => x.id === p.id)} onToggleCompare={toggleCompare} />
+              <ProductCard
+                key={p.id}
+                product={p}
+                isInCompare={compare.some(x => x.id === p.id)}
+                onToggleCompare={toggleCompare}
+              />
             ))}
           </div>
         )}
@@ -169,16 +274,28 @@ export default function DealsExplorer({ products }: { products: Product[] }) {
           <GitCompareArrows className="h-4 w-4 shrink-0 text-muted-foreground" />
           <div className="flex gap-2 overflow-hidden">
             {compare.map(p => (
-              <span key={p.id} className="flex max-w-[140px] items-center gap-1.5 rounded-full bg-secondary px-2.5 py-1 text-xs font-medium">
+              <span
+                key={p.id}
+                className="flex max-w-[140px] items-center gap-1.5 rounded-full bg-secondary px-2.5 py-1 text-xs font-medium"
+              >
                 <span className="truncate">{p.name.split(' ').slice(0, 3).join(' ')}</span>
-                <button onClick={() => toggleCompare(p)} aria-label={`Remove ${p.name}`}><X className="h-3 w-3" /></button>
+                <button onClick={() => toggleCompare(p)} aria-label={`Remove ${p.name}`}>
+                  <X className="h-3 w-3" />
+                </button>
               </span>
             ))}
           </div>
-          <Button size="sm" className="bg-primary hover:bg-primary/90" disabled={compare.length < 2} onClick={() => setShowCompare(true)}>
+          <Button
+            size="sm"
+            className="bg-primary hover:bg-primary/90"
+            disabled={compare.length < 2}
+            onClick={() => setShowCompare(true)}
+          >
             {compare.length < 2 ? 'Pick one more' : 'Compare'}
           </Button>
-          <Button size="sm" variant="ghost" onClick={() => setCompare([])}>Clear</Button>
+          <Button size="sm" variant="ghost" onClick={() => setCompare([])}>
+            Clear
+          </Button>
         </div>
       )}
 

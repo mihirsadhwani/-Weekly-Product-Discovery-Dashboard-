@@ -132,9 +132,10 @@ def _gemini_batch(batch: list[tuple[str, list[str]]]) -> list[dict] | None:
         blocks.append(f"[{idx}] {name[:80]}\n{lines}")
 
     prompt = (
-        "Quick assessment of each product from its reviews. Return ONLY a JSON array with one "
-        'object per product, in order: {"quick_score":0-100,"top_pros":[2 items, 3-5 words],'
-        '"top_con":"3-5 words","quick_verdict":"Worth checking" or "Wait for more data"}\n\n'
+        f"Quick assessment of each of the {len(batch)} Indian e-commerce products below. "
+        f"Return ONLY a JSON array of EXACTLY {len(batch)} objects, in order (include 'idx': 0..{len(batch)-1}): "
+        '{"idx":0,"quick_score":0-100,"top_pros":[2 items, 3-5 words each],'
+        '"top_con":"1 concern, 3-5 words","quick_verdict":"Worth checking" or "Wait for more data"}\n\n'
         + "\n\n".join(blocks)
     )
 
@@ -145,7 +146,7 @@ def _gemini_batch(batch: list[tuple[str, list[str]]]) -> list[dict] | None:
         "generationConfig": {
             "temperature": 0.2,
             "responseMimeType": "application/json",
-            "maxOutputTokens": 90 * len(batch) + 100,
+            "maxOutputTokens": 200 * len(batch) + 300,
         },
     }
 
@@ -158,8 +159,19 @@ def _gemini_batch(batch: list[tuple[str, list[str]]]) -> list[dict] | None:
             res.raise_for_status()
             text = res.json()["candidates"][0]["content"]["parts"][0]["text"]
             data = json.loads(text)
-            if isinstance(data, list) and len(data) == len(batch):
-                return [_clean_item(d) for d in data]
+            if isinstance(data, list):
+                if len(data) == len(batch):
+                    return [_clean_item(d) for d in data]
+                # Map by idx if the model dropped or merged one item
+                aligned = [_fallback() for _ in batch]
+                for pos, d in enumerate(data):
+                    if isinstance(d, dict):
+                        target_idx = d.get("idx", pos)
+                        if isinstance(target_idx, int) and 0 <= target_idx < len(batch):
+                            aligned[target_idx] = _clean_item(d)
+                        elif pos < len(batch):
+                            aligned[pos] = _clean_item(d)
+                return aligned
             logger.error("Gemini batch returned unexpected shape (%s items for %s)", len(data), len(batch))
             return None
         except Exception as e:
@@ -228,6 +240,15 @@ def analyze_products(products: list[dict], cache: dict[str, dict]) -> tuple[list
             results[i] = cached
             hits += 1
         else:
+            if len(reviews) < MIN_REVIEWS:
+                meta_lines = [
+                    f"Category: {p.get('category', 'General')}, Price: Rs.{p.get('price', 'N/A')}, "
+                    f"MRP: Rs.{p.get('original_price') or p.get('price', 'N/A')}, "
+                    f"Discount: {p.get('discount_percent') or 0}% off",
+                    f"Customer Rating: {p.get('rating') or 'Newly launched / unrated'} ({p.get('review_count') or 'early'} ratings) — "
+                    f"assess value-for-money and typical buyer pros/cons for {p.get('name', '')[:70]}",
+                ]
+                reviews = list(reviews) + meta_lines
             pending.append((i, (p["name"], reviews)))
 
     fresh = quick_analysis_batch([item for _, item in pending])

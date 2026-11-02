@@ -26,6 +26,14 @@ def run_phase(phase_name: str, command: str) -> None:
     print(f"[OK] {phase_name}\n")
 
 
+def _try_mongo_sync(mode: str) -> None:
+    try:
+        from mongo_store import sync_json_to_mongodb
+        sync_json_to_mongodb(mode=mode)
+    except Exception as exc:
+        print(f"[INFO] MongoDB sync skipped ({exc})")
+
+
 def run_daily_light() -> None:
     print(f"\n[RUN] Daily Light Scrape - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     result = subprocess.run("cd phase1_scraping && python run_light_scrape.py", shell=True)
@@ -37,12 +45,14 @@ def run_daily_light() -> None:
         print("[INFO] Existing data unchanged. Next scheduled run will retry automatically.")
     else:
         print("[OK] Output: output/fresh_finds.json\n")
+        _try_mongo_sync("daily")
 
 
 def run_weekly_full() -> None:
     print(f"\n[RUN] Weekly Deals Pipeline - {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     run_phase("Weekly Deals Scrape", "cd phase1_scraping && python run_deals_scrape.py")
     print("[OK] Output: output/products.json\n")
+    _try_mongo_sync("weekly")
 
 
 if __name__ == "__main__":

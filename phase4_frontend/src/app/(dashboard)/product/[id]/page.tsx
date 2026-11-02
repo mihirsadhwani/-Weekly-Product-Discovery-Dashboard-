@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { ArrowLeft, ArrowUpRight, AlertTriangle, CheckCircle2, Package, Quote, Star } from 'lucide-react'
+import { ArrowDownRight, ArrowLeft, ArrowUpRight, AlertTriangle, Award, CheckCircle2, Package, Quote, Star } from 'lucide-react'
 import { getProductById, getProductsData } from '@/lib/products'
 import { categoryMeta } from '@/lib/categories'
 import { formatINR, trustedOriginalPrice } from '@/lib/format'
 import ShareButton from '@/components/ShareButton'
+import ProductPriceHistoryChart from '@/components/charts/ProductPriceHistoryChart'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -26,13 +27,31 @@ const REC_VARIANT = { Buy: 'success', Wait: 'warning', Skip: 'destructive' } as 
 const clean = (s: string) => s.replace(/\s*\(\d+\s*mentions?\)/i, '')
 
 export default async function ProductDetailPage({ params }: { params: { id: string } }) {
-  const product = await getProductById(params.id)
+  const { products } = await getProductsData()
+  const product = products.find(p => p.id === params.id)
   if (!product) notFound()
 
   const { analysis } = product
   const meta = categoryMeta(product.category)
   const original = trustedOriginalPrice(product.price, product.original_price, product.discount_percent)
   const analysed = analysis.quality_score > 0
+
+  // Compute category benchmark averages for the benchmark chart
+  const peers = products.filter(p => p.category === product.category)
+  const avg = (vals: number[]) => (vals.length ? vals.reduce((a, b) => a + b, 0) / vals.length : 0)
+  const benchmark = {
+    productQuality: analysis.quality_score,
+    categoryAvgQuality: avg(peers.map(p => p.analysis?.quality_score ?? 0)),
+    productVfm: product.vfm_score ?? 0,
+    categoryAvgVfm: avg(peers.map(p => p.vfm_score ?? 0)),
+    productDiscount: product.discount_percent ?? 0,
+    categoryAvgDiscount: avg(peers.map(p => p.discount_percent ?? 0)),
+    productRatingPct: (product.rating ?? 4.0) * 20,
+    categoryAvgRatingPct: avg(peers.map(p => (p.rating ?? 4.0) * 20)),
+  }
+
+  const prevPrice = product.previous_price ?? product.price
+  const priceDelta = (product.price ?? 0) - (prevPrice ?? 0)
 
   return (
     <div className="space-y-6">
@@ -58,13 +77,32 @@ export default async function ProductDetailPage({ params }: { params: { id: stri
               <div className="flex flex-wrap items-center gap-2">
                 <Badge variant="secondary" className="gap-1.5"><meta.icon />{meta.label}</Badge>
                 {analysed && <Badge variant={REC_VARIANT[analysis.recommendation]}>{analysis.recommendation}</Badge>}
+                {product.is_vfm && (
+                  <Badge variant="success" className="gap-1">
+                    <Award className="h-3.5 w-3.5" /> VFM Pick · {product.vfm_score}
+                  </Badge>
+                )}
               </div>
               <h1 className="text-2xl font-bold leading-tight tracking-tight">{product.name}</h1>
-              <div className="flex flex-wrap items-baseline gap-3">
-                <span className="text-4xl font-bold">{formatINR(product.price)}</span>
-                {original && <span className="text-muted-foreground line-through">{formatINR(original)}</span>}
-                {product.discount_percent ? <Badge variant="destructive">{product.discount_percent}% off</Badge> : null}
+
+              <div className="space-y-1.5">
+                <div className="flex flex-wrap items-baseline gap-3">
+                  <span className="text-4xl font-bold">{formatINR(product.price)}</span>
+                  {original && <span className="text-muted-foreground line-through">MRP {formatINR(original)}</span>}
+                  {product.discount_percent ? <Badge variant="destructive">{product.discount_percent}% off</Badge> : null}
+                </div>
+
+                {prevPrice && prevPrice !== product.price && (
+                  <p className="flex items-center gap-1.5 text-xs font-medium">
+                    <span className="text-muted-foreground">Last week (Pehle): {formatINR(prevPrice)}</span>
+                    <span className={priceDelta < 0 ? 'inline-flex items-center text-success' : 'inline-flex items-center text-warning'}>
+                      {priceDelta < 0 ? <ArrowDownRight className="h-3.5 w-3.5" /> : <ArrowUpRight className="h-3.5 w-3.5" />}
+                      {priceDelta < 0 ? `Saved ${formatINR(Math.abs(priceDelta))} vs last week` : `+${formatINR(priceDelta)} vs last week`}
+                    </span>
+                  </p>
+                )}
               </div>
+
               <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
                 {product.rating ? (
                   <span className="flex items-center gap-1 font-medium text-foreground">
@@ -73,6 +111,7 @@ export default async function ProductDetailPage({ params }: { params: { id: stri
                 ) : null}
                 {product.review_count ? <span>{product.review_count.toLocaleString('en-IN')} reviews</span> : null}
                 {analysed && <span>AI score {analysis.quality_score}/100</span>}
+                {product.vfm_score ? <span>VFM score {product.vfm_score}/100</span> : null}
               </div>
             </div>
             <Button asChild size="lg">
@@ -81,6 +120,20 @@ export default async function ProductDetailPage({ params }: { params: { id: stri
           </div>
         </div>
       </Card>
+
+      {/* 6-Week Price History ("Pehle vs Aaj") & Category Benchmark Chart */}
+      <ProductPriceHistoryChart
+        price={product.price}
+        originalPrice={original}
+        previousPrice={product.previous_price}
+        priceChange={product.price_change}
+        priceChangePct={product.price_change_pct}
+        lowestPrice6w={product.lowest_price_6w}
+        highestPrice6w={product.highest_price_6w}
+        history={product.price_history}
+        prediction={product.price_prediction}
+        benchmark={benchmark}
+      />
 
       {analysed && (analysis.pros.length > 0 || analysis.cons.length > 0) && (
         <div className="grid gap-6 sm:grid-cols-2">
@@ -108,14 +161,6 @@ export default async function ProductDetailPage({ params }: { params: { id: stri
           <CardHeader><CardTitle className="flex items-center gap-2 text-base"><Quote className="h-4 w-4 text-muted-foreground" /> Featured review</CardTitle></CardHeader>
           <CardContent>
             <blockquote className="border-l-2 border-primary pl-4 italic text-muted-foreground">{analysis.top_quote}</blockquote>
-          </CardContent>
-        </Card>
-      )}
-
-      {!analysed && (
-        <Card>
-          <CardContent className="p-6 text-sm text-muted-foreground">
-            Deep AI analysis for this product hasn&apos;t run yet. It is generated in the weekly Sunday run.
           </CardContent>
         </Card>
       )}

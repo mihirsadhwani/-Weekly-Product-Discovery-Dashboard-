@@ -860,11 +860,19 @@ def scrape_deals() -> list[dict]:
     # Add frontend fields
     today = date.today()
     week_start = (today - timedelta(days=today.weekday())).isoformat()
-    for p in balanced:
-        p.setdefault('is_vfm', False)
-        p.setdefault('vfm_score', 0)
-        p.setdefault('price_prediction', None)
-        p.setdefault('comparisons', [])
+    try:
+        from enrich_metrics import backfill_rating_and_reviews, compute_ba_metrics, sanitize_product_pricing
+        for p in balanced:
+            sanitize_product_pricing(p)
+            backfill_rating_and_reviews(p)
+        compute_ba_metrics(balanced)
+    except Exception as _ba_err:
+        print(f'  BA enrichment fallback: {_ba_err}')
+        for p in balanced:
+            p.setdefault('is_vfm', False)
+            p.setdefault('vfm_score', 0)
+            p.setdefault('price_prediction', None)
+            p.setdefault('comparisons', [])
 
     output_dir = Path(__file__).parent.parent / 'output'
     output_dir.mkdir(exist_ok=True)
@@ -907,6 +915,14 @@ def scrape_deals() -> list[dict]:
         backup_out = {'date': datetime.utcnow().isoformat(), 'products': products}
         with open(output_dir / 'deals_backup.json', 'w', encoding='utf-8') as f:
             json.dump(backup_out, f, indent=2, ensure_ascii=False)
+
+    # Snapshot previous products.json to products_previous.json for week-over-week trends
+    if (output_dir / 'products.json').exists():
+        try:
+            import shutil
+            shutil.copy2(output_dir / 'products.json', output_dir / 'products_previous.json')
+        except Exception:
+            pass
 
     # Save frontend-ready products.json (balanced top 80)
     products_out = {

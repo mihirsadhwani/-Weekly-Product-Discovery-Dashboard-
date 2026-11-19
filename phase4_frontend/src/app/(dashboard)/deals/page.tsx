@@ -12,7 +12,7 @@ export default async function DealsPage() {
   return (
     <div className="space-y-6">
       <PageHeader
-        title="05. Product Performance, Customer Sentiment & Catalog Explorer"
+        title="Product Performance, Customer Sentiment & Catalog Explorer"
         description="Analyze rating tiers, LLM review sentiment, recurring buyer pain points, and filter or 1v1 compare every tracked SKU."
       />
       <CustomerSentimentPanel products={products} />

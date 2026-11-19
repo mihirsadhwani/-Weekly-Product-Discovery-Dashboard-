@@ -11,7 +11,7 @@ export default async function HomePage() {
   return (
     <>
       <PageHeader
-        title="02. Fresh Finds — Newly Discovered Products & Early AI Signals"
+        title="Fresh Finds — Newly Discovered Products & Early AI Signals"
         description="Automated daily discovery of newly launched products across Electronics, Fashion, Home & Kitchen, and Beauty with initial AI sentiment assessments."
       />
       {fresh && fresh.products.length > 0 ? (

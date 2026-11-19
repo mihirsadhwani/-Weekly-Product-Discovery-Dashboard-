@@ -68,7 +68,7 @@ export default async function HealthPage() {
   return (
     <div className="space-y-6">
       <PageHeader
-        title="08. Data & Scraping Health — Automation, Freshness & Data Governance"
+        title="Data & Scraping Health — Automation, Freshness & Data Governance"
         description="Monitor scraper execution status, data freshness SLAs, automated MRP anomaly quarantine, and AI enrichment coverage."
       />
 

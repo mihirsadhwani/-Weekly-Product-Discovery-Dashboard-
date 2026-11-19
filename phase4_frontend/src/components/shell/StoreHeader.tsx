@@ -23,20 +23,19 @@ import { categoryMeta } from '@/lib/categories'
 
 interface NavItem {
   href: string
-  code: string
   label: string
   icon: LucideIcon
 }
 
 const NAV: NavItem[] = [
-  { href: '/overview',      code: '01', label: 'Executive Overview',    icon: LayoutGrid },
-  { href: '/',              code: '02', label: 'Fresh Finds',           icon: Zap },
-  { href: '/trends',        code: '03', label: 'Price Intelligence',    icon: TrendingUp },
-  { href: '/categories',    code: '04', label: 'Category Intelligence', icon: Layers },
-  { href: '/deals',         code: '05', label: 'Product & Sentiment',   icon: Tag },
-  { href: '/opportunities', code: '06', label: 'Market Opportunities',  icon: Compass },
-  { href: '/alerts',        code: '07', label: 'Alerts & Actions',      icon: BellRing },
-  { href: '/health',        code: '08', label: 'Data & Scrape Health',  icon: Activity },
+  { href: '/',              label: 'Fresh Finds',           icon: Zap },
+  { href: '/overview',      label: 'Executive Overview',    icon: LayoutGrid },
+  { href: '/trends',        label: 'Price Intelligence',    icon: TrendingUp },
+  { href: '/categories',    label: 'Category Intelligence', icon: Layers },
+  { href: '/deals',         label: 'Product & Sentiment',   icon: Tag },
+  { href: '/opportunities', label: 'Market Opportunities',  icon: Compass },
+  { href: '/alerts',        label: 'Alerts & Actions',      icon: BellRing },
+  { href: '/health',        label: 'Data & Scrape Health',  icon: Activity },
 ]
 
 export default function StoreHeader({ categories }: { categories: string[] }) {
@@ -69,7 +68,7 @@ export default function StoreHeader({ categories }: { categories: string[] }) {
       {/* Blue bar: brand, search, theme toggle */}
       <div className="bg-[#2874f0] text-white dark:bg-[#1c4fa8]">
         <div className="site-container flex flex-wrap items-center gap-x-6 gap-y-2 py-2.5">
-          <Link href="/overview" className="flex shrink-0 items-center gap-2">
+          <Link href="/" className="flex shrink-0 items-center gap-2">
             <ShoppingBag className="h-6 w-6" />
             <span className="leading-none">
               <span className="block text-base font-bold italic tracking-tight sm:text-lg">
@@ -129,7 +128,6 @@ export default function StoreHeader({ categories }: { categories: string[] }) {
                     : 'text-white/90 hover:bg-white/15'
                 )}
               >
-                <span className="text-[10px] opacity-70">{item.code}.</span>
                 <item.icon className="h-3.5 w-3.5" />
                 <span>{item.label}</span>
               </Link>

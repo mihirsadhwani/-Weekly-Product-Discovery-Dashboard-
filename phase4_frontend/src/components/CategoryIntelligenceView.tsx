@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react'
 import Link from 'next/link'
-import { useSearchParams } from 'next/navigation'
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import {
   Bar,
   BarChart,
@@ -38,14 +38,24 @@ export default function CategoryIntelligenceView({
   products: OpportunityScoredProduct[]
   freshFinds: FreshFind[]
 }) {
+  const pathname = usePathname()
+  const router = useRouter()
   const params = useSearchParams()
   const categories = useMemo(() => Array.from(new Set(products.map(p => p.category))), [products])
-  const initialCat = params.get('category') && categories.includes(params.get('category')!)
-    ? params.get('category')!
+  const requestedCategory = params.get('category')
+  const selectedCat = requestedCategory && categories.includes(requestedCategory)
+    ? requestedCategory
     : categories[0] ?? 'Mobiles'
 
-  const [selectedCat, setSelectedCat] = useState<string>(initialCat)
   const [compareCat, setCompareCat] = useState<string>(categories[1] ?? categories[0] ?? 'Laptops')
+
+  function selectCategory(category: string) {
+    if (!categories.includes(category)) return
+
+    const nextParams = new URLSearchParams(params.toString())
+    nextParams.set('category', category)
+    router.push(`${pathname}?${nextParams.toString()}`, { scroll: false })
+  }
 
   const catMetrics = useMemo(() => {
     return categories.map(cat => {
@@ -198,7 +208,9 @@ export default function CategoryIntelligenceView({
             {catMetrics.map(c => (
               <button
                 key={c.category}
-                onClick={() => setSelectedCat(c.category)}
+                type="button"
+                aria-pressed={selectedCat === c.category}
+                onClick={() => selectCategory(c.category)}
                 className={cn(
                   'rounded-md border px-3 py-1.5 text-xs font-medium transition-colors',
                   selectedCat === c.category
@@ -331,7 +343,7 @@ export default function CategoryIntelligenceView({
             <div className="flex items-center gap-2 text-xs">
               <select
                 value={selectedCat}
-                onChange={e => setSelectedCat(e.target.value)}
+                onChange={e => selectCategory(e.target.value)}
                 className="h-8 rounded-md border bg-background px-2.5 font-medium"
               >
                 {catMetrics.map(c => (

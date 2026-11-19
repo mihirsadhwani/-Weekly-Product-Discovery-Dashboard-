@@ -116,7 +116,7 @@ export default async function OverviewPage() {
     <div className="space-y-6">
       <div className="flex flex-wrap items-start justify-between gap-3">
         <PageHeader
-          title="01. Executive Overview — Product & Market Intelligence"
+          title="Executive Overview — Product & Market Intelligence"
           description="Automated e-commerce intelligence: What is happening in the market, why it is happening, and what the category team should do next."
         />
         <CsvExportButton filename="flipkart_executive_intelligence_report" label="Download Management CSV" rows={csvRows} />

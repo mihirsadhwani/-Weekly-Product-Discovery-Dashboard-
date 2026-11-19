@@ -32,7 +32,7 @@ export default async function TrendsPage() {
   if (!trends) {
     return (
       <>
-        <PageHeader title="03. Price Intelligence" description="Week-over-week movement across categories." />
+        <PageHeader title="Price Intelligence" description="Week-over-week movement across categories." />
         <div className="rounded-xl border border-dashed py-20 text-center text-sm text-muted-foreground">
           Trend data is not available yet.
         </div>
@@ -46,7 +46,7 @@ export default async function TrendsPage() {
   return (
     <div className="space-y-6">
       <PageHeader
-        title="03. Price Intelligence — Price Movements & Discount Tracking"
+        title="Price Intelligence — Price Movements & Discount Tracking"
         description="Track actual week-over-week observed price reductions (Pehle vs. Aaj) separately from static Flipkart MRP discount badges."
       />
 

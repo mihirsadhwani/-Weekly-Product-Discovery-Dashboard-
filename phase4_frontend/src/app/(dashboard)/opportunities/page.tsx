@@ -33,7 +33,7 @@ export default async function OpportunitiesPage() {
     <div className="space-y-6">
       <div className="flex flex-wrap items-start justify-between gap-3">
         <PageHeader
-          title="06. Market Opportunity Finder — Product Gaps & Scoring Model"
+          title="Market Opportunity Finder — Product Gaps & Scoring Model"
           description="Identify white-space price segments where high demand, price drops, and recurring customer complaints signal an opportunity for better-quality product sourcing."
         />
         <CsvExportButton

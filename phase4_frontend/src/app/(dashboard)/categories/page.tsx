@@ -13,7 +13,7 @@ export default async function CategoriesPage() {
   return (
     <div className="space-y-6">
       <PageHeader
-        title="04. Category Intelligence — Vertical Performance & Comparison"
+        title="Category Intelligence — Vertical Performance & Comparison"
         description="Analyze category pricing, rating health, price-drop velocity, and compare verticals side-by-side to prioritize product discovery."
       />
       <Suspense>

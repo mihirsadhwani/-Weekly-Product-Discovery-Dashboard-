@@ -40,7 +40,7 @@ export default async function AlertsPage() {
   return (
     <div className="space-y-6">
       <PageHeader
-        title="07. Alerts & Recommendation Engine — Management Decision Layer"
+        title="Alerts & Recommendation Engine — Management Decision Layer"
         description="Automated anomaly alerts, AI-generated weekly executive brief, and structured 'Observation → Root Cause → Action' recommendations."
       />
 

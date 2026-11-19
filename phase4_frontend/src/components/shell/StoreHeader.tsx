@@ -100,9 +100,6 @@ export default function StoreHeader({ categories }: { categories: string[] }) {
           </form>
 
           <div className="ml-auto flex items-center gap-2">
-            <span className="hidden rounded-sm bg-white/15 px-2.5 py-1 text-[11px] font-medium lg:inline-block">
-              PM &amp; BA Intelligence View
-            </span>
             <button
               type="button"
               onClick={toggleTheme}
